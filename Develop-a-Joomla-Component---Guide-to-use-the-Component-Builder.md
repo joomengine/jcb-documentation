@@ -67,7 +67,7 @@ As you can see, until now, we're not able to install the component. The problem 
 [img]
 
 ## Check our first component (V. 0.0.1)
-- Compile and install (See Chapter Compiler)
+- Compile and install (See [Chapter Compiler](#compiler))
 As you can see, the installation process now worked as we connected our first admin view to our component. You're able to use your first component. 
 
 ## References
