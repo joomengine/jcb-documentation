@@ -128,6 +128,20 @@ The [list of videos](https://www.youtube.com/playlist?list=PLQRGFI8XZ_wtGvPQZWBf
 + [12:20](https://youtu.be/hzbZlLl-xlA?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=12m20s) **Component Builder Compiler.PhP FTP Info**
 + [14:15](https://youtu.be/hzbZlLl-xlA?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=14m15s) **Update Server extra Info (Versions)**
 # 12. [dynamicGet](https://youtu.be/OPuCoxPW35s?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE)
++ [00:15](https://youtu.be/OPuCoxPW35s?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=15s) **Sermon - Preacher Get Example**
++ [00:40](https://youtu.be/OPuCoxPW35s?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=40s) **Dynamic Get Source Selection**
++ [03:45](https://youtu.be/OPuCoxPW35s?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=3m45s) **Dynamic Get Preacher View**
++ [04:23](https://youtu.be/OPuCoxPW35s?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=4m23s) **Get Types - Get Item/List Get Custom**
++ [06:42](https://youtu.be/OPuCoxPW35s?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=6m42s) **Get List Pagination**
++ [08:50](https://youtu.be/OPuCoxPW35s?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=8m50s) **Join Data Views - Tables**
++ [10:22](https://youtu.be/OPuCoxPW35s?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=10m22s) **Join View Tables Example**
++ [15:00](https://youtu.be/OPuCoxPW35s?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=15m) **Dynamic Get Sermon Preacher in Code**
++ [21:49](https://youtu.be/OPuCoxPW35s?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=21m49s) **Dynamic Get Custom Script**
++ [23:18](https://youtu.be/OPuCoxPW35s?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=23m18s) **Dynamic Get Join DB Tables**
++ [24:05](https://youtu.be/OPuCoxPW35s?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=24m5s) **Dynamic Get Filters - Where - Ordering - Globals**
++ [27:34](https://youtu.be/OPuCoxPW35s?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=27m34s) **Dynamic Get Get Access (Default added)**
++ [29:49](https://youtu.be/OPuCoxPW35s?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=29m49s) **Dynamic Get Where**
++ [30:41](https://youtu.be/OPuCoxPW35s?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=30m41s) **Dynamic Get Ordering**
 # 13. [Adding dynamicGet to a Site View](https://youtu.be/vEJZe6XqHJE?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE)
 # 14. [Adding Templates and Layouts to a Site View](https://youtu.be/6VBbi3Rl2eY?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE)
 # 15. [Template Setup](https://youtu.be/khxKeeubhiY?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE)
