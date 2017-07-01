@@ -65,6 +65,19 @@ The [list of videos](https://www.youtube.com/playlist?list=PLQRGFI8XZ_wtGvPQZWBf
 + [72:09](https://youtu.be/9NO2rKnC6Ug?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=72m9s) **Batch Copy - Move Method**
 + [75:07](https://youtu.be/9NO2rKnC6Ug?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=75m7s) **MySQL Dumps Test Data (insert into table)**
 # 7. [Advanced Fields](https://youtu.be/VpzYbifqv0M?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE)
++ [00:39](https://youtu.be/VpzYbifqv0M?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=39s) **Local file list example**
++ [05:29](https://youtu.be/VpzYbifqv0M?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=5m29s) **Sermon Preacher Custom Field**
++ [07:29](https://youtu.be/VpzYbifqv0M?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=7m29s) **Field Information Guide**
++ [08:00](https://youtu.be/VpzYbifqv0M?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=8m) **Jform in Component Builder**
++ [09:21](https://youtu.be/VpzYbifqv0M?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=9m21s) **Extending List in Custom Field**
++ [10:50](https://youtu.be/VpzYbifqv0M?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=10m50s) **Naming Convention for Component and Table names**
++ [16:02](https://youtu.be/VpzYbifqv0M?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=16m2s) **Custom PHP layout in Field Definition**
++ [18:08](https://youtu.be/VpzYbifqv0M?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=18m8s) **Built code for Sermon Preacher**
++ [22:36](https://youtu.be/VpzYbifqv0M?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=22m36s) **Dropbox custom List example**
++ [23:32](https://youtu.be/VpzYbifqv0M?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=23m32s) **Component Helper Class**
++ [31:02](https://youtu.be/VpzYbifqv0M?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=31m2s) **Custom User**
++ [40:40](https://youtu.be/VpzYbifqv0M?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=40m40s) **Repeatable Custom Fields**
++ [45:21](https://youtu.be/VpzYbifqv0M?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=45m21s) **Joomla Icons Info & Link**
 # 8. [Adding Admin Views to a Component](https://youtu.be/39vY66X7GGU?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE)
 # 9. [Component Settings](https://youtu.be/V2WkTjNFjvo?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE)
 # 10. [Component Scripts](https://youtu.be/xY9TWQrF8AQ?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE)
