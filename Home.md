@@ -79,6 +79,18 @@ The [list of videos](https://www.youtube.com/playlist?list=PLQRGFI8XZ_wtGvPQZWBf
 + [40:40](https://youtu.be/VpzYbifqv0M?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=40m40s) **Repeatable Custom Fields**
 + [45:21](https://youtu.be/VpzYbifqv0M?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=45m21s) **Joomla Icons Info & Link**
 # 8. [Adding Admin Views to a Component](https://youtu.be/39vY66X7GGU?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE)
++ [00:54](https://youtu.be/39vY66X7GGU?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=54s) **Sermon Component settings as Example**
++ [01:43](https://youtu.be/39vY66X7GGU?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=1m43s) **Adding Views settings icons**
++ [02:45](https://youtu.be/39vY66X7GGU?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=2m45s) **Settings Switch Admin Menu**
++ [03:00](https://youtu.be/39vY66X7GGU?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=3m) **Settings Switch Dashboard Items**
++ [03:45](https://youtu.be/39vY66X7GGU?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=3m45s) **Settings Switch Submenu**
++ [03:58](https://youtu.be/39vY66X7GGU?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=3m58s) **Settings Switch Auto Check-in**
++ [05:04](https://youtu.be/39vY66X7GGU?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=5m4s) **Settings Switch Keep History**
++ [14:15](https://youtu.be/39vY66X7GGU?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=14m15s) **Settings Switch MetaData**
++ [15:32](https://youtu.be/39vY66X7GGU?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=15m32s) **Settings Switch Access**
++ [16:34](https://youtu.be/39vY66X7GGU?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=16m34s) **Settings Switch Export/Import**
++ [18:14](https://youtu.be/39vY66X7GGU?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=18m14s) **Settings Switch Edit - Create - Site Views**
++ [24:38](https://youtu.be/39vY66X7GGU?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=24m38s) **Settings Switch Order**
 # 9. [Component Settings](https://youtu.be/V2WkTjNFjvo?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE)
 # 10. [Component Scripts](https://youtu.be/xY9TWQrF8AQ?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE)
 # 11. [Component FTP and more](https://youtu.be/hzbZlLl-xlA?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE)
