@@ -42,6 +42,28 @@ The [list of videos](https://www.youtube.com/playlist?list=PLQRGFI8XZ_wtGvPQZWBf
 + [34:37](https://youtu.be/9NO2rKnC6Ug?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=34m37s) **Notes Field example**
 + [37:20](https://youtu.be/9NO2rKnC6Ug?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=37m20s) **Translation brief overview**
 # 6. [Admin Views](https://youtu.be/CdSKSCTzmRA?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE)
++ [01:05](https://youtu.be/9NO2rKnC6Ug?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=1m5s) **Admin Views/ Naming convention**
++ [03:00](https://youtu.be/9NO2rKnC6Ug?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=3m) **Example View Preacher**
++ [04:35](https://youtu.be/9NO2rKnC6Ug?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=4m35s) **View Icons**
++ [06:19](https://youtu.be/9NO2rKnC6Ug?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=6m19s) **Permission Implementation**
++ [19:25](https://youtu.be/9NO2rKnC6Ug?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=19m25s) **Tabs**
++ [19:34](https://youtu.be/9NO2rKnC6Ug?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=19m34s) **Tabs - Default - Publishing -Permissions**
++ [20:30](https://youtu.be/9NO2rKnC6Ug?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=20m30s) **Tabs - Preacher example**
++ [20:55](https://youtu.be/9NO2rKnC6Ug?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=20m55s) **Tabs - Fields Linking (Preacher)**
++ [22:20](https://youtu.be/9NO2rKnC6Ug?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=22m20s) **Tabs - Fields Linked Views (Sermons)**
++ [32:28](https://youtu.be/9NO2rKnC6Ug?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=32m28s) **Fields**
++ [38:00](https://youtu.be/9NO2rKnC6Ug?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=38m) **Fields Alignment in Admin View**
++ [40:35](https://youtu.be/9NO2rKnC6Ug?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=40m35s) **Fields Alignment order**
++ [41:45](https://youtu.be/9NO2rKnC6Ug?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=41m45s) **Fields Title - Alias**
++ [43:46](https://youtu.be/9NO2rKnC6Ug?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=43m46s) **Conditions**
++ [44:37](https://youtu.be/9NO2rKnC6Ug?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=44m37s) **Conditions using Sermons example**
++ [59:58](https://youtu.be/9NO2rKnC6Ug?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=59m58s) **Field Listing**
++ [60:15](https://youtu.be/9NO2rKnC6Ug?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=60m15s) **Custom CSS View - List**
++ [60:42](https://youtu.be/9NO2rKnC6Ug?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=60m42s) **Custom Javascript View - List Footer**
++ [61:46](https://youtu.be/9NO2rKnC6Ug?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=61m46s) **Custom PhP - Adding AJAX for Controller - Model**
++ [70:50](https://youtu.be/9NO2rKnC6Ug?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=70m50s) **Get Item - Items Joomla API Method**
++ [72:09](https://youtu.be/9NO2rKnC6Ug?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=72m9s) **Batch Copy - Move Method**
++ [75:07](https://youtu.be/9NO2rKnC6Ug?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=75m7s) **MySQL Dumps Test Data (insert into table)**
 # 7. [Advanced Fields](https://youtu.be/VpzYbifqv0M?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE)
 # 8. [Adding Admin Views to a Component](https://youtu.be/39vY66X7GGU?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE)
 # 9. [Component Settings](https://youtu.be/V2WkTjNFjvo?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE)
