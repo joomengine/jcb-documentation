@@ -215,6 +215,12 @@ The [list of videos](https://www.youtube.com/playlist?list=PLQRGFI8XZ_wtGvPQZWBf
 + [11:25](https://youtu.be/LA2WDi8G79E?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=11m25s) **Example Preacher Permissions**
 + [13:15](https://youtu.be/LA2WDi8G79E?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=13m15s) **Field Permission Switch**
 # 22. [Adding a custom time field](https://youtu.be/epA9zv4yWu0?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE)
++ [00:06](https://youtu.be/epA9zv4yWu0?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=6s) **Fields**
++ [02:25](https://youtu.be/epA9zv4yWu0?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=2m25s) **Joomla Form-rule Example**
++ [04:30](https://youtu.be/epA9zv4yWu0?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=4m30s) **Component builder new text field example**
++ [05:19](https://youtu.be/epA9zv4yWu0?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=5m19s) **Script JS**
++ [07:00](https://youtu.be/epA9zv4yWu0?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=7m) **Example time-date (custom component)**
++ [08:51](https://youtu.be/epA9zv4yWu0?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=8m51s) **JS repeatable field time-date *Important***
 # 23. [How to use email helper in your components.](https://youtu.be/tp6mMUTOF2Y?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE)
 # 24. [How to setup a store message method along side the email helper class](https://youtu.be/peVNLsAncGY?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE)
 # 25. [How to ensure that a field is not escaped when added to list views.](https://youtu.be/bfl0l3AoLKU?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE)
