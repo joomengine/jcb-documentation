@@ -250,6 +250,14 @@ The [list of videos](https://www.youtube.com/playlist?list=PLQRGFI8XZ_wtGvPQZWBf
 + [03:20](https://youtu.be/bfl0l3AoLKU?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=3m20s) **Preventing the escaped info**
 + [04:16](https://youtu.be/bfl0l3AoLKU?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=4m16s) **Field adding escape=false to code**
 # 26. [How to change exported values and setup custom import options](https://youtu.be/fau5mZ6naLc?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE)
++ [00:25](https://youtu.be/fau5mZ6naLc?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=25s) **Example Component**
++ [01:00](https://youtu.be/fau5mZ6naLc?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=1m) **Example IP Tables**
++ [01:39](https://youtu.be/fau5mZ6naLc?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=1m39s) **Export feature**
++ [02:56](https://youtu.be/fau5mZ6naLc?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=2m56s) **Exported example in xls format**
++ [03:27](https://youtu.be/fau5mZ6naLc?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=3m27s) **Export data in code**
++ [05:06](https://youtu.be/fau5mZ6naLc?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=5m6s) **Admin View - PhP - (GetListQuery)**
++ [09:37](https://youtu.be/fau5mZ6naLc?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=9m37s) **Import features explained**
++ [10:15](https://youtu.be/fau5mZ6naLc?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=10m15s) **Custom Import Tab (default import code)**
 # 27. [How to overwrite the custom fields](https://youtu.be/FHQfIhWHYyQ?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE)
 # 28. [How to filter a list field based on association with another field](https://youtu.be/Z8FLifQOjUk?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE)
 # 29. [Automatic import of custom code during compilation in JCB](https://youtu.be/DFMfIl-VkSk?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE)
