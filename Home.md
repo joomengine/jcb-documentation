@@ -1,6 +1,6 @@
-## Welcome to the Joomla-Component-Builder wiki!
+## JCB Wiki!
 
-The tutorials that explain how to use component builder is not free. We actually need the income generated from these tutorials and support to further development of this project. To buy access to tutorials go to [vdm.io](http://vdm.bz/component-builder-tutorials). Once you have access to these tutorials, login to your youtube account using this breakdown you can access any given topic as given blow.
+> These tutorials will give you a basic understanding on how JCB works!
 
 The [list of videos](https://www.youtube.com/playlist?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE) that are already available are:
 # 1. [Intro](https://youtu.be/9evJkBTnKxE?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE)
