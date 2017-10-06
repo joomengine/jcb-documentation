@@ -5,10 +5,13 @@
 The [list of videos](https://www.youtube.com/playlist?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE) that are already available are:
 # 1. [Intro](https://youtu.be/9evJkBTnKxE?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE)
 + Basic introduction
+
 # 2. [Installation](https://youtu.be/t6Eux157428?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE)
 + Basic installation instructions
+
 # 3. [General Planning](https://youtu.be/gEgwiVNj6N0?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE)
 + Planning your component
+
 # 4. [Field Types](https://youtu.be/OhLzvThDXls?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE)
 + [01:05](https://youtu.be/OhLzvThDXls?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=1m5s) **Field types** _Create Field Types Using basic joomla article to explain field types and their relationship within views_
 + [01:57](https://youtu.be/OhLzvThDXls?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=1m57s) **List view** _Difference between list view and edit view. Plural and single_
@@ -21,6 +24,7 @@ The [list of videos](https://www.youtube.com/playlist?list=PLQRGFI8XZ_wtGvPQZWBf
 + [14:45](https://youtu.be/OhLzvThDXls?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=14m45s) **Text field type example** _Fields within Text field type_
 + [15:15](https://youtu.be/OhLzvThDXls?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=15m15s) **Joomla XML example Text Field** _XML example_
 + [17:43](https://youtu.be/OhLzvThDXls?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=17m43s) **XML string within compilier** _How XML string is build and compilied within component builder._
+
 # 5. [Basic Fields](https://youtu.be/9NO2rKnC6Ug?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE)
 + [01:05](https://youtu.be/9NO2rKnC6Ug?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=1m5s) **New Field Type** _Using text field as example_
 + [01:08](https://youtu.be/9NO2rKnC6Ug?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=1m8s) **Basic field type** _Using text field as example_
@@ -41,6 +45,7 @@ The [list of videos](https://www.youtube.com/playlist?list=PLQRGFI8XZ_wtGvPQZWBf
 + [33:30](https://youtu.be/9NO2rKnC6Ug?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=33m30s) **Media Field example**
 + [34:37](https://youtu.be/9NO2rKnC6Ug?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=34m37s) **Notes Field example**
 + [37:20](https://youtu.be/9NO2rKnC6Ug?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=37m20s) **Translation brief overview**
+
 # 6. [Admin Views](https://youtu.be/CdSKSCTzmRA?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE)
 + [01:05](https://youtu.be/9NO2rKnC6Ug?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=1m5s) **Admin Views/ Naming convention**
 + [03:00](https://youtu.be/9NO2rKnC6Ug?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=3m) **Example View Preacher**
@@ -64,6 +69,7 @@ The [list of videos](https://www.youtube.com/playlist?list=PLQRGFI8XZ_wtGvPQZWBf
 + [70:50](https://youtu.be/9NO2rKnC6Ug?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=70m50s) **Get Item - Items Joomla API Method**
 + [72:09](https://youtu.be/9NO2rKnC6Ug?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=72m9s) **Batch Copy - Move Method**
 + [75:07](https://youtu.be/9NO2rKnC6Ug?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=75m7s) **MySQL Dumps Test Data (insert into table)**
+
 # 7. [Advanced Fields](https://youtu.be/VpzYbifqv0M?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE)
 + [00:39](https://youtu.be/VpzYbifqv0M?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=39s) **Local file list example**
 + [05:29](https://youtu.be/VpzYbifqv0M?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=5m29s) **Sermon Preacher Custom Field**
@@ -78,6 +84,7 @@ The [list of videos](https://www.youtube.com/playlist?list=PLQRGFI8XZ_wtGvPQZWBf
 + [31:02](https://youtu.be/VpzYbifqv0M?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=31m2s) **Custom User**
 + [40:40](https://youtu.be/VpzYbifqv0M?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=40m40s) **Repeatable Custom Fields**
 + [45:21](https://youtu.be/VpzYbifqv0M?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=45m21s) **Joomla Icons Info & Link**
+
 # 8. [Adding Admin Views to a Component](https://youtu.be/39vY66X7GGU?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE)
 + [00:54](https://youtu.be/39vY66X7GGU?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=54s) **Sermon Component settings as Example**
 + [01:43](https://youtu.be/39vY66X7GGU?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=1m43s) **Adding Views settings icons**
@@ -91,6 +98,7 @@ The [list of videos](https://www.youtube.com/playlist?list=PLQRGFI8XZ_wtGvPQZWBf
 + [16:34](https://youtu.be/39vY66X7GGU?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=16m34s) **Settings Switch Export/Import**
 + [18:14](https://youtu.be/39vY66X7GGU?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=18m14s) **Settings Switch Edit - Create - Site Views**
 + [24:38](https://youtu.be/39vY66X7GGU?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=24m38s) **Settings Switch Order**
+
 # 9. [Component Settings](https://youtu.be/V2WkTjNFjvo?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE)
 + [00:50](https://youtu.be/V2WkTjNFjvo?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=50s) **Compiler Info**
 + [04:20](https://youtu.be/V2WkTjNFjvo?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=4m20s) **Adding Custom Files - Folders**
@@ -104,6 +112,7 @@ The [list of videos](https://www.youtube.com/playlist?list=PLQRGFI8XZ_wtGvPQZWBf
 + [15:09](https://youtu.be/V2WkTjNFjvo?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=15m9s) **Tab - View names fields added to Site Menu**
 + [20:00](https://youtu.be/V2WkTjNFjvo?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=20m) **Site View explanation of above tabs**
 + [20:52](https://youtu.be/V2WkTjNFjvo?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=20m52s) **Quick explanation of creating site views**
+
 # 10. [Component Scripts](https://youtu.be/xY9TWQrF8AQ?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE)
 + [00:46](https://youtu.be/xY9TWQrF8AQ?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=46s) **Create User Helper Methods**
 + [01:45](https://youtu.be/xY9TWQrF8AQ?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=1m45s) **Example Helper Method (Create User)**
@@ -114,6 +123,7 @@ The [list of videos](https://www.youtube.com/playlist?list=PLQRGFI8XZ_wtGvPQZWBf
 + [11:36](https://youtu.be/xY9TWQrF8AQ?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=11m36s) **Add Custom PhP Helper Site Class**
 + [13:50](https://youtu.be/xY9TWQrF8AQ?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=13m50s) **Add MySQL Dump (Att 2nd place it can be done)**
 + [14:15](https://youtu.be/xY9TWQrF8AQ?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=14m15s) **Dashboard Methods (With Example)**
+
 # 11. [Component FTP and more](https://youtu.be/hzbZlLl-xlA?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE)
 + [00:05](https://youtu.be/hzbZlLl-xlA?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=5s) **Adding Readme script**
 + [01:30](https://youtu.be/hzbZlLl-xlA?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=1m30s) **Place Holders**
@@ -127,6 +137,7 @@ The [list of videos](https://www.youtube.com/playlist?list=PLQRGFI8XZ_wtGvPQZWBf
 + [09:07](https://youtu.be/hzbZlLl-xlA?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=9m7s) **Component Builder Folder Paths**
 + [12:20](https://youtu.be/hzbZlLl-xlA?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=12m20s) **Component Builder Compiler.PhP FTP Info**
 + [14:15](https://youtu.be/hzbZlLl-xlA?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=14m15s) **Update Server extra Info (Versions)**
+
 # 12. [dynamicGet](https://youtu.be/OPuCoxPW35s?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE)
 + [00:15](https://youtu.be/OPuCoxPW35s?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=15s) **Sermon - Preacher Get Example**
 + [00:40](https://youtu.be/OPuCoxPW35s?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=40s) **Dynamic Get Source Selection**
@@ -142,6 +153,7 @@ The [list of videos](https://www.youtube.com/playlist?list=PLQRGFI8XZ_wtGvPQZWBf
 + [27:34](https://youtu.be/OPuCoxPW35s?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=27m34s) **Dynamic Get Get Access (Default added)**
 + [29:49](https://youtu.be/OPuCoxPW35s?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=29m49s) **Dynamic Get Where**
 + [30:41](https://youtu.be/OPuCoxPW35s?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=30m41s) **Dynamic Get Ordering**
+
 # 13. [Adding dynamicGet to a Site View](https://youtu.be/vEJZe6XqHJE?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE)
 + [00:24](https://youtu.be/vEJZe6XqHJE?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=24s) **Checking the Target Datasets**
 + [00:35](https://youtu.be/vEJZe6XqHJE?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=35s) **Populate Fields from Get's**
@@ -153,6 +165,7 @@ The [list of videos](https://www.youtube.com/playlist?list=PLQRGFI8XZ_wtGvPQZWBf
 + [10:59](https://youtu.be/vEJZe6XqHJE?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=10m59s) **Preacher View.html.php generated code**
 + [11:50](https://youtu.be/vEJZe6XqHJE?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=11m50s) **Checking the target datasets**
 + [13:40](https://youtu.be/vEJZe6XqHJE?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=13m40s) **Site Preacher tmpl folder**
+
 # 14. [Adding Templates and Layouts to a Site View](https://youtu.be/6VBbi3Rl2eY?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE)
 + [00:05](https://youtu.be/6VBbi3Rl2eY?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=5s) **Relationship between templates/layouts in views**
 + [00:47](https://youtu.be/6VBbi3Rl2eY?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=47s) **Preacher View Example**
@@ -161,12 +174,14 @@ The [list of videos](https://www.youtube.com/playlist?list=PLQRGFI8XZ_wtGvPQZWBf
 + [03:40](https://youtu.be/6VBbi3Rl2eY?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=3m40s) **Default View in Code**
 + [06:47](https://youtu.be/6VBbi3Rl2eY?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=6m47s) **Quick Layout Example Within View**
 + [08:00](https://youtu.be/6VBbi3Rl2eY?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=8m) **Explantation Templates / Layouts within Joomla**
+
 # 15. [Template Setup](https://youtu.be/khxKeeubhiY?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE)
 + [00:10](https://youtu.be/khxKeeubhiY?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=10s) **Creating Templates**
 + [00:37](https://youtu.be/khxKeeubhiY?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=37s) **New - Copying templates**
 + [01:25](https://youtu.be/khxKeeubhiY?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=1m25s) **Language String**
 + [02:20](https://youtu.be/khxKeeubhiY?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=2m20s) **Adding custom script/code to template**
 + [03:10](https://youtu.be/khxKeeubhiY?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=3m10s) **Adding Javascript to template**
+
 # 16. [Layout Setup](https://youtu.be/52OLSZio0F8?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE)
 + [00:05](https://youtu.be/52OLSZio0F8?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=5s) **Layouts**
 + [00:40](https://youtu.be/52OLSZio0F8?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=40s) **How layouts work with dynamic gets**
@@ -179,6 +194,7 @@ The [list of videos](https://www.youtube.com/playlist?list=PLQRGFI8XZ_wtGvPQZWBf
 + [07:35](https://youtu.be/52OLSZio0F8?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=7m35s) **Config.xml**
 + [09:30](https://youtu.be/52OLSZio0F8?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=9m30s) **Layout Concept**
 + [11:05](https://youtu.be/52OLSZio0F8?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=11m5s) **Layout Custom Script Area**
+
 # 17. [Custom Admin Views](https://youtu.be/gtdQ1lwB9ds?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE)
 + [00:35](https://youtu.be/gtdQ1lwB9ds?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=35s) **Example view from other Component**
 + [03:55](https://youtu.be/gtdQ1lwB9ds?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=3m55s) **Component Builder Custom Admin View from above**
@@ -186,11 +202,13 @@ The [list of videos](https://www.youtube.com/playlist?list=PLQRGFI8XZ_wtGvPQZWBf
 + [05:13](https://youtu.be/gtdQ1lwB9ds?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=5m13s) **Adding Script for the controller methods**
 + [06:20](https://youtu.be/gtdQ1lwB9ds?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=6m20s) **Area for Custom Scripting**
 + [07:00](https://youtu.be/gtdQ1lwB9ds?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=7m) **Combing multiple data results example**
+
 # 18. [Adding Site Views to a Component](https://youtu.be/zZ_HJeYL8ps?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE)
 + [00:30](https://youtu.be/zZ_HJeYL8ps?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=30s) **Using Sermon Dist as Example**
 + [00:42](https://youtu.be/zZ_HJeYL8ps?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=42s) **Settings - Views**
 + [01:25](https://youtu.be/zZ_HJeYL8ps?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=1m25s) **Adding Site Views Important *Glitch***
 + [02:34](https://youtu.be/zZ_HJeYL8ps?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=2m34s) **Site View Options (Menu-Metadata-Default View-Access)**
+
 # 19. [Adding Custom Admin Views to a Component](https://youtu.be/sPEkbuNXwds?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE)
 + [00:03](https://youtu.be/sPEkbuNXwds?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=3s) **Example Component not Sermon Dist**
 + [00:16](https://youtu.be/sPEkbuNXwds?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=16s) **Settings - Settings - Custom Admin View**
@@ -201,7 +219,9 @@ The [list of videos](https://www.youtube.com/playlist?list=PLQRGFI8XZ_wtGvPQZWBf
 + [02:19](https://youtu.be/sPEkbuNXwds?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=2m19s) **Showing within the component**
 + [03:46](https://youtu.be/sPEkbuNXwds?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=3m46s) **Order Before Selection**
 + **View rest for how buttons are implemented - *Important***
+
 # 20. [Tweaking MySQL Demo Data](https://youtu.be/wkSLZUEN-RE?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE)
+
 # 21. [Global Settings of Component Builder](https://youtu.be/LA2WDi8G79E?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE)
 + [00:25](https://youtu.be/LA2WDi8G79E?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=25s) **Options Button For Global Config**
 + [01:20](https://youtu.be/LA2WDi8G79E?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=1m20s) **Check in Timer**
@@ -214,6 +234,7 @@ The [list of videos](https://www.youtube.com/playlist?list=PLQRGFI8XZ_wtGvPQZWBf
 + [06:53](https://youtu.be/LA2WDi8G79E?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=6m53s) **Permissions**
 + [11:25](https://youtu.be/LA2WDi8G79E?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=11m25s) **Example Preacher Permissions**
 + [13:15](https://youtu.be/LA2WDi8G79E?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=13m15s) **Field Permission Switch**
+
 # 22. [Adding a custom time field](https://youtu.be/epA9zv4yWu0?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE)
 + [00:06](https://youtu.be/epA9zv4yWu0?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=6s) **Fields**
 + [02:25](https://youtu.be/epA9zv4yWu0?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=2m25s) **Joomla Form-rule Example**
@@ -221,7 +242,9 @@ The [list of videos](https://www.youtube.com/playlist?list=PLQRGFI8XZ_wtGvPQZWBf
 + [05:19](https://youtu.be/epA9zv4yWu0?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=5m19s) **Script JS**
 + [07:00](https://youtu.be/epA9zv4yWu0?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=7m) **Example time-date (custom component)**
 + [08:51](https://youtu.be/epA9zv4yWu0?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=8m51s) **JS repeatable field time-date *Important***
+
 # 23. [How to integrate the Create User Helper Method in your Components](https://youtu.be/ckFakaQ90JY?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE)
+
 # 24. [How to use email helper in your components.](https://youtu.be/tp6mMUTOF2Y?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE)
 + [00:25](https://youtu.be/tp6mMUTOF2Y?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=25s) **Example of Email Helper Class**
 + [01:10](https://youtu.be/tp6mMUTOF2Y?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=1m10s) **Setting Up Email Helper Class**
@@ -238,11 +261,13 @@ The [list of videos](https://www.youtube.com/playlist?list=PLQRGFI8XZ_wtGvPQZWBf
 + [09:30](https://youtu.be/tp6mMUTOF2Y?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=9m30s) **Error Checking for emails in code**
 + [11:45](https://youtu.be/tp6mMUTOF2Y?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=11m45s) **Implementated example**
 + [13:56](https://youtu.be/tp6mMUTOF2Y?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=13m56s) **Above example in code *Worth Watching***
+
 # 25. [How to setup a store message method along side the email helper class](https://youtu.be/peVNLsAncGY?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE)
 + [00:03](https://youtu.be/peVNLsAncGY?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=3s) **Example in Code**
 + [01:31](https://youtu.be/peVNLsAncGY?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=1m31s) **Code Snippet in Method**
 + [02:17](https://youtu.be/peVNLsAncGY?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=2m17s) **Adding Code to Admin Helper Area**
 + ***Important watch to end***
+
 # 26. [How to ensure that a field is not escaped when added to list views.](https://youtu.be/bfl0l3AoLKU?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE)
 + [00:02](https://youtu.be/bfl0l3AoLKU?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=2s) **Example extra styling in fields**
 + [00:37](https://youtu.be/bfl0l3AoLKU?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=37s) **Settings - Editing View - PhP Area**
@@ -250,6 +275,7 @@ The [list of videos](https://www.youtube.com/playlist?list=PLQRGFI8XZ_wtGvPQZWBf
 + [02:00](https://youtu.be/bfl0l3AoLKU?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=2m) **Looping through data till target found - adding styling**
 + [03:20](https://youtu.be/bfl0l3AoLKU?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=3m20s) **Preventing the escaped info**
 + [04:16](https://youtu.be/bfl0l3AoLKU?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=4m16s) **Field adding escape=false to code**
+
 # 27. [How to change exported values and setup custom import options](https://youtu.be/fau5mZ6naLc?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE)
 + [00:25](https://youtu.be/fau5mZ6naLc?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=25s) **Example Component**
 + [01:00](https://youtu.be/fau5mZ6naLc?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=1m) **Example IP Tables**
@@ -259,6 +285,7 @@ The [list of videos](https://www.youtube.com/playlist?list=PLQRGFI8XZ_wtGvPQZWBf
 + [05:06](https://youtu.be/fau5mZ6naLc?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=5m6s) **Admin View - PhP - (GetListQuery)**
 + [09:37](https://youtu.be/fau5mZ6naLc?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=9m37s) **Import features explained**
 + [10:15](https://youtu.be/fau5mZ6naLc?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=10m15s) **Custom Import Tab (default import code)**
+
 # 28. [How to overwrite the custom fields](https://youtu.be/FHQfIhWHYyQ?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE)
 + [00:03](https://youtu.be/FHQfIhWHYyQ?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=3s) **Using default fields with custom code**
 + [01:33](https://youtu.be/FHQfIhWHYyQ?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=1m33s) **Example of shown default fields in list view**
@@ -266,10 +293,12 @@ The [list of videos](https://www.youtube.com/playlist?list=PLQRGFI8XZ_wtGvPQZWBf
 + [03:56](https://youtu.be/FHQfIhWHYyQ?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=3m56s) **Compiled in code**
 + [05:12](https://youtu.be/FHQfIhWHYyQ?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=5m12s) **Adding the Fields**
 + [05:45](https://youtu.be/FHQfIhWHYyQ?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=5m45s) **Adding in tabs (default 15 tab)**
+
 # 29. [How to filter a list field based on association with another field](https://youtu.be/Z8FLifQOjUk?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE)
 + [00:02](https://youtu.be/Z8FLifQOjUk?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=2s) **Explanation of filter fields**
 + [00:45](https://youtu.be/Z8FLifQOjUk?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=45s) **Example component with filters**
 + ***Volume to low to fully understand - Will be done over soon***
+
 # 30. [Automatic import of custom code during compilation in JCB](https://youtu.be/DFMfIl-VkSk?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE)
 *Excellent Update to JCB*
 + [00:02](https://youtu.be/DFMfIl-VkSk?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=2s) **Custom Code**
@@ -283,6 +312,7 @@ The [list of videos](https://www.youtube.com/playlist?list=PLQRGFI8XZ_wtGvPQZWBf
 + [10:00](https://youtu.be/DFMfIl-VkSk?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=10m) **Looking at the replaced code in editor**
 + [11:40](https://youtu.be/DFMfIl-VkSk?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=11m40s) **Inserting custom code via editor**
 + [13:55](https://youtu.be/DFMfIl-VkSk?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=13m55s) **Checking the custom code tab for new entry before new installation**
+
 # 31. [JCB manual custom code implementation](https://youtu.be/KiAtJawZ3oo?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE)
 + [00:02](https://youtu.be/KiAtJawZ3oo?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=2s) **Brief explanation**
 + [03:18](https://youtu.be/KiAtJawZ3oo?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=3m18s) **Updating code from JCB in the editor**
@@ -292,11 +322,17 @@ The [list of videos](https://www.youtube.com/playlist?list=PLQRGFI8XZ_wtGvPQZWBf
 + [13:57](https://youtu.be/KiAtJawZ3oo?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=13m57s) **Example Field**
 + [18:55](https://youtu.be/KiAtJawZ3oo?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=18m55s) **Difference between editor changes and custom code changes**
 + ***Imptortant - Watch till end***
+
 # 32. [Export & Import of fully mapped components](https://youtu.be/lkE0ZiSWufg?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE)
+
 # 33. [Translation Manager in JCB explained](https://youtu.be/zzAcVkn_cWU?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE)
+
 # 34. [How to import JCB package using a KEY](https://youtu.be/YgqcZrFnxjc?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE)
+
 # 35. [Setting Site View Permission](https://youtu.be/gWjQjdhYqXI?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE)
+
 # 36. [Auto create SQL updates for Componets in JCB](https://youtu.be/bRPJTRat158?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE)
+
 # 37. More coming....
 
 > I will constantly be adding more tutorials, and would encourage you to support our efforts. 
