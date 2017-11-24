@@ -2,6 +2,8 @@
 
 > These tutorials will give you a basic understanding on how JCB works!
 
+If you have more questions, [use the forum](https://groups.google.com/a/vdm.io/d/forum/jcb)!
+
 The [list of videos](https://www.youtube.com/playlist?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE) that are already available are:
 # 1. [Intro](https://youtu.be/9evJkBTnKxE?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE)
 + Basic introduction
