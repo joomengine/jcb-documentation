@@ -341,5 +341,5 @@ The [list of videos](https://www.youtube.com/playlist?list=PLQRGFI8XZ_wtGvPQZWBf
 ## Come on buy me a coffee :)
 
 - PayPal: paypal.me/payvdm
-- Bitcoin: 1FLxiT6wyxgZ3boeviLkYJ1DRpp41uzpxa
-- Ethereum: 0x243392daa3c9c8bc841fcacf7c7f72541cb16823
+- Bitcoin: 18vURxYpPFjvNk8BnUy1ovCAyQmY3MzkSf
+- Ethereum: 0x9548144662b47327c954f3e214edb96662d51218
