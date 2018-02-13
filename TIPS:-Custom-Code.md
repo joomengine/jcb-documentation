@@ -14,7 +14,7 @@ Here are some 'tips' when using custom code.
 	<td>New Insert Code</td>
 	<td>/***[INSERT<>$$$$]***/</td>
 	<td>/***[/INSERT<>$$$$]***/</td>
-	<td>`<!--[INSERT<>$$$$]-->`</td>
+	<td>> <!--[INSERT<>$$$$]--></td>
 	<td>&lt!--[/INSERT<>$$$$]--&gt;</td>
 </tr>
 <tr>
