@@ -6,7 +6,7 @@ Here are some 'tips' when using custom code.
 |---|---|---|---|---|
 | USAGE | PHP START | PHP END | HTML START | HTML END |
 | New Insert Code | `/***[INSERT<>$$$$]***/` | `/***[/INSERT<>$$$$]***/` | `<!--[INSERT<>$$$$]-->` | `<!--[/INSERT<>$$$$]-->` |
-| New Replace Code | `/***[REPLACE<>$$$$]***/` | `/***[/REPLACE<>$$$$]***/` | <!--[REPLACE<>$$$$]--> | <!--[/REPLACE<>$$$$]--> |
+| New Replace Code | `/***[REPLACE<>$$$$]***/` | `/***[/REPLACE<>$$$$]***/` | `<!--[REPLACE<>$$$$]-->` | `<!--[/REPLACE<>$$$$]-->` |
 | when JCB adds it back |
 | JCB Add Inserted Code | `/***[INSERTED$$$$]***///23` | `/***[/INSERTED$$$$]***/` |
 | JCB Add Replaced Code | `/***[REPLACED<>$$$$]***///25` | `/***[/REPLACED<>$$$$]***/` |
