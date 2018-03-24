@@ -32,7 +32,7 @@ Here are some 'tips' when using custom code.
 
 # Insert Examples (PHP)
 
-> placeholder must be on its own line
+> placeholder must be on its own line!
 
 ### New PHP Insert Code
 ```php {.line-numbers}
@@ -66,7 +66,7 @@ $more = 'more some code';
 
 # Replace Examples (PHP)
 
-> placeholder must be on its own line
+> placeholder must be on its own line!
 
 ### New PHP Replace Code
 ```php {.line-numbers}
@@ -97,7 +97,7 @@ $more = 'more some code';
 
 # Insert Examples (HTML)
 
-> placeholder must be on its own line
+> placeholder must be on its own line!
 
 ### New HTML Insert Code
 ```html {.line-numbers}
@@ -131,7 +131,7 @@ $more = 'more some code';
 
 # Replace Examples (HTML)
 
-> placeholder must be on its own line
+> placeholder must be on its own line!
 
 ### New HTML Replace Code
 ```html {.line-numbers}
@@ -142,7 +142,7 @@ $more = 'more some code';
 </div>
 ```
 
-### Existing HTML Replace Code
+### Existing HTML Replaced Code
 ```html {.line-numbers}
 <div class="easy">
 <!--[REPLACED$$$$]--><!--25-->
@@ -151,7 +151,7 @@ $more = 'more some code';
 </div>
 ```
 
-### Update HTML Replace Code
+### Update HTML Replaced Code
 ```html {.line-numbers}
 <div class="easy">
 <!--[REPLACED<>$$$$]--><!--25-->
