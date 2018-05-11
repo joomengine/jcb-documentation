@@ -331,7 +331,7 @@ The [list of videos](https://www.youtube.com/playlist?list=PLQRGFI8XZ_wtGvPQZWBf
 
 # [Translation Manager in JCB explained](https://youtu.be/zzAcVkn_cWU?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE)
 
-# [How to import JCB package using a KEY](https://youtu.be/YgqcZrFnxjc?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE)
+# [How to import JCB package using a KEY](https://www.youtube.com/watch?v=PGmEoliopv8&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&index=64)
 
 # [Setting Site View Permission](https://youtu.be/gWjQjdhYqXI?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE)
 
