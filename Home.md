@@ -2,7 +2,7 @@
 
 > These tutorials will give you a basic understanding on how JCB works!
 
-A new manual to accompany these videos is underway titled Developing with Joomla Component Builder. It is a work on progress and will take some time to complete. The first 
+A new manual to accompany these videos is underway titled [Developing with Joomla Component Builder](https://github.com/vdm-io/Joomla-Component-Builder/wiki/Developing-with-Joomla-Component-Builder). It is a work in progress and anticipated completion date is no later than the end of this year and hopefully sooner. Chapters 1 - 9 have been transcribed from the corresponding videos and are being edited. The first chapter, Intro to JCB is near completion. I'll do short updates here on progress.
 
 If you have more questions, [use the forum](https://groups.google.com/a/vdm.io/d/forum/jcb)!
 
