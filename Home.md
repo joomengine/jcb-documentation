@@ -2,6 +2,8 @@
 
 > These tutorials will give you a basic understanding on how JCB works!
 
+A new manual to accompany these videos is underway titled Developing with Joomla Component Builder. It is a work on progress and will take some time to complete. The first 
+
 If you have more questions, [use the forum](https://groups.google.com/a/vdm.io/d/forum/jcb)!
 
 The [list of videos](https://www.youtube.com/playlist?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE) that are already available are listed below.
