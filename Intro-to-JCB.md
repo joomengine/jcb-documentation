@@ -1,4 +1,4 @@
-Note - Press the "<ctrl>" key before clicking a link to open in a new browser tab.
+Note - Press the ctrl key before clicking a link to open in a new browser tab.
 
 Joomla! Component Builder (hereafter known as JCB) was built for those who know the PHP programming language. If you don't know PHP, there are some great places to learn it. One of the few I would recommend is [Lynda.com](https://www.lynda.com/) and you can go to the website and search for PHP. You will find many courses that should get you on your way. If you don't know CSS, JavaScript, and HTML then you definitely need to go visit this website and ones similar to it and get that knowledge. JCB was not created for those who have no development skills.
 
