@@ -32,10 +32,10 @@ To accomplish this, a local installation of Joomla! and only the Demo component 
 					\batch.php
 					\index.html
 				\ExcelPHP
-				demo.php
-				headercheck.php
-				index.html
-				PHPExcel.php
+				\demo.php
+				\headercheck.php
+				\index.html
+				\PHPExcel.php
 			\layouts
 				\look
 					\details_above.php
