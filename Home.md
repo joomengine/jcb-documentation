@@ -4,7 +4,7 @@ Welcome to the Joomla-Component-Builder wiki!
 
 > These tutorials will give you a basic understanding on how JCB works!
 
-A revision of this page to include timelines for all videos and documentation to accompany the videos is underway titled [Developing with Joomla Component Builder](https://github.com/vdm-io/Joomla-Component-Builder/wiki/1. Developing-with-Joomla-Component-Builder). It is a work in progress and anticipated completion date is early next year . Chapters 1 - 71 have been transcribed from the corresponding videos, are in their raw format and are being edited. The first chapter, [1 . Hello World with Joomla Component Builder](https://github.com/vdm-io/Joomla-Component-Builder/wiki/1 . Hello World with Joomla Component Builder) is being edited and is near completion. I'll do short updates here on progress.
+A revision of this page to include timelines for all videos and documentation to accompany the videos is underway titled [Developing with Joomla Component Builder](https://github.com/vdm-io/Joomla-Component-Builder/wiki/1. Developing-with-Joomla-Component-Builder). It is a work in progress and anticipated completion date is early next year . Chapters 1 - 71 have been transcribed from the corresponding videos, are in their raw format and are being edited. The fifth chapter, [5. Field Types](https://github.com/vdm-io/Joomla-Component-Builder/wiki/5. Field Types) is being edited and is near completion while we add timelines for the videos preceding it and following it. I'll do short updates here on progress.
 
 If you have more questions, [use the forum](https://groups.google.com/a/vdm.io/d/forum/jcb)!
 
