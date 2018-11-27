@@ -6,7 +6,7 @@ Welcome to the Joomla-Component-Builder wiki!
 
 A revision of this page to include timelines for all videos and documentation to accompany the videos is underway. Anticipated completion date is early next year. Chapters one through seventy one have been transcribed from the corresponding videos. They are presented here in a very raw format and are being edited.
 
-For an example of what the finished chapters will look like the [fifth chapter](https://github.com/vdm-io/Joomla-Component-Builder/wiki/5.-Field-Types), is being edited and is near completion while we add timelines for the videos preceding it and following it. Then we'll backtrack and do the first four chapters, followed by chapters six through seventy one. I'll do short updates here on progress.
+For an example of what the finished chapters will look like the [fifth chapter](https://github.com/vdm-io/Joomla-Component-Builder/wiki/5.-Field-Types), is complete. We are now editing the first chapter and also adding timelines for the videos that do not have it. The timelines add the visual reference needed at various points in each chapter in lieu of adding the frame for illustration. After completing chapters one through four, we'll complete chapters six through seventy one which will take some time. Updates on progress will be posted in the title of the chapter currently being edited here. After each chapter is finished, an announcement will be posted in the forum.
 
 If you have more questions, [use the forum](https://groups.google.com/a/vdm.io/d/forum/jcb).
 
