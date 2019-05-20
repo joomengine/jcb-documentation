@@ -2,11 +2,19 @@
 
 When you want to build a component in Component Builder you need to be prepared. You would need to know what to build and what the database structure is that you want to set up. If you want a good understanding of the table and of the database and how to have it mapped, these are essential things you need to know. If you do not know that, I can give you pointers on some of the things you will need. At the same time, I will try to explain why you need to know these things.
 
+### Use Demo Components How To Build. Back End Views Connected To Database.
+
 We are using Sermon Distributor, which is a component that I have developed for Distributing Sermons. [00:00:58](https://www.youtube.com/watch?v=gEgwiVNj6N0&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h00m58s) Use the demo component that are demonstrating how to build components. You need to know what you are going to call it. (This one is called Sermon Distributor.) You would need to know back end views.[00:01:19](https://www.youtube.com/watch?v=gEgwiVNj6N0&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h01m19s)  The back end views in Joomla must be tightly connected to the database. [00:01:37](https://www.youtube.com/watch?v=gEgwiVNj6N0&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h01m37s)
+
+### Purpose Of Conventions - Adds Up Implementation
 
 By illustrating the best convention of implementation, Component Builder will allow you to break these conventions, but later you would regret doing so and possibly have to redo a lot of things. [00:01:51](https://www.youtube.com/watch?v=gEgwiVNj6N0&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h01m51s) The purpose of these conventions are to add up implementation in other areas, like your custom field types and so forth.
 
+### Back End Views Need To Be Set Up
+
 When Sermon Distributor is going to be build, [00:02:20](https://www.youtube.com/watch?v=gEgwiVNj6N0&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h02m20s) back end views need to be set up, because we want these features inside the component. That is the sermons. We have a list view [00:02:33](https://www.youtube.com/watch?v=gEgwiVNj6N0&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h02m33s) of the sermons as well as an editing view of the sermons. They share a common database table [00:02:51](https://www.youtube.com/watch?v=gEgwiVNj6N0&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h02m51s) although they represent two views: a list view and an edit view. [00:03:27](https://www.youtube.com/watch?v=gEgwiVNj6N0&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h03m27s) The editable view is in relation to the back end connection of the database itself. The back end usually forms the connection to the database. The front end is more dynamic. These things will take quite a lot of explanation if you are new to coding, PHP, JavaScript and CSS. [00:04:21](https://www.youtube.com/watch?v=gEgwiVNj6N0&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h04m21s)
+
+### Drawing Data From Dynamic Get Feature In Component Builder.
 
 The site views and custom back end views are mostly the same kind of implementation, both drawing their data from the Dynamic Get feature in Component Builder. Think of these three as working as a team, while the back end views stand as the database for these. You need to set these up first. Add them to all the necessary fields that will then be mapped to the database [00:05:16](https://www.youtube.com/watch?v=gEgwiVNj6N0&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h05m16s) columns, which then through the Dynamic Get connect to formulate a data model. This can be reused in your custom back end and in your site views.
 
