@@ -18,11 +18,11 @@ Please remember to clear your temporary folder because if you don't this compone
 
 Now I'm going open a test website and I'm going to run everything there. I'm in the installing area which is basically a blank test website just installed. I'm going to use this link there. I paste a URL and click install. It should say the following to you when you have done that.[00:05:26](https://www.youtube.com/watch?v=t6Eux157428&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h05m26s)
 
-### Need To Add Database Information From Paid Versions.
+### Need To Add Database Information From Paid Versions
 
 Just a side note. (This is if you've started working with Component Builder as a free version and you've purchased one of the paid versions.) The difference between them is only the data that is in the database. The features and the functionality are all the same. If you have installed the free version, you would need to add the database information from the paid versions.
 
-### How To Access The Database Information In Your Component.
+### How To Access The Database Information In Your Component
 
 To continue on how to access the database information in your component.
 I'm going to the zip file here in my file system. The zip file open here would go to admin. [00:06:02](https://www.youtube.com/watch?v=t6Eux157428&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h06m02s) Now go to SQL. You'd see an install file. Open this install file. You want to guarantee that you would see it. It's the file that we are using to build a database. Look at all the tables at the very bottom of the file. [00:06:28](https://www.youtube.com/watch?v=t6Eux157428&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h06m28s) After the tables there will be dumped information. Now with the free version it's basically the field types that we've added, also some help menu information if I'm correct. With the paid version there will be many more details here. [00:06:59](https://www.youtube.com/watch?v=t6Eux157428&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h06m59s)
