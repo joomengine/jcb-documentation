@@ -8,7 +8,7 @@ First I will show you the components that I have build and how I have been able 
 
 ###  Use a Compiler
 
-I am going use the Compiler and I am going to compile the public one because I will use that to show you how to build your own component. I will compile it, which starts up the compiler and all the script, taking all the data in the database [00:02:14](https://www.youtube.com/watch?v=t6Eux157428&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h02m14s) and placing it into the code. Then we would run the application. If it had compiled, it tells how many lines are written and how many hours are saved. Based on calculating the nine numbers and not calculating the actual interaction that we've had, you can install the component if you've done it right. Click in there; or you could download and install it elsewhere; or use this URL which is at the moment relating to my offline Environment. Once you've done whatever you wanted to do, click this [00:03:18](https://www.youtube.com/watch?v=t6Eux157428&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h03m18s) if you need it. But if you're running on the online Environment and you use some of these links to install it elsewhere, then play.
+I am going use the Compiler and I am going to compile the public one because I will use that to show you how to build your own component. I will compile it, which starts up the compiler and all the script, taking all the data in the database [00:02:14](https://www.youtube.com/watch?v=t6Eux157428&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h02m14s) and placing it into the code. Then we would run the application. If it had compiled, it tells how many lines are written and how many hours are saved. Based on calculating the nine numbers and not calculating the actual interaction that we've had, you can install the component if you've done it right. Click in there; or you could download and install it elsewhere; or use this URL which is at the moment relating to my offline Environment. Once you've done whatever you wanted to do, click this [00:03:18](https://www.youtube.com/watch?v=t6Eux157428&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h03m18s) if you need it. But if you're running in the online Environment and you use some of these links to install it elsewhere, then play.
 
 ###  Clear Your Temporary Folder
 
@@ -16,7 +16,7 @@ Please remember to clear your temporary folder because if you don't this compone
 
 ###  A Blank Test Website
 
-Now I'm going open a test website and I'm going to run everything there. I'm in the installing area which is basically a blank test website just installed. I'm going to use this link there. I paste a URL and click install. It should say the following to you when you have done that.[00:05:26](https://www.youtube.com/watch?v=t6Eux157428&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h05m26s)
+Now I'm going to open a test website and I'm going to run everything there. I'm in the installing area which is basically a blank test website just installed. I'm going to use this link there. I paste a URL and click install. It should say the following to you when you have done that.[00:05:26](https://www.youtube.com/watch?v=t6Eux157428&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h05m26s)
 
 ### Need To Add Database Information From Paid Versions
 
@@ -29,7 +29,7 @@ I'm going to the zip file here in my file system. The zip file open here would g
 
 ###  1. Uninstall The Free Version - Install The Purchased Version
 
-There are two ways for you to do this. The first would be simply to uninstall the free version and install the one that you have purchased when you do updates. It will never update this information. Joomla only uses this when it doesn't fresh install because that's the only time you create the tables. I didn't add this data to install since that would be too much. [00:07:29](https://www.youtube.com/watch?v=t6Eux157428&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h07m29s)
+There are two ways for you to do this. The first would be simply to uninstall the free version and install the one that you have purchased when you do updates. It will never update this information. Joomla only uses this when it does a fresh install because that's the only time you create the tables. I didn't add this data to install since that would be too much. [00:07:29](https://www.youtube.com/watch?v=t6Eux157428&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h07m29s)
 
 ### 2. Requires MySQL
 
@@ -39,6 +39,6 @@ So that is how you would add the data without uninstalling the whole component. 
 
 ### More Field Types
 
-Now if we go back to the component and to field types, you'd see that it has more field types and it has a few fields setups as well. This is the version called Developer which only has the demo component in it. I'm going use this version to show you how to build sermon distributor [00:12:44](https://www.youtube.com/watch?v=t6Eux157428&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h12m44s) from scratch.
+Now if we go back to the component and to field types, you'd see that it has more field types and it has a few fields setups as well. This is the version called Developer which only has the demo component in it. I'm going to use this version to show you how to build sermon distributor [00:12:44](https://www.youtube.com/watch?v=t6Eux157428&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h12m44s) from scratch.
 
 We'll continue with field types in the next tutorial.
