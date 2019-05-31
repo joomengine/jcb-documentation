@@ -105,7 +105,7 @@ Let's go back to the admin views. This is a structure that you can use to manipu
 
 **Field Listing**
 
-We had looked at permissions, tabs, fields, conditions, and linked views. The next one is the list of the fields that you have already selected and saved. If you want to update any of these fields, you could just click on the field name and it will take you to the field where you can update it. 
+We looked at permissions, tabs, fields, conditions, and linked views. The next one is the list of the fields that you have already selected and saved. If you want to update any of these fields, you could just click on the field name and it will take you to the field where you can update it. 
 
 **Custom CSS View**
 
