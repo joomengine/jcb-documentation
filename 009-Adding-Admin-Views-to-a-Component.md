@@ -1,22 +1,29 @@
 # ADDING ADMIN VIEWS TO A COMPONENT
 
-Hi we've looked at setting up admin views. We've looked at creating fields for admin views. We've looked at setting up field types and how to use field types to create fields. Now we would like to look at setting the admin views to the component. The component itself has so much things that you can do. I'm going to try and deal with it [00:00:28](https://www.youtube.com/watch?v=39vY66X7GGU&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h00m28s) little at a time. So I'm first going to look at adding the admin views to a component. We'll go to components, and will go to sermon distributor, and you would go to settings. Here you'd see admin views. [00:00:59](https://www.youtube.com/watch?v=39vY66X7GGU&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h00m59s) 
+Hi,we have looked at setting up admin views and looked at creating fields for admin views. We've looked at setting up field types and how to use field types to create fields. Now we will look at setting the admin views to the component.  I'm going to deal with all that can  be done to the component. [00:00:28](https://www.youtube.com/watch?v=39vY66X7GGU&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h00m28s) Firstly we will be looking at adding the admin views to a component. We'll go to components, then to sermon distributor, and then go to settings. There you will see admin views. [00:00:59](https://www.youtube.com/watch?v=39vY66X7GGU&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h00m59s) 
 
 **Sermon Component Setting as Example**
 
-To connect admin views to your component you need to go to settings and open this button here. Usually when you start it, it will look like this(see video). So very straight forward you have a dropdown here(select an option) and you make a selection. And then click next. And you do the next one. And if you have a lot of admin views like I do here you would type in the name of the admin view. [00:01:33](https://www.youtube.com/watch?v=39vY66X7GGU&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h01m33s) And there you have it. 
+To connect admin views to your component you need to go to settings and open this button here(as see in video).. So you have a dropdown (select an option), then make a selection and then click 'next'. Then do the next one. If you have a lot of admin views like I do here you would type in the name of the admin view. [00:01:33](https://www.youtube.com/watch?v=39vY66X7GGU&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h01m33s)  
 
 **Adding Views Setting Icons**
 
-So I'm going to type in the name here sermon. Now these icons here I spoken about them previously. They are the icons from Joomla which is called Joomla Standard Icomoon Fonts. [00:02:02](https://www.youtube.com/watch?v=39vY66X7GGU&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h02m02s) If you select a an icon here(Joomla), it will show you that little icon(1) but only during the selection face. That is the icon that is going to be used for the view here in the right. See this icon there(top right) as we click through [00:02:24](https://www.youtube.com/watch?v=39vY66X7GGU&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h02m24s) component builder it updates that icon. 
+Type in the name sermon. Now these icons here(See video) which have been mentioned previously, are the icons from Joomla which is called Joomla Standard Icomoon Fonts. [00:02:02](https://www.youtube.com/watch?v=39vY66X7GGU&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h02m02s) If you select a an icon here(Joomla), it will show you that little icon(1) but only during the selection face. That is the icon that is going to be used for the view here in the right. See this icon there(top right) as we click through [00:02:24](https://www.youtube.com/watch?v=39vY66X7GGU&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h02m24s) component builder it updates that icon. 
 
 **Settings Switch Admin Menu**
 
-This icon is what is being set here. You can select the icons to reflect to the admin view of your choice. We have a bunch of switches here and we'll look at them one at a time. Admin menu is this menu. [00:02:49](https://www.youtube.com/watch?v=39vY66X7GGU&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h02m49s) So the question is do you want that view to show up next to your main view. That will be the first tick box. We would say yes. 
+This icon is what is being set here(See video). You can select the icons to reflect to the admin view of your choice. We have a bunch of switches here and we'll look at them one at a time. Admin menu is this menu. [00:02:49](https://www.youtube.com/watch?v=39vY66X7GGU&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h02m49s) Do you want that view to show up next to your main view? That will be the first tick box. Then say, 'yes'. 
 
 **Settings Switch Dashboard Items**
 
-Then do you want to have an add record icon for this view? The add record icon, if you go to the dashboard, [00:03:10](https://www.youtube.com/watch?v=39vY66X7GGU&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h03m10s) it is this icon here(Add Admin View). It is a shortcut to creating an admin view from the dashboard. So we will say yes, then a dashboard list of records icon. So maybe you don't want this(Admin View) icon, just add admin view, then you can tick that(Dashboard(add record)) as no. [00:03:35](https://www.youtube.com/watch?v=39vY66X7GGU&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h03m35s) But again here(Dashboard(list of records)) we would like yes. 
+Then do you want to have an 'add record' icon for this view?  If you go to the dashboard, the 'add record' icon, [00:03:10](https://www.youtube.com/watch?v=39vY66X7GGU&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h03m10s) it is this icon 'Add Admin View'. It is a shortcut to create an admin view from the dashboard. So we will say 'yes'. Then a 'Dashboard (list of records)' icon. Maybe you don't want this 'Admin View' icon, just add 'admin view', then tick that 'Dashboard(add record)' as 'no'. [00:03:35](https://www.youtube.com/watch?v=39vY66X7GGU&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h03m35s) But again here 'Dashboard(list of records)' we would like, 'yes'. 
+
+
+
+
+
+
+
 
 **Settings Switch Submenu**
 
