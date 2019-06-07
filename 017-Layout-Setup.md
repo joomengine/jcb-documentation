@@ -1,50 +1,50 @@
 # LAYOUT SETUP
 
-**Layouts**
+### Layouts
 
 We going to look at setting up layouts. We setting up layouts you have some nice ways to reuse code across multiple templates or site views. One of the things that I found is that I would like to know which side view is actually calling the layout. So that all the bases of that I could use global settings that are related to that specific site view. [00:00:31](https://www.youtube.com/watch?v=52OLSZio0F8&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h00m31s)  
 
-**How Layouts Work With Dynamic Gets**
+### How Layouts Work With Dynamic Gets
 
 What I've done, in the dynamic get I've added a little string. Since each dynamic get targets only a specific site view. If I was to open sermon (preacher.id) which is primarily going to be used in preacher side view. If I look at the custom script, you will see that I added a view key called preacher. By doing that I know since this dynamic get [00:00:59](https://www.youtube.com/watch?v=52OLSZio0F8&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h00m59s) is only used in the preacher view, that when the layout is called and I'm in my component, I'm only passing the item. So not the whole list of items, but just one item to the layout that helps me to know. This specific item is calling from preacher, and I can on that basis do certain implementation [00:01:24](https://www.youtube.com/watch?v=52OLSZio0F8&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h01m24s) to ensure that the layout displays in the way I expected. That's just a little heads up on making your layouts even more dynamic then going to the template. 
 
-**How Templates Call Layouts**
+### How Templates Call Layouts
 
 We will open your template that calls the layout. We want to see that initial setup and one of the templates that really illustrates this very well [00:01:54](https://www.youtube.com/watch?v=52OLSZio0F8&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h01m54s) is this sermon list. So I'm going to open sermon list. In sermon list you see that I'm looping through the items. Then I am adding some parameters to the item object. One of them is the params, the other is I'm taking the description and making sure that it's escaped, and it is no longer than 90 characters. [00:02:26](https://www.youtube.com/watch?v=52OLSZio0F8&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h02m26s) Then I'm adding that back to the description without the full name, and then adding that item to the 'JlayoutHelper::render(study class render)(sermonlist item)' [00:02:46](https://www.youtube.com/watch?v=52OLSZio0F8&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h02m46s) as the layout name, and that basically is going to populate the script between the list items that is going to be placed in an unordered list on the sermon list page. 
 
-**Sermon List - Item Layout**
+### Sermon List - Item Layout
 
 Now let's go look at this specific layout 'JlayoutHelper::render(study class render)(sermonlist item)'. [00:03:15](https://www.youtube.com/watch?v=52OLSZio0F8&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h03m15s) 
 In layouts look for sermon list item. In sermon list item you will see that I'm using that global, the item that is being passed is placed inside of displayed data. Display data is basically the item object. [00:03:43](https://www.youtube.com/watch?v=52OLSZio0F8&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h03m43s) Since I placed the parameters in it, I can use the get method with the specific global field name, which is set in the components global settings. 
 
-**Using The View Key**
+### Using The View Key
 
 Since I'm targeting a specific view, [00:04:02](https://www.youtube.com/watch?v=52OLSZio0F8&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h04m02s) I'm using the view key, adding it to the string and checking what is the value for this specific view in the global of the component. On the basis of this I'm actually able to make this view very dynamic, and can use it through multiple layouts, based on that view key. I know if others want to use the layout in their components extending this one it possibly will not work that well. [00:04:31](https://www.youtube.com/watch?v=52OLSZio0F8&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h04m31s) But since we are using it for our own component and really for our own implementation, I don't think that's too big a deal. At the same token I am able to check. Simply what is the view key? Is it preacher, series, or category? On a basis of that I ask different questions and have different implementation of certain values like series name, preacher name, and category. 
 
-**Layout To Template Custom Scripting**
+### Layout To Template Custom Scripting
 
 There is another convention that I think is very worthwhile mentioning here, and that is the convention of actually [00:05:11](https://www.youtube.com/watch?v=52OLSZio0F8&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h05m11s) in the template, we go back here(editing the template). We go to custom scripting. There is the [[[sview]]] placeholder. The [[[sview]]] placeholder will be replaced with the actual views name. Since we using a template here, you see this is a template. [00:05:32](https://www.youtube.com/watch?v=52OLSZio0F8&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h05m32s) This sermon list, that one, I'm adding that template to multiple site views. I'm not just adding it to one site view, I'm adding it to multiple site views. 
 
-**Dynamic Custom Views using Template**
+### Dynamic Custom Views using Template
 
 Since I want this template again to be dynamic, so wherever I add it, I want it to dynamically add to that site views name. [00:05:57](https://www.youtube.com/watch?v=52OLSZio0F8&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h05m57s) Then as you can see I'm actually asking the global parameters for that site view sermon list style. That means it is going to add for example preacher there, or it's going to add series there, or it is going to add category there. It will say category, sermons, list, style. 
 
-**Above In The Code**
+### Above In The Code
 
 Let me show you that in the code. I have category open, I've got preacher open, as well as series. [00:06:30](https://www.youtube.com/watch?v=52OLSZio0F8&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h06m30s) You can see that I'm adding sermon-grid, sermon-list, sermon-table to them all. If I was to open sermon-list in series, you will see that name was changed to series. If I was going to open sermon-list in preacher, [00:06:53](https://www.youtube.com/watch?v=52OLSZio0F8&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h06m53s) you will see it was changed preacher. If I open it in category, you will see that it added category. That means that our little place holder was dynamically updated by component builder on the build, then it behaves as you expect. 
 
-**Config.xml**
+### Config.xml
 
 Now you would know where is it getting these values? [00:07:20](https://www.youtube.com/watch?v=52OLSZio0F8&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h07m20s) If we go to the component in the back end, a we can open it's config file. Scroll down. We get an area called 'preacher_custom_config' which is a tab, and the tab's name is preacher. In this tab we have these: value_preacher_display, [00:07:48](https://www.youtube.com/watch?v=52OLSZio0F8&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h07m48s) preacher_box_contrast, preacher_list_style. We scroll down, we see preachers_sermon_count, preacher_email, preacher_website, and then preacher_sermon_display, and preacher_sermon_list_display. Now if we take that sermon_list_display, and search for it across the file, say I make it [00:08:13](https://www.youtube.com/watch?v=52OLSZio0F8&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h08m13s) cap sensitive, we see that it has 6 matches. That means there is 6 places, actually 3. Because one of the other 6 are in the comments, one is category one is series and one is preacher. [00:08:33](https://www.youtube.com/watch?v=52OLSZio0F8&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h08m33s) Those are the three different views. Let make use of that series list style. Now the series list style is then being implemented on the basis of that dynamic updating of the string here. It's simply getting the style. Then doing a switch when setting it accordingly. that is another nice [00:08:57](https://www.youtube.com/watch?v=52OLSZio0F8&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h08m57s) to have tool. To again make a template more dynamic. You can build a template and you can reuse it in multiple site views. Simply with this place holders which is called site view. I should have mentioned that in the templates explanation, but since we only came across it now I mentioning it here. 
 
-**Layout Concept**
+### Layout Concept
 
 Going back to the layouts. Your layout [00:09:27](https://www.youtube.com/watch?v=52OLSZio0F8&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h09m27s) concept is more or less the same as templates. It has a layout area in which you put your script and here you can see we are using that(see video) key replacing. You can see that if you select certain dynamic gets, we are take the liberty of showing you that we are starting with display data. But this snippets here(see video), might not correspond what you're doing because you can really pass anything to a layout. We are just assuming that if you're using that dynamic get, you possibly passing it in this [00:10:06](https://www.youtube.com/watch?v=52OLSZio0F8&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h10m06s) way or that way. You can't just copy and paste this necessarily. At least you can know when you look at a specific dynamic get here, what are the values in it? And how you can try figure out which ones to use here. This again will be only really something you need to use if or can use if you are actually aware of our php and everything will [00:10:34](https://www.youtube.com/watch?v=52OLSZio0F8&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h10m34s) do the implementations here. And if you're not familiar, you don't need layouts. I mean you can build your whole front end right in your site view. It might be a long lengthy script, but it still work. The reason we added layouts and templates is simply for our own convenience. If it's little confusing to you, you can skip this whole area for the meantime. 
 
-**Layout Custom Script Area**
+### Layout Custom Script Area
 
 Begin at layouts you have the same concept of adding custom scripting. Which will be placed in the head of the file. Remember that your global data or the data being passed is in [00:11:14](https://www.youtube.com/watch?v=52OLSZio0F8&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h11m14s) display data. Here again you have your html area. But you can jump into php and check some values and on the basis of that, do your certain implementations. That is really setting up a layout. 
 
-**A Note: Use Layout in a Layout**
+### A Note: Use Layout in a Layout
 
 Just another note you can actually use a layout in a layout. You can pass values, any value you like. [00:11:42](https://www.youtube.com/watch?v=52OLSZio0F8&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h11m42s) I realized that 'this' here is maybe not that appropriate. You need to keep a heads up for that. This doesn't exist on the layout page. You need to use the display data as the global or as the main object from which to start your implementation.

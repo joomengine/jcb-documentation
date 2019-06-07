@@ -1,38 +1,38 @@
 # ADDING CUSTOM ADMIN VIEWS TO A COMPONENT
 
-* **Example Component Not Sermon Distributor**
+* Example Component Not Sermon Distributor
 
 Now we'll look at adding custom admin view to a component. We'll make use of cost-benefit projection as our component. 
 
-**Settings - Custom Admin View**
+### Settings - Custom Admin View
 
 And then we go to settings. And then we'll go to custom admin views.  [00:00:20](https://www.youtube.com/watch?v=sPEkbuNXwds&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h00m20s) We will see there is two custom admin views added. 
 
-**Multiple Switches Due To Being Dynamic**
+### Multiple Switches Due To Being Dynamic
 
 It has more switches than the site view, because of its implementation being more dynamic. You can choose an icon, because in the back end you possibly want to have an icon when you are on the right [00:00:45](https://www.youtube.com/watch?v=sPEkbuNXwds&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h00m45s) of the page. Then you can decide where this should show in the main menu. Select if you should show in the main menu. 
 
-**Icon - Main Menu - Dashboard - Submenu**
+### Icon - Main Menu - Dashboard - Submenu
 
 The main menu is a menu that drops down out of Joomla's menu item list. Then the dashboard is that dashboard we go to every time when we start with a component where all the icons are showing up. Then the submenu is the one on the left, [00:01:14](https://www.youtube.com/watch?v=sPEkbuNXwds&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h01m14s) which you will see when you are in a view. So these are all placements where you can possibly add this custom view. 
 
-**Targeting Item(some switches are no)**
+### Targeting Item(some switches are no)
 
 Now if you remember, the company results we didn't add to any of the views individually. We add it to items. That's why all of these are set to no. [00:01:41](https://www.youtube.com/watch?v=sPEkbuNXwds&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h01m41s) That means we are targeting an item in a view. 
 
-**Select Target View**
+### Select Target View
 
 All we need to do a select the view which we are targeting, which is company. And we say, it has metadata yes or no, and it has access yes or no. That's basically [00:02:02](https://www.youtube.com/watch?v=sPEkbuNXwds&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h02m02s) to ensure that it targets the correct view, is simply by selecting company here. 
 
-**Showing Within The Component**
+### Showing Within The Component
 
 If I close this for a moment, then open that component. I will show you what happened with the settings. So here we have that component open. If I was to open companies, you will see that it has a button for company result. [00:02:27](https://www.youtube.com/watch?v=sPEkbuNXwds&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h02m27s) Now if you remember when we set up custom admin view, we ensured that we are targeting an item id. By selecting company, we are saying we are targeting this companiess item id, and that is what makes it work. And then we set we want to see a chart. If we look at these this little charts what shows up in [00:02:55](https://www.youtube.com/watch?v=sPEkbuNXwds&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h02m55s) the icon itself. We click on it. We see the custom view shows up and that icon shows up next to it, and all works well. We also see that there is a combined results button showing up in the toolbar. And that is because combined results which selected we want cogs to be the icon. We set [00:03:25](https://www.youtube.com/watch?v=sPEkbuNXwds&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h03m25s) list of records to yes, and has metadata, and has access, and also company. 
 
-**Order Before Selection**
+### Order Before Selection
 
 And so these selections before, is only really necessary when you select main menu and submenu. Because then you want to say before what item you want this menu to be created. We selected dashboard list of records. [00:03:55](https://www.youtube.com/watch?v=sPEkbuNXwds&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h03m55s) And because of that it places that in combined results. And you need to select the records that you want to look at and then you can click on the combined results. They'll grab those ids and since we are modelling, data in the controller and the model, it gives back to the view these results through the custom implementation we've done. Just a quick refresher. [00:04:25](https://www.youtube.com/watch?v=sPEkbuNXwds&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h04m25s) 
 
-**How Buttons are Implemented**
+### How Buttons are Implemented
 
 If we go to component builder, and custom admin views, we open company results. We see that in the custom buttons, we added the php. We also added the button. We explain to component builder what kind of buttons we want. We set we are targeting a single item, you see editCompany gotoCompany, those buttons [00:04:55](https://www.youtube.com/watch?v=sPEkbuNXwds&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h04m55s) are actually related to going inside of the view. Then if you come out of this(Editing the Custom Admin Views), we see that even in combined results, we also added buttons. 
 

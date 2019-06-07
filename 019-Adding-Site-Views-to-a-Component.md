@@ -1,18 +1,18 @@
 # ADDING SITE VIEWS TO A COMPONENT
 
-* **Using Sermon Distributor As Example**
+* Using Sermon Distributor As Example
 
 Now let's look at adding admin views and site views to component builders component. Looking at all the different switches and the nice features that we have there installed for you. We first login. Then we have component builder open, under component builder. Then we will go to [00:00:25](https://www.youtube.com/watch?v=zZ_HJeYL8ps&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h00m25s) components. 
 
-**Settings - Views**
+### Settings - Views
 
 We will open Sermon Distributor and then go to settings. In settings you see there is a place for admin views. We have already illustrated adding the admin views. There's custom admin views and there is site views. I'll click on add custom admin view. There isn't any added to the component,[00:01:01](https://www.youtube.com/watch?v=zZ_HJeYL8ps&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h01m01s) sermon distributor does not have custom admin views. I'll illustrate it in another component for you. 
 
-****Adding Site Views Important _Glitch_** **
+### Adding Site Views Important _Glitch_ 
 
 Then site views. It has quite a few. You might sometimes open it and see, that some of the buttons are not selected. Although you selected it previously and save it and it doesn't show. This is a glitch [00:01:25](https://www.youtube.com/watch?v=zZ_HJeYL8ps&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h01m25s) in the Joomla's own JavaScript or whatever that is causing this. The only way I have found to solve it as yet is to simply re-open, like for now(you will see admin view has the same issue) if you close it and open it again, it has it all selected. This is a heads up. Keep a look out for this, because if you make changes and save it with those buttons anticked, your build will [00:01:56](https://www.youtube.com/watch?v=zZ_HJeYL8ps&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h01m56s) not include those values since it will be stored as null. You might get unexpected results. Always make sure that your old ticks are all in place, that just a heads up. It is not something I can change at this stage. It is a Joomla thing of the repeatable fields. 
 
-**Site View Options(Menu-Metadata-Default View-Access)**
+### Site View Options(Menu-Metadata-Default View-Access)
 
 If we go to site view [00:02:21](https://www.youtube.com/watch?v=zZ_HJeYL8ps&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h02m21s) and we close it again and open it again. You will see everything is selected. You will see that it has 1,2,3,4 options. You select the site views, add as many as you like. 
 
