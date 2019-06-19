@@ -25,8 +25,7 @@ Since I'm targeting a specific view, I use the view key, adding it to the string
 In the template, go back here and go to custom scripting. (See video.) [00:05:11](https://www.youtube.com/watch?v=52OLSZio0F8&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h05m11s) There is the [[[sview]]] placeholder. The [[[sview]]] placeholder will be replaced with the actual view's name. This is a template since we use a template here. [00:05:32](https://www.youtube.com/watch?v=52OLSZio0F8&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h05m32s) I'm adding the template (this sermon list) to multiple site views, not to one site view.
 
 
-
->>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 
 
 
