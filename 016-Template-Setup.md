@@ -2,12 +2,27 @@
 
 ### Creating Templates
 
-In the previous tutorial we where looking at setting up of templates and layout to a site view. Now inside of the side view we see that we are loading preacherpanel, preachersmall, preacherbox. Let's go look at how to create those templates. I'll go to templates, [00:00:27](https://www.youtube.com/watch?v=khxKeeubhiY&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h00m27s) here they are already created. 
+In the previous tutorial we looked at setting up of templates and layout to a site view. Inside the site view is loaded, 'preacherpanel', 'preachersmall','preacherbox'. If you go to Templates it may be seen how it works.  [00:00:27](https://www.youtube.com/watch?v=khxKeeubhiY&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h00m27s)  
 
 ### New - Copying Templates
 
-You can click on new to start with a new template. You could also copy an old one by selecting the template you would like to copy. Click on batch and then there is a copy feature here and click process and it'll copy it for you. [00:00:49](https://www.youtube.com/watch?v=khxKeeubhiY&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h00m49s) Here I have preacher panel open. In preacher panel it's the same concept it's an HTML area. If I want to use php I need to go into the php. Then I can go out again. I can also add this text placeholders, which helps us to ensure the text itself is translatable. You can just do your normal English text like that 'sermon count', and [00:01:16](https://www.youtube.com/watch?v=khxKeeubhiY&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h01m16s)  'total downloads'. 
+Click on new to start with a new template. An old one may be copied by selecting the template you would like to copy. Click on batch, there is a copy feature and click process and it will be copied. [00:00:49](https://www.youtube.com/watch?v=khxKeeubhiY&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h00m49s) Open Preacher panel. Preacher panel is an HTML area. If PHP is preferred then go into the PHP and go out again. Text placeholders may be added, which helps us to ensure that the text itself is translatable. You can just use normal English text like that 'sermon count', and  'total downloads'. 
+[00:01:16](https://www.youtube.com/watch?v=khxKeeubhiY&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h01m16s)
 
+
+
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+
+
+
+
+
+
+
+
+
+ 
 ### Language String
 
 Component Builder will add these strings to the language file for you. You don't need to be concerned. At this stage it only does your British English language file. If you need to add more languages, you need to look up the documentation of adding languages to a third-party extension, [00:01:44](https://www.youtube.com/watch?v=khxKeeubhiY&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h01m44s) and do that same implementation. Here(Layouts Code Snippets) we see that you can add layouts to this template by using any of the snippets to this template.  You can add other templates to it. You can use templates inside of templates. You could have use layouts as well so more or less the same behavior as in site view. 
