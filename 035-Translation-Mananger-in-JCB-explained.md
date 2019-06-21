@@ -1,7 +1,7 @@
 # TRANSLATION MANAGER IN JCB EXPLAINED
 
 
-Hi everyone. We have a great announcement to make. [00:00:06](https://www.youtube.com/watch?v=zzAcVkn_cWU&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h00m06s) JCB has again been expanded to include a language translation feature. We are very grateful for one of the contributors have extended the code base for this. We are working together to insure that it remains stable. Those of you that been following the process on GitHub, [00:00:34](https://www.youtube, translatable..com/watch?v=zzAcVkn_cWU&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h00m34s) will know that as much time and effort put into this. So I would like to give you a quick explanation of how this will work. 
+Hi everyone. We have a great announcement to make. JCB has again been expanded to include a language translation feature. We are very grateful for one of the contributors have extended the code base for this. We are working together to insure that it remains stable. Those of you that been following the process on GitHub, [00:00:34](https://www.youtube.com/watch?v=zzAcVkn_cWU&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h00m34s) will know that as much time and effort put into this. So I would like to give you a quick explanation of how this will work. 
 
 ### JCB Builds English File For You
 
