@@ -20,15 +20,19 @@ Remember, the company results has not been added to any of the views individuall
 
 ### Select Target View
 
-All that need to be done is to select the view which is targeted, which is 'Company'. Use one of these options: 'Has Metadata', 'yes' or 'no', and 'Add Access', 'yes' or 'no'.  [00:02:02](https://www.youtube.com/watch?v=sPEkbuNXwds&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h02m02s) Simply by selecting 'Company' it ensures that the correct view is targeted.<<<<<<<<<<<<<<<<<<<<<<<<
-
-
+All that need to be done is to select the view which is targeted, which is 'Company'. Use one of these options: 'Has Metadata', 'yes' or 'no', and 'Add Access', 'yes' or 'no'.  [00:02:02](https://www.youtube.com/watch?v=sPEkbuNXwds&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h02m02s) Simply by selecting 'Company' it ensures that the correct view is targeted. If this is closed for a moment
  
   
 
 ### Showing Within The Component
 
-If I close this for a moment, then open that component. I will show you what happened with the settings. So here we have that component open. If I was to open companies, you will see that it has a button for company result. [00:02:27](https://www.youtube.com/watch?v=sPEkbuNXwds&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h02m27s) Now if you remember when we set up custom admin view, we ensured that we are targeting an item id. By selecting company, we are saying we are targeting this companiess item id, and that is what makes it work. And then we set we want to see a chart. If we look at these this little charts what shows up in [00:02:55](https://www.youtube.com/watch?v=sPEkbuNXwds&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h02m55s) the icon itself. We click on it. We see the custom view shows up and that icon shows up next to it, and all works well. We also see that there is a combined results button showing up in the toolbar. And that is because combined results which selected we want cogs to be the icon. We set [00:03:25](https://www.youtube.com/watch?v=sPEkbuNXwds&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h03m25s) list of records to yes, and has metadata, and has access, and also company. 
+To give a example of what happened with the settings: Open the 'Cost-Benefit Projection Dashboard'. If 'Companies' is opened, you will see that it has a button for 'Company results'. [00:02:27](https://www.youtube.com/watch?v=sPEkbuNXwds&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h02m27s) Now if you remember that when Custom Admin View had been set up, we ensured that an 'item id' had been targeted. By selecting 'Company', the companies 'item id' is targeted, and that is what makes it work. Click 'Chart' to view these this little charts that shows up in the icon itself. [00:02:55](https://www.youtube.com/watch?v=sPEkbuNXwds&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h02m55s). If you click on it the Custom View shows up and that icon shows up next to it, and shows that all works well. A 'Combined Results' button shows up in the toolbar, the reason for that is that 'Combined Results' which were selected, should have 'Cogs' as a icon.  [00:03:25](https://www.youtube.com/watch?v=sPEkbuNXwds&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h03m25s) Then list of records, 'Metadata', 'Access', and 'Company' is set to 'yes'. 
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<,
+
+
+
+
+
 
 ### Order Before Selection
 
