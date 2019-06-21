@@ -1,28 +1,30 @@
 # ADDING CUSTOM ADMIN VIEWS TO A COMPONENT
 
-* Example Component Not Sermon Distributor
-
-Now we'll look at adding custom admin view to a component. We'll make use of cost-benefit projection as our component. 
+Cost-benefit projection will be used as our component. 
 
 ### Settings - Custom Admin View
 
-And then we go to settings. And then we'll go to custom admin views.  [00:00:20](https://www.youtube.com/watch?v=sPEkbuNXwds&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h00m20s) We will see there is two custom admin views added. 
+Go to 'settings' and then to 'Custom Admin Views' . It will be seen that two 'Custom Admin Views' has been added.  [00:00:20](https://www.youtube.com/watch?v=sPEkbuNXwds&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h00m20s)  
 
 ### Multiple Switches Due To Being Dynamic
 
-It has more switches than the site view, because of its implementation being more dynamic. You can choose an icon, because in the back end you possibly want to have an icon when you are on the right [00:00:45](https://www.youtube.com/watch?v=sPEkbuNXwds&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h00m45s) of the page. Then you can decide where this should show in the main menu. Select if you should show in the main menu. 
+It has more switches than the Site view because its implementation is more dynamic. You can choose an icon, because in the back end you possibly want to have an icon when you are on the right of the page.[00:00:45](https://www.youtube.com/watch?v=sPEkbuNXwds&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h00m45s)  Then it can be selected where this should show in the main menu.  
 
 ### Icon - Main Menu - Dashboard - Submenu
 
-The main menu is a menu that drops down out of Joomla's menu item list. Then the dashboard is that dashboard we go to every time when we start with a component where all the icons are showing up. Then the submenu is the one on the left, [00:01:14](https://www.youtube.com/watch?v=sPEkbuNXwds&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h01m14s) which you will see when you are in a view. So these are all placements where you can possibly add this custom view. 
-
+The main menu drops down from Joomla's 'menu item list'. This is the specific dashboard you need to go to each time when you start with a component where all the icons are displayed. Then the 'Sub-menu' is the one on the left,  which can be seen when you are in a view.[00:01:14](https://www.youtube.com/watch?v=sPEkbuNXwds&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h01m14s) These are all placements where this Custom View possibly may be added.
+ 
 ### Targeting Item(some switches are no)
 
-Now if you remember, the company results we didn't add to any of the views individually. We add it to items. That's why all of these are set to no. [00:01:41](https://www.youtube.com/watch?v=sPEkbuNXwds&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h01m41s) That means we are targeting an item in a view. 
+Remember, the company results has not been added to any of the views individually it was added to items. That's why all of these are set to 'No'. [00:01:41](https://www.youtube.com/watch?v=sPEkbuNXwds&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h01m41s) That means an item is targeted in a view. 
 
 ### Select Target View
 
-All we need to do a select the view which we are targeting, which is company. And we say, it has metadata yes or no, and it has access yes or no. That's basically [00:02:02](https://www.youtube.com/watch?v=sPEkbuNXwds&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h02m02s) to ensure that it targets the correct view, is simply by selecting company here. 
+All that need to be done is to select the view which is targeted, which is 'Company'. Use one of these options: 'Has Metadata', 'yes' or 'no', and 'Add Access', 'yes' or 'no'.  [00:02:02](https://www.youtube.com/watch?v=sPEkbuNXwds&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h02m02s) Simply by selecting 'Company' it ensures that the correct view is targeted.<<<<<<<<<<<<<<<<<<<<<<<<
+
+
+ 
+  
 
 ### Showing Within The Component
 
