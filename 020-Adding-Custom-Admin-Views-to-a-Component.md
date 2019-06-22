@@ -14,7 +14,7 @@ It has more switches than the Site view because its implementation is more dynam
 
 The main menu drops down from Joomla's 'menu item list'. This is the specific dashboard you need to go to each time when you start with a component where all the icons are displayed. Then the 'Sub-menu' is the one on the left,  which can be seen when you are in a view.[00:01:14](https://www.youtube.com/watch?v=sPEkbuNXwds&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h01m14s) These are all placements where this Custom View possibly may be added.
  
-### Targeting Item(some switches are no)
+### Targeting Item
 
 Remember, the company results has not been added to any of the views individually, it was added to items. That's why all of these are set to 'No'. [00:01:41](https://www.youtube.com/watch?v=sPEkbuNXwds&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h01m41s) That means an item is targeted in a view. 
 
