@@ -1,7 +1,17 @@
 # TWEAKING MySQL DEMO DATA
 
+### MySQL tweaking in the component area
 
-Hi. We want to look at MySQL tweaking in the component area. You would open a component, go to settings, and there is MySQL tweak. What is this able to do is, if you have multiple versions of a component, [00:00:18](https://www.youtube.com/watch?v=wkSLZUEN-RE&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h00m18s) and partly you have demo that relates to a certain version of it and implementation of items, and in another version you don't want those items that you know included, we have this MySQL tweak area. Where you can actually, first you've select that specific view that you [00:00:43](https://www.youtube.com/watch?v=wkSLZUEN-RE&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h00m43s) want to tweak, and do note that you can only make use of this feature, if you're actually using this area where we actually add database connection between the view dummy data and view itself. Let me quickly show you what I mean. [00:01:07](https://www.youtube.com/watch?v=wkSLZUEN-RE&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h01m07s) I have opened field types which is one of component builders own views, and I have it connected to my database through this MySQL. I added yes. I selected table. I selected the field types in my database and basically just let it all be taken into the build file.  [00:01:33](https://www.youtube.com/watch?v=wkSLZUEN-RE&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h01m33s) 
+Open a component(in this instance 'Editting a component'), go to 'settings', and there is 'MySQL' tweak. What is its function? If you have multiple versions of a component, [00:00:18](https://www.youtube.com/watch?v=wkSLZUEN-RE&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h00m18s) and partly you have demo that relates to a certain version of it and implementation of items, and in another version you don't want those items that you included, we have this 'MySQL' tweak area where you can select that specific view that you want to tweak.[00:00:43](https://www.youtube.com/watch?v=wkSLZUEN-RE&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h00m43s) NB. You can only make use of this feature, if you're actually using this area where we add database connection between the view dummy data and view itself.
+
+A short explination. [00:01:07](https://www.youtube.com/watch?v=wkSLZUEN-RE&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h01m07s) If 'Field types' is opened which is one of Component Builders own views, and it is connected to the database through 'MySQL'. If 'yes' is added and table is selected.(See video)  Then Field types is selected in the database and then let it all be taken into the build file.  [00:01:33](https://www.youtube.com/watch?v=wkSLZUEN-RE&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h01m33s)<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<,
+
+
+
+
+
+
+ 
 
 ### Tweaking Feature
 
