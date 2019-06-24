@@ -27,7 +27,13 @@ The UiKit settings is primarily for the back end , which at the moment is being 
 
 ### Encryption Settings 
 
-Component Builder has a few places where it encrypts some of the data in the database. Basic encryption is used and the 'Basic Key' need to be entered (See video). Once this key is entered, please ensure that you don't change it as this key locks the data and it's the only key that can unlock it.[00:05:13](https://www.youtube.com/watch?v=LA2WDi8G79E&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h05m13s) If this key is removed it cannot be unlocked. It may be removed to prevent unauthorized access to the data in those fields.  **But then it must be saved in another place. **
+Component Builder has a few places where it encrypts some of the data in the database. Basic encryption is used and the 'Basic Key' need to be entered (See video). Once this key is entered, please ensure that you don't change it as this key locks the data and it's the only key that can unlock it.[00:05:13](https://www.youtube.com/watch?v=LA2WDi8G79E&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h05m13s) If this key is removed it cannot be unlocked. 
+
+**NB. It may be removed to prevent unauthorized access to the data in those fields but then it must be saved in another place.** 
+
+
+
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 
 ### Folder Paths
 
