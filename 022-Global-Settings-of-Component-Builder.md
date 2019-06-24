@@ -23,14 +23,11 @@ You can add more contributors here and they will show up in the dashboard undern
 ### UiKit Settings
 
 The UiKit settings is primarily for the back end , which at the moment is being implemented in certain areas. This is only needed most of the time in the front-end framework of the component. VDM has added it to Component Builder simply that if at some point it is decided to start adding a front end shop for the components that's being developed.[00:04:00](https://www.youtube.com/watch?v=LA2WDi8G79E&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h04m00s) That's part of front end distributing software that possibly will be designed eventually. You could install this and then run it. It is like a factory with a front end. That is still in planning. As there might be some security risks, users are advised to use the Component Builder offline.
-[00:04:35](https://www.youtube.com/watch?v=LA2WDi8G79E&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h04m35s) <<<<<<<
+[00:04:35](https://www.youtube.com/watch?v=LA2WDi8G79E&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h04m35s)
 
+### Encryption Settings 
 
-  
-
-### Encryption Settings _Key Important_
-
-Then the encryption settings. Component Builder has a few places where it encrypts some of the data in the database. We are using a basic encryption which means we are using this key(Basic Key) that you enter here(se video). Once you've entered this key, I think because it ships without a key in it, so it look like that. So once you've entered the key, please ensure that you don't change it. [00:05:13](https://www.youtube.com/watch?v=LA2WDi8G79E&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h05m13s) Because this key locks the data and it's the only key that can unlock it. So if you remove this key you cannot unlock it. You could remove it if you wanted to prevent people from knowing the data in those fields. Then you need to save it somewhere else because if you don't have it, then you can't retrieve the data and encrypt it. 
+Component Builder has a few places where it encrypts some of the data in the database. Basic encryption is used and the 'Basic Key' need to be entered (See video). Once this key is entered, please ensure that you don't change it as this key locks the data and it's the only key that can unlock it.[00:05:13](https://www.youtube.com/watch?v=LA2WDi8G79E&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h05m13s) If this key is removed it cannot be unlocked. It may be removed to prevent unauthorized access to the data in those fields.  **But then it must be saved in another place. **
 
 ### Folder Paths
 
