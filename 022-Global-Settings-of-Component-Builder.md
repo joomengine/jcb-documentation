@@ -1,10 +1,8 @@
 # GLOBAL SETTINGS OF COMPONENT BUILDER
 
-Hi. Today we would like to look at component builders options or what we would call global settings. Now I possibly through the tutorials have from time to time touched on certain areas. 
-
 ### Options Button For Global Configurations
 
-Now we would like to give a more [00:00:19](https://www.youtube.com/watch?v=LA2WDi8G79E&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h00m19s) precise look at the options area of Component Builder. It's accessible through the options button. If you have the permissions, you'll see this button(options) and I can open it. The permissions, by that I mean certain users may not see this button(options), if they are in a different group than that global [00:00:41](https://www.youtube.com/watch?v=LA2WDi8G79E&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h00m41s) administrator. You can change those permissional structures as needed. So you click on options and this will open 'the component builder configurations' or global settings, as often referred to, or options or settings. And there are number of switches here that is worth knowing about. These areas here you could add your own details if you would like to have it displayed [00:01:13](https://www.youtube.com/watch?v=LA2WDi8G79E&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h01m13s) in the components front-end. 
+Concerning the options area of Component Builder.[00:00:19](https://www.youtube.com/watch?v=LA2WDi8G79E&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h00m19s) Open Component Builder Dashboard: It's accessible through the 'options' button. Only users with permission will be able to see this button'options', if they are in a different group than that global administrator the 'options' button will not be visible.[00:00:41](https://www.youtube.com/watch?v=LA2WDi8G79E&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h00m41s)   Those permissional structures can be changed as needed. Click on options and this will open 'Component Builder configurations'. Here are some important switches. These areas(See video) could added to your own details if you would like to have it displayed in the components front-end. [00:01:13](https://www.youtube.com/watch?v=LA2WDi8G79E&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h01m13s)<<<<<<<<<<<<<<<<<<<<<<<<,
 
 ### Check In Timer
 
