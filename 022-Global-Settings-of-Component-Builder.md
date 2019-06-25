@@ -31,13 +31,12 @@ Component Builder has a few places where it encrypts some of the data in the dat
 
 **NB. It may be removed to prevent unauthorized access to the data in those fields but then it must be saved in another place.** 
 
-
-
-<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
-
 ### Folder Paths
 
-The next up is folder paths. [00:05:42](https://www.youtube.com/watch?v=LA2WDi8G79E&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h05m42s) There are two folder paths that you already can make use of in the backup folder and the git folder path. Please read related notation here. Where as the custom folder path and the compiler folder path, I would suggest at this stage that you don't make any changes to them. I added these fields because I envisioned the possibility that we want to move these folders out of our web area of developing. [00:06:14](https://www.youtube.com/watch?v=LA2WDi8G79E&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h06m14s) Since these are part of the security concerns we have, that these files and this folders might be targeted. I haven't fully implemented this all cross the compiler infrastructure. Currently it's best to leave that folders the way they are by not adding any data in here. [00:06:50](https://www.youtube.com/watch?v=LA2WDi8G79E&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h06m50s) 
+Currently there are two folder paths that can be used. It is the Backup folder path and the Git folder path.[00:05:42](https://www.youtube.com/watch?v=LA2WDi8G79E&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h05m42s)  Please read related notation. It is suggested that no changes should be made to Custom folder path and the Compiler folder path at this stage. These fields were added because VDM envisioned the possibility that these folders have to be moved out of our web area of developing, since it is part of some security concerns, that this files and folders might be targeted. [00:06:14](https://www.youtube.com/watch?v=LA2WDi8G79E&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h06m14s) It has not been fully implemented all across the compiler infrastructure. Currently it's best to leave that folders the way they are by not adding any data in it. [00:06:50](https://www.youtube.com/watch?v=LA2WDi8G79E&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h06m50s) <<<<<<<<<<<<<<<<<<<,
+
+
+
 
 ### Permissions
 
