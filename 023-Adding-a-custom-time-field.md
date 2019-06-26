@@ -8,7 +8,7 @@ In programing time must always be linked to a date, because time is stored as an
 
 * How to set up a Custom Form Filter
 
-To illustrate: Use this'sermondistribitor' component, and go to 'modules', and then 'rules' may be seen. In there a 'rule' can be created. That is used as the filter name. [00:01:23](https://www.youtube.com/watch?v=epA9zv4yWu0&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h01m23s) Create a file in Component Builder and place it in the Custom folder and put any name in.(See video) One of these files can be used to illustrate how to include it. [00:01:54](https://www.youtube.com/watch?v=epA9zv4yWu0&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h01m54s) 
+To illustrate: Use this 'sermondistribitor' component, and go to 'modules', and then 'rules' may be seen. In there a 'rule' can be created. That is used as the filter name. [00:01:23](https://www.youtube.com/watch?v=epA9zv4yWu0&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h01m23s) Create a file in Component Builder and place it in the Custom folder and put any name in.(See video) One of these files can be used to illustrate how to include it. [00:01:54](https://www.youtube.com/watch?v=epA9zv4yWu0&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h01m54s) 
 
 ### Joomla Form-rule Example
 
