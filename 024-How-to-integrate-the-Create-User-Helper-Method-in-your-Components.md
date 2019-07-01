@@ -33,12 +33,11 @@ It uses the Joomla's default filtering method in a way that it gets values that 
 ### Global Helper Class
 
  [00:13:17](https://www.youtube.com/watch?v=ckFakaQ90JY&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h13m17s)Here is that Global Helper class and methods being used.(See video) A number of Custom Methods may be seen which are 
-available in that class. It has been added as freebies and should not necessarily always be used. If anyone can improve on those methods, please make a pull request and changes can be done.<<<<<<<<<<<<<<<
+available in that class. It has been added as freebies and should not necessarily always be used. If anyone can improve on those methods, please make a pull request and changes can be done. Once the required data had been collected(See video), and getting that same 'method', a 'Create User' is done.
+ [00:13:55](https://www.youtube.com/watch?v=ckFakaQ90JY&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h13m55s) Then get a result('$returned'), and if it's not the correct result it should be dealt with accordingly. If it is the correct user it may be added to the user group. That is something that Create User does not do. There is a user group setup in the component. [00:14:17](https://www.youtube.com/watch?v=ckFakaQ90JY&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h14m17s)  The user group needs to be set into the correct user group. The return message will indicate if it has been an error or a success. Lower down(see video) is the error message. [00:14:45](https://www.youtube.com/watch?v=ckFakaQ90JY&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h14m45s)<<<<<<<<<<<<<<<<<<<<<<<<<
 
 
 
-
- Then over here(see video) once we've become very sure that we've got enough data on the right data. We basically get that same method and we need to create user. [00:13:55](https://www.youtube.com/watch?v=ckFakaQ90JY&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h13m55s) We get result. And if it's not the correct result we deal with it accordingly. And if it is the correct result we add the user to the user group. That's something that create user does not do. We have a user group setup [00:14:17](https://www.youtube.com/watch?v=ckFakaQ90JY&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h14m17s) basically in the component. We get that user group, set into the correct user group. This is a return message, if it's an error or it's a success. So down here(see video) is the error message. If it's successful this is what we do if it's unsuccessful this is what we do. [00:14:45](https://www.youtube.com/watch?v=ckFakaQ90JY&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h14m45s) That's just a quick look, I mean obviously we can pause this video, and look at what I have done. 
 
 ### Get User Field
 
