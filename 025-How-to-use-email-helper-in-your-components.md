@@ -2,14 +2,11 @@
 
 * ### Example Of Email Helper Class
 
-The Email Helper Class is a class that gets added to components Helper area and is therefore available on every page, with which Emails can be send. For example:  Take a look at the Helper Class by going to a component that has it included and at 'Helpers'. [00:00:25](https://www.youtube.com/watch?v=tp6mMUTOF2Y&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h00m25s) The filename is usually the component name: 'Email'. As may be seen, it is in the basic abstract class. That takes Joomla's E-mailer, which is 'Jmail' and gets an instance of it, [00:00:48](https://www.youtube.com/watch?v=tp6mMUTOF2Y&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h00m48s) and adds it to mail and then loads in the variables that's required.<<<<<<<<<<<<<<<<<<<<<<<
-
-
- 
+The Email Helper Class is a class that gets added to components Helper area and is therefore available on every page, with which Emails can be send. For example:  Take a look at the Helper Class by going to a component that has it included and at 'Helpers'. [00:00:25](https://www.youtube.com/watch?v=tp6mMUTOF2Y&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h00m25s) The filename is usually the component name: 'Email'. As may be seen, it is in the basic abstract class. That takes Joomla's E-mailer, which is 'Jmail' and gets an instance of it, [00:00:48](https://www.youtube.com/watch?v=tp6mMUTOF2Y&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h00m48s) and adds it to mail and then loads in the variables that's required.
 
 ### Setting Up Email Helper Class
 
-If you look at a component, what you need to do first, if you are going to use this feature in any of your components. Let us open Learning manager. Then go to libraries and helpers. [00:01:22](https://www.youtube.com/watch?v=tp6mMUTOF2Y&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h01m22s) You'll see that the add email helpers been set to on. It places the helper class in your component, that's all it does. It doesn't implemented anywhere else. At the moment that means that if you click yes here, you need to still create fields, that you are going to load your config area. 
+If this feature is going to be used, the first thing to do when looking at a component (On Component Builder Dashboard) is to open 'Learning Manager' and go to Libs & Helpers. [00:01:22](https://www.youtube.com/watch?v=tp6mMUTOF2Y&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h01m22s) It may be noticed that the 'add email helpers' has been set to 'on'. It places the Helper class in the component, but is not implemented anywhere else. That means that if 'yes' is clicked, it is still necessary to create fields, that need to get loaded to the config area. <<<<<<<<<<<<<<<<<<<<<<<<<<
 
 ### Settings - Config Area
 
