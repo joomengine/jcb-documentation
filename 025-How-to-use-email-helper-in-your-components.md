@@ -2,7 +2,7 @@
 
 * ### Example Of Email Helper Class
 
-The Email Helper Class is a class that gets added to Components Helper area and is therefore available on every page, with which Emails can be send. For example:  Take a look at the Helper Class by going to a component that has it included and at 'Helpers'. [00:00:25](https://www.youtube.com/watch?v=tp6mMUTOF2Y&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h00m25s) The filename is usually the component name: 'Email'. As may be seen, it is in the basic abstract class. That takes Joomla's E-mailer, which is 'Jmail' and gets an instance of it, [00:00:48](https://www.youtube.com/watch?v=tp6mMUTOF2Y&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h00m48s) and adds it to mail and then loads in the variables that's required.
+The Email Helper Class is a class that gets added to Components Helper area and is therefore available on every page, with which Emails can be send. For example:  Take a look at the Helper Class by going to a component that has it included and at 'Helpers'. [00:00:25](https://www.youtube.com/watch?v=tp6mMUTOF2Y&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h00m25s) The filename is usually the component name: 'Email'. As may be seen, it is in the basic abstract class. That takes Joomla's E-mailer, which is 'Jmail' and gets an instance of it, and adds it to mail and then loads in the variables that's required. [00:00:48](https://www.youtube.com/watch?v=tp6mMUTOF2Y&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h00m48s)
 
 ### Setting Up Email Helper Class
 
@@ -10,26 +10,27 @@ If this feature is going to be used, the first thing to do when looking at a com
 
 ### Settings - Config Area
 
- In 'Settings' is this 'config' area.(Adding Custom Config Fields) [00:01:55](https://www.youtube.com/watch?v=tp6mMUTOF2Y&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h01m55s) Which gives the ability to add configuration options to the components option area. So if this 'config - add' is being clicked, scroll down till that mail configuration and a whole lot of fields may be seen. These fields correspond to the Joomla's default fields. If you would like to create these fields and you need.........If some info is needed in order to create these fields, like what should their names and content be. Then go and look at the Joomla Global Configuration XML and all the settings in that file may be seen. [00:02:39](https://www.youtube.com/watch?v=tp6mMUTOF2Y&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h02m39s) There is DKIM implementation available. 
+[00:01:55](https://www.youtube.com/watch?v=tp6mMUTOF2Y&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h01m55s) In 'Settings' is this 'config' area (Adding Custom Config Fields),  which gives the ability to add configuration options to the components option area. So if this 'config - add' is being clicked, scroll down till that mail configuration and a whole lot of fields may be seen. These fields correspond to the Joomla's default fields. If you would like to create these fields and some info is needed in order to create these fields, like what should their names and content be, then go and look at the Joomla Global Configuration XML and all the settings in that file may be seen. [00:02:39](https://www.youtube.com/watch?v=tp6mMUTOF2Y&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h02m39s) There is DKIM implementation available. 
 
 ### In Code Field Names
 
-It will be necessary to look in the code to get these field's names. There is a difference between 'name', 'label' and 'description'. When we refer to name that is the value that will be used in the code. In the code  for example, that word 'mailer' [00:03:13](https://www.youtube.com/watch?v=tp6mMUTOF2Y&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h03m13s) means that the name of the field is called 'Mailer' and the same applies to the name 'field' etc. These are all the fields that needs to be set.<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
-
-
- 
+It will be necessary to look in the code to get these field's names. There is a difference between 'name', 'label' and 'description'. [00:03:13](https://www.youtube.com/watch?v=tp6mMUTOF2Y&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h03m13s)  For instance 'name' is the value that will be used in the code. In the code  for example, that word 'mailer' means that the name of the field is called 'Mailer' and the same applies to the name 'field' etc. These are all the fields that needs to be set.
 
 ### Component Global Options - Mail Configuration
 
-In your component there is a options area, I'm going to open that. Once it's open your see there is a mail configuration and a DKIM area. [00:03:45](https://www.youtube.com/watch?v=tp6mMUTOF2Y&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h03m45s) Let's open the mail. You will see that it has the mailer status. So it's either set to off, then no emails will go out, or to on. 
+In the component there is a 'Options' area, there is a Mail Configuration and a DKIM area. [00:03:45](https://www.youtube.com/watch?v=tp6mMUTOF2Y&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h03m45s) It has the 'mailer' status. It is either set to 'Off', then no emails will go out, or to 'On'. 
 
 ### Switch Global Mailer Options
 
-If it set to on you can decide whether you want to override the global function, the global variables. The global variables are set in your Joomla's components global area. [00:04:10](https://www.youtube.com/watch?v=tp6mMUTOF2Y&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h04m10s) 
+If it is set to 'On' it may be decided whether there is need to override the global variables. The global variables are set in Joomla's components global area. [00:04:10](https://www.youtube.com/watch?v=tp6mMUTOF2Y&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h04m10s) 
 
 ### Joomla Global Configuration - Server
 
-So you would go to global configurations, and then you'd go to server, and then there's mail settings. Now these are the main or the the global settings that will be used in any component that does not add [00:04:40](https://www.youtube.com/watch?v=tp6mMUTOF2Y&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h04m40s) these settings in their config. So if you didn't create those fields and added it to your componyou can see you passing the HTML on the subject to it. ent, but you ticked the button to add the helper class to your component, that means that it will fall back to these settings in your Joomla default area. And these(Main Settings) are the values that you need to override. 
+If Global Configurations is opened, and then the Server, and then Mail Settings. These are the main or the Global Settings that will be used in any component that does not add  these settings in their config. [00:04:40](https://www.youtube.com/watch?v=tp6mMUTOF2Y&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h04m40s)
+
+If those fields had not been created and added to the component, but the button was used in order to add the Helper class to the component, the result will be that it will fall back to these settings in the Joomla default area. These 'Main Settings' are the values that should be overrided.<<<<<<<<<<<<<<<
+
+ 
 
 ### Component Builder Email Switch Options
 
