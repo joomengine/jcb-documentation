@@ -10,7 +10,7 @@ If this feature is going to be used, the first thing to do when looking at a com
 
 ### Settings - Config Area
 
-[00:01:55](https://www.youtube.com/watch?v=tp6mMUTOF2Y&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h01m55s) In 'Settings' is this 'config' area (Adding Custom Config Fields),  which gives the ability to add configuration options to the components option area. So if this 'config - add' is being clicked, scroll down till that mail configuration and a whole lot of fields may be seen. These fields correspond to the Joomla's default fields. If you would like to create these fields and some info is needed in order to create these fields, like what should their names and content be, then go and look at the Joomla Global Configuration XML and all the settings in that file may be seen. [00:02:39](https://www.youtube.com/watch?v=tp6mMUTOF2Y&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h02m39s) There is DKIM implementation available. 
+In 'Settings' is this 'config' area (Adding Custom Config Fields),  which gives the ability to add configuration options to the components option area. [00:01:55](https://www.youtube.com/watch?v=tp6mMUTOF2Y&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h01m55s) So if this 'config - add' is being clicked, scroll down till that mail configuration and a whole lot of fields may be seen. These fields correspond to the Joomla's default fields. If you would like to create these fields and some info is needed in order to create these fields, like what should their names and content be, then go and look at the Joomla Global Configuration XML and all the settings in that file may be seen. [00:02:39](https://www.youtube.com/watch?v=tp6mMUTOF2Y&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h02m39s) There is DKIM implementation available. 
 
 ### In Code Field Names
 
@@ -28,11 +28,11 @@ If it is set to 'On' it may be decided whether there is need to override the glo
 
 If Global Configurations is opened, and then the Server, and then Mail Settings. These are the main or the Global Settings that will be used in any component that does not add these settings in their config. [00:04:40](https://www.youtube.com/watch?v=tp6mMUTOF2Y&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h04m40s)
 
-If those fields had not been created and added to the component, but the button was used in order to add the Helper class to the component, the result will be that it will fall back to these settings in the Joomla default area. These 'Main Settings' are the values that should be overrided.
+If those fields had not been created and added to the component, but the button was used in order to add the Helper class to the component, the result will be that it will fall back to these settings in the Joomla default area. These 'Main Settings' are the values that should be overrided.[00:05:08](https://www.youtube.com/watch?v=tp6mMUTOF2Y&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h05m08s)
 
 ### Component Builder Email Switch Options
 
-[00:05:08](https://www.youtube.com/watch?v=tp6mMUTOF2Y&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h05m08s) If in some way the component should use other PHP, Send mail or SMTP values than the Global it must be set on the Learning Management System Configuration page in the Mail Configuration area.(See video) That is the function of this area . If Global is used, it will fall back to the Joomla Global. Otherwise it can be overrided on this level and send out as you prefer.  [00:05:38](https://www.youtube.com/watch?v=tp6mMUTOF2Y&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h05m38s) 
+ If in some way the component should use other PHP, Send mail or SMTP values than the Global it must be set on the Learning Management System Configuration page in the Mail Configuration area.(See video) That is the function of this area . If Global is used, it will fall back to the Joomla Global. Otherwise it can be overrided on this level and send out as you prefer.  [00:05:38](https://www.youtube.com/watch?v=tp6mMUTOF2Y&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h05m38s) 
 
 ### DKIM Settings (Encryption)
 
