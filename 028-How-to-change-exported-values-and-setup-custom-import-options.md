@@ -2,7 +2,11 @@
 
 * ### Example Components
 
-I would like to show you how to change the values that are being exported. And how to have custom import option with an import of the data. At the moment component builder actually allows you to have import and export by default in all the list views of the components you build. So let's look at what I mean. Here I have a component called IP Data. Basically used to take [00:00:35](https://www.youtube.com/watch?v=fau5mZ6naLc&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h00m35s) ip address and translate it to what country it was from. Then to update the pricing on your website based on that IP Data. You might want to export or import stuff into this component. 
+How to change the values that are being exported and to have a Custom Import option with an import of the data.  Component Builder allows you to have import and export function by default in all the list views of the components. [00:00:35](https://www.youtube.com/watch?v=fau5mZ6naLc&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h00m35s) The component called IP Data is used to take a IP address and translate it to determine from which country it came and then a costing update is performed on your website based on that IP Data.<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+
+
+ 
 
 * ### Example IP Tables
 
