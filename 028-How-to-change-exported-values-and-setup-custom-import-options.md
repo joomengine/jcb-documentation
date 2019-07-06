@@ -10,9 +10,13 @@ Select IP Tables which is on the IP Table Dashboard. [00:01:07](https://www.yout
 
 ### Export Feature
 
-If 'Export Data' has been clicked without selecting any values, it will give this warning: 'Please first make a selection from the list'. [00:01:35](https://www.youtube.com/watch?v=fau5mZ6naLc&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h01m35s) Only export values that had been selected. If  all needs to be exported, change this value to 'all'. In some instances, if the table is too long, it is not possible to export all the values at once.<<<<<<< 
+If 'Export Data' has been clicked without selecting any values, it will give this warning: 'Please first make a selection from the list'. [00:01:35](https://www.youtube.com/watch?v=fau5mZ6naLc&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h01m35s) Only export values that had been selected. If  all needs to be exported, change this value to 'all'. In some instances, if the table is too long, it is not possible to export all the values at once.
 
-  Anyway exporting the data in such big quantities is not really ideal. I would say anything beyond 3000 items, rather go to MySQL, get a dump file. It's not ideal to use that kind of quantity with in Joomla. Although we have often seen the listview being used for up to [00:02:16](https://www.youtube.com/watch?v=fau5mZ6naLc&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h02m16s) 10000 items and quite complex inheritance in structure. We're talking about the import and export now and that's quite different. Let's say we want to export this, but let's say for some reason instead of us wanting to see this zzz or AUS value, we want to instead see the country name. That would be a simple implementation of what I'm trying to explain. [00:02:51](https://www.youtube.com/watch?v=fau5mZ6naLc&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h02m51s) 
+Exporting the data in large quantities is not advisable in Joomla.  If quantities exceeds 3000 items, Rather go to MySQL and get a dump file. [00:02:16](https://www.youtube.com/watch?v=fau5mZ6naLc&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h02m16s) Although it is often seen that the Listview is being used for up to 10000 items and quite complex inheritance in structure is involved. But in this instance having the import and export in mind, makes it quite different. If for this purpose this need to be exported but for some reason this zzz or AUS value should be replaced by the country name.  [00:02:51](https://www.youtube.com/watch?v=fau5mZ6naLc&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h02m51s) 
+
+
+
+<<<<<<<<<<<<<<<<
 
 ### Exported Example In XLS Format
 
