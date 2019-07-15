@@ -2,7 +2,7 @@
 
 ###  How To Build a Component
 
-[00:00:06](https://www.youtube.com/watch?v=t6Eux157428&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h00m06s)
+[00:00:00](https://www.youtube.com/watch?v=t6Eux157428&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h00m00s)
 
 We are in Component Builder at the Dashboard in the back end of a Joomla website. I would first like to show you the tremendous power of what it is able to do, and then we'll step back, and little by little show you how to build a component.
 
