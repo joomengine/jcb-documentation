@@ -147,7 +147,7 @@ When we looked at the way that we are building the JavaScript, you'd remember th
 
 ### Adding AJAX Via the Controller and Method Implementation
 
- [01:01:48](https://www.youtube.com/watch?v=CdSKSCTzmRA&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=01h01m48s)
+[01:01:48](https://www.youtube.com/watch?v=CdSKSCTzmRA&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=01h01m48s)
 
 There is a php area where you have the option of adding JavaScript to your editing view primarily. Looking at editing views, the moment you click on 'Add JavaScript,' it opens a tab. The way that we want to implement AJAX is via the controller and method implementation. The component has a controller called ajax.json.php which has a model called ajax. So you have a controller and a model. The controller is like the gatekeeper. It does a few checks and balances to ensure that the data is correct and the token is right. If you had set this to validate whether he is a user or not, it also checks for a user ID. [01:02:59](https://www.youtube.com/watch?v=CdSKSCTzmRA&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=01h02m59s) If you set it that not to require him to be a user, it would drop off this validation.
 
@@ -164,14 +164,20 @@ This is where this php script is going to be used. (See video.) I added the Ajax
 
 ### Get Items
 
-If you know the Joomla API, you know that it has a 'getitem method' in the model. [01:10:45](https://www.youtube.com/watch?v=CdSKSCTzmRA&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=01h10m45s) In the model there's a 'getitem method' in the editing model; in the list model there is a 'getitems method'; there's a 'getlistquery' in the 'jmodellist,' a 'safe method', a 'postsavehook method' in the controller and an 'allowedit method'. [01:11:10](https://www.youtube.com/watch?v=CdSKSCTzmRA&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=01h11m10s) 
+[01:10:41](https://www.youtube.com/watch?v=CdSKSCTzmRA&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=01h10m41s)
+
+If you know the Joomla API, you know that it has a 'getitem method' in the model. In the model there's a 'getitem method' in the editing model; in the list model there is a 'getitems method'; there's a 'getlistquery' in the 'jmodellist,' a 'safe method', a 'postsavehook method' in the controller and an 'allowedit method'. [01:11:10](https://www.youtube.com/watch?v=CdSKSCTzmRA&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=01h11m10s) 
 There's a 'batchcopy method', a 'batchmove method', a 'script before delete method' and a 'script after delete'. These are all PHP places in which you can dump custom scripting.
 
 ### Save Method
 
+[01:11:34](https://www.youtube.com/watch?v=CdSKSCTzmRA&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=01h11m34s)
+
 You need to know where the 'save method' is. Open 'sermon' and scroll down to 'get item'. You can add custom scripting to the 'get item method'. [01:12:06](https://www.youtube.com/watch?v=CdSKSCTzmRA&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=01h12m06s) There is 'save method.' If we go back and click on the 'save method' you'd see the PHP here that should run in the 'save method'. You have the $data. It's an array and is called $data. [01:12:27](https://www.youtube.com/watch?v=CdSKSCTzmRA&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=01h12m27s) It means that you're able to target that value. It gets placed into 'save method'. [01:12:47](https://www.youtube.com/watch?v=CdSKSCTzmRA&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=01h12m47s) Your custom value code will probably be placed in before '(parent::saved($data))'. If you do not know in which of those custom scripts the code will be set, type it. [01:13:06](https://www.youtube.com/watch?v=CdSKSCTzmRA&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=01h13m06s) It is  loaded here. Save it, compile the component and then look at the code. You will see where it is showing up. You have all these values already in the script. (See video.) [01:13:37](https://www.youtube.com/watch?v=CdSKSCTzmRA&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=01h13m37s) It will add the string. When the component runs it will treat it as code. It is a comment but if it was code it will execute. It is the way to add custom scripting right into your component. 
 
 ### Post Save Hook
+
+
 
 The 'postSaveHook' is in the controller, not in the model. [01:14:05](https://www.youtube.com/watch?v=CdSKSCTzmRA&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=01h14m05s) Go to the controller 'sermon'. Scroll to the bottom and find 'postSaveHook'. It gives you the model and the valid data. You can perform extra features on it. [01:14:27](https://www.youtube.com/watch?v=CdSKSCTzmRA&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=01h14m27s) In all these things you should read the description. The PHP here should run in the 'postSavehook' Method; there is the $model, the data model and the validated data. If you just read our note here, you can start coding for it.
 
