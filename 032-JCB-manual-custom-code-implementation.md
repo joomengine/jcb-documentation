@@ -34,7 +34,7 @@ There is also a note on GitHub about this which may be more logical. It's on iss
 
 [00:11:52](https://www.youtube.com/watch?v=KiAtJawZ3oo&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h11m52s)
 
-Since I have some knowledge of object orientated concepts, the idea emerged to create with JCB the same kind of functionality. When this new improvement came along the possibility to make this work for both of these aspects became clear. What has been done?  The option had been created to use the hash automation, which is the one that has been just explained or to use the JCB manual. [00:12:47](https://www.youtube.com/watch?v=KiAtJawZ3oo&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h12m47s) <<<<
+Since I have some knowledge of object orientated concepts, the idea emerged to create with JCB the same kind of functionality. When this new improvement came along, the possibility to make this work for both of these aspects became clear. What has been done?  The option had been created to use the hash automation, which is the one that has been just explained or to use the JCB manual. [00:12:47](https://www.youtube.com/watch?v=KiAtJawZ3oo&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h12m47s) <<<<
 
 
 
