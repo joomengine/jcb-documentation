@@ -16,9 +16,7 @@ If you want to see how it had been done, the code is open source, it is possible
 
 [00:05:43](https://www.youtube.com/watch?v=KiAtJawZ3oo&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h05m43s)
 
-There are two ways in which the code is added. It has been explained in the previous tutorial, and will be explained again.  In that same file there is a comment way at the top, which gives the explanation of the placeholders. The placeholders, these X's here, must be asterisks. Like this one(///&ast;&ast;&ast;[INSERT<>$$$$]&ast;&ast;&ast;///). [00:06:26](https://www.youtube.com/watch?v=KiAtJawZ3oo&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h06m26s) This is the one with which you would start either to insert or to replace.<<<<<<<<<<<<<<<<<<<<<<<<<
-
-
+There are two ways in which the code is added. It has been explained in the previous tutorial, and will be explained again.  In that same file there is a comment way at the top, which gives the explanation of the placeholders. The placeholders, these X's here, must be asterisks. Like this one(///&ast;&ast;&ast;[INSERT<>$$$$]&ast;&ast;&ast;///). [00:06:26](https://www.youtube.com/watch?v=KiAtJawZ3oo&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h06m26s) This is the one with which you would start either to insert or to replace.
 
 ### GitHub Explanation For Update And Insert Issue 37
 
@@ -30,13 +28,13 @@ There is also a note on GitHub about this which may be more logical. It's on iss
 
  The initial purpose of this new feature had been to be able to, create code in the editor and then on the fly, make it part of the JCB infrastructure for your component. Then in the future it will continue adding that code back in without you having to write it, or to remember it.[00:09:47](https://www.youtube.com/watch?v=KiAtJawZ3oo&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h09m47s) If it is necessary to change the code, just add these diamonds(<>) either for the insert or for the replace depending on what has been done. It will automatically update what is in the database, and then store it back into the new compiled version.  
 
-
-
-[00:10:12](https://www.youtube.com/watch?v=KiAtJawZ3oo&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h10m12s) It is a stunning new feature. There had been some challenges on its implementation. There is some comments to look at. We are at the moment at version 2.3.2 which is not yet released that will include the extra feature which have not been discussed on the forum. In  develop a very smart function, a custom script, inside of some view or some field or somewhere in JCB. I would like to use it again elsewhere [00:11:15](https://www.youtube.com/watch?v=KiAtJawZ3oo&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h11m15s) but then I have to copy it, go pasted there. And it will happen that I would improve it there. Add this little thing there and I debug this. Improve the whole function, maybe just pieces script or whatever, I just improves it. And then it where I took it from does I need to know copy again back there. It's always this copy and move and then obviously there's variables inside that needs to be different names. [00:11:47](https://www.youtube.com/watch?v=KiAtJawZ3oo&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h11m47s) This always been a very unpleasant experience. 
+[00:10:12](https://www.youtube.com/watch?v=KiAtJawZ3oo&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h10m12s) It is a stunning new feature. There had been some challenges on its implementation. There is some comments to look at. We are at the moment at version 2.3.2 which is not yet released that will include the extra feature which have not been discussed on the forum.  A ideal had been born to develop a very smart function, a custom script, inside of some view or some field or somewhere in JCB and to use it again elsewhere but then it have to be copied, and pasted and then improved.  Then get this(See video) added and get it debugged, improve the whole function, maybe just pieces of script. Then it is a tedious task to copy it back from where it have been taken and then there is variables that need to be considered which need to have different names. [00:11:47](https://www.youtube.com/watch?v=KiAtJawZ3oo&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h11m47s)  
 
 ### Custom Codes In JCB
 
-Since I know of object orientated concepts, I've always wondered is there a way for me to with JCB create the same kind of in a small way of course, give that some kind of functionality. [00:12:09](https://www.youtube.com/watch?v=KiAtJawZ3oo&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h12m09s) When this new improvement came along immediately thought yes there is a way for us to make this work for both of these aspects. What did we do? Well I created the option for you to either I used the hash automation, which is the one I've just explained or to use the JCB manual. [00:12:47](https://www.youtube.com/watch?v=KiAtJawZ3oo&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h12m47s) 
+[00:11:52](https://www.youtube.com/watch?v=KiAtJawZ3oo&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h11m52s)
+<<<<<<<<<<<<<<<<<<<<<<<<
+Since I know of object orientated concepts, I've always wondered is there a way for me to with JCB create the same kind of in a small way of course, give that some kind of functionality. When this new improvement came along immediately thought yes there is a way for us to make this work for both of these aspects. What did we do? Well I created the option for you to either I used the hash automation, which is the one I've just explained or to use the JCB manual. [00:12:47](https://www.youtube.com/watch?v=KiAtJawZ3oo&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h12m47s) 
 
 ### Placeholder
 
