@@ -75,7 +75,7 @@ Open the admin view. (See video.) [00:29:32](https://www.youtube.com/watch?v=CdS
 
 ### Setting Up Fields
 
-[00320:30](https://www.youtube.com/watch?v=CdSKSCTzmRA&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h32m30s)
+[00:32:30](https://www.youtube.com/watch?v=CdSKSCTzmRA&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h32m30s)
 
 Since we already created the fields beforehand you will start out this way. (See video.) You would scroll down the fields that you created. (If it is a long list you can type the field's name and it will bringing it up to you.) It asks whether you'd like to show the field in the admin list view. [00:32:56](https://www.youtube.com/watch?v=CdSKSCTzmRA&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h32m56s) That means that there is a list of names if you close your editing area; if you want that specific field to show up in this list you'd select 'show'. If you select 'show,' you can set in which order you want this. (See video.) [00:33:18](https://www.youtube.com/watch?v=CdSKSCTzmRA&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h33m18s)
 
