@@ -14,9 +14,13 @@ We are using Sermon Distributor, which is a component that I have developed for 
 
 ### The Purpose of Conventions
 
+[00:01:40](https://www.youtube.com/watch?v=gEgwiVNj6N0&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h01m40s)
+
 By illustrating the best convention of implementation, Component Builder will allow you to break these conventions, but later you would regret doing so and possibly have to redo a lot of things. [00:01:51](https://www.youtube.com/watch?v=gEgwiVNj6N0&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h01m51s) The purpose of these conventions are to add up implementation in other areas, like your custom field types and so forth.
 
 ### Back End Views Need To Be Set Up
+
+[00:02:16](https://www.youtube.com/watch?v=gEgwiVNj6N0&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h02m16s)
 
 When Sermon Distributor is going to be build, [00:02:20](https://www.youtube.com/watch?v=gEgwiVNj6N0&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h02m20s) back end views need to be set up, because we want these features inside the component. That is the sermons. We have a list view [00:02:33](https://www.youtube.com/watch?v=gEgwiVNj6N0&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h02m33s) of the sermons as well as an editing view of the sermons. They share a common database table [00:02:51](https://www.youtube.com/watch?v=gEgwiVNj6N0&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h02m51s) although they represent two views: a list view and an edit view. [00:03:27](https://www.youtube.com/watch?v=gEgwiVNj6N0&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h03m27s) The editable view is in relation to the back end connection of the database itself. The back end usually forms the connection to the database. The front end is more dynamic. These things will take quite a lot of explanation if you are new to coding, PHP, JavaScript and CSS. [00:04:21](https://www.youtube.com/watch?v=gEgwiVNj6N0&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h04m21s)
 
