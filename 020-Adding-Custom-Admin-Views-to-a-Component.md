@@ -1,36 +1,54 @@
 # ADDING CUSTOM ADMIN VIEWS TO A COMPONENT
 
+[00:00:00](https://www.youtube.com/watch?v=sPEkbuNXwds&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h00m00s)
+
 Cost-benefit projection will be used as our component. 
 
 ### Settings - Custom Admin View
 
-Go to 'settings' then to 'Custom Admin Views'. Two 'Custom Admin Views' had been added. [00:00:20](https://www.youtube.com/watch?v=sPEkbuNXwds&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h00m20s)
+[00:00:14](https://www.youtube.com/watch?v=sPEkbuNXwds&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h00m14s)
+
+Go to 'settings' then to 'Custom Admin Views'. Two 'Custom Admin Views' had been added.
 
 ### Multiple Switches Due To Being Dynamic
+
+[00:00:28](https://www.youtube.com/watch?v=sPEkbuNXwds&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h00m28s)
 
 It has more switches than the Site view because its implementation is more dynamic. You can choose an icon, because in the back end you might want an icon when you are on the right of the page. [00:00:45](https://www.youtube.com/watch?v=sPEkbuNXwds&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h00m45s) It can be selected where it should show in the main menu.
 
 ### Icon - Main Menu - Dashboard - Submenu
 
+[00:00:51](https://www.youtube.com/watch?v=sPEkbuNXwds&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h00m51s)
+
 The main menu drops down from Joomla's 'menu item list'. This is the dashboard you need to go to every time you start with a component where all the icons are displayed. The 'Sub-menu' is the one on the left; it can be seen when you are in a view. [00:01:14](https://www.youtube.com/watch?v=sPEkbuNXwds&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h01m14s) These are all placements where this Custom View could be added. (See video.)
  
 ### Targeting Item
+
+[00:01:29](https://www.youtube.com/watch?v=sPEkbuNXwds&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h01m29s)
 
 The company results hadn't been added to any of the views individually; it was added to items. That's why all of these are set to 'No'. [00:01:41](https://www.youtube.com/watch?v=sPEkbuNXwds&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h01m41s) It means an item is targeted in a view.
 
 ### Select Target View
 
+[00:01:47](https://www.youtube.com/watch?v=sPEkbuNXwds&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h01m47s)
+
 Select the targeted view, which is 'Company'. Use one of these options: 'Has Metadata', 'yes' or 'no', and 'Add Access', 'yes' or 'no'.  [00:02:02](https://www.youtube.com/watch?v=sPEkbuNXwds&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h02m02s) By selecting 'Company' it ensures that the correct view is targeted; close this and open that component. (See video.)
  
 ### Showing Within The Component
+
+[00:02:10](https://www.youtube.com/watch?v=sPEkbuNXwds&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h02m10s)
 
 This is an example of what happens with the settings: Open the 'Cost-Benefit Projection Dashboard'. If 'Companies' is opened, there is a button for 'Company results'. [00:02:27](https://www.youtube.com/watch?v=sPEkbuNXwds&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h02m27s) When Custom Admin View had been set up, we ensured an 'item id' to be targeted. By selecting 'Company', the companies 'item id' is targeted. That is what makes it work. Click 'Chart' to view these charts showing up in the icon itself. [00:02:55](https://www.youtube.com/watch?v=sPEkbuNXwds&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h02m55s). If you click on it, the Custom View shows up and that icon shows up next to it, showing that all works well. (See video.) A 'Combined Results' button shows up in the toolbar because 'Combined Results', which were selected, should have 'Cogs' as a icon. [00:03:25](https://www.youtube.com/watch?v=sPEkbuNXwds&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h03m25s) List of records, ('Metadata', 'Access', and 'Company') is set to 'yes'.
 
 ### Order Before Selection
 
-These 'Order Before' selections are only necessary when a 'main menu' and 'sub-menu' are selected. Because it may decide before what item this menu should be creating. [00:03:55](https://www.youtube.com/watch?v=sPEkbuNXwds&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h03m55s) 'Dashboard (list of records)' had been selected and consequently places it in combined results. The records that you want to look at need to be selected; click on 'Combined results'. It will grab those ids. Since the data is modeled in the controller and the model it gives these results back to the view through the custom implementation that has been done.  [00:04:25](https://www.youtube.com/watch?v=sPEkbuNXwds&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h04m25s)
+[00:03:35](https://www.youtube.com/watch?v=sPEkbuNXwds&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h03m35s)
 
+These 'Order Before' selections are only necessary when a 'main menu' and 'sub-menu' are selected. Because it may decide before what item this menu should be creating. [00:03:55](https://www.youtube.com/watch?v=sPEkbuNXwds&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h03m55s) 'Dashboard (list of records)' had been selected and consequently places it in combined results. The records that you want to look at need to be selected; click on 'Combined results'. It will grab those ids. Since the data is modeled in the controller and the model it gives these results back to the view through the custom implementation that has been done. 
+ 
 ### How Buttons are Implemented - Important
+
+[00:04:25](https://www.youtube.com/watch?v=sPEkbuNXwds&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h04m25s)
 
 * Quick refresher
 
@@ -38,7 +56,9 @@ Go to Component Builder and Custom Admin views; open 'Company Results'. PHP have
 
  ### The Combined Result Button
 
-The same applies to Combined Results. Combined Results is the button set up here. (See video.) [00:06:02](https://www.youtube.com/watch?v=sPEkbuNXwds&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h06m02s) Once the other buttons are combined, and Combined Results clicked, it shows that two buttons had been added: 'Dashboard' and 'Companies'. Those two buttons had been set up in the view itself. It is possible to know what area controls what set of buttons. This area controls the buttons before opening the view. In the view, the buttons you set up there is for when you opened the view. [00:06:38](https://www.youtube.com/watch?v=sPEkbuNXwds&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h06m38s)
+[00:05:53](https://www.youtube.com/watch?v=sPEkbuNXwds&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h05m53s)
+
+The same applies to Combined Results. Combined Results is the button set up here. (See video.)  Once the other buttons are combined, and Combined Results clicked, it shows that two buttons had been added: 'Dashboard' and 'Companies'. Those two buttons had been set up in the view itself. It is possible to know what area controls what set of buttons. This area controls the buttons before opening the view. In the view, the buttons you set up there is for when you opened the view. [00:06:38](https://www.youtube.com/watch?v=sPEkbuNXwds&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h06m38s)
 
 If you are uncertain you can undo everything, change it, compile a component, look in the code, and see what has been done; look in the Joomla interface, and see what is being displayed. Do some experimenting until you get that what you wanted. [00:07:10](https://www.youtube.com/watch?v=sPEkbuNXwds&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h07m10s)
 
