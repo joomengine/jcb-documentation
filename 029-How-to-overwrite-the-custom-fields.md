@@ -1,6 +1,8 @@
 # HOW TO OVERWRITE THE CUSTOM FIELDS
 
-### Using Default Fields With Custom Code
+ ### Using Default Fields With Custom Code
+
+[00:00:00](https://www.youtube.com/watch?v=FHQfIhWHYyQ&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h00m00s)
 
 It may happen that you would prefer to use some of the default fields in a different manner than that of Component Builder's way of implementation. What is the default fields? [00:00:12](https://www.youtube.com/watch?v=FHQfIhWHYyQ&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h00m12s) If you go to add a new Admin View or to an Admin View that already exists, it may be seen that there is this note above Adding Fields. It indicates that the 'ID', the 'asset_id', the 'state', the 'access', the 'ordering', the 'created_by', the 'date_created', 'modified_by', 'date_modified', 'checked_out', 'Check_out_time', 'version', 'hits', 'metakey',  'metadescription', and 'metadata' has already been added to the view. [00:00:41](https://www.youtube.com/watch?v=FHQfIhWHYyQ&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h00m41s) These are the default fields that always gets added to the view even if you do not create them. In fact it is not necessary to create them. Sometimes you might want to display some of these fields in a different area of the application. Currently the ID field and the State field is the only fields that are being shown by default in the List view. [00:01:20](https://www.youtube.com/watch?v=FHQfIhWHYyQ&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h01m20s)
 
@@ -15,6 +17,8 @@ This is what has been done: If a field is created in Component Builder, as a fie
 In this specific Job Order view, there is a field 'Created-by'.   That may be opened in a new tab, there is also a field 'Created-date'. [00:02:57](https://www.youtube.com/watch?v=FHQfIhWHYyQ&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h02m57s) So in this field the 'Name' and 'Created_by', and 'User' is the type of field that is used. The label is 'Created by', and the user that 'Created this' is the description. [00:03:26](https://www.youtube.com/watch?v=FHQfIhWHYyQ&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h03m26s) That's all that is needed for a user type. Then in the 'Created-date' (which is a calendar type) ,'Created', the date, it was created, the label and some of its defaults are used.
 
 ### Compiled In Code
+
+[00:03:46](https://www.youtube.com/watch?v=FHQfIhWHYyQ&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h03m46s) 
  
 If these values is unknown it can be seen in the compiled field.[00:03:51](https://www.youtube.com/watch?v=FHQfIhWHYyQ&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h03m51s) Open 'Administrator' that is the back end of the component and open the relevant component. If 'Models' is opened, there is a place called 'Forms'. When it is opened, a list of forms may be seen that correspond to the back end views that you have created. In this instance this 'Job Order' is the one. [00:04:19](https://www.youtube.com/watch?v=FHQfIhWHYyQ&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h04m19s) Open the XML, double click on it and scroll down. 'Modified by' and some of its default can be seen. So this(See video) value needs to be overwritten. Then these values need to be updated or used. [00:04:45](https://www.youtube.com/watch?v=FHQfIhWHYyQ&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h04m45s) 
 
@@ -22,9 +26,13 @@ NB. This is the only part that should not be changed, if it is changed, it will 
 
 ### Adding The Fields
 
- When any other field is needed simply go to fields (if 'Settings' is selected in Editing the Admin view) then those fields can be added. [00:05:08](https://www.youtube.com/watch?v=FHQfIhWHYyQ&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h05m08s) There's the 'Created-date' and there is the 'Created-by'. Both is added to be shown, and also the position and how it should be treated.  It had been set in the 'left tab' of the '15th'. [00:05:37](https://www.youtube.com/watch?v=FHQfIhWHYyQ&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h05m37s) 
+[00:05:06](https://www.youtube.com/watch?v=FHQfIhWHYyQ&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h05m06s)
+
+When any other field is needed simply go to fields (if 'Settings' is selected in Editing the Admin view) then those fields can be added.  There's the 'Created-date' and there is the 'Created-by'. Both is added to be shown, and also the position and how it should be treated.  It had been set in the 'left tab' of the '15th'. 
 
 ### Adding In Tabs(default 15 tab)
+
+[00:05:41](https://www.youtube.com/watch?v=FHQfIhWHYyQ&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h05m41s) 
 
 If you would like the fields to be displayed in the same place as before, in the Edit view, then add it to the '15th' tab. It is very unlikely that so many tabs would be created.  
 Now what is a tab? If you would to go to the view, then this is tab 1 this tab 2 3 4 5 and 6(see video). Since publishing may vary. [00:06:14](https://www.youtube.com/watch?v=FHQfIhWHYyQ&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h06m14s) 
