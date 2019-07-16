@@ -52,7 +52,7 @@ If in some way the component should use other PHP, Send mail or SMTP values than
 
 ### DKIM Settings (Encryption)
 
-[00:05:40](https://www.youtube.com/watch?v=tp6mMUTOF2Y&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h05m40s
+[00:05:40](https://www.youtube.com/watch?v=tp6mMUTOF2Y&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h05m40s)
 
 The DKIM area is the more advanced area which allows encryption and to authenticate emails that has been send.  This is helpful to show people that receive these emails that it not spam. Because of the advanced nature of this some research on this will be helpful. These are the values that usually would be required: Private key, Public key etc.(see video). If this 'Enable DKIM' is set to 'No', it will not be used. Please ensure to add the values when it is set to 'Yes', otherwise it still will not be used. [00:06:25](https://www.youtube.com/watch?v=tp6mMUTOF2Y&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h06m25s) So that values need to be created as  Component Builder will not do it.
 
