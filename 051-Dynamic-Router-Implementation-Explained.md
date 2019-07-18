@@ -18,7 +18,7 @@ Your search engine friendly URL is done with the router. JCB also builds the rou
 
 I'm just going to show you the code. When you look at the website you've got your root directory 'Joomla mount', 'admin' and then 'components'. In here we've got and there's a file called 'router.php'.  
 
-### parse - switch(segments[]) - First Value 
+### parse - switch(segments[ ]) - First Value 
 
 [00:01:44](https://www.youtube.com/watch?v=hYycPLbaMos&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h01m44s)
 
