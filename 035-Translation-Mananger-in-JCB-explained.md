@@ -2,17 +2,21 @@
 
 [00:00:00](https://www.youtube.com/watch?v=zzAcVkn_cWU&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h00ms)
 
-JCB has again been expanded to include a language translation feature. We are very grateful for one of the contributors have extended the code base for this. We are working together to insure that it remains stable. Those of you that been following the process on GitHub,  will know that how much time and effort had been put into this. So I would like to give you a quick explanation of how this will work. 
+JCB has again been expanded to include a language translation feature. We are very grateful for one of the contributors who have extended the code base for this. We are working together to insure that it remains stable. Those that have been following the process on GitHub, will know how much time and effort had been put into this. So this is a quick explanation of how this will work. 
 
 ### JCB Builds English File For You
 
 [00:00:49](https://www.youtube.com/watch?v=zzAcVkn_cWU&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h00m49s)
 
-ACB (Advanced Component Builder) or JCB (Joomla Component Builder) is a English component and it builds the English language file for you. Everywhere in the fields, when a field is created, there are areas in the field that indicates that it is 'translatable' or 'not translatable'. <<<<<<<<<<<<<<<<<<<<<<<<
+ACB (Advanced Component Builder) or JCB (Joomla Component Builder) is a English component and it builds the English language file for you. Everywhere in the fields, when a field is created, there are areas in the field that indicates that it is 'translatable' or 'not translatable'. 
 
 ### Placeholder - Jtext - English Language String
 
-And if you enter those values here(XML field definition) JCB on the fly would take this description for example [00:01:33](https://www.youtube.com/watch?v=zzAcVkn_cWU&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h01m33s) and will convert it into a language placeholder and will add it to the language file. The English language file, the British one. This is all being done automatically for every area of the JCB compiler. Even in templates and views that's now your front end. [00:01:56](https://www.youtube.com/watch?v=zzAcVkn_cWU&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h01m56s) If you create site views, and even templates and layouts, you can add placeholders, these Jtext with the actual English language string in it. Then the passer will automatically grab that text and add it to the language file. So currently JCB is building a complete English [00:02:25](https://www.youtube.com/watch?v=zzAcVkn_cWU&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h02m25s) Language File for you. It's already able to translate it. But it has not had the feature for you to add multiple other languages. That is really what has been the request. 
+[00:01:25](https://www.youtube.com/watch?v=zzAcVkn_cWU&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h01m25s)
+
+If those values are entered in the XML field definition area, JCB on the fly will take this description('enter a acronym') for example and will convert it into a language placeholder and will add it to the  British language file. This is all being done automatically for every area of the JCB compiler. Even in templates and views that is now the front end.<<<<<<<<<<<<
+
+ [00:01:56](https://www.youtube.com/watch?v=zzAcVkn_cWU&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h01m56s) If you create site views, and even templates and layouts, you can add placeholders, these Jtext with the actual English language string in it. Then the passer will automatically grab that text and add it to the language file. So currently JCB is building a complete English [00:02:25](https://www.youtube.com/watch?v=zzAcVkn_cWU&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h02m25s) Language File for you. It's already able to translate it. But it has not had the feature for you to add multiple other languages. That is really what has been the request. 
 
 ### Adding Of Other Languages
 
