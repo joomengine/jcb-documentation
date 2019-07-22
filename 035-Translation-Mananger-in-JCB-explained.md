@@ -1,11 +1,14 @@
 # TRANSLATION MANAGER IN JCB EXPLAINED
 
+[00:00:00](https://www.youtube.com/watch?v=zzAcVkn_cWU&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h00ms)
 
-Hi everyone. We have a great announcement to make. JCB has again been expanded to include a language translation feature. We are very grateful for one of the contributors have extended the code base for this. We are working together to insure that it remains stable. Those of you that been following the process on GitHub, [00:00:34](https://www.youtube.com/watch?v=zzAcVkn_cWU&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h00m34s) will know that as much time and effort put into this. So I would like to give you a quick explanation of how this will work. 
+JCB has again been expanded to include a language translation feature. We are very grateful for one of the contributors have extended the code base for this. We are working together to insure that it remains stable. Those of you that been following the process on GitHub,  will know that how much time and effort had been put into this. So I would like to give you a quick explanation of how this will work. 
 
 ### JCB Builds English File For You
 
-Those of you that are already using JCB or ACB depends on who you are asking. ACB Advanced Component Builder or JCB Joomla Component Builder. It is a English component [00:01:00](https://www.youtube.com/watch?v=zzAcVkn_cWU&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h01m00s) and it builds the English language file for you. Every where in your fields, when you create a field, there are areas in the field that says that it's translatable, not translatable. 
+[00:00:49](https://www.youtube.com/watch?v=zzAcVkn_cWU&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h00m49s)
+
+ACB (Advanced Component Builder) or JCB (Joomla Component Builder) is a English component and it builds the English language file for you. Everywhere in the fields, when a field is created, there are areas in the field that indicates that it is 'translatable' or 'not translatable'. <<<<<<<<<<<<<<<<<<<<<<<<
 
 ### Placeholder - Jtext - English Language String
 
