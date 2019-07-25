@@ -1,11 +1,10 @@
 # SETTING SITE VIEW PERMISSION
 
+[00:00:00](https://www.youtube.com/watch?v=gWjQjdhYqXI&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h00m00s)
 
-Hi. I would like to show you how to set the site view permission. The site view permission is related to the front end of any site view. Since it usually by default set not allowed. We have [00:00:22](https://www.youtube.com/watch?v=gWjQjdhYqXI&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h00m22s) the problem where that data is controlled by the Global settings of the component. Unless you write some custom script to add that Global settings to the database for permissions. It actually doesn't have those permissions set and because it's not set it's by default always set to not allowed. 
-
-Now let me explain that on a code level to you. We will use sermon distributor which is one of the demo components that is available. 
-
-If you are [00:00:57](https://www.youtube.com/watch?v=gWjQjdhYqXI&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h00m57s) interested in buying access to this demo component, it has site views. If we open the options tab, you see there's a permission tab. If we search for site, you see there is categories site access, plural and category site access, singular. There's also preacher site access and preachers, series and series list, [00:01:38](https://www.youtube.com/watch?v=gWjQjdhYqXI&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h01m38s) and sermon. All these various site accesses literally saying whether the public will have access. By default as I said, it is set to inherit, and inherit will actually say not allowed. Now there's something that I've done to try and accommodate this problem in JCB. 
+How to set the Site View Permission. The site view permission is related to the front end of any site view. Since it usually by default is set to 'Not Allowed', that is because there is the problem where that data is controlled by the Global settings of the component. Unless you write some custom script to add that Global settings to the database for permissions, it will not have those permissions set because it is not set. It is by default always set to 'Not Allowed'. 
+[00:00:45](https://www.youtube.com/watch?v=gWjQjdhYqXI&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h00m45s)
+Let me explain that on a code level . Sermon Distributor is used which is one of the demo components that is available.(Access to this demo component may be purchased) [ It has site views. In the options tab, there is a permission tab. If we search for site, you see there is categories site access, plural and category site access, singular. There's also preacher site access and preachers, series and series list, [00:01:38](https://www.youtube.com/watch?v=gWjQjdhYqXI&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h01m38s) and sermon. All these various site accesses literally saying whether the public will have access. By default as I said, it is set to inherit, and inherit will actually say not allowed. Now there's something that I've done to try and accommodate this problem in JCB. 
 
 ### Explanation On The Code Level 
 * ### Default
