@@ -2,11 +2,10 @@
 
 [00:00:00](https://www.youtube.com/watch?v=gWjQjdhYqXI&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h00m00s)
 
-How to set the Site View Permission. The site view permission is related to the front end of any site view. Since it is usually by default set to 'Not Allowed', that is because there is the problem where that data is controlled by the Global settings of the component. Unless you write some custom script to add that Global settings to the database for permissions, it does not have those permissions set and because it is not set, it is by default always set to 'Not Allowed'. 
+How to set the Site View Permission. The site view permission is related to the front end of any site view. Since it is usually by default set to 'Not Allowed', that is because there is the problem where that data is controlled by the Global settings of the component. Unless you write some custom script to add that Global settings to the database for permissions, it does not have those permissions set and because it is not set, it is by default always set to 'Not Allowed'.
+ 
 [00:00:45](https://www.youtube.com/watch?v=gWjQjdhYqXI&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h00m45s)
-Let me explain that on a code level . Sermon Distributor is used which is one of the demo components that is available.(Access to this demo component may be purchased)  It has Site views and in the options tab, there is a permission tab.
-
- If a search is done for 'Site'. Categories site access, plural and category site access, singular may be seen. There is also preacher site access and preachers, series and series list, and sermon.[00:01:38](https://www.youtube.com/watch?v=gWjQjdhYqXI&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h01m38s) All these various site accesses literally indicates whether the public will have access. By default, it is set to inherit, and inherit will show 'Not Allowed'. Now there is something that I have done to try and accommodate this problem in JCB. <<<<<<<<,,
+Let me explain that on a code level . Sermon Distributor is used which is one of the demo components that is available.(Access to this demo component may be purchased)  It has Site views and in the options tab, there is a permission tab. If a search is done for 'Site'. Categories site access, plural and category site access, singular may be seen. There is also preacher site access and preachers, series and series list, and sermon.[00:01:38](https://www.youtube.com/watch?v=gWjQjdhYqXI&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h01m38s) All these various site accesses literally indicates whether the public will have access. By default, it is set to inherit, and inherit will show 'Not Allowed'. Now there is something that I have done to try and accommodate this problem in JCB. <<<<<<<<,,
 
 ### Explanation On The Code Level 
 * ### Default
