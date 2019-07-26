@@ -10,7 +10,7 @@ I would like to demonstrate one of the latest features that has been added to JC
  
 [00:00:38](https://www.youtube.com/watch?v=bRPJTRat158&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h00m38s) 
 
-On the installation of the component, for example, as is done with JCB, it builds the tables for those views on installation. So if you go to the back end of the component, and create a new item, it stores the value in the database, that it can be retrieved.  [00:01:17](https://www.youtube.com/watch?v=bRPJTRat158&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h01m17s) As a developer make a change to this component which involves new tables, extra script need to be added to the components package upon installation. If it finds that there is already an existing component, it will update the database accordingly to the new settings, the new tables or any fields added. <<<<<<<<<<
+On the installation of the component, for example, as is done with JCB, it builds the tables for those views on installation. So if you go to the back end of the component, and create a new item, it stores the value in the database, that it can be retrieved.  [00:01:17](https://www.youtube.com/watch?v=bRPJTRat158&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h01m17s) As a developer make a change to this component which involves new tables, extra script need to be added to the components package upon installation. If it finds that there is already an existing component, it will update the database accordingly to the new settings, the new tables or any fields added. 
 
 ### Manually Adding New SQL Statements
 
