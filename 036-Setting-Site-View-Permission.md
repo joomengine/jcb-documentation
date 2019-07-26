@@ -35,7 +35,7 @@ Now if we go back to the Sermon Distributor component, and again open the Site v
 
 [00:09:35](https://www.youtube.com/watch?v=gWjQjdhYqXI&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h09m35s)
 
-At this stage JCB does have the the option to customize any section of code by using what is known as the Custom Code Implementation. For more detail on this feature, please go to YouTube where it is explained how to change this whole code block and how to use your own implementation upon these measures. [00:10:10](https://www.youtube.com/watch?v=gWjQjdhYqXI&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h10m10s)
+At this stage JCB does have the the option to customize any section of code by using what is known as the Custom Code Implementation. For more detail on this feature, please go to YouTube (https://github.com/vdm-io/Joomla-Component-Builder/wiki/032-JCB-manual-custom-code-implementation) where it is explained how to change this whole code block and how to use your own implementation upon these measures. [00:10:10](https://www.youtube.com/watch?v=gWjQjdhYqXI&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h10m10s)
 
 This was a demonstration how to manage the different permission structures for JCB regarding the site front-end and if you do not need that control, simply just put it off.
 
