@@ -2,11 +2,15 @@
 
 ### Views Are Linked To Set Of Tables
 
-Hi. I would like to demonstrate to you one of the latest features that's been added to JCB. A feature request was made about 11 days ago. Auto generate update SQL? After a lengthy discussion the decision was made to add the feature and I am basically done doing. First let me give you some background so you can understand where we coming from. When you create a component in Joomla, then you have a set of views, and these views and the back end are linked to a set of tables. [00:00:38](https://www.youtube.com/watch?v=bRPJTRat158&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h00m38s) 
+[00:00:00](https://www.youtube.com/watch?v=bRPJTRat158&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h00m00s)
+ 
+I would like to demonstrate one of the latest features that has been added to JCB. A feature request had been made: "Auto generate update SQL?". After a lengthy discussion the decision was made to add the feature and now it is basically done. First, some background regarding it. When a component is created in Joomla, you have a set of views, and these views and the back end are linked to a set of tables.
 
 ### JCB Builds tables For Views On Installation
+ 
+[00:00:38](https://www.youtube.com/watch?v=bRPJTRat158&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h00m38s) 
 
-On the installation of the component, for example, if we do so here with JCB, it builds the tables for those views on installation. So then if you go to the back end of the component, and you create a new item, it stores the value in the database, that it can be retrieved. That's very basic. The reality is [00:01:17](https://www.youtube.com/watch?v=bRPJTRat158&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h01m17s) if you as a developer make a change to this component, which involves new tables. You would need to add extra script to your components package upon installation if it finds that there is already an existing component, it will update the database accordingly to the new settings, the new tables or any fields added. 
+On the installation of the component, for example, as is done with JCB, it builds the tables for those views on installation. So if you go to the back end of the component, and create a new item, it stores the value in the database, that it can be retrieved.  [00:01:17](https://www.youtube.com/watch?v=bRPJTRat158&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h01m17s) As a developer make a change to this component which involves new tables, extra script need to be added to the components package upon installation. If it finds that there is already an existing component, it will update the database accordingly to the new settings, the new tables or any fields added. <<<<<<<<<<
 
 ### Manually Adding New SQL Statements
 
