@@ -20,7 +20,7 @@ I am going to install the Sermon Distributor Package on this Demo website. This 
 
 Admin Views has this new admin view called 'Help Document'. JCB have this Demo Component by default. To demonstrate it: This Demo Component is opened and a Helper structure is added to it. Presently it does not have any Helper structure. It is just a Demo Component with only a few structures.[00:03:28](https://www.youtube.com/watch?v=nw9YPu9emws&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h03m28s) It only has that Admin View and one view called 'Look'. It does not have a Custom view, but it got a Site view called 'Looks' and 'Looking'. First, go to the Admin Views and click '+' to add another row. We are going to add the View - Help Documents, the support icon.  
 
-If this un-ticked problem shows up, just close that and open it again and all those tick boxes will be in place.  As Repeatable fields will be phased out and you will end up working with sub forms in future.<<<<<<<<
+If this un-ticked problem shows up, just close that and open it again and all those tick boxes will be in place.   Repeatable fields will be phased out and you will end up working with sub forms in future.<<<<<<<<
 
 
  
