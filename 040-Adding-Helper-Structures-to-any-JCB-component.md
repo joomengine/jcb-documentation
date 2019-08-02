@@ -32,7 +32,7 @@ If Demo is opened, it may be seen that it has this new Help Documents area. At t
 
 [00:06:41](https://www.youtube.com/watch?v=nw9YPu9emws&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h06m41s) 
 
-This is usually what will be used when a component gets shipped . Since this will then give the opportunity to link it to an external URL which can be updated and edited without sending an update or an upgrade to the component. The help pages can be changed which were linked them.<<<<<<<<<<< This is how JCB is been setup. JCB is linking to an external Help Structure but you can decide whatever you want to do with this component. 
+This is usually what will be used when a component gets shipped . Since this will then give the opportunity to link it to an external URL which can be updated and edited without sending an update or an upgrade to the component. The help pages can be changed which were linked them. This is how JCB has been setup. JCB is linking to an external Help Structure but you can decide whatever you want to do with this component.<<<<<<<<< 
 
 * ### Type - Text
 
