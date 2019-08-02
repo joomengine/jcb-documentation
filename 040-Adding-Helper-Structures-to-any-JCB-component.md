@@ -26,13 +26,13 @@ If this un-ticked problem shows up, just close that and open it again and all th
 
 [00:05:43](https://www.youtube.com/watch?v=nw9YPu9emws&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h05m43s)
 
-If Demo is opened, it may be seen that it has this new Help Documents area. At the moment it does not have any Help Documents. To change that, go to the Help Documents, click New, and when it is opened, select which group you want to Target. Select all, then select in 'Location', that a view in the Admin Area needs to be targeted. The Demo will be the Desk Dashboard.<<<<<<<<<<<
-
- Then there is Help Documents. [00:06:23](https://www.youtube.com/watch?v=nw9YPu9emws&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h06m23s) There is Import. I'm going to take Looks. I'm going to target Looks area. I can give it a title. I can say what type of help do I want, I want a link to an Joomla article, want to put in my own custom text, or I want a link to an external URL. 
+If Demo is opened, it may be seen that it has this new Help Documents area. At the moment it does not have any Help Documents. To change that, go to the Help Documents, click New, and when it is opened, select which group you want to Target. Select all, then select in 'Location', that a view in the Admin Area needs to be targeted. The Demo will be the Desk Dashboard. Then there is 'Help Documents'. [00:06:23](https://www.youtube.com/watch?v=nw9YPu9emws&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h06m23s) There is 'Import'. The  'Looks' area will be targeted and a title may be given to it. The type of help that is needed may be selected, like a link to an Joomla article is needed, or to put in preferred custom text, or to be able to link to an external URL. 
 
 * ###  Type - Link To External URL
 
-This is usually what we will use when we ship a component. Since this will then give us the opportunity to link it to an external URL which we can update an edit without sending an update or an upgrade to the component. We can just change the  help pages which we linked them to. This is how JCB is been setup. JCB is linking to an external Help Structure but you can decide whatever you want to do with this component. 
+[00:06:41](https://www.youtube.com/watch?v=nw9YPu9emws&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h06m41s) 
+
+This is usually what will be used when a component gets shipped . Since this will then give the opportunity to link it to an external URL which can be updated and edited without sending an update or an upgrade to the component. The help pages can be changed which were linked them.<<<<<<<<<<< This is how JCB is been setup. JCB is linking to an external Help Structure but you can decide whatever you want to do with this component. 
 
 * ### Type - Text
 
