@@ -3,6 +3,7 @@
 ### Creating Templates
 
 [00:00:00](https://www.youtube.com/watch?v=khxKeeubhiY&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h00m00s)
+(_Click on this time links to see Youtube video_)
 
 In the previous tutorial we looked at setting up templates and layouts to a site view. Loaded inside the site view is 'preacherpanel', 'preachersmall','preacherbox'. If you go to Templates, you may see how this works. 
 
