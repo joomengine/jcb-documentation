@@ -3,6 +3,7 @@
 ### Be Prepared to Build Components in Component Builder
 
 [00:00:00](https://www.youtube.com/watch?v=gEgwiVNj6N0&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h00m00s)
+(_Click on this time links to see Youtube video_)
 
 When you want to build a component in Component Builder you need to be prepared. You would need to know what to build and what the database structure is that you want to set up. If you want a good understanding of the table and of the database and how to have it mapped, these are essential things you need to know. If you do not know that, I can give you pointers on some of the things you will need. At the same time, I will try to explain why you need to know these things.
 
