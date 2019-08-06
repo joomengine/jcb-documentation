@@ -1,6 +1,7 @@
 # ADVANCED FIELDS
 
 [00:00:00](https://www.youtube.com/watch?v=VpzYbifqv0M&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h00m00s)
+(_Click on this time links to see Youtube video_)
 
 There are a few advanced field types. The most advanced is one called custom field type. Sorting by custom fields, you will see that we have quite a few custom fields in place. 
 
