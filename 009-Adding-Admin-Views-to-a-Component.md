@@ -1,6 +1,7 @@
 # ADDING ADMIN VIEWS TO A COMPONENT
 
 [00:00:00](https://www.youtube.com/watch?v=39vY66X7GGU&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h00m00s) 
+(_Click on this time links to see Youtube video_)
 
 We've looked at setting up admin views and creating fields for admin views. We've looked at setting up field types and how to use field types to create fields. Now we'll look at setting the admin views to the component and all that can  be done to the component. [00:00:28](https://www.youtube.com/watch?v=39vY66X7GGU&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h00m28s) First we will look at adding the admin views to a component. Go to components, sermon distributor, and settings. There you will see admin views. 
 
