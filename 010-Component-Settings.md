@@ -1,6 +1,7 @@
 # COMPONENT SETTINGS
 
 [00:00:00](https://www.youtube.com/watch?v=V2WkTjNFjvo&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h00m00s)
+(_Click on this time links to see Youtube video_)
 
 Now that we've added the admin views to the component, let's look at some of the features still available inside  components. Adding your custom admin views is done there and the site views is done here. (See video.) There is a 'custom admin menus'. Controlling the menu structures for these and custom admin views in the site views are done inside these. This is if you are adding custom back end views that haven't been developed inside of component builder. 
 
