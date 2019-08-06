@@ -3,6 +3,7 @@
 ### Layouts
 
 [00:00:00](https://www.youtube.com/watch?v=52OLSZio0F8&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h00m00s)
+(_Click on this time links to see Youtube video_)
 
 With setting up layouts there are some nice ways to reuse code across multiple templates or site views. We need to know which site view is calling the layout and on which basis we can use global settings related to that specific site view. 
 
