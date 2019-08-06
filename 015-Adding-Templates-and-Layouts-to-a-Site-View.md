@@ -3,6 +3,7 @@
 ### Relationship Between Templates/Layouts In Views
 
 [00:00:00](https://www.youtube.com/watch?v=6VBbi3Rl2eY&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h00m00s)
+(_Click on this time links to see Youtube video_)
 
 Now that we added a dynamic get to a site view and looked at how to access the data sets through the examples snippets, we need to understand how layouts and templates link into site views; to know what the site view in the code, the templates, and the layout in the code itself is and how Joomla do load these things. 
 
