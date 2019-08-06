@@ -1,6 +1,7 @@
 # COMPONENT SCRIPTS
 
 [00:00:00](https://www.youtube.com/watch?v=xY9TWQrF8AQ&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h00m00s)
+(_Click on this time links to see Youtube video_)
 
 Now we will look at the scripts tab. Here is an area where you might add a lot of custom scripting. This area is focused on giving your area an interface to add custom scripting to your component in a global way. You can have custom scripting per admin back end view. [00:00:28](https://www.youtube.com/watch?v=xY9TWQrF8AQ&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h00m28s) You can also do that within the global scope with regards to certain values and add create user helper method to the component.
 
