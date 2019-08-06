@@ -3,6 +3,7 @@
 ### Sermon - Preacher Get Example
 
 [00:00:00](https://www.youtube.com/watch?v=OPuCoxPW35s&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h00m00s)
+(_Click on this time links to see Youtube video_)
  
 We are still working with Sermon Distributor; we are going to use Preacher, a 'get' I've already set up as an illustration. Here we have 'Back-end view' selected. (See video.) [00:00:25](https://www.youtube.com/watch?v=OPuCoxPW35s&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h00m25s)  For example: Select nothing. This is how it will usually look when you start. Select this, (depending on which area of the back end you want to get the data from) and select back end view. That is the best way to do it.
 
