@@ -3,6 +3,7 @@
 ### Introducing To A Feature - Adding Files, Folders As Code Or File To Your System
 
 [00:00:00](https://www.youtube.com/watch?v=_c7wzW075lA&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h00m00s)
+(_Click on this time links to see Youtube video_)
 
 I would like to introduce you to a feature that we've been working on for quite some time now. I'm very sure it will come as a surprise to some of you that actually can do this. Most of the features already existed for quite a while. It's just that I've been trying to make it stable so that it will work well. [00:00:32](https://www.youtube.com/watch?v=_c7wzW075lA&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h00m32s) In doing so I had to extend it a bit. I want to look at this feature. It has two or three concepts which maybe is best if I explain that. What is this all about? It's about adding dynamic files, [00:00:55](https://www.youtube.com/watch?v=_c7wzW075lA&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h00m55s) folders or even external files which maybe is on a website or on GitHub, and you want to get the content from that file and add it as code or even as a file [00:01:17](https://www.youtube.com/watch?v=_c7wzW075lA&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h01m17s) to your system. 
 
