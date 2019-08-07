@@ -3,6 +3,7 @@
 ### Options Button For Global Configurations
 
 [00:00:00](https://www.youtube.com/watch?v=LA2WDi8G79E&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h00m00s)
+(_Click on this time links to see Youtube video_)
 
 Open 'Component Builder Dashboard.' It's accessible through 'Options' button. Only users with permission will be able to see 'Options'; if they are in a different group than the global administrator 'Options' will not be visible. [00:00:41](https://www.youtube.com/watch?v=LA2WDi8G79E&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h00m41s) These permissional structures can be changed as needed. Click 'options' and 'Component Builder configurations' will open. Here are some important switches. These areas can be added to your own details if you want it displayed in the components front-end. (See video.)
  
