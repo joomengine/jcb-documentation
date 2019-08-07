@@ -3,6 +3,7 @@
 ### Views Are Linked To Set Of Tables
 
 [00:00:00](https://www.youtube.com/watch?v=bRPJTRat158&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h00m00s)
+(_Click on this time links to see Youtube video_)
  
 I would like to demonstrate one of the latest features that has been added to JCB. A feature request had been made: "Auto generate update SQL?". After a lengthy discussion the decision was made to add the feature and now it is basically done. First, some background regarding it. When a component is created in Joomla, you have a set of views, and these views and the back end are linked to a set of tables.
 
