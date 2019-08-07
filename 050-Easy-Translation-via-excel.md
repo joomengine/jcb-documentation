@@ -4,6 +4,7 @@
 ### New Implementation Added To JCB To Do Translation Via Excel Spreadsheet
 
 [00:00:00](https://www.youtube.com/watch?v=q5NwKGnOHoQ&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h00m00s)
+(_Click on this time links to see Youtube video_)
 
 I"d like to give you a quick overview of the new implementation that we've added to JCB that allows you to do translation via a [00:00:19](https://www.youtube.com/watch?v=q5NwKGnOHoQ&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h00m19s) excel spreadsheet. It is to make it easy for you to build your component, extract your language strings and give it to someone else. Have them do the translation in whichever language you like. Have them give the spreadsheet back to you and import it into JCB without the necessity of struggling with INI files any of that. [00:00:47](https://www.youtube.com/watch?v=q5NwKGnOHoQ&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h00m47s) 
 
