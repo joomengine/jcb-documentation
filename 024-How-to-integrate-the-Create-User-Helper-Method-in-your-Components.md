@@ -1,6 +1,7 @@
 # HOW TO INTEGRATE THE CREATE USER HELPER METHOD IN YOUR COMPONENTS
 
 [00:00:00](https://www.youtube.com/watch?v=ckFakaQ90JY&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h00m00s)
+(_Click on this time links to see Youtube video_)
 
 What is the User Creation function? It is a part of code's helper function that is added to the Helper class.
 
