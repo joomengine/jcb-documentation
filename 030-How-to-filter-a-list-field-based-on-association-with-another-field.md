@@ -4,6 +4,7 @@
 ### Explanation Of Filter Fields
 
 [00:00:00](https://www.youtube.com/watch?v=Z8FLifQOjUk&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h00m00s)
+(_Click on this time links to see Youtube video_)
 
 Perhaps you encountered the necessity to limit the drop downs of a list field based on it's association with another table. A very common place where this occurs, is for example, when the regions of only one country need to be loaded. Although there are many ways to accomplish this, this is how I have done it. 
 
