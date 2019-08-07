@@ -1,6 +1,7 @@
 # SETTING SITE VIEW PERMISSION
 
 [00:00:00](https://www.youtube.com/watch?v=gWjQjdhYqXI&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h00m00s)
+(_Click on this time links to see Youtube video_)
 
 How to set the Site View Permission. The site view permission is related to the front end of any site view. Since it is usually by default set to 'Not Allowed', that is because there is the problem where that data is controlled by the Global settings of the component. Unless you write some custom script to add that Global settings to the database for permissions, it does not have those permissions set and because it is not set, it is by default always set to 'Not Allowed'.
  
