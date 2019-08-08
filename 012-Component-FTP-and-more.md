@@ -3,7 +3,7 @@
 ### Adding README Script
 
 [00:00:00](https://www.youtube.com/watch?v=hzbZlLl-xlA&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h00m00s)
-(_Click on this time links to see Youtube video_)
+(_Click on these time links to see Youtube video_)
 
 Next we are going to add the README script to a component in the component view. The README script is commonly used as the components homepage. For example: If you go to the demo components page on Github, you'd see that it has this image, some details, and some layout. (See video.) This all is done with the README file. We can open it and look at the 'Raw'. It is the same text that we looked at previously. [00:00:53](https://www.youtube.com/watch?v=hzbZlLl-xlA&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h00m53s) Inside component builder you can add this README and README text. These are placeholders. (###version###).
 
