@@ -3,7 +3,7 @@
 ### Custom Code
 
 [00:00:00](https://www.youtube.com/watch?v=DFMfIl-VkSk&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h00m00s)
-(_Click on this time links to see Youtube video_)
+(_Click on these time links to see Youtube video_)
  
 A very smart new feature has lately been added to Component Builder that's called custom code. It is stored next to Dynamic Get. You'd hardly ever need to go in here, unless you want to look at what is already been stored and make changes in the UI. Most of the time the changes will be done in the editor. 
 
