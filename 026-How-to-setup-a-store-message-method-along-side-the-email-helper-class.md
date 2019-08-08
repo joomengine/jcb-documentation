@@ -1,7 +1,7 @@
 # HOW TO SETUP A STORE MESSAGE METHOD ALONG SIDE THE EMAIL HELPER CLASS
 
 [00:00:00](https://www.youtube.com/watch?v=peVNLsAncGY&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h00m00s)
-(_Click on this time links to see Youtube video_)
+(_Click on these time links to see Youtube video_)
 
 * ### Example In Code
 In a previous tutorial on the Email Helper, mention had been made of storing messages or emails once they had been send. [00:00:24](https://www.youtube.com/watch?v=peVNLsAncGY&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h00m24s) At this stage it is important to know that the Email Helper Class is added to the Helper folder of the component's back end. It's usually called the component's name, 'Jobtracking', and 'Email', the Email Helper class. To use it in the Custom Script three brackets may be used, '[[[component]]]email'. Send. [00:00:59](https://www.youtube.com/watch?v=peVNLsAncGY&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h00m59s) That is how to construct script.
