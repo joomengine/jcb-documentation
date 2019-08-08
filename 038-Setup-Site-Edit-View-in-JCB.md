@@ -3,7 +3,7 @@
 ### Adding Admin View To Front-End Site
 
 [00:00:00](https://www.youtube.com/watch?v=tmB22d9dQ4M&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h00m00s)
-(_Click on this time links to see Youtube video_)
+(_Click on these time links to see Youtube video_)
 
 How to add an Admin View to the front end of your site. There can be editing and submission of the front end of this specific Admin View. The public version of JCB which contains this Demo Version is being used to illustrate this. First it is compiled and installed to the local Joomla website. Install it, open it. Here is the Demo Version that is publicly available and it has a Admin View called "Looks". [00:01:07](https://www.youtube.com/watch?v=tmB22d9dQ4M&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h01m07s) If you go to the List View of the Admin View,  called 'Looks', there is none. Create 'New'. There is a description box in the New view and 'More' item, where you can click, and see some custom fields: 'email', 'mobile phone', 'date of birth', 'image', 'website' and the normal Publish, Permission, Structure for the view, and the name field. Now that is what has been referred to as the Admin view. It is this combination of fields working together in one view. 
 
