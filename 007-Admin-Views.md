@@ -1,7 +1,7 @@
 # ADMIN VIEWS
 
 [00:00:00](https://www.youtube.com/watch?v=CdSKSCTzmRA&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h00m00s)
-(_Click on this time links to see Youtube video_)
+(_Click on these time links to see Youtube video_)
 
 In this tutorial we are looking at admin views, the next step of developing your component. First we started with field types and how to set up and improve on them. Then we learned to use those field types to build basic common fields. Now we are going to take those fields and add them to admin views. 
 
