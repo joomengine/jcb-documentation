@@ -3,7 +3,7 @@ AUTOMATED BACKUP SYSTEM IN JCB
 ### Extension API - Backup Feature
 
 [00:00:00](https://www.youtube.com/watch?v=GUWZaODo_IM&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h00m00s)
-(_Click on this time links to see Youtube video_)
+(_Click on these time links to see Youtube video_)
 
 This is a demonstration of the new automated backup feature that has been added to JCB. It is part of an extension which is called the API which gives the option of querying JCB via a URL, to perform certain functions. First would be to generate a backup. We are not exactly sure what kind of features should be added to this API. A discussion about this had been opened on GitHub.[00:00:42](https://www.youtube.com/watch?v=GUWZaODo_IM&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h00m42s) For more info: My email address is behind this link(See video). Check the features that we want to add to the API. Currently the first one is the backup feature. 
 
