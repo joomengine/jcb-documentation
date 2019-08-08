@@ -1,7 +1,7 @@
 # CUSTOM ADMIN VIEWS
 
 [00:00:00](https://www.youtube.com/watch?v=gtdQ1lwB9ds&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h00m00s)
-(_Click on this time links to see Youtube video_)
+(_Click on these time links to see Youtube video_)
  
 Similar to Site Views, Custom Admin Views has some nice features, although some aspects when adding it to Component Builder is different. In the next video we will look at adding Site Views as well as Component Custom Admin Views to the component. As Sermon Distributor is not using Custom Admin Views yet, it has not been discussed, but there is another component that can serve as an example: Cost Benefit Projection. [00:00:33](https://www.youtube.com/watch?v=gtdQ1lwB9ds&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h00m33s)  It's a tool used to show companies the cost benefits of intervention of certain diseases and causes in the company. [00:01:04](https://www.youtube.com/watch?v=gtdQ1lwB9ds&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h01m04s) In it is 'Company results' and 'Combined results'. It respectively displays custom data in the back end of the component to certain people who has permission to view the data. In the component itself click on 'Companies'; an icon underneath each of these companies' names can be seen. [00:01:36](https://www.youtube.com/watch?v=gtdQ1lwB9ds&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h01m36s) There is a 'new' button called 'Combined Results'. These buttons are dynamically added by Component Builder, which will be explained in the next tutorial.
 
