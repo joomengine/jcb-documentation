@@ -3,7 +3,7 @@
 Using Sermon Distributor As Example
 
 [00:00:00](https://www.youtube.com/watch?v=zZ_HJeYL8ps&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h00m00s)
-(_Click on this time links to see Youtube video_)
+(_Click on these time links to see Youtube video_)
 
 Let's look at adding Admin Views and Site Views to Component Builder's component. We will look at the different switches and the features installed for you. First, login. Open Component Builder under Component Builder, then go to components. 
 
