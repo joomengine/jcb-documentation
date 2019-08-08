@@ -3,7 +3,7 @@
 ### Fields
 
 [00:00:00](https://www.youtube.com/watch?v=epA9zv4yWu0&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h00m00s)
-(_Click on this time links to see Youtube video_)
+(_Click on these time links to see Youtube video_)
 
 * How to set up a Time Field
 
