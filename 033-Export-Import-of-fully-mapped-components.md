@@ -3,7 +3,7 @@
 ### Various Linked Concepts to A component is Exported 
 
 [00:00:00](https://www.youtube.com/watch?v=lkE0ZiSWufg&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h00m00s)
-(_Click on this time links to see Youtube video_)
+(_Click on these time links to see Youtube video_)
  
 A new feature has been added to the advanced Component Builder for Joomla which can become very useful in the future. It allows you to export a component out of JCB, and not only the component's information, but everything attached to it. [00:00:34](https://www.youtube.com/watch?v=lkE0ZiSWufg&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h00m34s) If the component has Admin Views linked to it, and those Admin Views have fields linked to it, and those fields have field types linked to it, and those component has site views, and Custom Admin views, and those Site Views and Custom Admin Views has templates and layouts, and dynamic gets, and all these various linked concepts to a component, is exported. 
  
