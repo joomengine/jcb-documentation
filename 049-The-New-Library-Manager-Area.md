@@ -3,7 +3,7 @@
 ### Libraries Dynamic In JCB
  
 [00:00:00](https://www.youtube.com/watch?v=rDjvgLYOt1o&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h00m00s)
-(_Click on this time links to see Youtube video_)
+(_Click on these time links to see Youtube video_)
 
 I'm very excited to announce the actual Library manager implementation. We're busy with a pull request, we should have it released within the next hour or so. I'm very excited about this, this new improvement is really going to make [00:00:22](https://www.youtube.com/watch?v=rDjvgLYOt1o&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h00m22s) Libraries very dynamic in JCB. Not it has not been dynamic. It's just not everybody realizes how easy it is to add new libraries. What I want to do is quickly, not to elaborate, show you how it used to be done, and then I want to jump into how it work now. You'll see why the new implementation is so much easier, so much better and [00:00:50](https://www.youtube.com/watch?v=rDjvgLYOt1o&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h00m50s) everybody's going to enjoy it. 
 
