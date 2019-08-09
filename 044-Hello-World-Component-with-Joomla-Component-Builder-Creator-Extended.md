@@ -2,6 +2,8 @@
 
 ### Application Of Extention
 
+[00:00:00](https://www.youtube.com/watch?v=IQfsLYIeblk&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h00m00s)(_Click on these time links to see Youtube video_)
+
 I would like to give you a tutorial on how to build a Hello World Component with Joomla Component Builder. Joomla Component Builder is a Joomla Component which helps you to develop Joomla Components quite easily. I originally developed this application or extension for myself that I can maintain the code in a very consistent [00:00:37](https://www.youtube.com/watch?v=IQfsLYIeblk&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h00m37s) and shareable way. 
 
 * ### Example - Make Changes In One Place
