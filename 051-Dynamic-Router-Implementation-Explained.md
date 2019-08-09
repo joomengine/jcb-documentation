@@ -3,7 +3,7 @@
 ### New Implementation - Help For Router Complexity
 
 [00:00:00](https://www.youtube.com/watch?v=hYycPLbaMos&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h00m00s)
-(_Click on this time links to see Youtube video_)
+(_Click on these time links to see Youtube video_)
 
 I would like to demonstrate to you the new implementation which isn't such a major thing but something we've done to try and help along some of the router complexity. When you build a component and you have a front end [00:00:17](https://www.youtube.com/watch?v=hYycPLbaMos&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h00m17s) for your component, and you've got Site Views. Your Site Views usually are getting it's data from a Dynamic Gets which you link up to the Site View. This Dynamic Gets returns a result set and it is from this result set that we should get information by which we combined with the view name, build what is called a [00:00:46](https://www.youtube.com/watch?v=hYycPLbaMos&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h00m46s) search engine friendly URL. 
 
