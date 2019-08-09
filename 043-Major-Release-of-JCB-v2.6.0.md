@@ -17,17 +17,21 @@ The real change is only going to effect the Components Area. But because JCB is 
 
 [00:02:20](https://www.youtube.com/watch?v=MQrLBYhvGyA&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h02m20s)
 
-The Compiler had to be upgraded , as well as the import and export of JCB packages.<<<<
-
- We have tested this and for the most part those involved into testing, have found that this transition is a Major improvement to JCB. And should be very easy and you shouldn't have any issues. Those of you that might run into [00:02:49](https://www.youtube.com/watch?v=MQrLBYhvGyA&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h02m49s) little glitches that doesn't work as you expect. 
-
+The Compiler had to be upgraded , as well as the import and export of JCB packages. We have tested this and for the most part those involved with the testing, have found that this transition is a Major improvement to JCB and will be very easy and without any issues.
+ 
 ### Suggestion - Clean your Browser Cache and Browser Memory
 
-We would suggest that you clean your browser's cache as well as memory. We found that traces of the old Repeatable Field Structure and JavaScript surrounding that might clash with the new changes in JavaScript within the new update. To clear your browser memory and not just the cache, is quite important. After you've on the upgrade [00:03:21](https://www.youtube.com/watch?v=MQrLBYhvGyA&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h03m21s) and you started working in different views, you should see that everything works as expected. 
+ [00:02:47](https://www.youtube.com/watch?v=MQrLBYhvGyA&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h02m47s)
+
+If you run into glitches that does not work as expected, it is suggested that you clean your browser's cache as well as memory. It has been found that traces of the old Repeatable Field Structure and JavaScript surrounding that might clash with the new changes in JavaScript within the new update. To clear the browser memory and not just the cache, is quite important. Only after you have upgraded and started to work in different views, it will be seen that everything works as expected. 
 
 ### Dynamic Get Area Some Conflicts
 
-An area which at this stage has been reported in giving some conflicts, is the Dynamic Get Area. The Dynamic Get Area returns values [00:03:45](https://www.youtube.com/watch?v=MQrLBYhvGyA&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h03m45s) from the Admin Area where, if we target let's say Back end View, and we grab some information. These values are returned from the Admin Area where it goes to this Admin View, and builds this structure. [00:04:04](https://www.youtube.com/watch?v=MQrLBYhvGyA&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h04m04s) Now as you can see with my demonstration everything is working as expected. If you would test this area before the upgrade, you should find that it works without any problems. If it doesn't I would suggest clearing your browser memory and trying again until you can find that it is working [00:04:35](https://www.youtube.com/watch?v=MQrLBYhvGyA&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h04m35s) as you see mine working. The only thing I've done is, I've cleared my browser memory, that there's no traces of JavaScript. I mean literally going to history and wiping everything for this domain. If you don't want to clear all of your history then it specifically targeting this domain that you are loading your JCB Component in. That is few heads up for [00:05:10](https://www.youtube.com/watch?v=MQrLBYhvGyA&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h05m10s) the current 2.5.8. 
+[00:03:29](https://www.youtube.com/watch?v=MQrLBYhvGyA&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h03m29s)
+ 
+The Dynamic Get Area has been reported to have some conflicts at this stage. The Dynamic Get Area returns values  from the Admin Area where, if we target let's say Back end View, and we grab some information.[00:03:55](https://www.youtube.com/watch?v=MQrLBYhvGyA&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h03m55s) These values are returned from the Admin Area where it goes to this Admin View, and builds this structure. [00:04:04](https://www.youtube.com/watch?v=MQrLBYhvGyA&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h04m04s) With this demonstration everything is working as expected. If this area is tested before the upgrade, it should work without any problems. If it does not, it is suggested to clear the browser memory and to try again until it is working as mine.[00:04:35](https://www.youtube.com/watch?v=MQrLBYhvGyA&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h04m35s)  All that has been done was that I cleared my browser memory, so that there is no traces of JavaScript.<<<
+
+ I mean literally going to history and wiping everything for this domain. If you don't want to clear all of your history then it specifically targeting this domain that you are loading your JCB Component in. That is few heads up for [00:05:10](https://www.youtube.com/watch?v=MQrLBYhvGyA&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h05m10s) the current 2.5.8. 
 
 ### Update in Managing Area
 
