@@ -2,6 +2,9 @@
 
 ### Removing All Repeatable Fields in Joomla Component Area
 
+[00:00:00](https://www.youtube.com/watch?v=MQrLBYhvGyA&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h00m00s)
+_(Click on these time links to see video)_
+
 Hi. I would like to demonstrate to you how to upgrade to version 2.6 of JCB. The upgrade is quite a major upgrade. Because we are removing all Repeatable Fields in the Joomla Component area. Joomla Component area has quite a lot of Repeatable Fields. If you were to open a component, you'll see that [00:00:29](https://www.youtube.com/watch?v=MQrLBYhvGyA&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h00m29s) Repeatable Fields are little models that pop-up with values as been used quite excessively in this view. The reason why we did that is because it's a very smart Field. Because it combines these values into one value. The JavaScript on the page grabs these values and converts it into one value. Which on submission [00:01:01](https://www.youtube.com/watch?v=MQrLBYhvGyA&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h01m01s) the form only submits one string, and not several Fields. To me it's feels like we going a few steps back, but I suppose there are some conventional reasons which makes the Repeatable Fields [00:01:21](https://www.youtube.com/watch?v=MQrLBYhvGyA&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h01m21s) on a Sub Form level more desirable. Because of its ability to validate the data more correctly. We have to remove these Fields because in Joomla 4 they no longer are supported. I had to decouple a number of these Fields into their own Tables. [00:01:48](https://www.youtube.com/watch?v=MQrLBYhvGyA&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h01m48s) Because of the size of values that we will have on the page. The page becomes immensely heavy, and they're about 9 new Tables added to JCB, to accommodate this. 
 
 ### Changes Only Effects The Component Area
