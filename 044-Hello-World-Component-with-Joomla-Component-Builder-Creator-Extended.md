@@ -52,19 +52,22 @@ The basic steps. You would need a Joomla website. This Joomla website would pref
 
 [00:09:06](https://www.youtube.com/watch?v=IQfsLYIeblk&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h09m06s) 
 
-A local developing environment is most ideal for this. With certain protocol a tunnel may be setup between your desktop and live server and still have this kind of interaction of editing code live  and then compiling and seeing changes. [00:09:27](https://www.youtube.com/watch?v=IQfsLYIeblk&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h09m27s)<<<<<<<<<<<<<<<<<<<<<<<<That's all good, if you're able to manage that kind of complexity, I don't need to tell you anything about how to setup an environment. What I would suggest though is that when you are busy trying to install JCB, and there are some limitations in a shared hosting environment, then I would encourage you to try and first resolve that  or move development offline. 
+A local developing environment is most ideal for this.  By using certain protocol a tunnel may be setup between your desktop and live server and still have this kind of interaction of editing code live and then compiling and seeing changes. That may be done if you are able to manage any kind of complexity; [00:09:27](https://www.youtube.com/watch?v=IQfsLYIeblk&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h09m27s)  It is suggested that if JCB is installed, and there are some limitations in a shared hosting environment,to first resolve that or move development offline. 
 
 ### Ways To Install JCB - Download Package - URL From GitHub - Install From The Web
 
 [00:09:56](https://www.youtube.com/watch?v=IQfsLYIeblk&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h09m56s)
 
-When you go to Joomla Website ready, you would login. Having logged in you would first need to install JCB. So I'm simply going to go to manage and install. There are many ways for you to install JCB. You could download the package, you can grab the URL from GitHub, you could also install it [00:10:20](https://www.youtube.com/watch?v=IQfsLYIeblk&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h10m20s) from the web. It is listed with Joomla. Now if you type in JCB and search, it brings up JCB on the page. It would not necessarily always do that. 
+First go to the Joomla Website and log in. Then install JCB. Simply go to 'Manage' and 'Install'. There are different ways to install JCB. A package may be downloaded, or a URL may be grabbed from GitHub, or it can also be installed from the web.[00:10:20](https://www.youtube.com/watch?v=IQfsLYIeblk&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h10m20s) It is listed with Joomla. If JCB is searched, it brings up JCB on the page but it would not necessarily always do that. 
 
 ### JCB One Of The Listed Developing Tools
 
 [00:10:35](https://www.youtube.com/watch?v=IQfsLYIeblk&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h10m35s)
 
-I've recently discovered, if I type in Component Builder which is it's name in the listing,  it doesn't even come up. Couldn't understand how that happens. If you do not find a Component in the search, this 'Component Builder' is the Component. Then you could go down to an area called 'Tools', and then 'Developing Tools'. [00:11:06](https://www.youtube.com/watch?v=IQfsLYIeblk&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h11m06s) JCB is one of the listed Developing Tools. Here it is only listed as a Component Builder. You can click on that, and simply click install. This(install) will then grab a URL from GitHub. This is the same URL you could have just used. As you can see that would have done the same thing. [00:11:33](https://www.youtube.com/watch?v=IQfsLYIeblk&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h11m33s) We can use the Joomla Installer, and simply click install. This would depend on your own network on how fast this takes it could take a while. This is quite a big file, and it's part of the places where there might be a limitation if used outside of a local developing environment. 
+If you do not find a Component in the search, this 'Component Builder' is the Component. Then you could go down to an area called 'Tools', and then 'Developing Tools'. [00:11:06](https://www.youtube.com/watch?v=IQfsLYIeblk&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h11m06s) JCB is one of the listed Developing Tools. Here it is only listed as a Component Builder. You can click on that, and simply click install. This 'Install' will then grab a URL from GitHub. [00:11:33](https://www.youtube.com/watch?v=IQfsLYIeblk&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h11m33s) The Joomla Installer may also be used, and simply click install. How fast it will take will depend on your own network. This is quite a big file, and in certain areas it might be a limitation if used outside of a local developing environment. <<<
+
+
+
 
 ### Need To Understand and Setup Components: Field Types, Fields, Views
 
