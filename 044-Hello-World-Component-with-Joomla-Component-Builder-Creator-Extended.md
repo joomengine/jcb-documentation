@@ -159,29 +159,27 @@ There will be a 'Name(single record)' and a 'Name(list records)'. Single record 
 
 [00:27:42](https://www.youtube.com/watch?v=IQfsLYIeblk&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h27m42s)
 
-Obviously we want to have the ability to read and write on the Type table. If this is a 'read' only, it means that the data is in this Admin area can not be changed via Joomla. Unless you have added some JavaScript and some other nice conventions around your component that sort of creates data for that area dynamically as people use the component. This turns all the fields in the area as read only, and if an attempt is made to change them, they never get submitted to the Database. Leave it always by Default as read and write . <<<<<<
-
-
-
-
+Obviously we want to have the ability to read and write on the Type table. If this is a 'read' only, it means that the data is in this Admin area can not be changed via Joomla. Unless you have added some JavaScript and some other nice conventions around your component that sort of creates data for that area dynamically as people use the component. This turns all the fields in the area as read only, and if an attempt is made to change them, they never get submitted to the Database. Leave it always by Default as read and write . 
 
 ### Short Description
 
 [00:28:38](https://www.youtube.com/watch?v=IQfsLYIeblk&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h28m38s)
 
-Then you give it a short description. We'll go to Fields and Conditions. We'll see that this: 'button to create admin field conditions will show once the Admin View is saved for the first time.'  You cannot add Fields to this Admin View if you haven't saved it. That is one of the changes that came in from us moving away from Repeatable Fields to Subform Fields. The Admin View is a Table on its own. It's relationship with the Fields is also a Table on its own. At this stage unfortunately you need to first not click save and close but just save once, so that it creates this Admin View in the Database. 
+Give it a short description. Go to Fields and Conditions. This will be displayed: 'button to create admin field conditions will show once the Admin View is saved for the first time.'  So Fields cannot be added to this Admin View if it has not been saved. That is one of the changes that came as result of moving away from Repeatable Fields to Subform Fields. The Admin View is a Table on its own and its relationship with the Fields is also a Table on its own. At this stage you should not click save and close first, but just save once, so that it creates this Admin View in the Database. 
 
-### Field And Conditions
+### Fields And Conditions
 
 [00:29:28](https://www.youtube.com/watch?v=IQfsLYIeblk&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h29m28s)
 
-If you go to Fields  and Conditions you'll be able to link, Linked Fields and create Field Conditions. We are not going to be creating Conditions since we are illustrating or demonstrating a very basic component. 
+Go to Fields and Conditions. There you will be able to link, Linked Fields and create Field Conditions. We are not going to create Conditions since this is a demonstration of a very basic component. 
 
 ### Linked Fields
 
 [00:29:45](https://www.youtube.com/watch?v=IQfsLYIeblk&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h29m45s) 
 
-We're just going to create a Linked Fields. Linked Fields are the Fields that we created previously. So we will click on create. It's going to ask us to be sure that all our work has been saved in the Admin View. Because if it isn't and we click okay, it will be lost. So make sure your work is saved before you clicking okay. [00:30:06](https://www.youtube.com/watch?v=IQfsLYIeblk&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h30m06s) It will open an area where you can link Fields to your Admin View. This looks very similar to the pop-up we had with Repeatable Fields, except that it's its own View now. If we click on this green Button here, it opens an area where when I select the Fields we want to use. 
+We're just going to create a Linked Fields. Linked Fields are the Fields that we created previously. Click on create. It is going to ask if we are sure that all our work has been saved in the Admin View. If it not and OK is clicked, it will be lost.[00:30:06](https://www.youtube.com/watch?v=IQfsLYIeblk&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h30m06s) It will open an area where you can link Fields to your Admin View. This looks very similar to the pop-up in Repeatable Fields, except that it is its own View now. If the green button is clicked, it opens an area where you select the Fields that need to be used.<<<<<<
+
+ 
 
 * ### Example Name(Text) Field
 
