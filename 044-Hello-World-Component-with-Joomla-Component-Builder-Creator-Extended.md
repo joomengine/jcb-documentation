@@ -33,7 +33,7 @@ If you do not know PHP and Joomla's API you should not expect to built complex c
 
 It is necessary to start with the basics. That is to build a Hello World Tutorial, in order to be able to combine the different concepts that is required for a component for it to be fully functional, and portable, and useful. 
 
-### Patience and Perseverance
+ **Patience and Perseverance**
 
 [00:06:23](https://www.youtube.com/watch?v=IQfsLYIeblk&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h06m23s)
 
@@ -137,11 +137,11 @@ The first field that we are going to create is a Text field, which we will call 
 
 Now in regards to the Database, that is what these features are all about. Since Text Fields can differ, not all of them are going to be this size. It is up to you to decide what kind of Text Field this is going to be. A bit more knowledge about MySQL and Databases is necessary to effectively use this. [00:22:49](https://www.youtube.com/watch?v=IQfsLYIeblk&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h22m49s) If you do not know what would be the best for a Text Field or a Date Field, Google that or simply look at Joomla's own implementation. It has an article Manager, and you can go into its XML Database and look at what Database Values was used and just use the same whatever be the case.[00:23:14](https://www.youtube.com/watch?v=IQfsLYIeblk&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h23m14s) Because these values are all movable, and by  setting them wrong, could break things. Having created our first field, we can reuse Name and maybe also Description. [00:24:23](https://www.youtube.com/watch?v=IQfsLYIeblk&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h24m23s) Those are part of the Demo Component. Since Fields can be linked into any Admin View and therefore belong to any Component, it does not matter if it is already linked to the Demo Component . Although, if it is changed, it will affect both Components.
 
-### Creating a Admin View - Need To Do Some Preparations Before Doing Admin Views
+### Creating a Admin View - Preparations - Object Orientated Development
 
 [00:24:46](https://www.youtube.com/watch?v=IQfsLYIeblk&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h24m46s)
 
-Having created our Fieldtypes and also a Field, let's create an Admin View. Admin Views is the back end of the Component. There is a whole lot of tutorials around the web about Object Orientated Development to give some perspective into the; How should it work? What should be where? What should have its own classes? What should have it own tables? Where we going to put what? All this preparation should be done before coming to JCB. Once you have all that planned, only then it is possible to create Fields, create Admin Views, which is your Tables which can be linked to a Component. Once that has been done, the foundation is laid of your application. [00:25:53](https://www.youtube.com/watch?v=IQfsLYIeblk&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h25m53s) Now you can start to work on that which will make the front end unique. 
+Having created our Fieldtypes and also a Field, let's create an Admin View. Admin Views is the back end of the Component. There is a whole lot of tutorials around the web about **Object Orientated Development** to give some perspective into the; How should it work? What should be where? What should have its own classes? What should have it own tables? Where we going to put what? All this preparation should be done before coming to JCB. Once you have all that planned, only then it is possible to create Fields, create Admin Views, which is your Tables which can be linked to a Component. Once that has been done, the foundation is laid of your application. [00:25:53](https://www.youtube.com/watch?v=IQfsLYIeblk&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h25m53s) Now you can start to work on that which will make the front end unique. 
 
 ### Creating Admin Views
 
