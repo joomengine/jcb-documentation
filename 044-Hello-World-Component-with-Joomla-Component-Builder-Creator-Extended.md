@@ -153,20 +153,17 @@ First Admin View. The System Name is to identify the View. If there be more than
 
 [00:26:48](https://www.youtube.com/watch?v=IQfsLYIeblk&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h26m48s)
 
-There will be a 'Name(single record)' and a 'Name(list records)'. Single record is also the Edit View. That is when you are looking at one record, and are editing that record in the Admin area, that is the single record. That is also what will be used when you tweak JCB to add an Edit option to the Site area of your Website.  [00:27:22](https://www.youtube.com/watch?v=IQfsLYIeblk&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h27m22s) Since JCB can do that  on the fly, this single record would also affect the front end of your component in that case which will be demonstrated later on . I am going to call the single record 'Greeting' and the list record 'Greetings'.  <<<<<<<<<<<<<<<<<<<<<<
-
-
-
-
-
-
-
+There will be a 'Name(single record)' and a 'Name(list records)'. Single record is also the Edit View. That is when you are looking at one record, and are editing that record in the Admin area, that is the single record. That is also what will be used when you tweak JCB to add an Edit option to the Site area of your Website.  [00:27:22](https://www.youtube.com/watch?v=IQfsLYIeblk&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h27m22s) Since JCB can do that  on the fly, this single record would also affect the front end of your component in that case which will be demonstrated later on . I am going to call the single record 'Greeting' and the list record 'Greetings'.  
 
 ### Type: Read And Write
 
 [00:27:42](https://www.youtube.com/watch?v=IQfsLYIeblk&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h27m42s)
 
-Obviously we want to have the ability to read and write to Type table. When we say this is a read only, it means that the data is in this Admin area is not going to be able to be changed via Joomla. Unless you've added some JavaScript and some other nice conventions around your component that sort of creates data for that area dynamically as people use the component. Which in that case you might use this feature but I must tell you I have hardly ever used it. I'm not even sure why I added it. But it's there and I know maybe some of you might find it useful. [00:28:23](https://www.youtube.com/watch?v=IQfsLYIeblk&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h28m23s) This turns all the fields in the area as read only, and when you try and change them, they never get submitted to the Database. We would by Default always leave it to read and write. 
+Obviously we want to have the ability to read and write on the Type table. If this is a 'read' only, it means that the data is in this Admin area can not be changed via Joomla. Unless you have added some JavaScript and some other nice conventions around your component that sort of creates data for that area dynamically as people use the component. This turns all the fields in the area as read only, and if an attempt is made to change them, they never get submitted to the Database. Leave it always by Default as read and write . <<<<<<
+
+
+
+
 
 ### Short Description
 
