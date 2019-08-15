@@ -5,31 +5,31 @@
 [00:00:00](https://www.youtube.com/watch?v=MQrLBYhvGyA&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h00m00s)
 _(Click on these time links to see video)_
 
-I would like to demonstrate how to upgrade to JCB version 2.6.0. It is quite a major upgrade since we have removed all Repeatable Fields in the Joomla Component area. Joomla Component area has quite a lot of Repeatable Fields. On opening the component it may be seen that Repeatable Fields are little models that pop-up with values which had been used quite excessively in this view.[00:00:43](https://www.youtube.com/watch?v=MQrLBYhvGyA&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h00m43s) The reason why this was done is because it is a very smart Field since it combines these values into one value. The JavaScript on the page grabs these values and converts it into one value, when on submission the form only submits one string, and not several Fields.[00:01:13](https://www.youtube.com/watch?v=MQrLBYhvGyA&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h01m13s) There are some conventional reasons which makes the Repeatable Fields on a Sub Form level more desirable, due to its ability to validate the data more correctly. [00:01:34](https://www.youtube.com/watch?v=MQrLBYhvGyA&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h01m34s) We had to remove these Fields because in Joomla 4 they no longer are supported. I had to decouple a number of these Fields into their own Tables because of the size of the values that is on the page, the page becomes immensely heavy. There had been about 9 new Tables added to JCB, to accommodate this. 
+I would like to demonstrate how to upgrade to JCB version 2.6.0. It is quite a major upgrade since we have removed all Repeatable Fields in the Joomla Component area. Joomla Component area has quite a lot of Repeatable Fields. On opening the component it may be seen that Repeatable Fields are little models that pop-up with values which had been used quite excessively in this view.[00:00:43](https://www.youtube.com/watch?v=MQrLBYhvGyA&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h00m43s) The reason why this was done is because it is a very smart Field since it combines these values into one value. The JavaScript on the page grabs these values and converts it into one value, when on submission the form only submits one string, and not several Fields.[00:01:13](https://www.youtube.com/watch?v=MQrLBYhvGyA&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h01m13s) There are some conventional reasons which make the Repeatable Fields on a SubForm level more desirable, due to its ability to validate the data more correctly. [00:01:34](https://www.youtube.com/watch?v=MQrLBYhvGyA&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h01m34s) We had to remove these Fields because in Joomla 4 they no longer are supported. I had to decouple a number of these Fields into their own Tables because of the size of the values that are on the page, the page becomes immensely heavy. There had been about 9 new Tables added to JCB, to accommodate this. 
 
-### Changes Only Effects The Component Area
+### Changes Only Affects The Component Area
 
 [00:02:03](https://www.youtube.com/watch?v=MQrLBYhvGyA&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h02m03s)
 
-The real change is only going to effect the Components Area. But because JCB is very Dynamic Component that integrates with various levels of this Data Structures.  
+The real change is only going to affect the Components Area. But because JCB is a very Dynamic Component that integrates with various levels of this Data Structures.  
 
 ### Upgrade: Compiler Import/Export Of JCB Packages
 
 [00:02:20](https://www.youtube.com/watch?v=MQrLBYhvGyA&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h02m20s)
 
-The Compiler had to be upgraded , as well as the import and export of JCB packages. We have tested this and for the most part those involved with the testing, have found that this transition is a Major improvement to JCB and will be very easy and without any issues.
+The Compiler had to be upgraded, as well as the import and export of JCB packages. We have tested this and for the most part, those involved with the testing, have found that this transition is a Major improvement to JCB and will be very easy and without any issues.
  
 ### Suggestion - Clean your Browser Cache and Browser Memory
 
  [00:02:47](https://www.youtube.com/watch?v=MQrLBYhvGyA&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h02m47s)
 
-If you run into glitches that does not work as expected, it is suggested that you clean your browser's cache as well as memory. It has been found that traces of the old Repeatable Field Structure and JavaScript surrounding that might clash with the new changes in JavaScript within the new update. To clear the browser memory and not just the cache, is quite important. Only after you have upgraded and started to work in different views, it will be seen that everything works as expected. 
+If you run into glitches that do not work as expected, it is suggested that you clean your browser's cache as well as memory. It has been found that traces of the old Repeatable Field Structure and JavaScript surrounding that might clash with the new changes in JavaScript within the new update. To clear the browser memory and not just the cache, is quite important. Only after you have upgraded and started to work in different views, it will be seen that everything works as expected. 
 
 ### Dynamic Get Area Some Conflicts
 
 [00:03:29](https://www.youtube.com/watch?v=MQrLBYhvGyA&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h03m29s)
  
-The Dynamic Get Area has been reported to have some conflicts at this stage. The Dynamic Get Area returns values  from the Admin Area where, if we target let's say Back end View, and we grab some information.[00:03:55](https://www.youtube.com/watch?v=MQrLBYhvGyA&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h03m55s) These values are returned from the Admin Area where it goes to this Admin View, and builds this structure. [00:04:04](https://www.youtube.com/watch?v=MQrLBYhvGyA&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h04m04s) With this demonstration everything is working as expected. If this area is tested before the upgrade, it should work without any problems. If it does not, it is suggested to clear the browser memory and to try again until it is working as mine.[00:04:35](https://www.youtube.com/watch?v=MQrLBYhvGyA&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h04m35s)  All that has been done was that I cleared my browser memory by going to history and wiped everything from this domain, so that there is no traces of JavaScript. If you do not want to clear all of the history then it specifically targets this domain that you are loading the JCB Component in.  
+The Dynamic Get Area has been reported to have some conflicts at this stage. The Dynamic Get Area returns values from the Admin Area where, if we target let's say Back end View, and we grab some information. [00:03:55](https://www.youtube.com/watch?v=MQrLBYhvGyA&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h03m55s) These values are returned from the Admin Area where it goes to this Admin View, and builds this structure. [00:04:04](https://www.youtube.com/watch?v=MQrLBYhvGyA&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h04m04s) With this demonstration everything is working as expected. If this area is tested before the upgrade, it should work without any problems. If it does not, it is suggested to clear the browser memory and to try again until it is working like mine.[00:04:35](https://www.youtube.com/watch?v=MQrLBYhvGyA&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h04m35s)  All that has been done was that I cleared my browser memory by going to history and wiped everything from this domain, so that there are no traces of JavaScript. If you do not want to clear all of the history then it specifically targets this domain that you are loading the JCB Component in.  
 
 ### Update in Managing Area
 
@@ -41,13 +41,13 @@ The upgrade should be quite simple. Go to updates in the managing area. See that
 
 [00:06:09](https://www.youtube.com/watch?v=MQrLBYhvGyA&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h06m09s)
 
-Not much has changed in the Component in regards to where what is located, but how to interact with it has been moved. For example: The Component Updates has a button 'Edit component update for this joomla component',and if it is clicked, it is going to ask if everything is saved before you continue. [00:06:30](https://www.youtube.com/watch?v=MQrLBYhvGyA&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h06m30s) If that was done, click 'OK' and it will open the area where the updates can be done. Usually it was in a model that popped up, and it was possible to change it on the same page. Now you may go to another view and it will do the same. This applies to the Admin View, Custom View, Site View, and everything else. 
+Not much has changed in the Component in regards to where what is located, but how to interact with it has been moved. For example, The Component Updates has a button 'Edit component update for this Joomla component', and if it is clicked, it is going to ask if everything is saved before you continue. [00:06:30](https://www.youtube.com/watch?v=MQrLBYhvGyA&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h06m30s) If that was done, click 'OK' and it will open the area where the updates can be done. Usually, it was in a model that popped up, and it was possible to change it on the same page. Now you may go to another view and it will do the same. This applies to the Admin View, Custom View, Site View, and everything else. 
 
 ### Contributor Moved Down - Do On Page 
 
 [00:07:00](https://www.youtube.com/watch?v=MQrLBYhvGyA&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h07m00s)
 
-The Contributors has been moved down so it may be done on the page. But for most of the other Repeatable Fields it had been moved to their own Tables. 
+The Contributors has been moved down so it may be done on the page. But for most of the other Repeatable Fields, it had been moved to their own Tables. 
 
 ### Moved Component Files And Folders To Joint Table
 
@@ -77,14 +77,14 @@ It only becomes active if you have got some Language setup. There should be some
 
 [00:10:48](https://www.youtube.com/watch?v=MQrLBYhvGyA&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h10m48s)
 
-The problem regarding to the Back-up folder: Because a Backup folder has not been set up for this JCB install. It will say that; if I leave the set to 'Yes' and compile. It will indicate that it could not move that Backup file, because the Temporary folder and the Backup folder are in the same location. That means this is not an error, it is just a miss configuration. We have not setup the Back-up folder to be separate from the Temporary folder.
+The problem regarding the Back-up folder: Because a Backup folder has not been set up for this JCB install. It will say that; if I leave the set to 'Yes' and compile. It will indicate that it could not move that Backup file, because the Temporary folder and the Backup folder are in the same location. That means this is not an error, it is just a miss-configuration. We have not set up the Back-up folder to be separate from the Temporary folder.
 
  ### Percentage of Translation Required can be changed
 
 [00:11:39](https://www.youtube.com/watch?v=MQrLBYhvGyA&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h11m39s)
 
-In the options area of JCB, the percentage of translation required can be changed before a translation is added. Currently it is set to 50% but you may set the percentage as you like.
+In the options area of JCB, the percentage of translation required can be changed before a translation is added. Currently, it is set to 50% but you may set the percentage as you like.
 
 That is creating a Component with the new upgraded JCB. Compiled that, and return to the Demo. It may be seen that the component has been built and everything works as expected. [00:12:18](https://www.youtube.com/watch?v=MQrLBYhvGyA&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h12m18s) 
 
-If you run into any issues that is related to this upgrade after you have cleared the browser memory, then please open an issue on GitHub. (Note that I am using Firefox 64-bit) We will try to get back to you and see if we can get this resolved. My experience so far is that this upgrade has taken JCB to a very powerful position, where it does not have Repeatable Fields anywhere in the Component. All its Repeatable Fields have been converted, and is only Sub Forms. [00:13:19](https://www.youtube.com/watch?v=MQrLBYhvGyA&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h13m19s) We have added some nice shortcuts to these decoupled areas so that it may be accessed directly without going through the Component View. If you want to work on, for example, the Component Dashboard, and you need to make some changes to the dashboard, or you need to work on the Admin Views, you can click on that buttom below the view and work on the Admin Views without going to the Component directly. 
+If you run into any issues that are related to this upgrade after you have cleared the browser memory, then please open an issue on GitHub. (Note that I am using Firefox 64-bit) We will try to get back to you and see if we can get this resolved. My experience so far is that this upgrade has taken JCB to a very powerful position, where it does not have Repeatable Fields anywhere in the Component. All its Repeatable Fields have been converted and is only Sub Forms. [00:13:19](https://www.youtube.com/watch?v=MQrLBYhvGyA&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h13m19s) We have added some nice shortcuts to these decoupled areas so that it may be accessed directly without going through the Component View. If you want to work on, for example, the Component Dashboard, and you need to make some changes to the dashboard, or you need to work on the Admin Views, you can click on that button below the view and work on the Admin Views without going to the Component directly. 
