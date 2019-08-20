@@ -327,33 +327,33 @@ There are Layouts and Templates that all can work together with Site Views. (Loo
 
 [00:58:30](https://www.youtube.com/watch?v=IQfsLYIeblk&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h58m30s)
 
-I am going to build two Site Views. The first Site View is called the 'System Name Greetings'. Give it a Name called 'Greetings'. <<<<<<<<<<<<
-
-
-
-
-
-<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
-
-
+I am going to build two Site Views. The first Site View is called the 'System Name Greetings'. Give it a Name called 'Greetings' and a Code Name 'greetings'.
 
 * ### Name In Code
 
 [00:58:55](https://www.youtube.com/watch?v=IQfsLYIeblk&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h58m55s)
 
-A Code Name greetings. The Code Name is significant because you don't want to clash with Admin Views that you've already created that are going to be edit views on the front since the listview is not being placed on the front of your component only the edit view. That means edit views name is greeting. We can't set a Code Name for the front called greeting otherwise they will conflict. I'm just going to use greeting and for the single, I'm going to use greet. [00:59:34](https://www.youtube.com/watch?v=IQfsLYIeblk&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h59m34s) Just give you a little explanation on why I'm doing things the way I'm doing it. 
+The 'Code Name' is significant because it should not clash with 'Admin Views' that you have already created that are going to be 'Edit views' on the front since the listview is not being placed on the front of the component only the 'Edit View'. That means Edit Views' name is 'greeting'. A Code Name can not be set for the front called 'greeting' otherwise they will conflict. I am just going to use 'greeting' and for the single, 'greet'.  
 
 * ### Description, Snippet
 
 [00:59:41](https://www.youtube.com/watch?v=IQfsLYIeblk&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h59m41s)
 
-A little Description here Greetings. I'm going to just place a little heading and adding it like that will mean that this little string(list of Greetings') will get added to your language file. That's how you create language strings. It's just adding the snippet. Or even just this anywhere in JCB will create a language string.  
+A short Description is placed in; 'Greetings', as well as a short heading and adding it like that, will mean that this short string(list of Greetings) will get added to your language file. That is how language strings are created. By adding the snippet(Add Language String) anywhere in JCB will create a language string. 
 
 * ### Main Get/Act Upon Compilation -  Dynamic Get/Look
 
 [01:00:28](https://www.youtube.com/watch?v=IQfsLYIeblk&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=01h00m28s)
 
-Now over here at Main Get, we are going to select the Listgreetings(name only) and the reason why there are two of these, Main Get and Dynamic Get. One is what we will act upon in the compilation, the other one is just for you to look. So if you end up here(Looking) and click save, it will not be playing any role whatsoever in the compilation. It will play a role when you export a JCB Package but that's a whole different subject and I'm not going to deal with that. Good practice would be that these two Main Get and Dynamic Get are the same. Since you can add Custom Gets, we don't have any Custom Gets setup, so you can't select any, but you can add more than just [01:01:17](https://www.youtube.com/watch?v=IQfsLYIeblk&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=01h01m17s) your normal Main Get to a Site View. You can add the Main Get and then a bunch of Custom Gets which brings a whole ton of data to the page from different variations from relationships. I know it's a little bit beyond the Hello World Component. It is there and it does work very well. You will need to do some homework in tutorials and so forth. 
+At the Main Get, you can select the 'Listgreetings'(name only). The distinct functions of the Main Get and a Dynamic Get are that you will act upon the one in the compilation and the other one is only to view. So if you end up here(Looking) and click save, it will not play any role whatsoever in the compilation. It will play a role when a JCB Package is exported but that is a different subject which will not be dealt with here. Good practice would be that these two, Main Get and Dynamic Get would be the same. Since you can add Custom Gets, but there are not any Custom Gets set up right now, so none can be selected, but you can add more than just your normal Main Get to a Site View.[01:01:17](https://www.youtube.com/watch?v=IQfsLYIeblk&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=01h01m17s) You can add the Main Get and then a bunch of Custom Gets which brings a large amount of data to the page from different variations of relationships.<<<<<<<<
+
+
+
+
+
+
+
+
 
 * ### Listgreetings Gives Snippets
 
