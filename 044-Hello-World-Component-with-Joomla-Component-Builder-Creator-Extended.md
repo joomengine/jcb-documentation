@@ -295,25 +295,25 @@ You can just go right into tweaking the data without saving. The data tweak give
 
 [00:52:22](https://www.youtube.com/watch?v=IQfsLYIeblk&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h52m22s)
 
-Another filter is added to make sure that it only returns 'a.published' items. In the 'Where' area we placed 'a.published' and select 'Equal' in 'Comparison Operators', and '1' in 'Value Key', so only published values will be returned. There are some other features around the tweak area which I suppose goes beyond just in the normal Hello World Component, but there are tutorials about this on YouTube in that playlist that I've already referred to quite a few times. <<<<<<<
+Another filter is added to make sure that it only returns 'a.published' items. In the 'Where' area we placed 'a.published' and select 'Equal' in 'Comparison Operators', and '1' in 'Value Key', so only published values will be returned. There are some other features around the tweak area which I suppose goes beyond just in the normal Hello World Component, but there are tutorials about this on YouTube in that playlist that I've already referred to quite a few times. 
 
 ### Joint Area
 
 [00:52:59](https://www.youtube.com/watch?v=IQfsLYIeblk&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h52m59s)
 
-Then there's a joint area which we not going to use, but it is a very nice way of linking to other component tables that I've got any kind of relationship. There needs to be in a relationship between the main table and the join table. But like I said we are not going to go into this, we are simply going to do the most basic which is what we've got here. We going to say save a new, so we can do and another one. 
+Then there is a 'Joint' area which we are not going to use, but it is a very nice way of linking to other related component tables. There needs to be a relationship between the Main table and the Joint table.  In the Main table click; Save & New. So another one can be done. 
 
 ### Creating Dynamic Get
 
 [00:53:36](https://www.youtube.com/watch?v=IQfsLYIeblk&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h53m36s)
 
-The next one is going to be Greeting. We want it to be one item. We going to do a Back-end View. Again from the Greetings(list). This time we want the name and a greeting. We can still use the published. We don't need to modify by. We can leave those(version). We don't need ordering. We could have left out the hits in the previous one we have setup. Let's do a little tweak to make sure that it doesn't allow someone to grab an unpublished value by just adding an ID in the URL or something. Custom Script is Ok. Got this(Joint). [00:54:26](https://www.youtube.com/watch?v=IQfsLYIeblk&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h54m26s) We need to add a filter. We going to use the ID. Basically passing the ID via the URL. So the State Key will be id and it is going to be a.id in Table Key, equals in Comparison Operator. That's what makes the item load, is this Filter Type and there are many ways to load items. And yes this is a little bit more complex than you might want it to be but believe me, it gives you the freedom and ability to build quite amazing things.  
+The next one is going to be 'Greeting'. We would like it to be one item.  Do a Back-end View. Again from the Greetings(list). This time we want the name and a greeting. We can still use the 'Published'. We do not need  'Modify by', 'Version' or 'Ordering'. We could have left out the 'Hits' in the previous setup. A little tweak should be done to make sure that it does not allow someone to grab an unpublished value by just adding an ID in the URL or something. Custom Script is OK. [00:54:26](https://www.youtube.com/watch?v=IQfsLYIeblk&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h54m26s) We need to add a filter. The ID is going to be used. Passing the ID via the URL. So the State Key will be ID and it is going to be 'a.id' in Table Key, equals in 'Comparisons Operator'. It is this Filter Type that makes the item load. There are many ways to load items. Although it is a bit complex, it gives you the freedom and ability to build quite amazing things.<<<<<<<<<<<<<<<<<<<<  
 
 ### Dynamic Get Tutorials On GitHub - Wiki
 
 [00:55:07](https://www.youtube.com/watch?v=IQfsLYIeblk&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h55m07s)
 
-Please go and watch the tutorial on Dynamic Get on GitHub. There is a place, I just show you called Wiki. In the Wiki, there are links to all the different tutorials. You should really watch all of that. My encouragement is to really watch everything. I have often seen people ask the question [00:55:35](https://www.youtube.com/watch?v=IQfsLYIeblk&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h55m35s) in the issue area which are dealt with in the tutorials. I'm sorry we all have a lot of things to do and so if I don't answer these questions but simply point you to the tutorial I hope you understand.
+Please go and watch the tutorial on Dynamic Get on GitHub. There is a place, I just show you called Wiki. In the Wiki, there are links to all the different tutorials. You should really watch all of that. My encouragement is to really watch everything. I have often seen people ask the question [00:55:35](https://www.youtube.com/watch?v=IQfsLYIeblk&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h55m35s) in the issue area which is dealt with in the tutorials. I'm sorry we all have a lot of things to do and so if I don't answer these questions but simply point you to the tutorial I hope you understand.
 
 ### Two Dynamic Gets Created - Second Return One Greeting
 
