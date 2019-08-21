@@ -384,25 +384,25 @@ If you are adding new tables, JCB will add the tables to a Sequel Update so that
 
 [01:08:41](https://www.youtube.com/watch?v=IQfsLYIeblk&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=01h08m41s)
 
-Without any concerns, the Component can be Compiled and re-installed and then be added to the front.<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<,
+Without any concerns, the Component can be Compiled and re-installed and then be added to the front.
 
+### NB - Default Gets Set The First Time Component Gets Installed
 
-
-
-
-
-
-
-
-### Heads Up - Default Gets Set The First Time Component Gets Installed
-
-Just a heads up. When you add a front end Site View and you set that to default that it should be public. If it's not the first time you installed the Component then that default cannot be set to the Database. Because it's a default that only gets set the first time the Component gets installed. I don't want to go into all the technical reasons for that but you could go into the Components Script File and you can search through it [01:09:30](https://www.youtube.com/watch?v=IQfsLYIeblk&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=01h09m30s) to see what I mean. It's a function that gets added to the Script File and only gets implemented with on the first installation of the Component. That's important. If you do not follow what I was saying and why I said it, then I hope you'll understand it as I try and demonstrate these things. 
+When you add a front end Site View and set that to default to be public and if it is not the first time you have installed the Component then that default cannot be set to the Database because it is a default that only gets set the first time the Component gets installed. [01:09:11](https://www.youtube.com/watch?v=IQfsLYIeblk&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=01h09m11s)  You can go into the Components Script File and search through it to see that it is a function that gets added to the Script File and only gets implemented with on the first installation of the Component.
 
 ### Adding The Greetings To A Site View
 
 [01:09:53](https://www.youtube.com/watch?v=IQfsLYIeblk&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=01h09m53s)
 
-Before you can add the Greetings to a Site Menu. We've got at least four Greetings in place. We can add that list view to a Front and Site view. We go to Menus and go to Main Menu. Select the menu type. Click Hello World Greetings that was the previous Component. We've got Greeting set as the HOME of this website. We going to click save and close. [01:10:54](https://www.youtube.com/watch?v=IQfsLYIeblk&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=01h10m54s) There we go. We've got HOME and Hello World Greetings. That should mean that if we click on this preview(demonstration button) the front end of the Site, we should see the Greetings. It's going to say 'The page isn't redirecting properly'. 
+Before Greetings can be added to the Site Menu let us first write a few greetings. With at least four Greetings in place continue then and add that List View to a Front end Site View. Then go to Menus and to Main Menu. Select the Menu Type. Click on the previous Component; 'Hello World Greetings'. Greeting is set as the HOME of this website. Save and close. [01:10:54](https://www.youtube.com/watch?v=IQfsLYIeblk&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=01h10m54s) There are HOME and Hello World Greetings. That should mean that if we click on this preview(demonstration button) of the front end of the Site, the Greetings should be seen . It will show that 'The page isn't redirecting properly'. <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+
+
+
+
+
+
+
 
 ### Set Front Site View To Have Access Control
 
