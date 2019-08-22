@@ -441,19 +441,18 @@ It can be checked whether this alias is being brought to the page by adding a 'p
 
 [01:22:36](https://www.youtube.com/watch?v=IQfsLYIeblk&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=01h22m36s)
 
-An 'href' is set up around this name but use PHP to take care of creating a link for us by simply type 'PHPecho'. The class name is found in the code, where there is a file called; 'route.php.' in the helpers class. [01:23:11](https://www.youtube.com/watch?v=IQfsLYIeblk&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=01h23m11s) If it is opened 'Hello_worldHelperRoute' may be seen. If you scroll down, the site view for the single record has not been added therefore some values are missing here. First, that should be done. There is a class that works together with this class. [01:23:48](https://www.youtube.com/watch?v=IQfsLYIeblk&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=01h23m48s) It is these two classes with their methods that we are going to use to build a link. <<<<<<<<<<<<<<<<
-
-
-
-
-
-
+An 'href' is set up around this name but use PHP to take care of creating a link for us by simply type 'PHPecho'. The class name is found in the code, where there is a file called; 'route.php.' in the helpers class. [01:23:11](https://www.youtube.com/watch?v=IQfsLYIeblk&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=01h23m11s) If it is opened 'Hello_worldHelperRoute' may be seen. If you scroll down, the site view for the single record has not been added therefore some values are missing here. First, that should be done. There is a class that works together with this class. [01:23:48](https://www.youtube.com/watch?v=IQfsLYIeblk&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=01h23m48s) It is these two classes with their methods that we are going to use to build a link. 
 
 ### Create Site View For The Single Record
 
 [01:23:56](https://www.youtube.com/watch?v=IQfsLYIeblk&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=01h23m56s)
 
-Let's create that display Site View. So I've removed the var_dump from this view. I'm going to save and close this. I could have set save a new.  I'm going to create another Site View. We are going to call this Greet. We can't call it greeting because like we said there is already a greeting in the front. Or Greeted that one might be better. We going to make a nice display here. I'm using [01:24:40](https://www.youtube.com/watch?v=IQfsLYIeblk&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=01h24m40s) Panel. I'm going to copy the Panel Snippet and paste it in Default View. The title I'm going to make the name. The content will be the greeting. Now I don't want two of those, so I'm going to take out this one. [01:25:08](https://www.youtube.com/watch?v=IQfsLYIeblk&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=01h25m08s) I got one greeting setup here. There are no buttons here yet to edit it. But he will view one Greeting. It will also show you who set up the greeting. We can close this. We got this Greeted Site View. We can go to the Admin area [01:25:36](https://www.youtube.com/watch?v=IQfsLYIeblk&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=01h25m36s) of the Joomla Component area. I'm going to click on Edit. And add a Site View to the Component. The same way we did before. Can I say I want Greeted. I don't want it to have an Add Menu. It must have Has Metadata. [01:25:59](https://www.youtube.com/watch?v=IQfsLYIeblk&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=01h25m59s) It's not a Default View. I also want Access there. By Default it's not Public. Save and close. We'll Compile the Component again. I've compiled and install it. 
+Let's create that display Site View. So the 'var_dump' is removed from this view. Save and close. I could have set save a new.  I'm going to create another Site View and call it 'Greet'. It can not be called 'greeting' because there is already a 'greeting' in the front. 'Greeted' may be better. By using the Panel a nice display can be made.  [01:24:40](https://www.youtube.com/watch?v=IQfsLYIeblk&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=01h24m40s) Copy the Panel Snippet and paste it in Default View. Make the title 'name'. The content will be the greeting. Two of those are not necessary, so one can be removed. [01:25:08](https://www.youtube.com/watch?v=IQfsLYIeblk&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=01h25m08s) One greeting is set up and there are no buttons here yet to edit it but we will view one Greeting. It will also show you who set up the greeting. Close this. We got this Greeted Site View and can go to the Admin area of the Joomla Component area. [01:25:36](https://www.youtube.com/watch?v=IQfsLYIeblk&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=01h25m36s)   Click on Edit and add a Site View to the Component the same way we did before and say I want 'Greeted'. I do not want it to have an Add Menu. It must have 'Has Metadata'. [01:25:59](https://www.youtube.com/watch?v=IQfsLYIeblk&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=01h25m59s) It is not a Default View. I also want Access there. By Default it is not Public. Save and close. Compile the Component again and install it. <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+
+
+
+
 
 ### Back In The Code
 
