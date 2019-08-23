@@ -485,19 +485,33 @@ The next step is to make these items editable. I am going to copy and paste most
 
 [01:33:57](https://www.youtube.com/watch?v=IQfsLYIeblk&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=01h33m57s)
 
-I realize by looking at this first area that this checkout value needs to be set on the page. I also need to make sure about this(user.>id) value because we need to check the users authority on the page. We need to check whether the user is set on the page. We can go and do that and look at some code. I'm going to move some of this code [01:34:27](https://www.youtube.com/watch?v=IQfsLYIeblk&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=01h34m27s) and then we'll go to the front end of the code area.
+In the first area this checkout value needs to be set on the page. Make sure about this(user.>id) value because  the users authority should be checked on the page. Check whether the user is set on the page. I am going to move some of this code and go to the front end of the code area.
 
 ### Add The Option To Edit In Both List And Single View
 
 [01:34:32](https://www.youtube.com/watch?v=IQfsLYIeblk&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=01h34m32s)
 
-I want to add the option to edit the item in both the list as well as the single view. I'm going to do it in the List view first and that I'll demonstrate step-by-step. And then when we go to the Single view, I'm just going to place the code in place. I'm not going to explain to much because it's the same. 
+The option to edit the item is added in both the List as well as the Single view. It is done in the List view first and then the code is put in place in the Single view . 
 
 ### List View - Add PHP Script
 
 [01:34:52](https://www.youtube.com/watch?v=IQfsLYIeblk&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=01h34m52s)
 
-In the Site view of the List area I'm going to PHP and I'm going to Add PHP (custom view script). It says add PHP script to the head of the file.  I'm going to paste this link in here and we see that it has this view greetings, and the task is greeting, edit. That is the task and it's going to be available in the edit variable. That's the first part of the code we want up on the page. [01:35:29](https://www.youtube.com/watch?v=IQfsLYIeblk&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=01h35m29s) Now for the rest of it we go back to the admin view again, the back end. We see wither we need to grab these as well. Before grabbing them let's open the corresponding site view so we can look at some of the code. Here is the greetings. [01:35:55](https://www.youtube.com/watch?v=IQfsLYIeblk&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=01h35m55s) I'm going to open this view.html.php and we'll see that the user is already being loaded onto the page. This is the $this.>items. It is always good for you to go and look at the code the JCB is writing. Seeing the code is what makes you familiar with how things work and also helps you to detect when something doesn't work. Why? [01:36:29](https://www.youtube.com/watch?v=IQfsLYIeblk&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=01h36m29s) and how to fix it. Since we know that the user is on the page and we go to the default_body.php area. We see that it's accessing the user in the same way. Using this($this.>user) as an object, user and ask him whether it has authority on the core [01:36:48](https://www.youtube.com/watch?v=IQfsLYIeblk&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=01h36m48s) managed to check in. Then also it checks and gets the check out user details. We'll see why in a moment. But we don't have the check out user on the page.   
+In the Site view of the List area I am going to PHP and add PHP (custom view script). It says add PHP script to the head of the file. Paste this link in here and it may be seen that it has this view 'greetings', and the task is 'greeting edit'. That is the task and it is going to be available in the edit variable. That is the first part of the code we want up on the page. [01:35:29](https://www.youtube.com/watch?v=IQfsLYIeblk&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=01h35m29s) Now for the rest of it go back to the Admin View again, the back end. We need to grab these as well( follow on video). Before grabbing them let's open the corresponding site view to look at some of the code. Here is the 'greetings'. [01:35:55](https://www.youtube.com/watch?v=IQfsLYIeblk&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=01h35m55s) Open this 'view.html.php' and see that the user is already being loaded onto the page. This is the '$this.>items'. It is always good for you to go and look at the code the JCB is writing. Seeing the code is what makes you familiar with how things work and also helps you to detect when something does not work and how to fix it. >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+
+
+
+
+
+
+
+
+
+
+
+
+ [01:36:29](https://www.youtube.com/watch?v=IQfsLYIeblk&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=01h36m29s)  Since we know that the user is on the page and we go to the default_body.php area. We see that it's accessing the user in the same way. Using this($this.>user) as an object, user and ask him whether it has authority on the core [01:36:48](https://www.youtube.com/watch?v=IQfsLYIeblk&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=01h36m48s) managed to check in. Then also it checks and gets the check out user details. We'll see why in a moment. But we don't have the check out user on the page.   
 
 ### Update Dynamic Gets
 
