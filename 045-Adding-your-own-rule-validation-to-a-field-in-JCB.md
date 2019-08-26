@@ -14,25 +14,27 @@ A Fieldtype may be selected to add this validation too, for example, the Textare
 
 [00:03:03](https://www.youtube.com/watch?v=Z6-ggKtX35o&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h03m03s)
 
-Now we want to have a Custom validation here. There are built-in Joomla validations as well. But you can also set up a Custom validation rule and this is known as 'form rule'. This is what we want to demonstrate. We are going to call our rule 'strlenTen'. The string must be longer than 10 characters. [00:03:36](https://www.youtube.com/watch?v=Z6-ggKtX35o&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h03m36s)  I am going to copy this 'strlenTen' again. Save and close. So now that the validation is set. JCB does not have an area for you to write the rule and have it included. So you have to write the file yourself, and put it into the custom folder of JCB and include it in the component that it can place it in the correct place. <<<<<<<<<<<<<<<
+Now we want to have a Custom validation here. There are built-in Joomla validations as well. But you can also set up a Custom validation rule and this is known as 'form rule'. This is what we want to demonstrate. We are going to call our rule 'strlenTen'. The string must be longer than 10 characters. [00:03:36](https://www.youtube.com/watch?v=Z6-ggKtX35o&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h03m36s)  I am going to copy this 'strlenTen' again. Save and close. So now that the validation is set. JCB does not have an area for you to write the rule and have it included. So you have to write the file yourself, and put it into the custom folder of JCB and include it in the component that it can place it in the correct place. 
 
 ### JCB - Already Has Field Path And Rule Path
 
 [00:04:14](https://www.youtube.com/watch?v=Z6-ggKtX35o&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h04m14s)
 
-You see the one thing that JCB already does for you, is that it creates a folder called rules and in the forms every XML if we open it already has a field path and a rule path. So you can just add your rule to this folder(models/rules') Which I will demonstrate to you at the moment. 
+JCB creates a folder called 'rules' and in the forms every XML has a field path and a rule path so you can add a rule to this folder(models/rules') 
 
-### First Create A Rule(See video)
+### First Create A Rule
 
-[00:05:08](https://www.youtube.com/watch?v=Z6-ggKtX35o&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h05m08s)
+[00:04:41](https://www.youtube.com/watch?v=Z6-ggKtX35o&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h04m41s) (Please follow on video)
 
-First, let's create our rule. I had it this rule JFormRule. In the folder structure, I'm in the admin area, components, component builder, and there is this folder called custom. And inside of this folder, I've created strlenTen file. Then I placed this code here. Basic JFormRule, nothing too fancy about it. Now that we've got our file in place, we need to add it to our component. We go to the components and we open Hello World (v2) component. And we go to [00:06:03](https://www.youtube.com/watch?v=Z6-ggKtX35o&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h06m03s) Settings and there 'Adding Custom Files and Folders. We click on 'Create component files and folders for this joomla component'. We just click on that, and OK. In 'A New Component Files & Folders' we want to add one file. Since we've added it to that custom folder everything in at custom folder will come up as a file that you can select. So there is the strlenTen file. Now the path to where we want it to place the file?  
+First, create a rule. This rule 'JFormRule' is added. In the folder structure, in the Admin area, Components, Component Builder, and there is this folder called 'Custom'. In this folder, I have created 'strlenTen' file and placed this code here, it is a basic JFormRule. Now that our file is in place, it should be added to the component. Go to the components and open Hello World (v2) component. [00:06:03](https://www.youtube.com/watch?v=Z6-ggKtX35o&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h06m03s) Go to Settings and there at 'Adding Custom Files and Folders, click on 'Create component files and folders for this Joomla Component'. Click on that, and 'OK'. In 'A New Component Files & Folders' we want to add one file. Since we have added it to that custom folder, everything in at custom folder will come up as a file that you can select. So there is the 'strlenTen' file. Now to show the path that leads to the place where we want it to place the file.  
 
 ### Admin Is The Way The Package Is Build
 
 [00:06:38](https://www.youtube.com/watch?v=Z6-ggKtX35o&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h06m38s)
 
-In the back end of the component, we go to models, forms, and we are targeting this greeting form. We opened that and we see that it has /models/rules'. Let's copy that. Now we need to remember that it is the admin area and then /models/rules'. [00:07:07](https://www.youtube.com/watch?v=Z6-ggKtX35o&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h07m07s) This admin is the way the package is build. The target place should be the place inside the package. This be always the case for both Folders and Fields. In the Folder you want it to add it to the admin models rules folder. Then you need to decide whether you want this file to be updated. At this stage that files doesn't need any updating. 
+In the back end of the component, go to models, forms, and this greeting form is targeted. It has '/models/rules'. Copy that. Remember that it is the Admin area and then '/models/rules'. [00:07:07](https://www.youtube.com/watch?v=Z6-ggKtX35o&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h07m07s) This Admin is the way the package is build. The target place should be the place inside the package. This is always the case for both Folders and Fields. In the Folder you want it to add it to the Admin models rules folder. Then you need to decide whether you want this file to be updated. At this stage that files does not need any updating.<<<<<<<<
+
+ 
 
 ### Adding A License Tag
 
