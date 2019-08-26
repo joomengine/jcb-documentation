@@ -11,11 +11,7 @@ This is a tutorial on the new Snippet Manager and how it works. We have added a 
 
 [00:00:50](https://www.youtube.com/watch?v=qr4I1jeCp7I&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h00m50s)
 
-Looking at the new Snippets Area, the type of the Snippet may be seen, then the name of the Snippet and then the library the snippet belongs to. [00:01:04](https://www.youtube.com/watch?v=qr4I1jeCp7I&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h01m04s)  Once you have selected the Snippet it again updates:  the name of the Snippet(text truncate), the type of Snippet(Common), and the library it belongs to(see more details(UitKit v2). Usually, this library is a link, it will open the actual documentation on that library's website of the specific Snippet, all as it used to be. <<<<<<<<<<<<<<<<<
-
-
-
-
+Looking at the new Snippets Area, the type of the Snippet may be seen, then the name of the Snippet and then the library the snippet belongs to. [00:01:04](https://www.youtube.com/watch?v=qr4I1jeCp7I&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h01m04s)  Once you have selected the Snippet it again updates:  the name of the Snippet(text truncate), the type of Snippet(Common), and the library it belongs to(see more details(UitKit v2). Usually, this library is a link, it will open the actual documentation on that library's website of the specific Snippet, all as it used to be. 
 ### Local And Community Snippets
 
 [00:01:29](https://www.youtube.com/watch?v=qr4I1jeCp7I&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h01m29s)
@@ -44,25 +40,25 @@ There is an area called 'Get Snippets'. If you would like to get your name out t
 
 [00:05:33](https://www.youtube.com/watch?v=qr4I1jeCp7I&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h05m33s) 
 
-There are a few helper tutorials to get you going. If you want to learn this tutorial I am making now will be this link: https://www.youtube.com, and if you want to learn more about Git, it is this one: https://www.udemy.com/git-quick-start/, and if you want to know how the forking is going to work, then it is this: https://www.youtube.com. If you want to know how to do a pull request, it will be this one: https://www.youtube.com [00:05:55](https://www.youtube.com/watch?v=qr4I1jeCp7I&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h05m55s) If there are any issues you can open an issue on GitHub: https://github.com/vdm-io/Joomla-Component-Builder-Snippets/issues. This gives you a few links and shortcuts to get involved in sharing Snippets.<<< 
+There are a few helper tutorials to get you going. If you want to learn this tutorial I am making now will be this link: https://www.youtube.com, and if you want to learn more about Git, it is this one: https://www.udemy.com/git-quick-start/, and if you want to know how the forking is going to work, then it is this: https://www.youtube.com. If you want to know how to do a pull request, it will be this one: https://www.youtube.com [00:05:55](https://www.youtube.com/watch?v=qr4I1jeCp7I&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h05m55s) If there are any issues you can open an issue on GitHub: https://github.com/vdm-io/Joomla-Component-Builder-Snippets/issues. This gives you a few links and shortcuts to get involved in sharing Snippets.
 
 ### What Happens When You Share Snippets?
 
 [00:06:07](https://www.youtube.com/watch?v=qr4I1jeCp7I&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h06m07s)
 
-What happens when the Snippet is shared? If someone clicks on 'Get Snippets', then they will see your name if that specific Snippet comes up. To illustrate that: If we click on Get Snippets it might take a moment depending on how many Snippets are in the repository at this stage because it is getting all the Snippets via Ajax from GitHub and it is building a little page.  [00:06:38](https://www.youtube.com/watch?v=qr4I1jeCp7I&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h06m38s) It has just loaded the whole bunch of Snippets. The first view shows all the current Snippets in the JCB community Snippets Repository. Go to this repository by simply clicking on this GitHub link. <<<<< 
+What happens when the Snippet is shared? If someone clicks on 'Get Snippets', then they will see your name if that specific Snippet comes up. To illustrate that: If we click on Get Snippets it might take a moment depending on how many Snippets are in the repository at this stage because it is getting all the Snippets via Ajax from GitHub and it is building a little page.  [00:06:38](https://www.youtube.com/watch?v=qr4I1jeCp7I&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h06m38s) It has just loaded the whole bunch of Snippets. The first view shows all the current Snippets in the JCB community Snippets Repository. Go to this repository by simply clicking on this GitHub link. 
 
 ### Snippets - In Sync
 
 [00:06:55](https://www.youtube.com/watch?v=qr4I1jeCp7I&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h06m55s)
 
-You can see which of these Snippets are already In Sync. It's called EQUAL. You click on this EQUAL. It shows you what EQUAL means. In Sync with your Local snippets. It has little right mark saying it's a Local snippet and it is In Sync. If you do want to know more about when is a Snippet considered EQUAL then click on this little EQUAL button and it will show you that like I've said. 
+You can see which of these Snippets are already In Sync. It is called EQUAL. It shows what EQUAL means when you click on it. That it is in Sync with your Local snippets. It has little right mark saying it is a Local snippet and it is In Sync. If you do want to know more about when is a snippet is considered EQUAL then click on this little EQUAL button. 
 
 ### Snippets - Out Of Date
 
 [00:07:22](https://www.youtube.com/watch?v=qr4I1jeCp7I&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h07m22s)
 
-Then if there is a Snippet Out of Date. Let's say someone contributed to the community on a specific snippet. Let's say it this Snippet Uitkit v2-(Common) Alert. Someone saw if we open the Snippet they see this little snippet(see video) and they thought, we could do better and they improved on it, and then shared it with the community. Then that Snippet will end up in the Out of Date tab. If there is no Out of Date Snippets, then all be blank. But if there are Snippets that are Out of Date, they all will show up. 
+Then if there is a Snippet Out of Date. For instance, someone contributed to the community on a specific snippet. Let's say it this Snippet Uitkit v2-(Common) Alert. If someone sees that we have opened the Snippet, they see this little snippet(see video) and feel, that they can improve on it, and share it with the community. Then that Snippet will end up in the 'Out of Date tab'. If there is no 'Out of Date Snippets', then all will be blank. But if there are any Snippets that are 'Out of Date', they will all show up.<<<<<< 
 
 ### Snippets - New
 
