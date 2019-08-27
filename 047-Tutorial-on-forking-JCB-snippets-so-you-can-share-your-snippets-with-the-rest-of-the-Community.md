@@ -3,13 +3,15 @@
 [00:00:00](https://www.youtube.com/watch?v=0hgHeQVTLOk&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h00m00s)
 (_Click on these time links to see Youtube video_)
 
-Now that we've given you a general overview of how things work in the new Snippet Manager, I would like you to take the next step and that is showing you how to take shared snippets and share them. 
+Now that a general overview of how things work in the new Snippet Manager has been given, the next step is to illustrate how to take shared snippets and share them. 
 
 ### Fork JCB Community Snippets On GitHub, Export Snippets You like To Contribute, Make Pull Request
 
 [00:00:18](https://www.youtube.com/watch?v=0hgHeQVTLOk&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h00m18s)
 
-There are two things that should be done. One is you need to fork the JCB community Snippets on GitHub so you'll need a GitHub account. The second thing is once you've done that, you would export the Snippets that you would like to contribute and you will add it to the Repository that you forked and cloned down to your developing environment and you would make commit messages on every change that you are intending to make. The second thing you would then do although there are few steps in each of these [00:01:03](https://www.youtube.com/watch?v=0hgHeQVTLOk&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h01m03s) things. The second thing is that you would then make a pull request. 
+There are two things that should be done. One is to fork the JCB community Snippets on GitHub and to do that you need to have a GitHub account. The second thing is to export the Snippets that you would like to contribute and  add it to the Repository that you forked and cloned down to your developing environment and make commit messages on every change that you are intending to make.<<<<<<<
+
+ The second thing you would then do although there are few steps in each of these [00:01:03](https://www.youtube.com/watch?v=0hgHeQVTLOk&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h01m03s) things. The second thing is that you would then make a pull request. 
 
 ### 1. Improving Existing Snippet 2. Move Existing Snippet To New Type 3. To Add A whole New Snippet Completely
 
