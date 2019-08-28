@@ -92,7 +92,7 @@ There is a 'Description' if you like to look at it. There is 'Usage'. See how th
 
 ### Snippets Used in Four Key Areas
 
-Snippets are used in these four key areas Custom Admin Views, Site Views, Templates, Layouts. These areas are what the customer sees, the one that uses the component. We want to be always sure to have the latest and most stable Snippets ready and available for everyone using JCB. [00:13:16](https://www.youtube.com/watch?v=qr4I1jeCp7I&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h13m16s) Once you have imported the new snippet you will be able to see it at the end of your Snippets. 'Navbar' is now the latest one that has been imported. If the snippet is opened, you will see the contributed details are already in place and so these contributed details will be updated as you add new Snippets.<<<<<<<< 
+Snippets are used in these four key areas Custom Admin Views, Site Views, Templates, Layouts. These areas are what the customer sees, the one that uses the component. We want to be always sure to have the latest and most stable Snippets ready and available for everyone using JCB. [00:13:16](https://www.youtube.com/watch?v=qr4I1jeCp7I&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h13m16s) Once you have imported the new snippet you will be able to see it at the end of your Snippets. 'Navbar' is now the latest one that has been imported. If the snippet is opened, you will see the contributed details are already in place and so these contributed details will be updated as you add new Snippets.
 
 ### When Details Not In Place -  Say Dynamic Field
 
