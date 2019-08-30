@@ -11,7 +11,7 @@ A very exciting announcement: The actual Library manager implementation is avail
 
 [00:00:53](https://www.youtube.com/watch?v=rDjvgLYOt1o&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h00m53s)
 
-How it used to work. If we go to Joomla Component and open Demo component. Three libraries are already built into JCB that works out of the box and those three libraries can be selected with the Add Uikit, Add FooTable. The other libraries that are being added, when it detects some code in certain areas of the script. [00:01:22](https://www.youtube.com/watch?v=rDjvgLYOt1o&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h01m22s)  These two options can be selected here in the Add UiKit function. <<<<
+How it used to work. If we go to Joomla Component and open Demo component. Three libraries are already built into JCB that works out of the box and those three libraries can be selected with the Add Uikit, Add FooTable. The other libraries that are being added, when it detects some code in certain areas of the script. [00:01:22](https://www.youtube.com/watch?v=rDjvgLYOt1o&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h01m22s)  These two options can be selected here in the Add UiKit function. 
 
 ### New Feature Added - Dynamic
 
