@@ -143,17 +143,13 @@ I am going to escape `///$this` just that you can see that it is not necessary t
 
 [00:27:02](https://www.youtube.com/watch?v=rDjvgLYOt1o&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h27m02s)
 
-NB. In JCB, we are linked in. If we look at the Bootstrap v4 Library, we set 'Always Add' and are linking it from a link and set Local(get). It may be seen in the code that this path has been written for us: `*/media/com_demo/bootstrap-v4/js/bootstrap.min.js'`. Check if it did add the path correctly.<<<<<<<
-
-
-
- We want to go to the media area of the program and go to demo.[00:27:43](https://www.youtube.com/watch?v=rDjvgLYOt1o&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h27m43s) We see it created the Bootstrap folder and added the files according to the path that is also set. That it is implementing the get option [00:28:07](https://www.youtube.com/watch?v=rDjvgLYOt1o&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h28m07s) for the Libraries. All you did is you just linked it to this view. 
+NB. In JCB, we are linked in. If we look at the Bootstrap v4 Library, we set 'Always Add' and are linking it from a link and set Local(get). It may be seen in the code that this path has been written for us: `*/media/com_demo/bootstrap-v4/js/bootstrap.min.js'`. To check if it did add the path correctly, go to the media area of the program and to demo.[00:27:43](https://www.youtube.com/watch?v=rDjvgLYOt1o&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h27m43s) It created the Bootstrap folder and added the files according to the path that has been set. It implemented the get option for the Libraries when you linked it to this view. 
 
 ### Linking To Views
 
 [00:28:15](https://www.youtube.com/watch?v=rDjvgLYOt1o&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h28m15s)
 
-This does give another situation where every view that you want a specifically Library to be available, you need to link it to that view. Which wouldn't be a problem, if you created a view now and just add your Library and then add the Snippets. Then I mean when you're starting afresh and you will select the right views you want to use. Since you haven't done this before, all the components, [00:28:46](https://www.youtube.com/watch?v=rDjvgLYOt1o&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h28m46s) if you want to use a Library in the view, you have to go and add it, or you just have to in the components area fall back on the old way of implementing the Libraries that are built into JCB. 
+This results in another situation that in every view that you want a specific Library to be available, you need to link it to that view which would not be a problem if you create a view and add your Library and then add the Snippets. That is to say, if you start afresh and select the right views to use. But since you have not done this before, all the components, that is to say, if you want to use a Library in the view, you have to go and add it, or you just have to fall back in the components area on the old way of implementing the Libraries that are built into JCB.<<<<<<<< 
 
 ### Old Implementation Still Works
 
