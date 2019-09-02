@@ -49,22 +49,14 @@ These six Libraries which have been shipped with JCB, should not be changed in r
 
 [00:06:44](https://www.youtube.com/watch?v=rDjvgLYOt1o&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h06m44s)
 
-The moment Bootstrap is set on 'Always Add' and it is linking in a content distribution network link 'https://maxcdn.bootstrapcdn.com/4.0.0-alpha.6'js/bootstrap.min.js'. It says that it should add it as a link. You can change that, that it should not be added as a link. [00:07:04](https://www.youtube.com/watch?v=rDjvgLYOt1o&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h07m04s) You can edit this without making any changes to the link. You can change Type to Local and during compilation, JCB will download these files and add them into the component as Local files, which would then be used instead as the link.<<<<<<<< 
-
-
-
-
-
-
-
-
+The moment Bootstrap is set on 'Always Add' and it is linking in a content distribution network link 'https://maxcdn.bootstrapcdn.com/4.0.0-alpha.6'js/bootstrap.min.js'. It says that it should add it as a link. You can change that, that it should not be added as a link. [00:07:04](https://www.youtube.com/watch?v=rDjvgLYOt1o&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h07m04s) You can edit this without making any changes to the link. You can change Type to Local and during compilation, JCB will download these files and add them into the component as Local files, which would then be used instead as the link.
 
 ### Library Level - Add Files And Folders From The Same Custom Files
 
 [00:07:32](https://www.youtube.com/watch?v=rDjvgLYOt1o&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h07m32s) 
 
 
-You could also do the same thing with Custom Files and Folders as we did previously. You could add Files from the same Custom Files and also Folders. Those are the same kind of implementation except it's now done on a Library level so that even the Library gets added to a View, as I will show you in a moment. You automatically use these files so that means [00:08:01](https://www.youtube.com/watch?v=rDjvgLYOt1o&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h08m01s) you don't need to do it per Component. You will do it per Library and as you link the Libraries to Views, it'll automatically incorporate these files into your component, which makes it a little bit less effort, you just set it up once and thereafter you could just reuse. 
+The same can be done with Custom Files and Folders as we did previously. Files can be added from the same Custom Files and Folders. Those are the same kind of implementation except it is now done on a Library level so that even the Library gets added to a View. These files can be used automatically so it is not necessary to do it per Component. [00:08:01](https://www.youtube.com/watch?v=rDjvgLYOt1o&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h08m01s) As it is done per Library and as the Libraries are linked to Views, will automatically incorporate these files into the component, which makes it easier, since it is set up once and thereafter it could be reused. <<<<<<
 
 ### Behaviors: Conditions, Custom Script, and Do not Add
 
