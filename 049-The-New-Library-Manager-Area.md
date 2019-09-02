@@ -105,23 +105,27 @@ This is how it is done. Click on Get Snippets, select Bootstrap v4 and it will t
 
 [00:16:54](https://www.youtube.com/watch?v=rDjvgLYOt1o&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h16m54s)
 
-Back to Site Views and open the 'Looks' area. If in Libraries, 'Bootstrap' is selected then those two Snippets may be seen that I have installed and click between them to get the snippet and to be able to add it into your code wherever you would like it to be. <<<<<<<<<<<
-
-
-
-
+Back to Site Views and open the 'Looks' area. If in Libraries, 'Bootstrap' is selected then those two Snippets may be seen that I have installed and click between them to get the snippet and to be able to add it into your code wherever you would like it to be. 
 
 ### Demonstration - Adding The Library
 
 [00:17:24](https://www.youtube.com/watch?v=rDjvgLYOt1o&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h17m24s)
 
-I'm just going to demonstrate adding the library. Selecting the Library, [00:17:29](https://www.youtube.com/watch?v=rDjvgLYOt1o&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h17m29s) is what will add the Library to the Component and this View. You can select multiple Libraries for one View. But there could be a problem with that if you, for example, want Uikit v2 and Uikit v3 on this page but you want to have it only use the one or the other, based on certain switches in the global options of the component. 
+By selecting the Library,  the Library will be added to the Component and this View. You can select multiple Libraries for one View. But there could be a problem with that if you want, for instance,  Uikit v2 and Uikit v3 on this page but you want to have it only use the one or the other, based on certain switches in the global options of the component.
 
 ### Uikit v2 Set To Fall Back To Build-in Option, Uikit v3 Set To Fall Back To Always Add
 
 [00:18:04](https://www.youtube.com/watch?v=rDjvgLYOt1o&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h18m04s)
 
-Uikit v2 was set to fall back to the internal Build-in option,  and Uikit v3 was set to fall back to Always Add. If we just look at that, Uikit v3 - Always Add and Uitkit v2 - Build-in. You want to have both Libraries unto the page, but you wanted to work within some Custom Implementation. The way to do that is to click on New and use the Bundle option. [00:18:32](https://www.youtube.com/watch?v=rDjvgLYOt1o&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h18m32s) Select those two libraries, Uikit v2, Uikit v3, like that. Decide how you want to do it. It will be possibly a Custom Script or it will be a Conditions one. Which you will then have to create. Let me just say this, so we could call this Uikit and save. [00:19:06](https://www.youtube.com/watch?v=rDjvgLYOt1o&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h19m06s) Once you've saved it once, you should add the files. You would go to folders and then add Uikit v3 and Uikit v2 [00:19:39](https://www.youtube.com/watch?v=rDjvgLYOt1o&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h19m39s) and you want to add them to the media folder. You'll have to still link the files, remember selecting those Libraries doesn't inherently clone its files. You'll need to still manually add the files. We've got Uikit v3 and [00:20:07](https://www.youtube.com/watch?v=rDjvgLYOt1o&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h20m07s)  Uikit v2.  Save and close. Now we have the files, and here in Conditions, they are, as folders. It shows you all the files and folders that are found inside of those two folders that you've added. [00:20:35](https://www.youtube.com/watch?v=rDjvgLYOt1o&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h20m35s) I think it's little difficult you cannot see which version is which here. This might be a good option to add maybe the folder name here. I think that will be in the next release, we will make that change. But I think the other option which is also ideal for this kind of implementation is a Custom Scripting. Which you could still create the Config Fields. [00:21:04](https://www.youtube.com/watch?v=rDjvgLYOt1o&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h21m04s) When this Uikit v2 is selected, it will load the Uikit v2 files. But you must understand if you create the buttons, it will be added to the component. 
+Uikit v2 was set to fall back to the internal Build-in option,  and Uikit v3 was set to fall back to 'Always Add'. If we just look at that, Uikit v3 - Always Add and Uitkit v2 - Build-in. If you want to have both Libraries unto the page, but you want to work within some Custom Implementation. The way to do that is to click on 'New' and use the 'Bundle' option. [00:18:32](https://www.youtube.com/watch?v=rDjvgLYOt1o&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h18m32s) Select those two libraries, Uikit v2, Uikit v3, like that. Decide how you want to do it. It will possibly be a Custom Script or it will be a Conditions one which you will then have to create. Let me just say this, so we could call this Uikit and save. [00:19:06](https://www.youtube.com/watch?v=rDjvgLYOt1o&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h19m06s) Once you have saved it once, you should add the files and go to folders and then add Uikit v3 and Uikit v2  and add them to the media folder.[00:19:39](https://www.youtube.com/watch?v=rDjvgLYOt1o&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h19m39s) These files still have to be linked,  selecting those Libraries does not inherently clone its files. The files still need to be added manually. We have got Uikit v3 and Uikit v2. [00:20:07](https://www.youtube.com/watch?v=rDjvgLYOt1o&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h20m07s) Save and close. Now we have the files, and here in Conditions, they are, like folders. It shows you all the files and folders that are found in those two folders that you have added. [00:20:35](https://www.youtube.com/watch?v=rDjvgLYOt1o&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h20m35s) It is not clear which version is which here and it might be a good option to add maybe the folder name here. Possibly it will be changed in the next release. The other option which is also ideal for this kind of implementation is a Custom Scripting which you could still create the Config Fields. [00:21:04](https://www.youtube.com/watch?v=rDjvgLYOt1o&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h21m04s) When this Uikit v2 is selected, it will load the Uikit v2 files. If you create the buttons, it will be added to the component.<<<<<<<<< 
+
+
+
+
+
+
+
+
 
 ### Using Custom Script In Behavior
 
