@@ -99,13 +99,17 @@ Let's link the Library to a View. Go to Site View and open 'Looks' and select Bo
 
 [00:15:19](https://www.youtube.com/watch?v=rDjvgLYOt1o&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h15m19s)
 
-This is how it is done. Click on Get Snippets, select Bootstrap v4 and it will then load all the Bootstrap v4 Snippets that are available to the community. It may be imported in bulk or individual Snippets may be imported for Bootstrap v4. Once it is ready it will indicate which ones are new. I am going to add 'Bootstrap v4 - (Alert)Alerts - Heading', Get snippet. [00:16:02](https://www.youtube.com/watch?v=rDjvgLYOt1o&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h16m02s) Say 'Yes' and it will be installed. I am also going to take 'Bootstrap v4 - (Alert)Alerts - Danger', It askes if it should be added? Indicate 'OK'. Two Bootstrap Snippets have been installed. Since there are so many the best way to install all of them is to use the 'Bulk' option. There is 'Get All New Snippets' ,If it is clicked it will install all of the Bootstrap Snippets. [00:16:37](https://www.youtube.com/watch?v=rDjvgLYOt1o&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h16m37s) That is the quick way of getting Libraries Snippets into your system and installing them just by clicking on 'Get Snippet'. <<<<<<<<<< 
+This is how it is done. Click on Get Snippets, select Bootstrap v4 and it will then load all the Bootstrap v4 Snippets that are available to the community. It may be imported in bulk or individual Snippets may be imported for Bootstrap v4. Once it is ready it will indicate which ones are new. I am going to add 'Bootstrap v4 - (Alert)Alerts - Heading', Get snippet. [00:16:02](https://www.youtube.com/watch?v=rDjvgLYOt1o&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h16m02s) Say 'Yes' and it will be installed. I am also going to take 'Bootstrap v4 - (Alert)Alerts - Danger', It askes if it should be added? Indicate 'OK'. Two Bootstrap Snippets have been installed. Since there are so many the best way to install all of them is to use the 'Bulk' option. There is 'Get All New Snippets' ,If it is clicked it will install all of the Bootstrap Snippets. [00:16:37](https://www.youtube.com/watch?v=rDjvgLYOt1o&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h16m37s) That is the quick way of getting Libraries Snippets into your system and installing them just by clicking on 'Get Snippet'. 
 
 ### Site View - Looks - Libraries - Bootstrap
 
 [00:16:54](https://www.youtube.com/watch?v=rDjvgLYOt1o&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h16m54s)
 
-Let's go back to Site Views. Again open the Looks area. If I select Libraries, Bootstrap [00:17:05](https://www.youtube.com/watch?v=rDjvgLYOt1o&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h17m05s) then you'll see those two Snippets that I've installed and I can click between them. That's just for you to get the snippet and to be able to add it into your code wherever you would like it to be. I'm going to do that. 
+Back to Site Views and open the 'Looks' area. If in Libraries, 'Bootstrap' is selected then those two Snippets may be seen that I have installed and click between them to get the snippet and to be able to add it into your code wherever you would like it to be. <<<<<<<<<<<
+
+
+
+
 
 ### Demonstration - Adding The Library
 
