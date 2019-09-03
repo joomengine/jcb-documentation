@@ -39,34 +39,35 @@ If you want to have JCB to populate the translation. Where does it get the Engli
 
 [00:03:59](https://www.youtube.com/watch?v=q5NwKGnOHoQ&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h03m59s)
 
-Go to the compiler and select the component that you would like to compile. Click compile and you need to do that only once and clear that out again. Return to the Language Translations, there are almost 249 strings, and  it has not been translated and all.  Like I said 'close' will only show up once. [00:04:37](https://www.youtube.com/watch?v=q5NwKGnOHoQ&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h04m37s) It is so with every other string. If Demo is opened, it can be seen that the English string cannot be edited. There had been a request that people would like to edit the string. It does not really make sense because if the string is being used in a field, how would we be able to know that their relationship needs to change? [00:05:06](https://www.youtube.com/watch?v=q5NwKGnOHoQ&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h05m06s) For example if you update a string, JCB needs to know in that field it needs to update the label. There is no way for us to determine that. If the string is changed and it will not be useful because JCB on compilation will detect that this string does not exist, and it will create it again. <<<<<<<<
-
-
-
-
-
+Go to the compiler and select the component that you would like to compile. Click compile and you need to do that only once and clear that out again. Return to the Language Translations, there are almost 249 strings, and  it has not been translated and all.  Like I said 'close' will only show up once. [00:04:37](https://www.youtube.com/watch?v=q5NwKGnOHoQ&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h04m37s) It is so with every other string. If Demo is opened, it can be seen that the English string cannot be edited. There had been a request that people would like to edit the string. It does not really make sense because if the string is being used in a field, how would we be able to know that their relationship needs to change? [00:05:06](https://www.youtube.com/watch?v=q5NwKGnOHoQ&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h05m06s) For example if you update a string, JCB needs to know in that field it needs to update the label. There is no way for us to determine that. If the string is changed and it will not be useful because JCB on compilation will detect that this string does not exist, and it will create it again. 
 
 ### The Way To Change A String - Where it was Created - Fields, Site View, Admin View 
 
 [00:05:34](https://www.youtube.com/watch?v=q5NwKGnOHoQ&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h05m34s)
 
-The way that you would change a string which is found, is you need to go and change it in either the Fields where it was created or in Site View or in Admin View. In this case we know that this word Demo is the components name.
+The way that you would change a string which is found, is you need to go and change it in either the Fields where it was created or in Site View or in Admin View. In this case, we know that this word Demo is the component's name.
  
 * Example Change Demo String
 
-If you want to change that Demo string, for example, I'll quickly demonstrate that. I'm going to change Demo to Demoo. Save and close. [00:06:14](https://www.youtube.com/watch?v=q5NwKGnOHoQ&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h06m14s) I'll compile it again and cleared out and then go back to our Language Translation. You will see the Demo is gone, because Demo is no longer being used anywhere, in no other component either so the system will automatically remove it. If you go to the end of the string, you will see the new ones have been added. That's how you would [00:06:48](https://www.youtube.com/watch?v=q5NwKGnOHoQ&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h06m48s) change a English string, is you'd go back to where you set it, and then from there have it changed. I'm going to changed it back. Compile it again. Clear it out again. Go back to Language Translations. You will see that it removed the other one and it added the correct one back. 
+To change that Demo string, for example, I am going to change Demo to Demoo. Save and close. [00:06:14](https://www.youtube.com/watch?v=q5NwKGnOHoQ&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h06m14s)  Compile it again and clear it out and then go back to our Language Translation. You will see the Demo is gone because Demo is no longer being used anywhere, in no other component either so the system will automatically remove it. If you go to the end of the string, you will see the new ones have been added. That is how to [00:06:48](https://www.youtube.com/watch?v=q5NwKGnOHoQ&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h06m48s) change an English string, by going back to where you had set it, and then from there have it changed. I am going to change it back, compile it again, clear it out again and go back to Language Translations. You will see that it removed the other one and it added the correct one back. 
 
 ### Allow Language To Be Set Dynamically - Create Or Use As You Like
 
 [00:07:23](https://www.youtube.com/watch?v=q5NwKGnOHoQ&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h07m23s)
 
-I would like to translate only this one Demo string. If I want to do that you will see that there's no Language available. We decided to allow the Languages to be set dynamically meaning that you would manually create them and use them as you like. There is an area called Languages. You'd click New, then you'd give the Language Name and its Tag. The Language Tag, we've given you an example but if you do not know how this should look, there are ways for you to find out. 
+If only this one Demo string should be translated.  You will see that there is no Language available. We decided to allow the Languages to be set dynamically meaning that you would manually create them and use them as you like. There is an area called Languages. Click 'New', then you will give the Language Name and its Tag. The Language Tag(en-GB) is given as an example but if you do not know how this should look, there are ways to find out. 
 
 ### Joomla Translation Packs
 
 [00:07:57](https://www.youtube.com/watch?v=q5NwKGnOHoQ&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h07m57s)
 
-One of the easiest ways is to go to Joomla's Translation area. If you go to https://community.joomla.org/translations.html. I would say select the one that's the newest(Joomla 3.x Translation Packs). You'll see there's a whole bunch of languages. Clicking on any of these will take you down to that language. This is (af-ZA) [00:08:24](https://www.youtube.com/watch?v=q5NwKGnOHoQ&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h08m24s) the little tag that you would be looking for. If you want to do for example Dutch, then this (nl-NL) is the Tag that you would use. You would use the Dutch as the Name, and then (nl-NL) as the Tag. I'm going to set up, for example, I'm going to setup Afrikaans, it is my native language. [00:08:54](https://www.youtube.com/watch?v=q5NwKGnOHoQ&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h08m54s) I'm going to use Afrikaans as the language we want to create. Then (af-ZA) is the Tag. You can create any of the languages you want to use. We might at some point add a few major languages here and ship it like that, but you could just create a language. You cannot create a translation for that language unless you've done this. You must first create the language. [00:09:28](https://www.youtube.com/watch?v=q5NwKGnOHoQ&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h09m28s) It is just the way it works.
+One of the easiest ways is to go to Joomla's Translation area. If you go to https://community.joomla.org/translations.html. Select the latest one(Joomla 3.x Translation Packs).  There is quite a number of languages. Clicking on any of these will take you down to that language. [00:08:24](https://www.youtube.com/watch?v=q5NwKGnOHoQ&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h08m24s) This is (af-ZA)  the little tag that you would be looking for. If you want to do for example Dutch, then this (nl-NL) is the Tag that you would use. You would use the Dutch as the Name, and then (nl-NL) as the Tag.  For example, I am going to set up 'Afrikaans', it is my native language. [00:08:54](https://www.youtube.com/watch?v=q5NwKGnOHoQ&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h08m54s)  'Afrikaans' would be the language we want to create. Then (af-ZA) is the Tag. You can create any of the languages that you would like to use. At some point, a few major languages can be added here and shipped like that, but you could just create a language. A translation can not be created for that language unless this had been done. <<<<<<<<
+
+
+
+
+
+
 
 ### Focus On Translation String Area
 
