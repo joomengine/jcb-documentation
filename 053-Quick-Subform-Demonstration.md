@@ -30,13 +30,13 @@ That is the first thing to do, create a field you want to use in the subform. Fo
 If you have not looked at all the tutorials that is available on YouTube, then a lot of this will not make sense.<<<<<<<<
 
 
- For those that maybe just seeing this video and not watched any of the other tutorials, please go to YouTube and type in Joomla Component Builder and try to find the playlist. There's old playlist full of tutorials. Start at the top working through way down. It so many tutorials many hours that I have spent trying to teach, [00:03:37](https://www.youtube.com/watch?v=3j4xPQC4apI&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h03m37s) and guide people in using this component. I know those tutorials will make you quite able to build amazing things. I'm going to just leave this options, the option list. 
+ For those that maybe just seeing this video and not watched any of the other tutorials, please go to YouTube and type in Joomla Component Builder and try to find the playlist. Start at the top working through way down.  I know those tutorials will make you quite able to build amazing things. 
 
 ### Formsource
 
 [00:03:51](https://www.youtube.com/watch?v=3j4xPQC4apI&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h03m51s)
 
-This formsource if you read here you can add a path to an XML file containing the field. So you can add a custom  XML file to your component. How to add custom files to component, a whole another topic. It's also possible within your Joomla Component to add files and folders all those kind of things. But that means this specific source can still be used but you don't need to. If you use the fields [00:04:23](https://www.youtube.com/watch?v=3j4xPQC4apI&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h04m23s) option then you need to remove the source option, only one of them. Oonly the fields or the field formsource, so these are the two options. I see it's currently set to mandatory the fields. But I think you can change that. Going to the field types change that to optional and then that you can select other fields or field formsource. I think the compiler will in any case if it detects there is a formsource it will behave correctly. 
+This formsource(Optional) - it reads as follow: 'You can add a path to an XML file containing the fields'. So a custom  XML file can be added to your component. How to add custom files to component, is a whole another topic. It is also possible within the Joomla Component to add files and folders , etc. That means this specific source can still be used but you do not need to. If you use the fields option then you need to remove the source option. [00:04:23](https://www.youtube.com/watch?v=3j4xPQC4apI&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h04m23s) Either the one or the other of these options should be used. Currently the fields are set to mandatory . By going to the field types it can be changed to be optional and then you can select other fields or formsource. The compiler will in any case detects a formsource will behave correctly.<<<<<<<<<< 
 
 ### Adding IDs
 
