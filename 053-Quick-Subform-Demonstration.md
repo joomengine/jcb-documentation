@@ -7,7 +7,7 @@
 
 I recently had this request on the Forum, regarding some help with subforms.
 
- "How to generate a subform itself from within JCB? Where to find the XML detail in relation to repeated subform fields in view? How is the data of the subform populated? How is posted data of a subform validated? [00:00:32](https://www.youtube.com/watch?v=3j4xPQC4apI&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h00m32s) How is data of a subform processed and persisted? My assumption is that the above is done as part of JCB and would not require manual construction of XML files. I did google but found an answer to no avail." 
+ "How to generate a subform itself from within JCB. Where to find the XML detail in relation to repeated subform fields in view. How the data of the subform is populated. How posted data of a subform is validated. [00:00:32](https://www.youtube.com/watch?v=3j4xPQC4apI&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h00m32s) How data of a subform is processed and persisted. I assume that the above is done as part of JCB and would not require manual construction of XML files. I did google but found an answer to no avail." 
 
 At the moment we have only made tutorials about Repeatable Fields. [00:01:01](https://www.youtube.com/watch?v=3j4xPQC4apI&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h01m01s) Repeatable Fields as such has been discontinued. A tutorial about subforms has not been made yet. 
 
@@ -33,7 +33,7 @@ If you have not looked at all the tutorials that are available on YouTube, then 
 
 [00:03:51](https://www.youtube.com/watch?v=3j4xPQC4apI&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h03m51s)
 
-This formsource(Optional) - it reads as follows: 'You can add a path to an XML file containing the fields'. So a custom  XML file can be added to your component. How to add custom files to component, is a whole another topic. It is also possible within the Joomla Component to add files and folders, etc. That means this specific source can still be used but you do not need to. If you use the fields option then you need to remove the source option. [00:04:23](https://www.youtube.com/watch?v=3j4xPQC4apI&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h04m23s) Either the one or the other of these options should be used. Currently, the fields are set to mandatory. By going to the field types it can be changed to be optional and then you can select other fields or Formsource. The compiler will, in any case, detects a formsource will behave correctly. 
+This formsource(Optional) - it reads as follows: 'You can add a path to an XML file containing the fields'. So a custom  XML file can be added to your component. How to add custom files to a component, is a whole another topic. It is also possible within the Joomla Component to add files and folders, etc. That means this specific source can still be used but you do not need to. If you use the fields option then you need to remove the source option. [00:04:23](https://www.youtube.com/watch?v=3j4xPQC4apI&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h04m23s) Either the one or the other of these options should be used. Currently, the fields are set to mandatory. By going to the field types it can be changed to be optional and then you can select other fields or Formsource. The compiler will, in any case, detects a formsource will behave correctly. 
 
 ### Adding IDs
 
