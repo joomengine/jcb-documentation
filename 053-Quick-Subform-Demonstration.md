@@ -5,7 +5,11 @@
 [00:00:00](https://www.youtube.com/watch?v=3j4xPQC4apI&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h00m00s)
 (_Click on these time links to see Youtube video_)
 
-I recently had this request on the Forum by Marco, regarding some help with subforms. How to generate a subform itself writing in JCB. Where to find the XML. Detail in relation to repeated subform fields in view. How the data of the subform is populated. How posted data of a subform is validated. [00:00:32](https://www.youtube.com/watch?v=3j4xPQC4apI&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h00m32s) How data of a subform is processed and persisted. My assumption is that the above is done as part of JCB and would not require manual construction of xml files. I did googled but found an answer to no avail. At the moment we have only made tutorials about Repeatable Fields. [00:01:01](https://www.youtube.com/watch?v=3j4xPQC4apI&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h01m01s) Repeatable Fields as such has been discontinued. I don't think I've made a tutorial about subforms as yet. 
+I recently had this request on the Forum by Marco, regarding some help with subforms.
+
+ "How to generate a subform itself writing in JCB. Where to find the XML. Detail in relation to repeated subform fields in view. How the data of the subform is populated. How posted data of a subform is validated. [00:00:32](https://www.youtube.com/watch?v=3j4xPQC4apI&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h00m32s) How data of a subform is processed and persisted. My assumption is that the above is done as part of JCB and would not require manual construction of xml files. I did googled but found an answer to no avail." 
+
+At the moment we have only made tutorials about Repeatable Fields. [00:01:01](https://www.youtube.com/watch?v=3j4xPQC4apI&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h01m01s) Repeatable Fields as such has been discontinued. A tutorial about subforms has not been made yet. 
 
 ### Subforms - Create Fields You Want To Use
 
