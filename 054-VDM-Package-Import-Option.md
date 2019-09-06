@@ -3,7 +3,7 @@
 [00:00:00](https://www.youtube.com/watch?v=OHvawooT67s&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h00m00s)
 (_Click on these time links to see Youtube video_)
 
-This** VDM package** option that has been put in place will be great news for those who have purchased some of the JCB packages, like the Advanced Demo Component and the Sermon Distributor Component.
+This **VDM package** option that has been put in place will be great news for those who have purchased some of the JCB packages, like the Advanced Demo Component and the Sermon Distributor Component.
 
 [00:00:20](https://www.youtube.com/watch?v=OHvawooT67s&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h00m20s)
 
