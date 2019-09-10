@@ -102,18 +102,18 @@ What needs to be checked here, is the upload size. We want to make sure that our
 
 [00:22:57](https://www.youtube.com/watch?v=o482sK4DxkM&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h22m57s)
 
-First thing, is to move the get classes function up a few lines, and also make sure to have the folder class available in the case and then going to clean the name, so that there should not later be any issues. We still have what we had here before. This '`Unpack the downloaded package file`' is going to be replaced with a short function which I wrote called '`checkUpload`' and going to change this function as one of my functions which I have already adapted for other projects in the past. As you may see I have already moved this one out. [00:23:38](https://www.youtube.com/watch?v=o482sK4DxkM&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h23m38s) That one can stay like that. (See video) <<<<<<<<<<
-
-
-
-
-
+First thing, is to move the get classes function up a few lines, and also make sure to have the folder class available in the case and then going to clean the name, so that there should not later be any issues. We still have what we had here before. This '`Unpack the downloaded package file`' is going to be replaced with a short function which I wrote called '`checkUpload`' and going to change this function as one of my functions which I have already adapted for other projects in the past. As you may see I have already moved this one out. [00:23:38](https://www.youtube.com/watch?v=o482sK4DxkM&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h23m38s) That one can stay like that. (See video) 
 
 ### Do A Little Check-up - Set To False Or True
 
 [00:23:41](https://www.youtube.com/watch?v=o482sK4DxkM&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h23m41s)
 
-Over here(see video) we are going to just do a little check-up to make sure that the package which we are going to give back and which were used to store in a database and all the rest is. Here we just going to grab the result of this which going to be true or false and we going to check if it's false, we going to say 'Upload failed'. If we still going to do this check. Now we've got this 'checkUpload' in place and we first going to get the format from the file. 
+Do a little check-up to make sure that the package which we are going to give back and which will be used to store in a database and all the rest is okay. Grab the result of this which is going to be true or false and check if it is false, and can say '`Upload failed`'. Then do this check. Now we have this '`checkUpload`' in place and are first going to get the format from the file. <<<<<<<<<<
+
+
+
+
+
 
 ### Use Custom Script To Validate Our Format
 
