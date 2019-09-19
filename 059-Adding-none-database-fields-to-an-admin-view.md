@@ -3,6 +3,7 @@
 ### New Function - To Add A Field To A View Without Adding The Field To the Database
 
 [00:00:00](https://www.youtube.com/watch?v=6OTRDIgxgq0&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h00m00s)
+(Click on these time links to see Youtube video)
 
 We've added a new function to JCB which allows you to add a field to a view without adding the field to the database. When will that be useful? When you have a field which maybe is getting data from another table, and you want to change the behavior on the page, based on the data selected, but that selection itself isn't relevant. Or when you want to combine two fields as one in the database, then you could have both fields on the page. [00:00:41](https://www.youtube.com/watch?v=6OTRDIgxgq0&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h00m41s) On submission in your save area in the Admin View, you can add some custom PHP script to take the value from that other field, and save it in to this field that you intend to combine the two values. You don't want both values to be stored in the database. Or the other option is you have fields on a page, which only get used to generate data in another table. [00:01:16](https://www.youtube.com/watch?v=6OTRDIgxgq0&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h01m16s) When you save that item, it takes those values put it into the other table and leave one value in this table. Which next time you open it up all those fields are hidden based on that value selection. 
 
