@@ -119,13 +119,13 @@ That is the reusable snippet. This same snippet uikitFileUploader is reused for 
 
 
 
- I will also paste this out for you to look at. Always remember these arguments are behaving the similar way as an array. Which means that the first argument will always be 0, the second argument 1, and so forth. I'm using arguments in this snippet. Everywhere where I declare it, I am  passing the three arguments that is required, use this + to pass it. 
+ I will also paste this out for you to look at. Always remember these arguments behaves the same as an array which means that the first argument will always be 0, the second argument 1, and so forth. I'm using arguments in this snippet. Everywhere where I declare it, I am passing the three arguments that is required, use this `+` to pass it. 
 
 ### Div - Have It In Place
 
 [00:29:25](https://www.youtube.com/watch?v=UvzDyVQyHDI&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h29m25s) 
 
-And the div looks very similar except that it now would say images. And images you will see there it's using different placeholders. You need to update those accordingly as it's needed. That's to set up the field. To set up the field you need to have that JavaScript in place and you need to have that div in place.  
+And the `div` looks very similar except that it now would say `images` and it is using different placeholders. You need to update those accordingly as needed. To set up the field you need to have that JavaScript in place and you need to have that `div` in place. <<<<<<<<<< 
 
 ### Hidden Fields - Main-Documents - Target Naming Conventions
 
