@@ -374,8 +374,6 @@ The [list of videos](https://www.youtube.com/playlist?list=PLQRGFI8XZ_wtGvPQZWBf
 + [13:21](https://www.youtube.com/watch?v=zzAcVkn_cWU&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=13m21s) **Via The Component**
 + [14:03](https://www.youtube.com/watch?v=zzAcVkn_cWU&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=14m03s) **Go To Language Translation**
 
-# [How to import JCB package using a KEY](https://www.youtube.com/watch?v=PGmEoliopv8&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&index=64)
-
 # [Setting Site View Permission](https://youtu.be/gWjQjdhYqXI?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE)
 
 # [Auto create SQL updates for Components in JCB](https://youtu.be/bRPJTRat158?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE)
@@ -425,6 +423,7 @@ The [list of videos](https://www.youtube.com/playlist?list=PLQRGFI8XZ_wtGvPQZWBf
 # [Adding none database fields to an admin view](https://youtu.be/6OTRDIgxgq0?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE)
 
 # [The custom dashboard option in JCB](https://youtu.be/tU7TeYn1Djo?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE)
+
 
 # More coming....
 
