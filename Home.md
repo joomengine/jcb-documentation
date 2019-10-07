@@ -357,8 +357,20 @@ The [list of videos](https://www.youtube.com/playlist?list=PLQRGFI8XZ_wtGvPQZWBf
 + [12:55](https://www.youtube.com/watch?v=lkE0ZiSWufg&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=12m55s) **Warnings - Remapped**
 + [14:55](https://www.youtube.com/watch?v=lkE0ZiSWufg&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=14m54s) **Mapped Components**
 
-
 # [Translation Manager in JCB explained](https://youtu.be/zzAcVkn_cWU?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE)
++ [00:49](https://www.youtube.com/watch?v=zzAcVkn_cWU&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00m49s) **JCB Builds English File**
++ [01:25](https://www.youtube.com/watch?v=zzAcVkn_cWU&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=01m25s) **Placeholder - JText - English Language String**
++ [02:43](https://www.youtube.com/watch?v=zzAcVkn_cWU&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=02m43s) **Adding Of Other Languages**
++ [03:50](https://www.youtube.com/watch?v=zzAcVkn_cWU&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=03m50s) **Code - Language String**
++ [06:04](https://www.youtube.com/watch?v=zzAcVkn_cWU&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=06m04s) **Adding Strings To The File**
++ [07:09](https://www.youtube.com/watch?v=zzAcVkn_cWU&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=07m09s) **Multi Language String Implementation** 
++ [09:13](https://www.youtube.com/watch?v=zzAcVkn_cWU&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=09m13s) **Adding Language Back To Component**
++ [10:05](https://www.youtube.com/watch?v=zzAcVkn_cWU&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=10m05s) **How Purging Works**
++ [11:22](https://www.youtube.com/watch?v=zzAcVkn_cWU&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=11m22s) **Move strings From Published To Archived State**
++ [12:14](https://www.youtube.com/watch?v=zzAcVkn_cWU&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=12m14s) **New Translation Tab**
+## Two Ways To Get The String
++ [13:21](https://www.youtube.com/watch?v=zzAcVkn_cWU&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=13m21s) **Via The Component**
++ [14:03](https://www.youtube.com/watch?v=zzAcVkn_cWU&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=14m03s) **Go To Language Translation**
 
 # [How to import JCB package using a KEY](https://www.youtube.com/watch?v=PGmEoliopv8&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&index=64)
 
