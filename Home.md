@@ -438,6 +438,23 @@ The [list of videos](https://www.youtube.com/playlist?list=PLQRGFI8XZ_wtGvPQZWBf
 + [17:51](https://www.youtube.com/watch?v=nw9YPu9emws&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=17m51s)  **JCB Detects If It Is A Help Document** 
 
 # [Upgrade to JCB v2.5.8 and using the new Admin View and Admin Fields](https://youtu.be/YaycQcsMpOs?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE)
++ [00:00](https://www.youtube.com/watch?v=YaycQcsMpOs&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00m00s) **JCB Removing Repeatable Fields**
++ [01:59](https://www.youtube.com/watch?v=YaycQcsMpOs&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=01m59s)  **JCB 2.5.8, Whole Admin View Moved To Subform Layout**
++ [03:13](https://www.youtube.com/watch?v=YaycQcsMpOs&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=03m13s) **Heads Up - Moving And Changing Fields**
++ [04:19](https://www.youtube.com/watch?v=YaycQcsMpOs&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=04m19s) **Add Number Of Scripts That Will Convert Fields and Tales etc.**
++ [04:47](https://www.youtube.com/watch?v=YaycQcsMpOs&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=04m47s) **Convert Repeatable Function**
++ [06:30](https://www.youtube.com/watch?v=YaycQcsMpOs&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=06m30s) **Model - admin_view.php - Changes Would Take Place**
++ [08:46](https://www.youtube.com/watch?v=YaycQcsMpOs&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=08m46s) **Checks - Converts - Updates**
++ [09:38](https://www.youtube.com/watch?v=YaycQcsMpOs&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=09m38s) **Checking**
++ [10:15](https://www.youtube.com/watch?v=YaycQcsMpOs&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=10m15s) **Converts**
++ [10:35](https://www.youtube.com/watch?v=YaycQcsMpOs&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=10m35s) **Updates - never need to be updated again**
++ [11:50](https://www.youtube.com/watch?v=YaycQcsMpOs&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=11m50s) **Installing The Upgrade v2.5.8**
++ [12:55](https://www.youtube.com/watch?v=YaycQcsMpOs&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=12m55s) **New Field And Conditions View**
++ [14:15](https://www.youtube.com/watch?v=YaycQcsMpOs&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=14m15s) **How The Field And Conditions View Works?**
++ [15:00](https://www.youtube.com/watch?v=YaycQcsMpOs&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=15m00s) **How To Edit Custom Fields**
++ [15:42](https://www.youtube.com/watch?v=YaycQcsMpOs&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=15m42s) **Creating Field - Available**
++ [16:53](https://www.youtube.com/watch?v=YaycQcsMpOs&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=16m53s) **Shortcut Buttons - First Button, Admin Fields, - Second Button, Conditions**
++ [17:35](https://www.youtube.com/watch?v=YaycQcsMpOs&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=17m35s) **Create New Admin View: Adding - Single Record Name, Short Description, System Name**
 
 # [How to setup taps after upgrade to v2.5.8 in JCB](https://youtu.be/NFp_CtE0LZI?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE)
 
