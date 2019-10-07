@@ -426,6 +426,16 @@ The [list of videos](https://www.youtube.com/playlist?list=PLQRGFI8XZ_wtGvPQZWBf
 + [16:48](https://www.youtube.com/watch?v=GUWZaODo_IM&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=16m48s) **Package Owner Details**
 
 # [Adding Helper Structures to any JCB component](https://youtu.be/nw9YPu9emws?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE)
++ [00:00](https://www.youtube.com/watch?v=nw9YPu9emws&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00m00s) **Question About Help Menu Integration For JCB Components**
++ [00:39](https://www.youtube.com/watch?v=nw9YPu9emws&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00m39s) **Purchased Sermon Distributor Key**
++ [02:48](https://www.youtube.com/watch?v=nw9YPu9emws&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=02m48s) **New Admin View - Help Document**
++ [05:43](https://www.youtube.com/watch?v=nw9YPu9emws&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=05m43s) **Demo - Help Document**
++ [06:41](https://www.youtube.com/watch?v=nw9YPu9emws&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=06m41s) **Type - Link To External URL**
++ [07:20](https://www.youtube.com/watch?v=nw9YPu9emws&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=07m20s) **Type - Text**
++ [09:36](https://www.youtube.com/watch?v=nw9YPu9emws&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=09m36s) **System Name**
++ [11:57](https://www.youtube.com/watch?v=nw9YPu9emws&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=11m57s) **Insert Tables - Linking Table To Component**
++ [13:48](https://www.youtube.com/watch?v=nw9YPu9emws&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=13m48s) **What Happens If Component Is No Longer Installed?**
++ [17:51](https://www.youtube.com/watch?v=nw9YPu9emws&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=17m51s)  **JCB Detects If It Is A Help Document** 
 
 # [Upgrade to JCB v2.5.8 and using the new Admin View and Admin Fields](https://youtu.be/YaycQcsMpOs?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE)
 
