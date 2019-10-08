@@ -630,6 +630,33 @@ The [list of videos](https://www.youtube.com/playlist?list=PLQRGFI8XZ_wtGvPQZWBf
 + [09:52](https://www.youtube.com/watch?v=vQ-yxVtc-Co&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=09m52s) **Focus - Managing Snippets**
 
 # [The New Library Manager Area](https://youtu.be/rDjvgLYOt1o?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE)
++ [00:00](https://www.youtube.com/watch?v=rDjvgLYOt1o&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00m00s) **Libraries Dynamic In JCB**
++ [00:53](https://www.youtube.com/watch?v=rDjvgLYOt1o&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00m53s) **How It Used To Work**
++ [01:34](https://www.youtube.com/watch?v=rDjvgLYOt1o&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=01m34s) **New Feature Added - Dynamic**
++ [02:34](https://www.youtube.com/watch?v=rDjvgLYOt1o&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=02m34s) **Second Way - Scale It**
++ [05:17](https://www.youtube.com/watch?v=rDjvgLYOt1o&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=05m17s) **New Changes Made - Can Remove Files**
++ [05:43](https://www.youtube.com/watch?v=rDjvgLYOt1o&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=05m43s) **Starting At Libraries**
++ [06:22](https://www.youtube.com/watch?v=rDjvgLYOt1o&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=06m22s) **These Six Libraries Should Not Be Changed - Behavior Can Be Changed**
++ [06:44](https://www.youtube.com/watch?v=rDjvgLYOt1o&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=06m44s) **Bootstrap Set To Always Add**
++ [07:32](https://www.youtube.com/watch?v=rDjvgLYOt1o&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=07m32s) **Library Level - 
+Add Files And Folders From The Same Custom Files**
++ [08:19](https://www.youtube.com/watch?v=rDjvgLYOt1o&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=08m19s) **Behaviors: Conditions, Custom Script, and Do Not Add**
++ [08:31](https://www.youtube.com/watch?v=rDjvgLYOt1o&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=08m31s) **Conditions Under Development**
++ [09:17](https://www.youtube.com/watch?v=rDjvgLYOt1o&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=09m17s) **Conditions - Demonstrate Briefly**
++ [12:10](https://www.youtube.com/watch?v=rDjvgLYOt1o&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=12m10s) **Custom Scripting**
++ [14:07](https://www.youtube.com/watch?v=rDjvgLYOt1o&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=14m07s) **How Always Add Works?**
++ [14:50](https://www.youtube.com/watch?v=rDjvgLYOt1o&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=14m50s) **Linking Libraries To A view**
++ [15:19](https://www.youtube.com/watch?v=rDjvgLYOt1o&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=15m19s) **Installing Library Snippets**
++ [16:54](https://www.youtube.com/watch?v=rDjvgLYOt1o&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=16m54s) **Site View - Libraries - Bootstrap**
++ [17:24](https://www.youtube.com/watch?v=rDjvgLYOt1o&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=17m24s) **Demonstration - Adding The Library**
++ [18:04](https://www.youtube.com/watch?v=rDjvgLYOt1o&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=18m04s) **Uikit v2 Set To Fall Back To Build-in Option, Uikit v3 Set To Fall Back To Always Add**
++ [21:19](https://www.youtube.com/watch?v=rDjvgLYOt1o&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=21m19s) **Using Custom Script in Behavior**
++ [22:38](https://www.youtube.com/watch?v=rDjvgLYOt1o&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=22m38s) **HeaderCheck**
++ [23:13](https://www.youtube.com/watch?v=rDjvgLYOt1o&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=23m13s) **Uikit Bundle**
++ [27:02](https://www.youtube.com/watch?v=rDjvgLYOt1o&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=27m02s) **Implementing The Get Option For Libraries**
++ [28:15](https://www.youtube.com/watch?v=rDjvgLYOt1o&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=28m15s) **Linking To Views**
++ [29:01](https://www.youtube.com/watch?v=rDjvgLYOt1o&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=29m01s) **Old Implementation Still Works**
++ [29:38](https://www.youtube.com/watch?v=rDjvgLYOt1o&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=29m38s) **Need To Link Custom Admin View, Site View, Template, Layout to Spesific Library which is Available**
 
 # [Easy Translation via excel](https://youtu.be/q5NwKGnOHoQ?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE)
 
