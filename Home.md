@@ -477,6 +477,10 @@ The [list of videos](https://www.youtube.com/playlist?list=PLQRGFI8XZ_wtGvPQZWBf
 + [11:39](https://www.youtube.com/watch?v=MQrLBYhvGyA&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=11m39s) **Percentage Of Translation Required Can Be Changed**
 
 # [Hello World Component with Joomla Component Builder/Creator - Extended](https://youtu.be/IQfsLYIeblk?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE)
++ [00:00:00](https://www.youtube.com/watch?v=IQfsLYIeblk&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h00m00s)
+
+
+
 
 # [Adding your own rule validation to a field in JCB](https://youtu.be/Z6-ggKtX35o?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE)
 
