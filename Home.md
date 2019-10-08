@@ -618,6 +618,16 @@ The [list of videos](https://www.youtube.com/playlist?list=PLQRGFI8XZ_wtGvPQZWBf
 + [34:00](https://www.youtube.com/watch?v=0hgHeQVTLOk&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=34m00s) **git push - Everything You've Done Gets Pushed To Your Cloned Version on GitHub**
 
 # [Tutorial on making a pull request at Joomla Component Builder Snippets](https://youtu.be/vQ-yxVtc-Co?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE)
++ [00:00](https://www.youtube.com/watch?v=vQ-yxVtc-Co&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00m00s) **Process of Taking Committed Changes To The Forked Version**
++ [01:43](https://www.youtube.com/watch?v=vQ-yxVtc-Co&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=01m43s)
++ [00:00](https://www.youtube.com/watch?v=vQ-yxVtc-Co&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00m00s)
++ [00:00](https://www.youtube.com/watch?v=vQ-yxVtc-Co&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00m00s)
++ [00:00](https://www.youtube.com/watch?v=vQ-yxVtc-Co&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00m00s)
++ [00:00](https://www.youtube.com/watch?v=vQ-yxVtc-Co&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00m00s)
++ [00:00](https://www.youtube.com/watch?v=vQ-yxVtc-Co&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00m00s)
++ [00:00](https://www.youtube.com/watch?v=vQ-yxVtc-Co&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00m00s)
++ [00:00](https://www.youtube.com/watch?v=vQ-yxVtc-Co&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00m00s)
++ [00:00](https://www.youtube.com/watch?v=vQ-yxVtc-Co&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00m00s)
 
 # [The New Library Manager Area](https://youtu.be/rDjvgLYOt1o?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE)
 
