@@ -571,6 +571,23 @@ The [list of videos](https://www.youtube.com/playlist?list=PLQRGFI8XZ_wtGvPQZWBf
 + [13:45](https://www.youtube.com/watch?v=Z6-ggKtX35o&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=13m45s) **Add Messages In XML Path**
 
 # [General overview of how community snippets work](https://youtu.be/qr4I1jeCp7I?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE)
++ [00:00](https://www.youtube.com/watch?v=qr4I1jeCp7I&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00m00s) **Added A Community Concept To Snippets In JCB**
++ [00:50](https://www.youtube.com/watch?v=qr4I1jeCp7I&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00m50s) **New Snippet Area**
++ [01:29](https://www.youtube.com/watch?v=qr4I1jeCp7I&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=01m29s) **Local And Community Snippets**
++ [01:56](https://www.youtube.com/watch?v=qr4I1jeCp7I&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=01m56s) **Contribute Snippets To The Community - Import Snippets That Is Been Added To The Community By Others**
++ [03:58](https://www.youtube.com/watch?v=qr4I1jeCp7I&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=03m58s) **Important - Snippets Mapped The Same Way As Snippets in The Community**
++ [04:48](https://www.youtube.com/watch?v=qr4I1jeCp7I&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=04m48s) **Area Called: Get Snippet**
++ [05:33](https://www.youtube.com/watch?v=qr4I1jeCp7I&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=05m33s) **Helper Tutorials - Few Links And Shortcuts To Get Involved Sharing Snippets**
++ [06:07](https://www.youtube.com/watch?v=qr4I1jeCp7I&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=06m07s) **What Happens When You Share Snippets?**
++ [06:55](https://www.youtube.com/watch?v=qr4I1jeCp7I&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=06m55s) **Snippets - In Sync**
++ [07:22](https://www.youtube.com/watch?v=qr4I1jeCp7I&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=07m22s) **Snippets - Out Of Date**
++ [07:57](https://www.youtube.com/watch?v=qr4I1jeCp7I&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=07m57s) **Snippets - New**
++ [08:49](https://www.youtube.com/watch?v=qr4I1jeCp7I&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=08m49s) **Snippets - Diverged**
++ [09:18](https://www.youtube.com/watch?v=qr4I1jeCp7I&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=09m18s) **Snippets Ahead**
++ [10:05](https://www.youtube.com/watch?v=qr4I1jeCp7I&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=10m05s) **Bulk Tool**
++ [10:57](https://www.youtube.com/watch?v=qr4I1jeCp7I&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=10m57s) **Description, Usage, Snippet, Who Contribute, View Blame**
++ [12:52](https://www.youtube.com/watch?v=qr4I1jeCp7I&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=12m52s) **Snippets Used In Four Key Areas**
++ [13:38](https://www.youtube.com/watch?v=qr4I1jeCp7I&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=13m38s) **When Details Not In Place - Say Dynamic Field**
 
 # [Tutorial on forking JCB snippets so you can share your snippets with the rest of the Cummunity](https://youtu.be/0hgHeQVTLOk?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE)
 
