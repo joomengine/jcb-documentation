@@ -660,8 +660,7 @@ Add Files And Folders From The Same Custom Files**
 
 # [Easy Translation via excel](https://youtu.be/q5NwKGnOHoQ?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE)
 
-# [Dynamic Router Implementation Explained](https://youtu.be/hYycPLbaMos?
-list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE)
+# [Dynamic Router Implementation Explained](https://youtu.be/hYycPLbaMos?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE)
 
 # [Automated database updates in Joomla during development of a component](https://youtu.be/zN2M15fzf_M?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE)
 
