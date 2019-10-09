@@ -1,6 +1,6 @@
 # DYNAMIC ROUTER IMPLEMENTATION EXPLAINED
 
-[New Implementation - Help For Router Complexity](https://youtu.be/hYycPLbaMos&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h00m00s)
+[###New Implemention - Help For Router Complexity]([00:00:00](https://www.youtube.com/watch?v=hYycPLbaMos&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h00m00s)
 
 ### New Implementation - Help For Router Complexity
 
