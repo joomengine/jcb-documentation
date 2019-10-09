@@ -71,7 +71,9 @@ JCB's Dynamic Build changed 'sview' value to Sermon instead of leaving it the sa
 
 ### Sermon (Preacher id) 
 
-The next one we are going to do is Sermon (Preacher id).  [00:12:25](https://www.youtube.com/watch?v=hYycPLbaMos&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h12m25s) It was also having the same issue. We are going to just add the Custom option to ensure that these two values remain the same. 
+[00:12:20](https://www.youtube.com/watch?v=hYycPLbaMos&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h12m20s)
+
+The next one we are going to do is Sermon (Preacher id). It was also having the same issue. We are going to just add the Custom option to ensure that these two values remain the same. 
 
 ### Resolving Category 
 
