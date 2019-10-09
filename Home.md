@@ -708,6 +708,12 @@ Add Files And Folders From The Same Custom Files**
 + [08:19](https://www.youtube.com/watch?v=3j4xPQC4apI&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=08m19s) **Adding Options(test) Subforms To Any Admin View**
 
 # [VDM Package Import Option](https://youtu.be/OHvawooT67s?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE)
++ [00:00](https://www.youtube.com/watch?v=OHvawooT67s&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00m00s) **VDM Packages**
++ [01:24](https://www.youtube.com/watch?v=OHvawooT67s&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=01m24s) **If Sermon Distributor is Reset - Everything Gets Reset**
++ [02:22](https://www.youtube.com/watch?v=OHvawooT67s&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=02m22s) **Istall By Clicking Get Packages - Read All Information That Is Given**
++ [03:28](https://www.youtube.com/watch?v=OHvawooT67s&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=03m28s) **Quiet Switch Added**
++ [04:33](https://www.youtube.com/watch?v=OHvawooT67s&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=04m33s) **Force Local Update - Overwrite Existing Data**
++ [07:39](https://www.youtube.com/watch?v=OHvawooT67s&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=07m39s) **Suggestion - Community Tab**
 
 # [Dynamic File and Folder Inclusion concept](https://youtu.be/_c7wzW075lA?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE)
 
