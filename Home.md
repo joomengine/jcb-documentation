@@ -830,8 +830,23 @@ custom Dashboard To Your Component**
 + [01:36](https://www.youtube.com/watch?v=vwZyhKp_L38&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=01m36s) **Illustration - Change The Prefix**
 
 # [Add your own JCB packages to the JCB Community Directory](https://www.youtube.com/watch?v=8FplwKKa708&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h00m00s)
-+ [00:00](https://www.youtube.com/watch?v=8FplwKKa708&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00m00s)
-
++ [00:00](https://www.youtube.com/watch?v=8FplwKKa708&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00m00s) **Import JCB Packages - New Tab Called Community Packages**
++ [01:17](https://www.youtube.com/watch?v=8FplwKKa708&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=01m17s) **The Clone Feature**
++ [02:00](https://www.youtube.com/watch?v=8FplwKKa708&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=02m00s) **The Import Feature - Merge Yes Or No**
++ [04:01](https://www.youtube.com/watch?v=8FplwKKa708&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=04m01s) **Community Option - Sharing**
++ [05:06](https://www.youtube.com/watch?v=8FplwKKa708&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=05m06s) **Demonstration - When Adding A Package Must Start Forking The Repository**
++ [06:36](https://www.youtube.com/watch?v=8FplwKKa708&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=06m36s) **Open A Terminal - Cloning The Repository**
++ [09:09](https://www.youtube.com/watch?v=8FplwKKa708&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=09m09s) **Helps Get The Project Going Quite Quickly**
++ [10:03](https://www.youtube.com/watch?v=8FplwKKa708&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=10m03s) **First Visit Video - Watch Video - Give A Free Key**
++ [12:35](https://www.youtube.com/watch?v=8FplwKKa708&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=12m35s) **Once Component Exported - The Package Is Available -  In Temporal Director**
++ [13:16](https://www.youtube.com/watch?v=8FplwKKa708&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=13m16s) **Next Step - Move Package Into Repository Which We Cloned Down**
++ [14:02](https://www.youtube.com/watch?v=8FplwKKa708&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=14m02s) **In Terminal - git status - Run Hash.sh Program Which Is A Bash Script**
++ [15:01](https://www.youtube.com/watch?v=8FplwKKa708&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=15m01s) **What Does The Bash Script Do?**
++ [16:33](https://www.youtube.com/watch?v=8FplwKKa708&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=16m33s) **Again - git status - checksum.json - git diff**
++ [17:30](https://www.youtube.com/watch?v=8FplwKKa708&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=17m30s) **git Add The Files - Commit - git commit am"Added Question And Answers Packages**
++ [18:46](https://www.youtube.com/watch?v=8FplwKKa708&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=18m46s) **When All Is Done - git push To Your Repository On GitHub**
++ [19:54](https://www.youtube.com/watch?v=8FplwKKa708&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=19m54s) **Create A Pull 
+Request**
 
 # Proposed Collaborative Workflow in JCB
 
