@@ -197,7 +197,7 @@ Now let's go look at the server-side of this implementation. The server side is 
 
 We are going to look at this `phpAjaxUploader` in the custom codes area. Let's Search for it in the custom code area. I am using custom code because I am reusing it. At the moment it does not look like I am reusing it in many places, it only says it is used in component. This is not the area where I am doing my work, this is just for tutorials. I am using a different Joomla website than this one. This one is only for demonstration. I am reusing this code in many components and we have `image` formats that are allowed in the system, `Document` formats that are allowed in the system and `Media` formats that are allowed in the system.[00:53:57](https://www.youtube.com/watch?v=UvzDyVQyHDI&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h53m57s) You can adapt this to allow whatever you like. This are the available formats. Remember in the options area of our component, it has a media area and there we have allowed documents, allowed media formats, and allowed image formats. These should be the same. It should be the same list, having the same values. But these are a field we created in Joomla, a List field. This is manually added to the components configuration area. 
 
-### Quick Demonstration How add A List Field To The Components Configuration Area
+### Quick Demonstration How To Add A List Field To The Components Configuration Area
 
 [00:54:48](https://www.youtube.com/watch?v=UvzDyVQyHDI&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h54m48s)
 
