@@ -817,6 +817,11 @@ Add Files And Folders From The Same Custom Files**
 + [02:24](https://www.youtube.com/watch?v=6OTRDIgxgq0&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=02m24s) **New Feature - None DB**
 
 # [The custom dashboard option in JCB](https://youtu.be/tU7TeYn1Djo?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE)
++ [00:00](https://www.youtube.com/watch?v=tU7TeYn1Djo&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00m00s) **Adding Your Own 
+custom Dashboard To Your Component**
++ [00:43](https://www.youtube.com/watch?v=tU7TeYn1Djo&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00m43s) **Adding Tabs**
++ [02:41](https://www.youtube.com/watch?v=tU7TeYn1Djo&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=02m41s) **Open Hello World Component - Dashboard**
++ [04:34](https://www.youtube.com/watch?v=tU7TeYn1Djo&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=04m34s) **Use A Custom Dashboard - JCB Compiler Dashboard**
 
 
 # More coming....
