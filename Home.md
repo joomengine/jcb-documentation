@@ -814,8 +814,7 @@ Add Files And Folders From The Same Custom Files**
 # [Adding none database fields to an admin view](https://youtu.be/6OTRDIgxgq0?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE)
 + [00:00](https://www.youtube.com/watch?v=6OTRDIgxgq0&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00m00s) **New Function - To Add A Field To A View Without Adding The Field To The Database**
 + [01:34](https://www.youtube.com/watch?v=6OTRDIgxgq0&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=01m34s) **Multiple Implementations Helps To Get A SubForm On The Page**
-+ [02:24](https://www.youtube.com/watch?v=6OTRDIgxgq0&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=02m24s) **
-New Feature - None DB**
++ [02:24](https://www.youtube.com/watch?v=6OTRDIgxgq0&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=02m24s) **New Feature - None DB**
 
 # [The custom dashboard option in JCB](https://youtu.be/tU7TeYn1Djo?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE)
 
