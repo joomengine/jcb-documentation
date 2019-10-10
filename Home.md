@@ -831,7 +831,7 @@ custom Dashboard To Your Component**
 
 # Proposed Collaborative Workflow in JCB
 
-# [How To Install JCB Packages](https://youtu.be/PGmEoliopv8&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE)
+# [How To Install JCB Packages](https://youtu.be/PGmEoliopv8&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00m00s)
 + [00:00](https://www.youtube.com/watch?v=PGmEoliopv8&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00m00s) **Two Ways To Get To The Installing View - Import JCb Packages Icon OR Joomla Component - Import Packages**
 + [01:20](https://www.youtube.com/watch?v=PGmEoliopv8&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=01m20s) **Make Sure Of Integrity Of The Package**
 + [02:28](https://www.youtube.com/watch?v=PGmEoliopv8&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=02m28s) **Tutorial Explaining Why We Will Do Things The Way We Do**
