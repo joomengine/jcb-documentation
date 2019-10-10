@@ -823,7 +823,8 @@ custom Dashboard To Your Component**
 + [02:41](https://www.youtube.com/watch?v=tU7TeYn1Djo&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=02m41s) **Open Hello World Component - Dashboard**
 + [04:34](https://www.youtube.com/watch?v=tU7TeYn1Djo&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=04m34s) **Use A Custom Dashboard - JCB Compiler Dashboard**
 
-
+# [Add or Remove Prefix to Component Name in Joomla Menu]((https://youtu.be/vwZyhKp_L38&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE))
+[00:00:00](https://www.youtube.com/watch?v=vwZyhKp_L38&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h00m00s)
 # More coming....
 
 > I will constantly be adding more tutorials, and would encourage you to support our efforts. 
