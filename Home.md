@@ -809,6 +809,7 @@ Add Files And Folders From The Same Custom Files**
 + [01:15:06](https://www.youtube.com/watch?v=UvzDyVQyHDI&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=01h15m06s) **'getFileJS'**
 
 # [The Quick Hello Word with JCB](https://youtu.be/MEKs1c7LfO8?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE)
++ [00:00](https://www.youtube.com/watch?v=MEKs1c7LfO8&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00m00s) **Installation Of A Hello World Component For Free**
 
 # [Adding none database fields to an admin view](https://youtu.be/6OTRDIgxgq0?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE)
 
