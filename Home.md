@@ -823,7 +823,7 @@ custom Dashboard To Your Component**
 + [02:41](https://www.youtube.com/watch?v=tU7TeYn1Djo&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=02m41s) **Open Hello World Component - Dashboard**
 + [04:34](https://www.youtube.com/watch?v=tU7TeYn1Djo&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=04m34s) **Use A Custom Dashboard - JCB Compiler Dashboard**
 
-# [Add or Remove Prefix to Component Name in Joomla Menu](https://youtu.be/vwZyhKp_L38&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE)
+# [Add or Remove Prefix to Component Name in Joomla Menu](https://www.youtube.com/watch?v=vwZyhKp_L38&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00m00s)
 + [00:00](https://www.youtube.com/watch?v=vwZyhKp_L38&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00m00s) **Little Arrow - Prefix In Front Of Component Builder**
 + [00:26](https://www.youtube.com/watch?v=vwZyhKp_L38&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00m26s) **Global Tab - Add Menu Prefix**
 + [00:56](https://www.youtube.com/watch?v=vwZyhKp_L38&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00m56s) **Link To A List Of HTML Character Entities**
