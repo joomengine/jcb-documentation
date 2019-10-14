@@ -898,10 +898,17 @@ Request**
 + [08:53](https://www.youtube.com/watch?v=26x_Sc8jbp8&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=08m53s) **Validate Option**
 
 # [Adding Language String To Your Component And Get The Language Placeholder For Dynamic Use](https://www.youtube.com/watch?v=_mXlbAO79J8&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h00m00s)
-
 + [00:00](https://www.youtube.com/watch?v=_mXlbAO79J8&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00m00s) **Quick Tip How To Add String To Your Component**
 + [01:32](https://www.youtube.com/watch?v=_mXlbAO79J8&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=01m32s) **Want The Placeholder To Be Generated**
 + [03:11](https://www.youtube.com/watch?v=_mXlbAO79J8&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=03m11s) **Looking In The Code**
+
+# [Library Manager Anticipated Functionality](https://www.youtube.com/watch?v=joT8weuPcwU&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h00m00s)
++ [00:00](https://www.youtube.com/watch?v=joT8weuPcwU&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00m00s) **Talk About The Expected or Anticipated New Labrary Feature That Is Being Added To JCB**
++ [02:30](https://www.youtube.com/watch?v=joT8weuPcwU&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=02m30s) **Two Functions - prepareDocument And setDocument**
++ [03:39](https://www.youtube.com/watch?v=joT8weuPcwU&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=03m39s) **Conditional Option**
++ [05:40](https://www.youtube.com/watch?v=joT8weuPcwU&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=05m40s) **Option Field Drop Down**
++ [07:03](https://www.youtube.com/watch?v=joT8weuPcwU&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=07m03s) **Creating A File By Clicking Edit, Add New Files**
++ [10:50](https://www.youtube.com/watch?v=joT8weuPcwU&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=10m50s) **Condition Options - Global Value And Page Value**
 
 # More coming....
 
