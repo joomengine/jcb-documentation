@@ -12,7 +12,7 @@ My name is Marco Dings. You can interact on social media with any of these items
 
 Why use a tool at all? What's out there? We have Component Creator. It is a well-known extension by RST Joomla. It's a SAAS solution, it's closed source. It's free for one table you have to pay a subscription. Well, you do get provisional support. This is a wonderful tool that's been presented on JAP since 2015 or even earlier. JoomDD is a model-driven [00:01:23](https://www.youtube.com/watch?v=S9heClCWJrg&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h01m23s) tool or it abstracts your ideas and then generates a code out of it meaning you could by theory create a Joomla, a Drupal or a WordPress website going forward. There are nice plugins for php-storm/eclipse. Now it also has a Web editor. It has some basic reverse engineering that starts theoretically. Theoretically, you can feed it any extension and it should be able to make a model of them. I emphasize the theoretical part because I think that's quite some limitations for that to actually work. But it is open source. The instinct developers are in the back of the room and you can't travel back in time but you could have seen their session. 
 
-### Joomla Component Builder is Tool
+### Joomla Component Builder is A Tool
 
 [00:02:18](https://www.youtube.com/watch?v=S9heClCWJrg&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h02m18s) 
 
