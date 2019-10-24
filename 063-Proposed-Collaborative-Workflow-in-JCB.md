@@ -1,5 +1,7 @@
 # PROPOSED COLLABORATIVE WORKFLOW IN JCB
 
+### Checked Out Functionality
+
 [00:00:00](https://www.youtube.com/watch?v=zlhFyrCGWik&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&index=63&t=00h00m00s)
 (Click on these time links to see Youtube video)
 
