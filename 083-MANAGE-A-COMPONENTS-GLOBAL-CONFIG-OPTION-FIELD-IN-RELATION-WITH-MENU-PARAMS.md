@@ -1,0 +1,1 @@
+# Manage a Components Global Config Option Field 
