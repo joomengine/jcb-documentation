@@ -1,6 +1,7 @@
 # JCB Fields Type Extended 
 
 [00:00:00](https://www.youtube.com/watch?v=91iIAuHZj38&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h00m00s)
+ (Click on these time links to see Youtube video)
 
  I would like to give a demonstration and maybe some explanation about the functionality of a Custom field. Some tutorials about this had been given in the past but JCB has improved and there is a little bit of a different look [00:00:25](https://www.youtube.com/watch?v=91iIAuHZj38&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h00m25s) to that area. Let me do this again and show in the Compiler what it is actually doing. Here is a few views. [00:00:46](https://www.youtube.com/watch?v=91iIAuHZj38&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h00m46s) I've imported Sermon Distributor which is the most common demo component that I have used and it has a few Custom Fields so I could actually change this. This one is changed to Custom and we see that we've got a few Custom Fields here. The idea was that you would [00:01:15](https://www.youtube.com/watch?v=91iIAuHZj38&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h01m15s) use the demo components and then figure out how their Custom Fields work.
 
