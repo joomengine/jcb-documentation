@@ -6,9 +6,9 @@ Welcome to the Joomla-Component-Builder wiki!
 
 A revision of this page to include timelines for all videos and documentation to accompany the videos is underway. Anticipated completion date is early next year. Chapters one through seventy one have been transcribed from the corresponding videos. They are presented here in a very raw format and are being edited.
 
-For an example of what the finished chapters will look like the [fifth chapter](https://github.com/vdm-io/Joomla-Component-Builder/wiki/5.-Field-Types), is complete. We are now editing the first chapter and also adding timelines for the videos that do not have it. The timelines add the visual reference needed at various points in each chapter in lieu of adding the frame for illustration. After completing chapters one through four, we'll complete chapters six through seventy one which will take some time. Updates on progress will be posted in the title of the chapter currently being edited here. After each chapter is finished, an announcement will be posted in the forum.
+For an example of what the finished chapters will look like the [fifth chapter](https://git.vdm.dev/joomla/Component-Builder/wiki/005-Field-Types), is complete. We are now editing the first chapter and also adding timelines for the videos that do not have it. The timelines add the visual reference needed at various points in each chapter in lieu of adding the frame for illustration. After completing chapters one through four, we'll complete chapters six through seventy one which will take some time. Updates on progress will be posted in the title of the chapter currently being edited here. After each chapter is finished, an announcement will be posted in the forum.
 
-If you have more questions, [use the forum](https://groups.google.com/a/vdm.io/d/forum/jcb).
+If you have more questions, [discussions](https://github.com/vdm-io/Joomla-Component-Builder/discussions).
 
 The [list of videos](https://www.youtube.com/playlist?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE) that are already available are listed below. We will be editing this soon to correspond with each chapter in the documentation and to be in the same order.
 
@@ -948,12 +948,3 @@ Request**
 + [09:13](https://www.youtube.com/watch?v=zpS52k89YcI&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=09m13s) **JCB Installed - Grab Packages - Importing Packages**
 + [10:40](https://www.youtube.com/watch?v=zpS52k89YcI&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=10m40s) **Doing Everything That Is Expected**
 + [12:40](https://www.youtube.com/watch?v=zpS52k89YcI&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=12m40s) **New Feature - phpMyAdmin**
-
-# More coming....
-
-> I will constantly be adding more tutorials, and would encourage you to support our efforts. 
-## Come on buy me a coffee :)
-
- * PayPal: [paypal.me/asseblief](https://www.paypal.me/asseblief)
- * Bitcoin: 18vURxYpPFjvNk8BnUy1ovCAyQmY3MzkSf
- * Ethereum: 0x9548144662b47327c954f3e214edb96662d51218
