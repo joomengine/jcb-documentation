@@ -1,6 +1,6 @@
 * [Home](https://git.vdm.dev/joomla/Component-Builder/wiki)
 * [Beta Testing](Beta-Testing)
-* [Custom Code](TIPS:-Custom-Code)
+* [Custom Code](https://git.vdm.dev/joomla/Component-Builder/wiki/TIPS:-Custom-Code)
 * [Demo Component](Using-the-JCB-Demo-Component-While-Building-Your-Local-Development-System)
 * [Tutorials](https://git.vdm.dev/joomla/Component-Builder/wiki)
 	- [Hello World JCB](001-Hello-World-with-Joomla-Component-Builder)
