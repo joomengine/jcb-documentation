@@ -1,6 +1,6 @@
 * [Tutorials](https://git.vdm.dev/joomla/Component-Builder/wiki)
-	- [Intro to JCB](https://git.vdm.dev/joomla/Component-Builder/wiki/002-Intro-to-JCB)
-	- [Installation of JCB](https://git.vdm.dev/joomla/Component-Builder/wiki/003-Installation-of-JCB)
+	- [Intro to JCB](002-Intro-to-JCB)
+	- [Installation of JCB](003-Installation-of-JCB)
 * [Beta Testing](https://git.vdm.dev/joomla/Component-Builder/wiki/Beta-Testing)
 * [Custom Code](https://git.vdm.dev/joomla/Component-Builder/wiki/TIPS:-Custom-Code)
 * [Demo Component](https://git.vdm.dev/joomla/Component-Builder/wiki/Using-the-JCB-Demo-Component-While-Building-Your-Local-Development-System)
