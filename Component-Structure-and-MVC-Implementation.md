@@ -1,7 +1,7 @@
 ## Overview
 Joomla 5 follows the **Model-View-Controller (MVC)** design pattern, which separates data processing (Model), presentation (View), and user interaction (Controller). This separation enhances modularity, making it easier to extend and maintain components without affecting other sections.
 
-Joomla’s autoloading system allows developers to structure controllers, views, and models in separate files without manually including them. However, proper **naming conventions** must be followed to ensure smooth loading and execution.
+Joomla's autoloading system allows developers to structure controllers, views, and models in separate files without manually including them. However, proper **naming conventions** must be followed to ensure smooth loading and execution.
 
 ## MVC Structure in Joomla 5
 ### **File and Naming Conventions**
@@ -38,7 +38,7 @@ When installed:
 ## **Frontend (`/site`) Component Structure**
 
 ### **Main Entry Point**
-- **`site/{componentname}.php`** → The component’s main entry file.
+- **`site/{componentname}.php`** → The component's main entry file.
 
 ### **Controller**
 - **`site/controller.php`** → Default controller.
@@ -83,4 +83,4 @@ if (!preg_match('/Model(.*)/i', get_class($this), $r)) {
 This ensures proper MVC structure is maintained in Joomla 5.
 
 ## **Conclusion**
-By adhering to Joomla’s MVC architecture and naming conventions, developers can build maintainable, extensible, and well-structured components. Keeping site and admin logic modular improves reusability and security within the Joomla ecosystem.
+By adhering to Joomla's MVC architecture and naming conventions, developers can build maintainable, extensible, and well-structured components. Keeping site and admin logic modular improves reusability and security within the Joomla ecosystem.
