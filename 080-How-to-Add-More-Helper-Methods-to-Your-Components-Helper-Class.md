@@ -36,7 +36,7 @@ This tutorial demonstrates how to:
 
 ## 2. Adding Helper Methods
 
-**Timestamp:** [00:00:44 – 00:01:43](https://www.youtube.com/watch?v=VpSXsxZuhmM&t=00h00m44s)
+**Timestamp:** [00:00:44 - 00:01:43](https://www.youtube.com/watch?v=VpSXsxZuhmM&t=00h00m44s)
 
 To add a new helper method:
 
@@ -77,7 +77,7 @@ To add a new helper method:
 
 ## 3. Verifying Generated Helper Methods
 
-**Timestamp:** [00:02:10 – 00:03:01](https://www.youtube.com/watch?v=VpSXsxZuhmM&t=00h02m10s)
+**Timestamp:** [00:02:10 - 00:03:01](https://www.youtube.com/watch?v=VpSXsxZuhmM&t=00h02m10s)
 
 Once you compile and install the component:
 
@@ -97,7 +97,7 @@ Once you compile and install the component:
 
 ## 4. Calling Helper Methods in Your Code
 
-**Timestamp:** [00:03:40 – 00:04:28](https://www.youtube.com/watch?v=VpSXsxZuhmM&t=00h03m40s)
+**Timestamp:** [00:03:40 - 00:04:28](https://www.youtube.com/watch?v=VpSXsxZuhmM&t=00h03m40s)
 
 Helper methods can be called using Joomla's registered helper class.
 
@@ -118,7 +118,7 @@ This example formats a date value using the `fancyDate()` method defined earlier
 
 ## 5. Adding a Custom Helper Class File
 
-**Timestamp:** [00:05:06 – 00:06:01](https://www.youtube.com/watch?v=VpSXsxZuhmM&t=00h05m06s)
+**Timestamp:** [00:05:06 - 00:06:01](https://www.youtube.com/watch?v=VpSXsxZuhmM&t=00h05m06s)
 
 If you prefer to add an **entirely new helper file** (not managed by JCB):
 
@@ -147,7 +147,7 @@ If you prefer to add an **entirely new helper file** (not managed by JCB):
 
 ## 6. Using Global Events to Load Helpers Automatically
 
-**Timestamp:** [00:06:01 – 00:09:26](https://www.youtube.com/watch?v=VpSXsxZuhmM&t=00h06m01s)
+**Timestamp:** [00:06:01 - 00:09:26](https://www.youtube.com/watch?v=VpSXsxZuhmM&t=00h06m01s)
 
 You can automatically trigger events every time a helper class is loaded using **Global Events** in JCB.
 
@@ -180,7 +180,7 @@ Now your custom helper methods are available automatically whenever the helper c
 
 ## 7. Extending to the Site (Frontend)
 
-**Timestamp:** [00:09:57 – 00:10:32](https://www.youtube.com/watch?v=VpSXsxZuhmM&t=00h09m57s)
+**Timestamp:** [00:09:57 - 00:10:32](https://www.youtube.com/watch?v=VpSXsxZuhmM&t=00h09m57s)
 
 You can replicate the same process for the **site helper**:
 
@@ -199,7 +199,7 @@ Now your frontend helper file will also load automatically whenever the componen
 
 ## 8. When to Use Global Events
 
-**Timestamp:** [00:11:02 – 00:11:33](https://www.youtube.com/watch?v=VpSXsxZuhmM&t=00h11m02s)
+**Timestamp:** [00:11:02 - 00:11:33](https://www.youtube.com/watch?v=VpSXsxZuhmM&t=00h11m02s)
 
 Global events are best suited for:
 

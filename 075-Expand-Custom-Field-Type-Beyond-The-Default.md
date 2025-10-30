@@ -1,7 +1,7 @@
 # Expand Custom Field Type Beyond the Default
 
 > *Tutorial Timestamped Documentation based on JCB*
-> *Video Reference: [YouTube Tutorial – Expand Custom Field Type Beyond the Default](https://www.youtube.com/watch?v=Mu9H0zgH9Lw)*
+> *Video Reference: [YouTube Tutorial - Expand Custom Field Type Beyond the Default](https://www.youtube.com/watch?v=Mu9H0zgH9Lw)*
 
 ---
 
@@ -91,8 +91,8 @@ The placement of `@` can be anywhere in the name (beginning, middle, or end).
 
 You must preserve key values:
 
-* **Type** – Must remain unique (e.g., `mylist`)
-* **Extends** – Defines which Joomla field type it inherits from (`list`, `radio`, etc.)
+* **Type** - Must remain unique (e.g., `mylist`)
+* **Extends** - Defines which Joomla field type it inherits from (`list`, `radio`, etc.)
 * **Label**, **Name**, and **Description** can be customized.
 
 Avoid using reserved type names like `list` or `radio` directly - they already exist.

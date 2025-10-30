@@ -24,7 +24,7 @@ These sections use **placeholders** (for example: `###version###`) that automati
 
 [00:01:10](https://www.youtube.com/watch?v=hzbZlLl-xlA&t=00h01m10s)
 
-The `#` symbol in markdown indicates a **header** (H1–H6). It's essential to understand basic Markdown syntax when editing the README script.
+The `#` symbol in markdown indicates a **header** (H1-H6). It's essential to understand basic Markdown syntax when editing the README script.
 
 Within the JCB README text area, placeholders such as `###version###`, `###author###`, or `###component_name###` are automatically replaced by their actual values during compilation.
 
@@ -56,7 +56,7 @@ For guidance on Markdown syntax, refer to the official documentation:
 
 ---
 
-## Admin and Site Views – Adding or Editing
+## Admin and Site Views - Adding or Editing
 
 [00:03:06](https://www.youtube.com/watch?v=hzbZlLl-xlA&t=00h03m06s)
 
@@ -73,7 +73,7 @@ This interface simply provides a quick way to manage related admin and site view
 
 ---
 
-## FTP Info – Updating Components
+## FTP Info - Updating Components
 
 [00:03:57](https://www.youtube.com/watch?v=hzbZlLl-xlA&t=00h03m57s)
 
@@ -99,7 +99,7 @@ When compiling, JCB logs into your FTP server, uploads the compiled component ZI
 
 ---
 
-## FTP Info – Sales Server
+## FTP Info - Sales Server
 
 [00:06:32](https://www.youtube.com/watch?v=hzbZlLl-xlA&t=00h06m32s)
 
@@ -137,8 +137,8 @@ If changed, all encrypted information (such as FTP credentials) must be re-enter
 
 > **Note:** JCB supports two encryption types:
 >
-> * **Basic Encryption (Basic Key)** – default and sufficient for FTP and credentials.
-> * **Advanced Encryption** – for more complex data protection needs.
+> * **Basic Encryption (Basic Key)** - default and sufficient for FTP and credentials.
+> * **Advanced Encryption** - for more complex data protection needs.
 
 ---
 
@@ -180,7 +180,7 @@ These FTP credentials correspond to the folder path accessible from your Joomla 
 
 ---
 
-## Compiler.PHP – FTP Functions
+## Compiler.PHP - FTP Functions
 
 [00:12:32](https://www.youtube.com/watch?v=hzbZlLl-xlA&t=00h12m32s)
 
@@ -188,15 +188,15 @@ In the backend, JCB's compiler file (`compiler.php`) includes specific functions
 
 ### Key Functions
 
-* **`moveFileToFTPServer()`** – Transfers compiled ZIP to the configured FTP destination.
-* **`getFTP()`** – Checks for existing FTP connections and loads relevant credentials.
+* **`moveFileToFTPServer()`** - Transfers compiled ZIP to the configured FTP destination.
+* **`getFTP()`** - Checks for existing FTP connections and loads relevant credentials.
 
 These functions utilize Joomla's **FTP Client Library (`/libraries/joomla/client/ftp.php`)**.
 They securely handle host, port, username, and password during file transmission - ensuring no sensitive data is exposed.
 
 ---
 
-## Update Server – Versioning and SQL Updates
+## Update Server - Versioning and SQL Updates
 
 [00:14:23](https://www.youtube.com/watch?v=hzbZlLl-xlA&t=00h14m23s)
 

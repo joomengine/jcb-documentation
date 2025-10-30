@@ -2,7 +2,7 @@
 
 ## **Overview**
 
-**Video Source:** [VDM Tutorials – Drag and Drop Upload Functionality in JCB](https://www.youtube.com/watch?v=UvzDyVQyHDI)
+**Video Source:** [VDM Tutorials - Drag and Drop Upload Functionality in JCB](https://www.youtube.com/watch?v=UvzDyVQyHDI)
 **Duration:** ~1h19m
 **Purpose:** Learn how to implement drag-and-drop file uploading with automated image cropping in JCB using UIkit and custom JavaScript/PHP integration.
 **Last Updated:** 2025

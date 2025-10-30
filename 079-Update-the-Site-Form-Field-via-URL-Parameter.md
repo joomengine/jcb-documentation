@@ -122,8 +122,8 @@ This automatically sets up:
 
 After compiling, check the generated:
 
-* `/controllers/look.php` – new controller with your method.
-* `/models/look.php` – includes the model methods (e.g., `getForm`, `validate`, `save`).
+* `/controllers/look.php` - new controller with your method.
+* `/models/look.php` - includes the model methods (e.g., `getForm`, `validate`, `save`).
 
 ---
 

@@ -96,8 +96,8 @@ Each package links to:
 
 [00:08:30](https://www.youtube.com/watch?v=zlhFyrCGWik&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&index=63&t=00h08m30s)
 
-* **JCB Mapped Component** – the blueprint containing all data (fields, views, scripts) inside JCB.
-* **Joomla Component** – the compiled output of that blueprint.
+* **JCB Mapped Component** - the blueprint containing all data (fields, views, scripts) inside JCB.
+* **Joomla Component** - the compiled output of that blueprint.
 
 You can edit JCB Mapped Components to generate updated Joomla Components, but changes made directly to the compiled Joomla Component do not affect the JCB data unless you edit through the integrated IDE custom code system.
 

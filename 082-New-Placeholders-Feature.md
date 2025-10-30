@@ -176,11 +176,11 @@ This confirms successful context-aware replacement.
 
 *(Timestamp: [00:15:09](https://www.youtube.com/watch?v=USVLYu4ZLCc&t=00h15m09s))*
 
-* **Dynamic Reusability** – Write one snippet of code or string logic, reuse it across components with unique contextual differences.
-* **Simplified Maintenance** – Centralize updates; one placeholder definition updates everywhere it's used.
-* **Component-Level Overrides** – Different behavior for the same placeholder across components.
-* **Seamless Integration** – Works within helpers, custom code, dynamic GET, or any JCB text area.
-* **Cross-Component Compatibility** – Perfect for large projects with interdependent components (e.g., the "Coral" core project example).
+* **Dynamic Reusability** - Write one snippet of code or string logic, reuse it across components with unique contextual differences.
+* **Simplified Maintenance** - Centralize updates; one placeholder definition updates everywhere it's used.
+* **Component-Level Overrides** - Different behavior for the same placeholder across components.
+* **Seamless Integration** - Works within helpers, custom code, dynamic GET, or any JCB text area.
+* **Cross-Component Compatibility** - Perfect for large projects with interdependent components (e.g., the "Coral" core project example).
 
 ---
 

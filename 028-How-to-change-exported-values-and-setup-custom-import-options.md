@@ -36,9 +36,9 @@ This component tracks IP addresses, translates them into countries, and updates 
 
 In the *IP Tables* dashboard, typical fields include:
 
-* `CNTRY` – the country code
-* `REGISTRY` – organization that owns the IP range
-* `IP From` and `IP To` – the IP range values
+* `CNTRY` - the country code
+* `REGISTRY` - organization that owns the IP range
+* `IP From` and `IP To` - the IP range values
 
 ---
 

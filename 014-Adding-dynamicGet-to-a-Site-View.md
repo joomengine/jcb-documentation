@@ -24,18 +24,18 @@ This setup will allow you to connect the previously created DynamicGet methods t
 
 On the right-hand side of the Site View editor, you'll find **three key fields** for populating DynamicGet methods:
 
-1. **Custom DynamicGets** –
+1. **Custom DynamicGets** -
 
    * Add one or more custom DynamicGet methods here.
    * These are additional queries or data sets you might want to use in the same view.
 
-2. **Main DynamicGet** –
+2. **Main DynamicGet** -
 
    * This is the **primary** DynamicGet method.
    * Only one main DynamicGet can be added per Site View.
    * It determines how the model retrieves data (via either `getItem` or `getItems`).
 
-3. **Custom DynamicGets (optional)** –
+3. **Custom DynamicGets (optional)** -
 
    * You can include as many custom DynamicGets as needed.
    * These will provide additional data objects to the view.
@@ -53,9 +53,9 @@ These are snippets of code automatically generated to help you implement Dynamic
 
 You can select:
 
-* **Main Gets** – display data from the main DynamicGet.
-* **Custom Gets** – display data from your custom DynamicGets.
-* **Both** – show all DynamicGet options together.
+* **Main Gets** - display data from the main DynamicGet.
+* **Custom Gets** - display data from your custom DynamicGets.
+* **Both** - show all DynamicGet options together.
 
 [00:02:04](https://www.youtube.com/watch?v=vEJZe6XqHJE&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h02m04s)
 

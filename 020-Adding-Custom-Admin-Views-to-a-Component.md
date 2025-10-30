@@ -26,9 +26,9 @@ You'll notice that a *Custom Admin View* has more configuration options than a *
 
 Each Custom Admin View can be associated with a **menu icon** and can appear in one or more of the following locations:
 
-* **Main Menu** – The primary menu visible on the Joomla component dashboard.
-* **Dashboard (List of Records)** – The central area displaying key data or quick links.
-* **Submenu** – The vertical sidebar visible when navigating inside component views.
+* **Main Menu** - The primary menu visible on the Joomla component dashboard.
+* **Dashboard (List of Records)** - The central area displaying key data or quick links.
+* **Submenu** - The vertical sidebar visible when navigating inside component views.
 
 These settings control how your view will appear and how users will access it from the backend.
 

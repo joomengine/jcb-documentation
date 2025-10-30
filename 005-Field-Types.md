@@ -32,9 +32,9 @@ Behind each field is a **field type** that defines its behavior.
 
 Common Joomla field types include:
 
-* **Text** – For simple single-line input.
-* **Editor** – For WYSIWYG content.
-* **List / Radio / Checkbox** – For multiple choice or toggles.
+* **Text** - For simple single-line input.
+* **Editor** - For WYSIWYG content.
+* **List / Radio / Checkbox** - For multiple choice or toggles.
 * **User / Date / Tag / Textarea / Label**, and more.
 
 These are all defined as **field types** in Joomla and mapped into your JCB component.

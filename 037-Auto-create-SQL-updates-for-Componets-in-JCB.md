@@ -29,7 +29,7 @@ If later you modify the component (for example, adding new tables or fields), yo
 
 ---
 
-## 3. The Old Method – Manual SQL Updates
+## 3. The Old Method - Manual SQL Updates
 
 [00:01:47](https://www.youtube.com/watch?v=bRPJTRat158&t=00h01m47s)
 

@@ -4,7 +4,7 @@ Site Views in JCB define what users see on the front end of your Joomla componen
 
 ---
 
-## [00:00:00](https://www.youtube.com/watch?v=zZ_HJeYL8ps&t=00h00m00s) – Accessing Component Settings
+## [00:00:00](https://www.youtube.com/watch?v=zZ_HJeYL8ps&t=00h00m00s) - Accessing Component Settings
 
 1. **Login to Joomla Administrator.**
    Open your Joomla backend and log in as an administrator.
@@ -21,7 +21,7 @@ Site Views in JCB define what users see on the front end of your Joomla componen
 
 ---
 
-## [00:00:25](https://www.youtube.com/watch?v=zZ_HJeYL8ps&t=00h00m25s) – Understanding Views
+## [00:00:25](https://www.youtube.com/watch?v=zZ_HJeYL8ps&t=00h00m25s) - Understanding Views
 
 * **Admin Views:** Used to manage backend data and configuration.
 * **Custom Admin Views:** Allow adding custom pages in the admin area.
@@ -35,7 +35,7 @@ To add or manage Site Views:
 
 ---
 
-## [00:01:11](https://www.youtube.com/watch?v=zZ_HJeYL8ps&t=00h01m11s) – Fixing the Site Views Selection Glitch
+## [00:01:11](https://www.youtube.com/watch?v=zZ_HJeYL8ps&t=00h01m11s) - Fixing the Site Views Selection Glitch
 
 You may notice that some Site View checkboxes or toggles appear **unselected** even though you selected and saved them earlier.
 
@@ -56,7 +56,7 @@ This is a **Joomla JavaScript glitch** - not an issue with JCB.
 
 ---
 
-## [00:02:21](https://www.youtube.com/watch?v=zZ_HJeYL8ps&t=00h02m21s) – Exploring Site View Options
+## [00:02:21](https://www.youtube.com/watch?v=zZ_HJeYL8ps&t=00h02m21s) - Exploring Site View Options
 
 Each Site View in JCB offers **four key switches**:
 
@@ -71,7 +71,7 @@ Let's break down each option below.
 
 ---
 
-### [00:02:46](https://www.youtube.com/watch?v=zZ_HJeYL8ps&t=00h02m46s) – Menu Option
+### [00:02:46](https://www.youtube.com/watch?v=zZ_HJeYL8ps&t=00h02m46s) - Menu Option
 
 When **Menu = Yes**, JCB automatically creates an XML definition so Joomla recognizes the Site View as a menu type.
 
@@ -86,7 +86,7 @@ After compiling the component:
 
 ---
 
-### [00:03:47](https://www.youtube.com/watch?v=zZ_HJeYL8ps&t=00h03m47s) – Metadata Option
+### [00:03:47](https://www.youtube.com/watch?v=zZ_HJeYL8ps&t=00h03m47s) - Metadata Option
 
 When **Metadata = Yes**, JCB adds metadata-handling scripts to your generated view.
 
@@ -106,7 +106,7 @@ If the data isn't present, Joomla won't display metadata even if the switch is e
 
 ---
 
-### [00:04:53](https://www.youtube.com/watch?v=zZ_HJeYL8ps&t=00h04m53s) – Default View Option
+### [00:04:53](https://www.youtube.com/watch?v=zZ_HJeYL8ps&t=00h04m53s) - Default View Option
 
 The **Default View** acts as the component's **home page** or fallback route.
 
@@ -123,7 +123,7 @@ If your default view is **Preachers**, and a user visits a restricted "Sermon" v
 
 ---
 
-### [00:05:37](https://www.youtube.com/watch?v=zZ_HJeYL8ps&t=00h05m37s) – Access Option
+### [00:05:37](https://www.youtube.com/watch?v=zZ_HJeYL8ps&t=00h05m37s) - Access Option
 
 The **Access** switch enables permission control for each Site View.
 
@@ -143,7 +143,7 @@ Allows JCB to include the necessary access tables so that:
 
 ---
 
-## [00:06:32](https://www.youtube.com/watch?v=zZ_HJeYL8ps&t=00h06m32s) – Final Step: Compile and Test
+## [00:06:32](https://www.youtube.com/watch?v=zZ_HJeYL8ps&t=00h06m32s) - Final Step: Compile and Test
 
 Once you've configured your Site Views:
 
@@ -185,5 +185,5 @@ Once you've configured your Site Views:
 
 **Video Reference:**
 🎥 *Watch the full tutorial on YouTube:*
-[Adding Site Views to a Component – Joomla Component Builder](https://www.youtube.com/watch?v=zZ_HJeYL8ps&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE)
+[Adding Site Views to a Component - Joomla Component Builder](https://www.youtube.com/watch?v=zZ_HJeYL8ps&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE)
 

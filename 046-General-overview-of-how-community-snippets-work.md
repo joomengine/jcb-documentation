@@ -47,8 +47,8 @@ This helps identify and reuse snippets efficiently during development.
 
 Two snippet types now exist:
 
-* **Local Snippets** – Created and stored on your own system.
-* **Community Snippets** – Shared through the public JCB Snippet Repository.
+* **Local Snippets** - Created and stored on your own system.
+* **Community Snippets** - Shared through the public JCB Snippet Repository.
 
 You can now **contribute** your snippets or **import** those shared by others.
 

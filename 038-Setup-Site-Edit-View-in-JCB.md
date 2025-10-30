@@ -94,7 +94,7 @@ After compilation, check your Joomla installation:
   * `/models/look.php`
   * `/views/look/`
 
-Each corresponds to the **Model–View–Controller** (MVC) files that JCB created.
+Each corresponds to the **Model-View-Controller** (MVC) files that JCB created.
 
 The generated code is similar to the backend but adapted for the front-end. It includes necessary scripts, form handling, and layout adjustments suitable for site users.
 

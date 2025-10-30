@@ -69,11 +69,11 @@ These base libraries should not have their *names* or *types* changed, but their
 
 Each library has configurable **File Behaviors** that control how its assets are added:
 
-* **Always Add** – always include these files.
-* **Local (Get)** – download and include files locally during compilation.
-* **Conditions** – include files only when specific conditions are met (under development).
-* **Custom Script** – write your own PHP logic to include files dynamically.
-* **Do Not Add** – exclude files completely.
+* **Always Add** - always include these files.
+* **Local (Get)** - download and include files locally during compilation.
+* **Conditions** - include files only when specific conditions are met (under development).
+* **Custom Script** - write your own PHP logic to include files dynamically.
+* **Do Not Add** - exclude files completely.
 
 You can switch between CDN links and local files by changing the **Type** field from "Link" to "Local."
 When compiling, JCB downloads and embeds the necessary files automatically.

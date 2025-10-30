@@ -1,4 +1,4 @@
-# Library Manager – Anticipated Functionality
+# Library Manager - Anticipated Functionality
 
 ## Overview
 
@@ -46,8 +46,8 @@ In the future, when **Joomla 4** is released, developers may prefer using **nati
 
 There are two main functions responsible for adding libraries to views:
 
-1. **`prepareDocument()`** – Uses the document variable directly to attach scripts and styles.
-2. **`setDocument()`** – Uses a global document variable, depending on class inheritance.
+1. **`prepareDocument()`** - Uses the document variable directly to attach scripts and styles.
+2. **`setDocument()`** - Uses a global document variable, depending on class inheritance.
 
 When using the **Custom Script** option, you can target these methods to add the required assets dynamically.
 
@@ -126,8 +126,8 @@ This allows conditional or custom inclusion through both `prepareDocument` and `
 
 A planned enhancement is **dual-level conditional logic**:
 
-* **Global Value** – Applies library inclusion rules across the entire component.
-* **Page Value** – Allows per-view overrides.
+* **Global Value** - Applies library inclusion rules across the entire component.
+* **Page Value** - Allows per-view overrides.
 
 This is especially useful when a specific view already loads the same library, and you wish to exclude it to prevent duplication.
 

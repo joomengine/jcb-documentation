@@ -153,9 +153,9 @@ Once the view is created, assign fields to it:
 2. Use the search bar to find your field.
 3. Configure options:
 
-   * **Show in Admin List** – display in list view
-   * **Order** – display position
-   * **Sortable / Searchable / Filterable / Clickable** – enable these features
+   * **Show in Admin List** - display in list view
+   * **Order** - display position
+   * **Sortable / Searchable / Filterable / Clickable** - enable these features
 
 > **Example:**
 > The *Name* field can be made **clickable**, opening the edit view directly.
@@ -221,8 +221,8 @@ This system extends Joomla's basic "ShowOn" logic and compiles into custom JavaS
 
 Used when **multiple conditions** must be true.
 
-* **Isolate** – separate conditions (only one triggers)
-* **Chain** – all conditions must be true
+* **Isolate** - separate conditions (only one triggers)
+* **Chain** - all conditions must be true
 
 > **Example:**
 > Show "Dropbox Auto Note" only if:

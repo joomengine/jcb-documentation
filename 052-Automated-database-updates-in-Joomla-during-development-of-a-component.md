@@ -160,7 +160,7 @@ This ensures the component's lifecycle and database updates behave naturally aga
 [00:09:51](https://www.youtube.com/watch?v=zN2M15fzf_M)
 
 JCB's integration with Joomla's SQL update convention ensures that database structures evolve smoothly as your component grows.
-By following proper save–compile–update workflows, you can maintain robust, version-aware, and auto-updating components without manual SQL management.
+By following proper save-compile-update workflows, you can maintain robust, version-aware, and auto-updating components without manual SQL management.
 
 [00:10:16](https://www.youtube.com/watch?v=zN2M15fzf_M)
 

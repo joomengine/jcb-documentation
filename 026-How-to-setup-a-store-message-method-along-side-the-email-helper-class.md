@@ -96,11 +96,11 @@ Each parameter in the function signature has a **default value of `= null`**, en
 
 Typical parameters include:
 
-* `$subject` – The subject line of the sent email.
-* `$body` – The body content of the message.
-* `$recipient` – The recipient's email address.
-* `$headers` – Optional headers used in the email.
-* `$attachments` – Any attached files.
+* `$subject` - The subject line of the sent email.
+* `$body` - The body content of the message.
+* `$recipient` - The recipient's email address.
+* `$headers` - Optional headers used in the email.
+* `$attachments` - Any attached files.
 
 You only need to handle the first **four values** in most cases.
 

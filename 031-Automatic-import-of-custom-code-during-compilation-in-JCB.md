@@ -98,7 +98,7 @@ Once compiled, JCB updates these placeholders:
 
 There are a few important limitations when using custom code tags:
 
-* **Spacing:** Custom code blocks must be at least **6–8 lines apart**.
+* **Spacing:** Custom code blocks must be at least **6-8 lines apart**.
 * **Fingerprinting:** JCB creates a **fingerprint** (context snapshot) of a few lines before and after your insertion. If that context changes too much, JCB won't recognize where to re-insert the code.
 * If the fingerprint changes, JCB will:
 

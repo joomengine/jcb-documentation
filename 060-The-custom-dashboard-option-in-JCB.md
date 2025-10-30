@@ -1,6 +1,6 @@
 # The Custom Dashboard Option in Joomla Component Builder (JCB)
 
-> **Tutorial Reference:** [Video 60 – The Custom Dashboard Option in JCB](https://www.youtube.com/watch?v=tU7TeYn1Djo)
+> **Tutorial Reference:** [Video 60 - The Custom Dashboard Option in JCB](https://www.youtube.com/watch?v=tU7TeYn1Djo)
 > **Timestamped Transcript Integrated**
 > **Updated for:** Latest JCB Version (2025)
 
@@ -68,8 +68,8 @@ Inside JCB:
 2. Open the **"Dash & Install"** tab in the component configuration.
 3. You'll find two key options under **Dashboard Type**:
 
-   * **Default** – the standard JCB-generated dashboard.
-   * **Dynamic** – allows selecting a custom admin or site view to serve as the new dashboard.
+   * **Default** - the standard JCB-generated dashboard.
+   * **Dynamic** - allows selecting a custom admin or site view to serve as the new dashboard.
 
 When you select **Dynamic**, JCB displays a list of all available **Admin and Custom Admin Views** associated with your component.
 

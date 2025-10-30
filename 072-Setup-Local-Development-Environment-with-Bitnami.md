@@ -225,7 +225,7 @@ To uninstall:
 | Import "Hello World" Package     | 2 mins         | Load example JCB component                   |
 | Compile & Test                   | 2 mins         | Verify functionality in backend and frontend |
 
-> **Total Setup Time:** ~10–15 minutes
+> **Total Setup Time:** ~10-15 minutes
 
 ---
 

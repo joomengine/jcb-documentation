@@ -1,13 +1,13 @@
 # Quick Subform Demonstration
 
-**Tutorial Source:** [YouTube – Quick Subform Demonstration](https://www.youtube.com/watch?v=3j4xPQC4apI&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE)
+**Tutorial Source:** [YouTube - Quick Subform Demonstration](https://www.youtube.com/watch?v=3j4xPQC4apI&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE)
 **Author:** Joomla Component Builder Team
 **Purpose:** Learn how to create and implement subforms in Joomla Component Builder (JCB).
 **Difficulty Level:** Beginner to Intermediate
 
 ---
 
-## 1. Introduction – Community Request
+## 1. Introduction - Community Request
 
 **[00:00:00](https://www.youtube.com/watch?v=3j4xPQC4apI&t=0s)**
 
@@ -43,7 +43,7 @@ JCB simplifies this by:
 
 ---
 
-## 3. Step 1 – Create the Fields for Your Subform
+## 3. Step 1 - Create the Fields for Your Subform
 
 **[00:01:44](https://www.youtube.com/watch?v=3j4xPQC4apI&t=104s)**
 
@@ -62,7 +62,7 @@ Before creating the subform field itself, these individual fields must exist in 
 
 ---
 
-## 4. Step 2 – Create the Subform Field
+## 4. Step 2 - Create the Subform Field
 
 **[00:02:06](https://www.youtube.com/watch?v=3j4xPQC4apI&t=126s)**
 
@@ -74,14 +74,14 @@ Once your base fields exist, you can create the subform that will reference them
 2. Set **Field Type** to `Subform`.
 3. JCB will automatically populate a basic XML structure for the subform.
 4. Give the field a **label** and **name** (for example: `Options` or `options_test`).
-5. Assign a **data type** – usually `TEXT` or `MEDIUMTEXT`.
+5. Assign a **data type** - usually `TEXT` or `MEDIUMTEXT`.
 
    * JCB automatically detects that this field is a subform and handles JSON encoding/decoding when storing or loading data.
 6. Save the new field.
 
 ---
 
-## 5. Step 3 – Assign the Fields to the Subform
+## 5. Step 3 - Assign the Fields to the Subform
 
 **[00:04:57](https://www.youtube.com/watch?v=3j4xPQC4apI&t=297s)**
 
@@ -105,7 +105,7 @@ Each subform must reference existing field IDs to know which fields to include.
 
 ---
 
-## 6. Step 4 – Configure Additional Options
+## 6. Step 4 - Configure Additional Options
 
 **[00:05:33](https://www.youtube.com/watch?v=3j4xPQC4apI&t=333s)**
 
@@ -125,7 +125,7 @@ JCB automatically integrates Joomla's native field validation when compiling.
 
 ---
 
-## 7. Step 5 – Optional: Form Source File
+## 7. Step 5 - Optional: Form Source File
 
 **[00:03:51](https://www.youtube.com/watch?v=3j4xPQC4apI&t=231s)**
 
@@ -139,7 +139,7 @@ If you include a `Formsource`, JCB's compiler recognizes it and handles it corre
 
 ---
 
-## 8. Step 6 – Add the Subform to a View
+## 8. Step 6 - Add the Subform to a View
 
 **[00:08:19](https://www.youtube.com/watch?v=3j4xPQC4apI&t=499s)**
 
@@ -157,7 +157,7 @@ To add the subform `Options (test)` to the **Look** view:
 
 ---
 
-## 9. Step 7 – Compile and Install the Component
+## 9. Step 7 - Compile and Install the Component
 
 **[00:08:49](https://www.youtube.com/watch?v=3j4xPQC4apI&t=529s)**
 
@@ -169,7 +169,7 @@ Now that your subform is part of a view:
 
 ---
 
-## 10. Step 8 – Test the Subform in Joomla
+## 10. Step 8 - Test the Subform in Joomla
 
 **[00:09:26](https://www.youtube.com/watch?v=3j4xPQC4apI&t=566s)**
 

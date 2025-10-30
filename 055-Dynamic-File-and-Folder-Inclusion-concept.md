@@ -1,4 +1,4 @@
-# Joomla Component Builder – Dynamic File and Folder Inclusion
+# Joomla Component Builder - Dynamic File and Folder Inclusion
 
 ### Tutorial Reference
 

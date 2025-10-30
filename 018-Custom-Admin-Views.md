@@ -93,10 +93,10 @@ You can add **custom toolbar buttons** within your Custom Admin View. These butt
 2. Click **Add**.
 3. Configure:
 
-   * **Icon** – Choose from Joomla's built-in icons.
-   * **Name** – Example: `Edit Company`.
-   * **Controller Method** – Example: `editcompany`.
-   * **Target Type** – Select whether the button applies to a **single item**, a **list**, or **both**.
+   * **Icon** - Choose from Joomla's built-in icons.
+   * **Name** - Example: `Edit Company`.
+   * **Controller Method** - Example: `editcompany`.
+   * **Target Type** - Select whether the button applies to a **single item**, a **list**, or **both**.
 4. Click **Save**.
 
 > **Note:** The button configuration is saved in the JCB form but not yet implemented in the database or PHP logic until the component is compiled.

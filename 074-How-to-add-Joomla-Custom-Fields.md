@@ -1,6 +1,6 @@
 # How to Add Joomla Custom Fields in Joomla Component Builder (JCB)
 
-**Video Tutorial Reference:** [YouTube – How to Add Joomla Custom Fields](https://www.youtube.com/watch?v=n5RBmP0uNCM)
+**Video Tutorial Reference:** [YouTube - How to Add Joomla Custom Fields](https://www.youtube.com/watch?v=n5RBmP0uNCM)
 *(Timestamps throughout this guide correspond to the video above.)*
 
 ---

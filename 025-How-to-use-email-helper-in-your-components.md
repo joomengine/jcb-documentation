@@ -65,9 +65,9 @@ These include:
 
 Each config field includes:
 
-* **Name** – used in the code (e.g., `mailer`, `smtp_host`)
-* **Label** – visible in the UI
-* **Description** – explains the field's purpose
+* **Name** - used in the code (e.g., `mailer`, `smtp_host`)
+* **Label** - visible in the UI
+* **Description** - explains the field's purpose
 
 When writing code, ensure the **field name** matches exactly with what's declared in your component's XML.
 

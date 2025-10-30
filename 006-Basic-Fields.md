@@ -1,4 +1,4 @@
-# Joomla Component Builder – Basic Fields
+# Joomla Component Builder - Basic Fields
 
 ### Tutorial Reference
 
@@ -17,8 +17,8 @@ Fields are fundamental to any component as they define the **data structure**, *
 
 There are two categories of fields in JCB:
 
-1. **Common (Basic) Field Types** – These are standard Joomla fields such as text, list, radio, editor, color, category, etc.
-2. **Advanced (Custom) Field Types** – These are specialized or dynamic fields that interact with other component data. These are covered in later tutorials after admin and site views are introduced.
+1. **Common (Basic) Field Types** - These are standard Joomla fields such as text, list, radio, editor, color, category, etc.
+2. **Advanced (Custom) Field Types** - These are specialized or dynamic fields that interact with other component data. These are covered in later tutorials after admin and site views are introduced.
 
 > **Tip:** Before creating custom fields, it's important to understand how fields and views are connected within JCB.
 

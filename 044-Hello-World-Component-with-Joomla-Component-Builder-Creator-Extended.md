@@ -1,6 +1,6 @@
 # Building a Hello World Component with Joomla Component Builder v2.6.0
 
-*Based on tutorial: "Hello World Component with Joomla Component Builder Creator – Extended"* 
+*Based on tutorial: "Hello World Component with Joomla Component Builder Creator - Extended"* 
 *(Updated for JCB v2.6.0)* 
 
 ---

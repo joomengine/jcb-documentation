@@ -38,7 +38,7 @@ This change required the addition of approximately **nine new database tables** 
 
 ---
 
-## **2. Impact Scope – Only the Component Area**
+## **2. Impact Scope - Only the Component Area**
 
 [00:02:03](https://www.youtube.com/watch?v=MQrLBYhvGyA&t=00h02m03s)
 
@@ -126,7 +126,7 @@ This improves stability and editing precision across multiple areas.
 
 ---
 
-## **9. Admin Views – New Tab**
+## **9. Admin Views - New Tab**
 
 [00:07:42](https://www.youtube.com/watch?v=MQrLBYhvGyA&t=00h07m42s)
 
@@ -135,7 +135,7 @@ This improves stability and editing precision across multiple areas.
 Buttons such as:
 
 * **Edit component admin views**
-* **Linked Admin View – Edit**
+* **Linked Admin View - Edit**
 
 allow you to access and modify admin views instantly without returning to the main component list.
 
@@ -146,7 +146,7 @@ During upgrades, JCB automatically checks each view for old field formats and co
 
 ---
 
-## **10. New Feature – Translation Checker**
+## **10. New Feature - Translation Checker**
 
 [00:09:19](https://www.youtube.com/watch?v=MQrLBYhvGyA&t=00h09m19s)
 

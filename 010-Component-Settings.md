@@ -218,7 +218,7 @@ This retrieves:
 
 ---
 
-## 13. Practical Example – Display Modes
+## 13. Practical Example - Display Modes
 
 [00:25:59](https://www.youtube.com/watch?v=V2WkTjNFjvo&t=00h25m59s)
 

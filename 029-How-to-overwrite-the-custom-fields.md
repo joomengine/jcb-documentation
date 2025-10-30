@@ -72,7 +72,7 @@ To overwrite any default field:
    * `created_date`
 3. Define its **type**, **label**, and **description** according to your design.
 
-### Example – "Created By" Field
+### Example - "Created By" Field
 
 [00:02:57](https://www.youtube.com/watch?v=FHQfIhWHYyQ&t=00h02m57s)
 
@@ -81,7 +81,7 @@ To overwrite any default field:
 * Label: *Created by*
 * Description: *The user who created this record*
 
-### Example – "Created Date" Field
+### Example - "Created Date" Field
 
 * Field type: `calendar`
 * Name: `created_date`

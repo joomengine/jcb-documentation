@@ -11,7 +11,7 @@
 [01:55](https://youtu.be/1KBBtQUxMTc?t=115)
 
 This tutorial teaches you how to build a fully working Joomla component from scratch using **Joomla Component Builder (JCB)**.
-You'll start with the simplest setup – a **"Hello World"** greeting – and end with a dynamic site view where you can list, view, and even edit those greetings from the frontend.
+You'll start with the simplest setup - a **"Hello World"** greeting - and end with a dynamic site view where you can list, view, and even edit those greetings from the frontend.
 
 **What you'll do:**
 
@@ -242,7 +242,7 @@ Dynamic Gets define what data each site view retrieves.
 If your new views don't appear publicly:
 
 1. Uninstall the component.
-2. Re-install it fresh – JCB applies public access on first install.
+2. Re-install it fresh - JCB applies public access on first install.
 
 To keep existing data:
 

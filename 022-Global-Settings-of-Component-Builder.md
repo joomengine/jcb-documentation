@@ -52,9 +52,9 @@ A 24-hour interval is generally recommended for most development workflows.
 
 Versioning allows JCB to track and store different versions of a record.
 
-* **Yes** – Enables versioning.
-* **No** – Disables versioning.
-* **Number of Versions to Keep** – Set a maximum number of versions (enter `0` to keep all).
+* **Yes** - Enables versioning.
+* **No** - Disables versioning.
+* **Number of Versions to Keep** - Set a maximum number of versions (enter `0` to keep all).
 
 If your component is used frequently or stores large amounts of data, limiting stored versions helps maintain database performance.
 
@@ -66,8 +66,8 @@ If your component is used frequently or stores large amounts of data, limiting s
 
 JCB can automatically compress and minify all JavaScript files during the component's compilation.
 
-* **Yes** – Minify JS files (recommended for production environments).
-* **No** – Keep JS files unminified (recommended for development).
+* **Yes** - Minify JS files (recommended for production environments).
+* **No** - Keep JS files unminified (recommended for development).
 
 When minification is active, all JS assets in your compiled component are optimized to improve loading performance.
 
@@ -170,8 +170,8 @@ The **Preacher** view in the *Sermon Distributor* component is an example of how
 
 In JCB, you can define whether permissions use:
 
-* `view.edit` – to create view-specific control (e.g., `preacher.edit`)
-* `core.edit` – to apply Joomla's global edit/delete rules
+* `view.edit` - to create view-specific control (e.g., `preacher.edit`)
+* `core.edit` - to apply Joomla's global edit/delete rules
 
 After compiling and installing the component, open **Options → Permissions** in Joomla to confirm that these new permission rules appear for the relevant views.
 

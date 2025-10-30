@@ -2,7 +2,7 @@
 
 ### Video Reference
 
-[00:00:00 – Watch on YouTube](https://www.youtube.com/watch?v=wkSLZUEN-RE&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h00m00s)
+[00:00:00 - Watch on YouTube](https://www.youtube.com/watch?v=wkSLZUEN-RE&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h00m00s)
 (*Click the time links in this document to jump directly to sections in the video.*)
 
 ---

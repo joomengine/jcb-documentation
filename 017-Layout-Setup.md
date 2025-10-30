@@ -102,7 +102,7 @@ This allows flexible reuse of the same layout across multiple contexts.
 
 ---
 
-## Layout–Template Integration via Custom Script
+## Layout-Template Integration via Custom Script
 
 [00:05:11](https://www.youtube.com/watch?v=52OLSZio0F8&t=00h05m11s)
 

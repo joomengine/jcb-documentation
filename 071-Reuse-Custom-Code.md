@@ -73,8 +73,8 @@ This area allows you to define reusable PHP code blocks. These snippets can be i
 
 There are two main types:
 
-1. **Manual Custom Code (Reusable snippets)** – Functions you create and use across many components or views.
-2. **Automated Custom Code (Hash-based)** – Code managed and inserted by JCB automatically into specific file areas.
+1. **Manual Custom Code (Reusable snippets)** - Functions you create and use across many components or views.
+2. **Automated Custom Code (Hash-based)** - Code managed and inserted by JCB automatically into specific file areas.
 
 ---
 

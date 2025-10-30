@@ -1,6 +1,6 @@
 # DynamicGet
 
-*(Using Sermon Distributor – Preacher Get Example)*
+*(Using Sermon Distributor - Preacher Get Example)*
 
 [00:00:00](https://www.youtube.com/watch?v=OPuCoxPW35s&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h00m00s)
 *Click on the timestamp links to view the relevant section in the video.*
@@ -33,11 +33,11 @@ Using the *Sermon Distributor* component as an example, this guide demonstrates 
 
 There are three main data source options:
 
-1. **Back-end View** – Recommended. Pulls data directly from one of your component's views.
-2. **Joomla Database** – Enables fetching data from *any* component's database tables.
+1. **Back-end View** - Recommended. Pulls data directly from one of your component's views.
+2. **Joomla Database** - Enables fetching data from *any* component's database tables.
 
    * Use with caution: complex table structures or relationships can cause issues.
-3. **Custom Get** – Lets you add your own PHP logic manually or let JCB generate it for you.
+3. **Custom Get** - Lets you add your own PHP logic manually or let JCB generate it for you.
 
 [00:02:55](https://www.youtube.com/watch?v=OPuCoxPW35s&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h02m55s)
 
@@ -100,7 +100,7 @@ If pagination is enabled, JCB automatically generates pagination code for both t
 
 ## Step 6: Joining Other Tables or Views
 
-### 6.1 – Join Data Views
+### 6.1 - Join Data Views
 
 [00:08:47](https://www.youtube.com/watch?v=OPuCoxPW35s&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h08m47s)
 
@@ -111,7 +111,7 @@ You can join your main data source with:
 
 For instance, adding a *category field* automatically integrates Joomla's category system into your component.
 
-### 6.2 – Joint View Tables
+### 6.2 - Joint View Tables
 
 [00:10:23](https://www.youtube.com/watch?v=OPuCoxPW35s&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h10m23s)
 

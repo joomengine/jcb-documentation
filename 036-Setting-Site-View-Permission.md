@@ -179,4 +179,4 @@ For more detailed customization examples, see JCB's dedicated tutorial on **Cust
 ---
 
 **End of Documentation**
-**Tutorial Reference:** *Joomla Component Builder – Setting Site View Permission (036)*
+**Tutorial Reference:** *Joomla Component Builder - Setting Site View Permission (036)*
