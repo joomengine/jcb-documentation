@@ -1,4 +1,4 @@
-# INSTALLATION OF JOOMLA COMPONENT BUILDER
+# Installation Of Joomla Component Builder
 
 (*Click on the timestamp links to open the YouTube video at the correct moment.*)
 
