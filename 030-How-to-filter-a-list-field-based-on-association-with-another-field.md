@@ -1,11 +1,5 @@
 # How to Filter a List Field Based on Association with Another Field
 
-**Tutorial Duration:** ~20 minutes
-**Source:** Joomla Component Builder (JCB) Video Tutorial
-**Applies to:** Latest JCB version (Admin and Site View workflow)
-
----
-
 ## Overview
 
 In many Joomla components, you may need to **filter the options of one list field based on another field's value**.
@@ -272,10 +266,5 @@ When implemented correctly:
 * Use consistent naming for fields (e.g., `country`, `region`) to avoid confusion.
 * JCB compiles all Ajax methods into one file (`models/ajax.php`) - no need to manually add multiple controllers.
 * If targeting another component's table, ensure you know the association field name.
-
----
-
-**End of Tutorial**
-**Video Reference:** [How to Filter a List Field Based on Association with Another Field](https://www.youtube.com/watch?v=Z8FLifQOjUk)
 
 ---
