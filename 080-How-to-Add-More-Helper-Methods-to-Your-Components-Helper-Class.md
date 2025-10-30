@@ -1,6 +1,6 @@
-# How to Add More Helper Methods to Your Component’s Helper Class
+# How to Add More Helper Methods to Your Component's Helper Class
 
-Learn how to add and manage helper methods in your Joomla Component Builder (JCB) component helper class — both for the **admin** and **site** areas. This guide also covers how to include custom helper classes and trigger them globally using JCB’s event system.
+Learn how to add and manage helper methods in your Joomla Component Builder (JCB) component helper class — both for the **admin** and **site** areas. This guide also covers how to include custom helper classes and trigger them globally using JCB's event system.
 
 ---
 
@@ -10,8 +10,8 @@ Helper classes in Joomla Component Builder allow you to store reusable PHP metho
 This tutorial demonstrates how to:
 
 * Add helper methods directly within JCB.
-* Differentiate between admin, site, and shared (“both”) helper functions.
-* Call helper methods in your component’s code.
+* Differentiate between admin, site, and shared ("both") helper functions.
+* Call helper methods in your component's code.
 * Include and register custom helper files.
 * Use **global events** to trigger helper logic automatically.
 
@@ -22,15 +22,15 @@ This tutorial demonstrates how to:
 **Timestamp:** [00:00:14](https://www.youtube.com/watch?v=VpSXsxZuhmM&t=00h00m14s)
 
 1. Open your **component** in Joomla Component Builder.
-2. Navigate to the **“Libs & Helpers”** tab.
+2. Navigate to the **"Libs & Helpers"** tab.
 
-   * Here you’ll find multiple target areas for helper methods:
+   * Here you'll find multiple target areas for helper methods:
 
      * **Site Helper** — frontend-only logic.
      * **Admin Helper** — backend-only logic.
      * **Both** — shared methods available to both frontend and backend.
 
-> **Tip:** Use “Both” when you want the same helper available everywhere. This is ideal for general-purpose utilities (e.g., formatting dates, validation).
+> **Tip:** Use "Both" when you want the same helper available everywhere. This is ideal for general-purpose utilities (e.g., formatting dates, validation).
 
 ---
 
@@ -84,14 +84,14 @@ Once you compile and install the component:
 * In the **admin area**:
   Navigate to
   `administrator/components/com_demo/helpers/demo.php`
-  You’ll see your `showAdminMessage()` and `sharedMethod()` functions inside.
+  You'll see your `showAdminMessage()` and `sharedMethod()` functions inside.
 
 * In the **frontend (site) area**:
   Go to
   `components/com_demo/helpers/demo.php`
-  You’ll find `fancyDate()` and `sharedMethod()` functions.
+  You'll find `fancyDate()` and `sharedMethod()` functions.
 
-> Methods under **“Both”** appear in **both helper files**, ensuring shared logic across admin and site environments.
+> Methods under **"Both"** appear in **both helper files**, ensuring shared logic across admin and site environments.
 
 ---
 
@@ -99,7 +99,7 @@ Once you compile and install the component:
 
 **Timestamp:** [00:03:40 – 00:04:28](https://www.youtube.com/watch?v=VpSXsxZuhmM&t=00h03m40s)
 
-Helper methods can be called using Joomla’s registered helper class.
+Helper methods can be called using Joomla's registered helper class.
 
 Example — calling the `fancyDate()` method in your site view:
 
@@ -122,7 +122,7 @@ This example formats a date value using the `fancyDate()` method defined earlier
 
 If you prefer to add an **entirely new helper file** (not managed by JCB):
 
-1. Use JCB’s **File and Folder Inclusion** system.
+1. Use JCB's **File and Folder Inclusion** system.
 
    * You can choose **basic** or **advanced** inclusion depending on the file location.
    * Define the correct path relative to the ZIP output.
@@ -207,10 +207,10 @@ Global events are best suited for:
 * Including additional scripts or CSS dynamically.
 * Running setup code across all views.
 
-However, for simple helper methods, it’s usually better to add them directly to the main helper class (admin/site/both) instead of using an external file and global event.
+However, for simple helper methods, it's usually better to add them directly to the main helper class (admin/site/both) instead of using an external file and global event.
 
 > **Best Practice:**
-> Keep helper logic centralized in the component’s own helper file unless there’s a strong reason to modularize with global events.
+> Keep helper logic centralized in the component's own helper file unless there's a strong reason to modularize with global events.
 
 ---
 

@@ -3,7 +3,7 @@
 ## Overview
 
 This quick tutorial demonstrates how to **install**, **import**, **compile**, and **publish** a simple *Hello World* component using Joomla Component Builder (JCB).
-It’s a streamlined version of the full tutorial, guiding you through setup and execution in just a few minutes.
+It's a streamlined version of the full tutorial, guiding you through setup and execution in just a few minutes.
 
 ---
 
@@ -28,7 +28,7 @@ If JCB is already installed, you can update it from the same menu to ensure you 
 
 **[00:00:37](https://www.youtube.com/watch?v=MEKs1c7LfO8&t=00h00m37s)**
 
-Once JCB is installed, the next step is to import the prebuilt “Hello World” package.
+Once JCB is installed, the next step is to import the prebuilt "Hello World" package.
 
 1. In the Joomla Administrator menu, navigate to:
    **Components → Component Builder → Import JCB Packages**
@@ -45,9 +45,9 @@ Once JCB is installed, the next step is to import the prebuilt “Hello World”
 5. Confirm the key matches the one published on **GitHub** to ensure authenticity.
 6. Choose **Yes, Force Local Update** and click **Continue**.
 
-When successful, you’ll see:
+When successful, you'll see:
 
-> “Import was successful.”
+> "Import was successful."
 
 ---
 
@@ -55,7 +55,7 @@ When successful, you’ll see:
 
 **[00:01:35](https://www.youtube.com/watch?v=MEKs1c7LfO8&t=00h01m35s)**
 
-Now that the package is imported, it’s ready to be compiled into a Joomla component.
+Now that the package is imported, it's ready to be compiled into a Joomla component.
 
 1. Navigate to:
    **Components → Component Builder → Compiler**
@@ -85,7 +85,7 @@ After installation:
    ```
 4. Click **Save & Close**.
 
-This creates your first “Hello World” entry in the Joomla backend.
+This creates your first "Hello World" entry in the Joomla backend.
 
 ---
 
@@ -102,7 +102,7 @@ To display your greeting:
 3. Save and close the menu item.
 
 Visit your website frontend.
-If you encounter a “Page not redirecting properly” error, it’s likely due to **permission settings**.
+If you encounter a "Page not redirecting properly" error, it's likely due to **permission settings**.
 
 ---
 
@@ -123,7 +123,7 @@ To make the greeting publicly accessible:
 Set them to **Public → Allowed**.
 Click **Save & Close**.
 
-Now refresh your frontend page — your greeting (“Hi James”) will appear.
+Now refresh your frontend page — your greeting ("Hi James") will appear.
 Click on it to open and view the greeting message.
 
 ---
@@ -132,11 +132,11 @@ Click on it to open and view the greeting message.
 
 **[00:03:29](https://www.youtube.com/watch?v=MEKs1c7LfO8&t=00h03m29s)**
 
-If you try to edit a greeting from the frontend and see *“Not allowed to edit”*, update permissions:
+If you try to edit a greeting from the frontend and see *"Not allowed to edit"*, update permissions:
 
 1. Return to **Options → Permissions** in the Hello World component.
 2. Under **Edit**, set **Public → Allowed** if desired (for testing only).
-   In production, it’s recommended to restrict this to logged-in users.
+   In production, it's recommended to restrict this to logged-in users.
 
 ---
 
@@ -148,7 +148,7 @@ At this point, your Hello World component is fully operational:
 * Frontend display is active.
 * Permissions are properly configured.
 
-You’ve successfully installed, compiled, and tested a Joomla component using JCB — all within minutes.
+You've successfully installed, compiled, and tested a Joomla component using JCB — all within minutes.
 
 ---
 
@@ -172,5 +172,5 @@ From here, you can begin customizing your Hello World component:
 ---
 
 **Conclusion:**
-The “Quick Hello World” is an essential first step to understanding JCB’s workflow — from importing a package to deploying it live.
-With these steps mastered, you’re ready to build and customize your own Joomla components confidently.
+The "Quick Hello World" is an essential first step to understanding JCB's workflow — from importing a package to deploying it live.
+With these steps mastered, you're ready to build and customize your own Joomla components confidently.

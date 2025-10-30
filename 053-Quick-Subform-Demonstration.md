@@ -31,7 +31,7 @@ Each instance of a subform acts as a mini form inside your main form — ideal f
 
 **Example use case:**
 
-* A “Team Members” section where each member has *Name*, *Email*, and *Website* fields.
+* A "Team Members" section where each member has *Name*, *Email*, and *Website* fields.
 
 ### In JCB
 
@@ -92,7 +92,7 @@ Each subform must reference existing field IDs to know which fields to include.
 1. Find the **IDs** of the fields you previously created.
 
    * Go to **Admin → Fields** and note the numerical IDs in the list view.
-2. In your subform field configuration, locate the **“Fields”** input area.
+2. In your subform field configuration, locate the **"Fields"** input area.
 3. Enter a comma-separated list of field IDs (e.g., `199,280,100`).
 
    * Example:
@@ -116,12 +116,12 @@ JCB allows you to customize the behavior and validation of your subform fields.
 | **Description** | Optional text describing what this subform does.                            |
 | **Maximum**     | The maximum number of repeatable entries allowed.                           |
 | **Filter**      | Defines how each field value is validated (e.g., `string`, `email`, `url`). |
-| **Showon**      | Controls conditional display of the subform based on another field’s value. |
+| **Showon**      | Controls conditional display of the subform based on another field's value. |
 
 **Validation Notes:**
 Each field in a subform is validated according to its own field type and filter.
 You do not need to add custom validation unless you want advanced logic.
-JCB automatically integrates Joomla’s native field validation when compiling.
+JCB automatically integrates Joomla's native field validation when compiling.
 
 ---
 
@@ -132,10 +132,10 @@ JCB automatically integrates Joomla’s native field validation when compiling.
 The **Formsource** option allows you to load an external XML file defining the subform layout.
 However, this is **optional** in JCB since it already generates XML automatically.
 
-* Use **Formsource** only if you maintain custom XML outside JCB (for example, an XML file in your component’s `models/forms` folder).
+* Use **Formsource** only if you maintain custom XML outside JCB (for example, an XML file in your component's `models/forms` folder).
 * You can use **either** the `Fields` option **or** `Formsource` — not both.
 
-If you include a `Formsource`, JCB’s compiler recognizes it and handles it correctly during component compilation.
+If you include a `Formsource`, JCB's compiler recognizes it and handles it correctly during component compilation.
 
 ---
 
@@ -177,7 +177,7 @@ Navigate to your component in the Joomla backend:
 
 1. Open the view that contains your subform (e.g., *Looks* in the Demo component).
 2. Add data in the subform fields (e.g., Name, Website, Email).
-3. Click the **“+” (Add)** button to add another set of fields.
+3. Click the **"+" (Add)** button to add another set of fields.
 4. Enter multiple entries and save.
 
 **Result:**

@@ -4,7 +4,7 @@
 
 **Timestamps from transcript included for reference**
 
-Joomla Component Builder (JCB) automates database table creation and updates during component development by adhering to Joomla’s native SQL file conventions. This automation ensures that your component stays synchronized with database changes—whether you’re adding new views, creating new fields, or restructuring existing ones.
+Joomla Component Builder (JCB) automates database table creation and updates during component development by adhering to Joomla's native SQL file conventions. This automation ensures that your component stays synchronized with database changes—whether you're adding new views, creating new fields, or restructuring existing ones.
 
 [00:00:00](https://www.youtube.com/watch?v=zN2M15fzf_M)
 
@@ -14,11 +14,11 @@ When you compile a JCB component, such as **Sermon Distributor**, JCB generates 
 admin/sql/
 ```
 
-Here, you’ll find the **install.mysql.utf8.sql** file—Joomla’s standard script for creating the initial database tables during installation.
+Here, you'll find the **install.mysql.utf8.sql** file—Joomla's standard script for creating the initial database tables during installation.
 
 ---
 
-## Understanding Joomla’s SQL Behavior
+## Understanding Joomla's SQL Behavior
 
 [00:01:17](https://www.youtube.com/watch?v=zN2M15fzf_M)
 
@@ -39,7 +39,7 @@ For existing installations, Joomla uses **update SQL files** located in the `upd
    Install your component to initialize the database schema.
 
 2. **Add a New Field**
-   Example: In the Admin View “Sermon,” add a field named **Mobile Phone** in the fourth position (left tab).
+   Example: In the Admin View "Sermon," add a field named **Mobile Phone** in the fourth position (left tab).
 
 3. **Add a New View (Optional)**
    You can add an entirely new view at this stage.
@@ -58,7 +58,7 @@ For existing installations, Joomla uses **update SQL files** located in the `upd
    admin/sql/updates/
    ```
 
-   You’ll find the new versioned SQL update file, e.g. `2.0.1.sql`.
+   You'll find the new versioned SQL update file, e.g. `2.0.1.sql`.
 
 ---
 
@@ -91,11 +91,11 @@ When you install this updated component:
 
 JCB automatically increments the component version with every compile that includes database changes. Inside JCB:
 
-* Open your component’s **Updates** area.
-* You’ll see versioned entries with corresponding SQL changes.
+* Open your component's **Updates** area.
+* You'll see versioned entries with corresponding SQL changes.
 * Update the **update server URL** manually, as it cannot be dynamically determined.
 
-This URL is referenced in the component’s **update server XML** file, ensuring Joomla can fetch updates properly.
+This URL is referenced in the component's **update server XML** file, ensuring Joomla can fetch updates properly.
 
 ---
 
@@ -109,7 +109,7 @@ This URL is referenced in the component’s **update server XML** file, ensuring
 
 ---
 
-## When JCB’s Automation May Not Work as Expected
+## When JCB's Automation May Not Work as Expected
 
 [00:07:24](https://www.youtube.com/watch?v=zN2M15fzf_M)
 
@@ -117,8 +117,8 @@ One known scenario involves **importing or exporting** components between JCB in
 
 When you import a component:
 
-* JCB recreates all structural data but **does not restore the component’s change history** or **asset IDs**.
-* Without this history, JCB cannot detect what has changed, so it won’t generate proper SQL updates.
+* JCB recreates all structural data but **does not restore the component's change history** or **asset IDs**.
+* Without this history, JCB cannot detect what has changed, so it won't generate proper SQL updates.
 
 ---
 
@@ -141,14 +141,14 @@ After saving:
 * Compile the component.
 * Begin making new changes as usual.
 
-This ensures the component’s lifecycle and database updates behave naturally again.
+This ensures the component's lifecycle and database updates behave naturally again.
 
 ---
 
 ## Best Practices
 
 * **Always save** after editing views or fields before compiling.
-* **Do not skip** saving after import; it’s essential for version tracking.
+* **Do not skip** saving after import; it's essential for version tracking.
 * **Review the SQL updates folder** after each compile to verify new files.
 * **Use clear versioning** (e.g., 1.0.0 → 1.0.1 → 1.1.0) to maintain update clarity.
 * **Keep backups** of your component and database before major updates.
@@ -159,9 +159,9 @@ This ensures the component’s lifecycle and database updates behave naturally a
 
 [00:09:51](https://www.youtube.com/watch?v=zN2M15fzf_M)
 
-JCB’s integration with Joomla’s SQL update convention ensures that database structures evolve smoothly as your component grows.
+JCB's integration with Joomla's SQL update convention ensures that database structures evolve smoothly as your component grows.
 By following proper save–compile–update workflows, you can maintain robust, version-aware, and auto-updating components without manual SQL management.
 
 [00:10:16](https://www.youtube.com/watch?v=zN2M15fzf_M)
 
-This automated process streamlines Joomla component development, minimizing errors and aligning perfectly with Joomla’s standard database update behavior.
+This automated process streamlines Joomla component development, minimizing errors and aligning perfectly with Joomla's standard database update behavior.

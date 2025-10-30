@@ -2,8 +2,8 @@
 
 ## Overview
 
-In this tutorial, we’ll learn how to **add a form to a site view** in Joomla Component Builder (JCB), manage its submission through a **controller**, and dynamically link it with the **model** for validation and saving.
-We’ll also see how JCB helps generate much of the needed code automatically — including **buttons**, **controllers**, and **model methods** — while keeping the MVC structure intact.
+In this tutorial, we'll learn how to **add a form to a site view** in Joomla Component Builder (JCB), manage its submission through a **controller**, and dynamically link it with the **model** for validation and saving.
+We'll also see how JCB helps generate much of the needed code automatically — including **buttons**, **controllers**, and **model methods** — while keeping the MVC structure intact.
 
 > **[00:00:10](https://www.youtube.com/watch?v=UVICsD82oWk&t=10s)**
 
@@ -17,7 +17,7 @@ Best practice in Joomla is to use an **Admin View as a Site View** for forms tha
 
 ### Why This Is Recommended
 
-* **Joomla’s MVC structure** is optimized for this approach.
+* **Joomla's MVC structure** is optimized for this approach.
 * The same Admin view logic can be extended for the frontend.
 * Data submission (saving to the database) is already built into the Admin architecture.
 
@@ -25,7 +25,7 @@ To create a Site View from an Admin View:
 
 1. Open your component in **JCB**.
 2. Locate your **Admin View**.
-3. Tick the option **“Create Site View for this Admin View”**.
+3. Tick the option **"Create Site View for this Admin View"**.
 4. JCB automatically generates the corresponding **Site View**.
 
 ---
@@ -34,7 +34,7 @@ To create a Site View from an Admin View:
 
 > **[00:01:11](https://www.youtube.com/watch?v=UVICsD82oWk&t=71s)**
 
-The site edit area isn’t auto-generated; you need to create a **dynamic edit link** manually.
+The site edit area isn't auto-generated; you need to create a **dynamic edit link** manually.
 
 ### Steps:
 
@@ -66,7 +66,7 @@ if ($canEdit) {
 
 If your site view already has **pagination**, JCB automatically generates a `<form>` tag around the list.
 
-You **don’t need to add another form** — simply add inputs or buttons inside it.
+You **don't need to add another form** — simply add inputs or buttons inside it.
 
 ### How It Works
 
@@ -177,7 +177,7 @@ public function saveMyStuff() {
 
 > **[00:10:17](https://www.youtube.com/watch?v=UVICsD82oWk&t=617s)**
 
-You’ll need to manually add the supporting methods to your **model**:
+You'll need to manually add the supporting methods to your **model**:
 
 * `getForm()`
 * `validate()`
@@ -191,7 +191,7 @@ For dynamic forms (not static XML), JCB supports **runtime-generated XML** forms
 
 > **[00:11:31](https://www.youtube.com/watch?v=UVICsD82oWk&t=691s)**
 
-JCB’s compiler component demonstrates how to **dynamically build XML form fields**.
+JCB's compiler component demonstrates how to **dynamically build XML form fields**.
 
 ```php
 $field = $helper->getFieldObject($attributes, $defaultValue, $options);
@@ -234,7 +234,7 @@ For more control, use **Custom PHP view script**.
 
 > 🕒 **[00:21:38](https://www.youtube.com/watch?v=UVICsD82oWk&t=1298s)**
 
-* Always use **JCB’s helper classes** (`getFieldObject`, etc.).
+* Always use **JCB's helper classes** (`getFieldObject`, etc.).
 * Let **Joomla handle rendering and token management**.
 * Keep form logic within **MVC structure**.
 * Validate every input in the **controller and model**.
@@ -242,7 +242,7 @@ For more control, use **Custom PHP view script**.
 
 ---
 
-## 10. Using JCB’s Own Compiler as a Reference
+## 10. Using JCB's Own Compiler as a Reference
 
 > **[00:25:48](https://www.youtube.com/watch?v=UVICsD82oWk&t=1548s)**
 
@@ -267,7 +267,7 @@ Open the **compiler view** and study:
 | Task               | Area           | Description                                 |
 | ------------------ | -------------- | ------------------------------------------- |
 | Create Site Form   | Site View      | Enable form by reusing pagination form      |
-| Add Button         | JCB Buttons UI | Create “Submit” button tied to controller   |
+| Add Button         | JCB Buttons UI | Create "Submit" button tied to controller   |
 | Build Controller   | Auto / Manual  | Handles submission, validation, redirect    |
 | Add Model Logic    | Model          | Include `getForm()`, `validate()`, `save()` |
 | Use Dynamic Fields | Helper         | Use `getFieldObject()` for XML generation   |
@@ -281,7 +281,7 @@ Open the **compiler view** and study:
 * Use **JCB Buttons** to generate scaffolding quickly.
 * Always compile after making structure changes.
 * Avoid duplicating `<form>` tags inside paginated lists.
-* Review JCB’s own **Compiler admin view** for advanced form rendering patterns.
+* Review JCB's own **Compiler admin view** for advanced form rendering patterns.
 * Use **language constants** for field labels (`COM_COMPONENT_FIELD_LABEL`).
 
 ---

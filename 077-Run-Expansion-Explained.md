@@ -18,7 +18,7 @@ This documentation explains how to **enable, configure, and use** the Run Expans
 
 When you click the **Run Expansion** button in JCB, it may initially display an error such as:
 
-> “Expansion failed. Please check your settings in the Global Options of JCB under the Development tab.”
+> "Expansion failed. Please check your settings in the Global Options of JCB under the Development tab."
 
 This occurs because the feature needs to be properly configured before use.
 
@@ -45,7 +45,7 @@ Before using the feature:
 
 This toggle activates the Run Expansion system and reveals additional configuration options for controlling its behavior.
 
-> **Tip:** Read the documentation text within this tab carefully. It provides inline explanations of expansion behavior and how it interacts with JCB’s development workflow.
+> **Tip:** Read the documentation text within this tab carefully. It provides inline explanations of expansion behavior and how it interacts with JCB's development workflow.
 
 ---
 
@@ -101,9 +101,9 @@ Run Expansion automates this by allowing you to select several components and co
 
 **Timestamp:** [00:04:04 → 00:04:51](https://www.youtube.com/watch?v=ozp6m12Fj0o&t=00h04m04s)
 
-If you receive an **“Access Denied”** message when running expansion, it means:
+If you receive an **"Access Denied"** message when running expansion, it means:
 
-* The Expansion process runs through JCB’s **API system**.
+* The Expansion process runs through JCB's **API system**.
 * The **API user** executing the command does **not have sufficient permissions**.
 
 ### How to Fix
@@ -161,7 +161,7 @@ By default:
 * The **Expansion Method is disabled**.
 * Clicking the **Run Expansion** button will show a message:
 
-  > “Expansion method is disabled. Please enable it in Global Options.”
+  > "Expansion method is disabled. Please enable it in Global Options."
 
 This prevents accidental activation and safeguards against unintended multi-component compilations.
 

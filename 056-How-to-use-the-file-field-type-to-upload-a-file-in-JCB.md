@@ -2,7 +2,7 @@
 
 ### Overview
 
-This guide explains how to correctly use the **File Field Type** in Joomla Component Builder (JCB) to enable file uploads in your component. You’ll learn how to add and configure the file field, implement server-side validation and movement, and display the uploaded file dynamically in the admin view.
+This guide explains how to correctly use the **File Field Type** in Joomla Component Builder (JCB) to enable file uploads in your component. You'll learn how to add and configure the file field, implement server-side validation and movement, and display the uploaded file dynamically in the admin view.
 
 ---
 
@@ -14,7 +14,7 @@ We begin by adding a file upload field to a component. In this example, the **De
 
 We'll add our **file field** to the `Look` Admin View.
 
-> **Note:** JCB doesn’t automatically handle file uploads due to security concerns. You’ll implement this logic manually to maintain full control.
+> **Note:** JCB doesn't automatically handle file uploads due to security concerns. You'll implement this logic manually to maintain full control.
 
 ---
 
@@ -26,7 +26,7 @@ JCB already provides a **File** fieldtype. Navigate to:
 
 > `Component Builder → Fieldtypes → File`
 
-Here, you’ll see the field attributes as defined in Joomla’s documentation. Review the available options like:
+Here, you'll see the field attributes as defined in Joomla's documentation. Review the available options like:
 
 * **Accept**
 * **Size**
@@ -39,15 +39,15 @@ If this parameter is missing in your version, add it manually.
 
 ---
 
-## 3. Adding the “Accept” Attribute (Optional Update)
+## 3. Adding the "Accept" Attribute (Optional Update)
 
 **Timestamp:** [00:02:30](https://www.youtube.com/watch?v=o482sK4DxkM&t=00h02m30s)
 
 If your JCB version lacks the `accept` attribute:
 
-1. Add it manually under “Size”.
+1. Add it manually under "Size".
 2. Set its default value to `image/*`.
-3. Provide a description (e.g., “Allowed file types”).
+3. Provide a description (e.g., "Allowed file types").
 
 Save and close the fieldtype.
 
@@ -66,7 +66,7 @@ Set the following:
 * **Name:** `banner`
 * **Label:** `Banner`
 * **Type:** `File`
-* **Description:** “Upload an image from your computer (max 100KB).”
+* **Description:** "Upload an image from your computer (max 100KB)."
 
 Save and close.
 
@@ -76,9 +76,9 @@ Save and close.
 
 **Timestamp:** [00:04:54](https://www.youtube.com/watch?v=o482sK4DxkM&t=00h04m54s)
 
-1. Open your component’s Admin View (`Look`).
+1. Open your component's Admin View (`Look`).
 2. Click on **Fields**.
-3. Add the new field `Banner (file)` under the desired **tab** (e.g., “More”).
+3. Add the new field `Banner (file)` under the desired **tab** (e.g., "More").
 4. Set **Alignment** to *Full Width*.
 5. Save and close.
 
@@ -88,12 +88,12 @@ Compile and install your component, then verify that the field appears correctly
 
 ---
 
-## 6. Understanding Why the File Isn’t Uploaded Yet
+## 6. Understanding Why the File Isn't Uploaded Yet
 
 **Timestamp:** [00:09:56](https://www.youtube.com/watch?v=o482sK4DxkM&t=00h09m56s)
 
-When saving an item, you’ll notice the file isn’t uploaded to your server yet.
-That’s because JCB doesn’t include **server-side upload logic** by default. You’ll need to:
+When saving an item, you'll notice the file isn't uploaded to your server yet.
+That's because JCB doesn't include **server-side upload logic** by default. You'll need to:
 
 * Validate the file
 * Move it to the desired folder
@@ -106,14 +106,14 @@ That’s because JCB doesn’t include **server-side upload logic** by default. 
 
 **Timestamp:** [00:11:27](https://www.youtube.com/watch?v=o482sK4DxkM&t=00h11m27s)
 
-Open your component’s **Model** file in your IDE:
+Open your component's **Model** file in your IDE:
 
 ```
 administrator/components/com_demo/models/look.php
 ```
 
 Locate the `save()` function. This is where form data is processed.
-You’ll insert your file handling logic here.
+You'll insert your file handling logic here.
 
 ---
 
@@ -130,7 +130,7 @@ This reveals what file data Joomla receives during the form submission.
 
 ---
 
-### 7.2 Copy Joomla’s Upload Handling Function
+### 7.2 Copy Joomla's Upload Handling Function
 
 **Timestamp:** [00:16:58](https://www.youtube.com/watch?v=o482sK4DxkM&t=00h16m58s)
 
@@ -253,7 +253,7 @@ Recompile and reinstall your component.
 
 **Timestamp:** [01:00:11](https://www.youtube.com/watch?v=o482sK4DxkM&t=01h00m11s)
 
-You’ve now implemented a working **File Field Upload System** within JCB using Joomla’s native capabilities.
+You've now implemented a working **File Field Upload System** within JCB using Joomla's native capabilities.
 For reference, you can find the final PHP upload logic as a GitHub Gist provided by the tutorial author.
 
 > **Tip:** For enhanced security, validate the MIME type using Joomla or PHP image functions.
@@ -266,4 +266,4 @@ For reference, you can find the final PHP upload logic as a GitHub Gist provided
 * Always implement server-side validation for uploads.
 * Use `JFile` and `JFolder` classes to move and clean files securely.
 * Add helper methods to keep your model clean and reusable.
-* Use JCB’s **Custom PHP sections** to safely include custom logic during compilation.
+* Use JCB's **Custom PHP sections** to safely include custom logic during compilation.

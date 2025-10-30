@@ -7,7 +7,7 @@
 **Purpose:** Learn how to implement drag-and-drop file uploading with automated image cropping in JCB using UIkit and custom JavaScript/PHP integration.
 **Last Updated:** 2025
 
-This guide explains how to build a dynamic drag-and-drop file uploader within JCB’s component structure, including server-side Ajax handling, automated image cropping, and secure file storage.
+This guide explains how to build a dynamic drag-and-drop file uploader within JCB's component structure, including server-side Ajax handling, automated image cropping, and secure file storage.
 
 ---
 
@@ -84,7 +84,7 @@ Before building the uploader, import the **VDM Packages** that include the **Doc
 2. Select **VDM Packages** tab.
 3. Fetch from GitHub → Verify Checksum → Import.
 
-> The system confirms “**Package PASSED checksum validation!**”
+> The system confirms "**Package PASSED checksum validation!**"
 
 ---
 
@@ -108,9 +108,9 @@ Set desired **crop dimensions** (e.g., width=200, height=350) for image resizing
 
 The interface now shows dynamic upload areas:
 
-* “Upload your Image”
-* “Upload your Documents”
-* “Upload your Media”
+* "Upload your Image"
+* "Upload your Documents"
+* "Upload your Media"
 
 Allowed formats and dimensions are displayed automatically, drawn from global configuration.
 
@@ -148,7 +148,7 @@ To protect uploads:
 
 **[00:51:28](https://www.youtube.com/watch?v=UvzDyVQyHDI&t=00h51m28s)**
 
-In the component’s **Admin View (Documents)**, add a **Custom Code Area** named `phpAjaxUploader`.
+In the component's **Admin View (Documents)**, add a **Custom Code Area** named `phpAjaxUploader`.
 
 The PHP logic:
 
@@ -168,7 +168,7 @@ To add configurable upload formats:
 
 1. Go to **Settings → Create Component Config**.
 2. Add **List Fields** for document, image, and media formats.
-3. Enable “Allow Multiple Selection”.
+3. Enable "Allow Multiple Selection".
 
 These configuration values are later fetched dynamically by the uploader scripts.
 
@@ -248,8 +248,8 @@ This advanced drag-and-drop upload system provides:
 
 ## **16. Key Advantages**
 
-* Users never interfere with each other’s uploads.
-* Enhanced UX compared to Joomla’s native Media Manager.
+* Users never interfere with each other's uploads.
+* Enhanced UX compared to Joomla's native Media Manager.
 * Full control over formats, cropping, and storage paths.
 
 ---

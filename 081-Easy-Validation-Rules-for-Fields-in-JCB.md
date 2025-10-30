@@ -18,7 +18,7 @@ You can now easily create, customize, and assign validation rules to any field i
 
 > [00:00:36](https://www.youtube.com/watch?v=gYcZvL3u2To&t=00h00m36s)
 
-A **validation rule** checks whether a field’s value meets certain criteria before saving.
+A **validation rule** checks whether a field's value meets certain criteria before saving.
 It runs on the **server side** and typically returns either:
 
 * `true` → Value is valid, form proceeds to save.
@@ -45,7 +45,7 @@ Every field can have one or more validation rules applied.
 
 ### Step 1: Open or Create a Field
 
-Open any field (e.g., the `name` field). You’ll see existing validation rules such as:
+Open any field (e.g., the `name` field). You'll see existing validation rules such as:
 
 * `exists`
 * `unique`
@@ -62,7 +62,7 @@ These can serve as examples or templates for your own rule.
 > [00:02:28](https://www.youtube.com/watch?v=gYcZvL3u2To&t=00h02m28s)
 
 1. Click **Create New Validation Rule**.
-2. When prompted, click **OK** — you’ll be redirected to the *New Validation Rule* form.
+2. When prompted, click **OK** — you'll be redirected to the *New Validation Rule* form.
 3. Enter a **unique rule name** (e.g., `myvalidation`).
 4. Optionally, add a **description** to explain its purpose.
 
@@ -77,9 +77,9 @@ These can serve as examples or templates for your own rule.
 You can choose a **Joomla core rule** as a base.
 This dropdown list helps you inspect existing implementations (like `email`, `url`, etc.) for reference.
 
-Selecting one doesn’t store any data — it just loads the code into your editor as a starting point.
+Selecting one doesn't store any data — it just loads the code into your editor as a starting point.
 
-For example, select **email** to view Joomla’s built-in email validation logic.
+For example, select **email** to view Joomla's built-in email validation logic.
 
 ---
 
@@ -122,7 +122,7 @@ After saving, JCB automatically adds your new rule to the **Validation Rules lis
 
 1. Return to your field (e.g., `name`).
 2. Scroll down to **Validation** options.
-3. Click the **“+”** to add a rule.
+3. Click the **"+"** to add a rule.
 4. Select or paste the new rule name (e.g., `myvalidation`).
 
 > [00:05:48](https://www.youtube.com/watch?v=gYcZvL3u2To&t=00h05m48s)
@@ -145,7 +145,7 @@ For example:
 admin/models/rules/myvalidation.php
 ```
 
-This file will extend Joomla’s `FormRule` and contain your code.
+This file will extend Joomla's `FormRule` and contain your code.
 
 ---
 
@@ -173,7 +173,7 @@ Inside the field definition:
 <field name="name" type="text" label="Name" validate="myvalidation" />
 ```
 
-At the top of the XML file, you’ll see a reference to the rules path:
+At the top of the XML file, you'll see a reference to the rules path:
 
 ```xml
 <fields rules="components/com_yourcomponent/models/rules" />
@@ -243,7 +243,7 @@ Here you can:
 
 > [00:09:25](https://www.youtube.com/watch?v=gYcZvL3u2To&t=00h09m25s)
 
-JCB’s **Validation Rule** system streamlines validation logic across your component.
+JCB's **Validation Rule** system streamlines validation logic across your component.
 You can now create, reuse, and maintain validation rules efficiently — with full automatic integration during compilation.
 
-This ensures clean, reliable data validation that follows Joomla’s standards while remaining easy to extend and maintain.
+This ensures clean, reliable data validation that follows Joomla's standards while remaining easy to extend and maintain.

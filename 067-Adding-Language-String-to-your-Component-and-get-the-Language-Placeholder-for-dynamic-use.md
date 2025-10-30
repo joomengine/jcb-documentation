@@ -14,7 +14,7 @@ When developing Joomla components, you often use the `JText` function to transla
 
 * The string inside `JText` is added to your language file.
 * The placeholder replaces the string in the compiled code.
-* The Joomla system translates that placeholder whenever it’s displayed.
+* The Joomla system translates that placeholder whenever it's displayed.
 
 Example:
 
@@ -22,7 +22,7 @@ Example:
 echo JText::_('COM_MYCOMPONENT_HELLO_WORLD');
 ```
 
-During compilation, JCB automatically ensures that `COM_MYCOMPONENT_HELLO_WORLD` is written into the component’s language file with its translation text.
+During compilation, JCB automatically ensures that `COM_MYCOMPONENT_HELLO_WORLD` is written into the component's language file with its translation text.
 
 ---
 
@@ -35,7 +35,7 @@ Sometimes, you may need **only the language placeholder**, not the full translat
 Example scenario:
 You have a class with an array of field properties (like `listclass`, `escape`, `display`, or `validate`) and you want to reference the translated string later in runtime, not immediately when JCB compiles it.
 
-In such cases, you can’t directly use `JText` inside the array, because that would attempt to translate immediately. You need only the **placeholder string** to exist in the compiled code, ready for later translation.
+In such cases, you can't directly use `JText` inside the array, because that would attempt to translate immediately. You need only the **placeholder string** to exist in the compiled code, ready for later translation.
 
 ---
 
@@ -61,8 +61,8 @@ This is especially useful for dynamic translation workflows or when looping thro
 
 [00:02:16](https://www.youtube.com/watch?v=_mXlbAO79J8&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h02m16s)
 
-`JustTEXT` looks similar to a class or function call, but it’s not actually a PHP class or function.
-It’s a **marker** recognized by the JCB compiler, which processes it during compilation and replaces it appropriately.
+`JustTEXT` looks similar to a class or function call, but it's not actually a PHP class or function.
+It's a **marker** recognized by the JCB compiler, which processes it during compilation and replaces it appropriately.
 
 For example:
 
@@ -128,7 +128,7 @@ This gives you clean, flexible translation handling while keeping placeholders i
 
 [00:03:11](https://www.youtube.com/watch?v=_mXlbAO79J8&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h03m11s)
 
-When JCB compiles, you’ll notice:
+When JCB compiles, you'll notice:
 
 * The `JustTEXT` entries are converted to plain string placeholders.
 * The strings are still included in your language `.ini` file.

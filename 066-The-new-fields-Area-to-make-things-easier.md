@@ -16,7 +16,7 @@ The latest update introduces a new sub-form layout that replaces the old XML def
 
 In earlier versions of JCB, each field used an **XML field definition area**. Developers could freely edit or omit elements directly, which gave flexibility but also caused instability — accidental changes or missing XML tags could break functionality.
 
-While this flexibility was useful for advanced users, it posed challenges for ensuring consistent, error-free components. To address this, JCB’s team restructured the system to make it more robust and user-friendly.
+While this flexibility was useful for advanced users, it posed challenges for ensuring consistent, error-free components. To address this, JCB's team restructured the system to make it more robust and user-friendly.
 
 ---
 
@@ -30,13 +30,13 @@ Starting in version **2.7.5**, the XML field definition area was replaced with a
 * A **Field Information tab** with clearly organized options.
 * A consistent, tabbed layout that groups related settings logically.
 
-When you open a field like *Alias*, the new sub-form shows pre-defined field values and allows adding new properties that aren’t already present.
+When you open a field like *Alias*, the new sub-form shows pre-defined field values and allows adding new properties that aren't already present.
 
 **Example:**
 If you want to add a new property like `size`, simply select it from the dropdown list — JCB automatically loads its default description and value.
 
 **Tip:**
-Even though mandatory fields can technically be left empty, it’s best practice to always provide valid values to ensure clean compiles.
+Even though mandatory fields can technically be left empty, it's best practice to always provide valid values to ensure clean compiles.
 
 ---
 
@@ -81,7 +81,7 @@ For example, you can add a class such as `my-class-dean` to style a field differ
 **Steps:**
 
 1. Open your desired field in JCB.
-2. In the “Extra Properties” section, select **listclass**.
+2. In the "Extra Properties" section, select **listclass**.
 3. Enter your CSS class name (e.g., `highlight-row`).
 
 This property adds that class dynamically to the HTML output of the list view.
@@ -120,7 +120,7 @@ Additional documentation for this feature is planned in future updates.
 
 Not all field types come with built-in validation. The **Validate Option** allows you to define a validation rule for any field.
 
-If the selected field type already supports validation, it’s better to use its native property. Otherwise, this extra property ensures your data integrity by applying a custom rule.
+If the selected field type already supports validation, it's better to use its native property. Otherwise, this extra property ensures your data integrity by applying a custom rule.
 
 ---
 

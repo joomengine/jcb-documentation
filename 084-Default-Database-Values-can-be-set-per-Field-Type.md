@@ -53,7 +53,7 @@ To configure default values:
 3. In the **Database Values** section, enter your preferred configuration.
 
 **Example:**
-For a “Number” field:
+For a "Number" field:
 
 ```text
 Type: INT
@@ -64,7 +64,7 @@ Default: 0
 
 Click **Save** to store your configuration.
 
-Now, whenever you create a new field of type “Number,” these database values will automatically appear.
+Now, whenever you create a new field of type "Number," these database values will automatically appear.
 
 ---
 
@@ -103,7 +103,7 @@ By defining these standards once, your field creation process becomes much more 
 
 [00:02:54](https://www.youtube.com/watch?v=wGFqV63KzeA&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h02m54s)
 
-Let’s take the `Telephone` and `Text` examples:
+Let's take the `Telephone` and `Text` examples:
 
 * For **Telephone**, set the database type to `VARCHAR(64)`.
 * For **Text**, set the database type to `VARCHAR(255)`.

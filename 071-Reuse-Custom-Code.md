@@ -20,7 +20,7 @@ JCB includes several powerful features that make it possible to:
 
 A developer (Alex Dings) posed a question on the JCB forum:
 
-> “I have several admin views that share generic code, but some views require specific variations. How can I efficiently maintain this structure?”
+> "I have several admin views that share generic code, but some views require specific variations. How can I efficiently maintain this structure?"
 
 ### Common Challenges:
 
@@ -48,16 +48,16 @@ To follow along, use a Joomla test environment. You can quickly spin up a **Dock
    ```
 2. Access Joomla at `http://localhost:8080`
 3. Log in as an admin and go to:
-   **Extensions → Install → Web → Search “JCB”**
+   **Extensions → Install → Web → Search "JCB"**
 4. Install **Joomla Component Builder** from the Joomla Extensions Directory (JED).
 
 [00:02:22](https://www.youtube.com/watch?v=8Yl4lAAAWMQ&t=00h02m22s)
 
-If you have a **JCB package key**, import it via the “Get Package” area to gain access to example components.
+If you have a **JCB package key**, import it via the "Get Package" area to gain access to example components.
 
 > **Tip:** Always click **Force Local Update** to ensure your local JCB fields and structure are up to date.
 
-Once installed, you can explore JCB’s internal components and study its **demo data**.
+Once installed, you can explore JCB's internal components and study its **demo data**.
 
 ---
 
@@ -82,7 +82,7 @@ There are two main types:
 
 [00:03:40](https://www.youtube.com/watch?v=8Yl4lAAAWMQ&t=00h03m40s)
 
-A good example from JCB’s demo data is the **`getViewID()`** function.
+A good example from JCB's demo data is the **`getViewID()`** function.
 
 This function is created as a reusable snippet in **Custom Code** and is applied across multiple **Admin Views**.
 
@@ -156,7 +156,7 @@ In JCB:
 2. Add your reusable function there.
 3. JCB automatically includes this in both helper classes during compilation.
 
-> **Best Practice:** Use the “Both” helper class option when a function applies globally.
+> **Best Practice:** Use the "Both" helper class option when a function applies globally.
 
 You can later view where each custom code block is used at the bottom of its detail page.
 
@@ -191,7 +191,7 @@ JCB distinguishes between:
 | **Automated (Hash)** | One file/one location | IDE-tracked       |
 | **Manual (Snippet)** | Multiple uses         | Developer-managed |
 
-> **Note:** Both use the term “Custom Code,” but serve distinct purposes. Don’t confuse the two when managing snippets.
+> **Note:** Both use the term "Custom Code," but serve distinct purposes. Don't confuse the two when managing snippets.
 
 ---
 

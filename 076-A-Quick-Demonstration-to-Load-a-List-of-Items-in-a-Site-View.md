@@ -24,7 +24,7 @@ In this example, the Sermon Distributor component already includes several views
 - Categories  
 - API  
 
-For this tutorial, we’ll modify the **Preachers** view because it’s a **List Query**, suitable for demonstration.
+For this tutorial, we'll modify the **Preachers** view because it's a **List Query**, suitable for demonstration.
 
 ---
 
@@ -80,9 +80,9 @@ This method supports:
 [00:06:00](https://www.youtube.com/watch?v=tiTIG0RZLDQ&t=00h06m00s)
 
 Navigate to **Dynamic GETs** in JCB.
-You’ll see existing queries — for example, fetching sermons or preachers. Each “List Query” retrieves multiple records from the database.
+You'll see existing queries — for example, fetching sermons or preachers. Each "List Query" retrieves multiple records from the database.
 
-We’ll create a new one called **`Sermons All`**.
+We'll create a new one called **`Sermons All`**.
 
 1. **Duplicate** an existing Sermons GET query.
 2. Rename it to **`Sermons All`**.
@@ -107,19 +107,19 @@ SermondistributorHelperRoute::getSeriesRoute($slug);
 
 These static methods:
 
-* Create SEO-friendly URLs based on the item’s slug (`alias:id`).
+* Create SEO-friendly URLs based on the item's slug (`alias:id`).
 * Append the correct `Itemid` for menu context.
-* Use `JRoute::_()` to convert URLs according to Joomla’s SEF settings.
+* Use `JRoute::_()` to convert URLs according to Joomla's SEF settings.
 
 > **Note:** You rarely need to manually modify these — JCB handles their generation dynamically.
 
 ---
 
-## Step 6: Create the Site View “All Sermons”
+## Step 6: Create the Site View "All Sermons"
 
 [00:14:27](https://www.youtube.com/watch?v=tiTIG0RZLDQ&t=00h14m27s)
 
-Now that we have a working query, create a new **Site View** called **“All Sermons”**:
+Now that we have a working query, create a new **Site View** called **"All Sermons"**:
 
 1. Duplicate the existing **Preachers** or **Sermons** site view.
 2. Rename it to **All Sermons**.
@@ -147,7 +147,7 @@ Within each:
 * Replace any `SView` placeholder with `all`.
 * Update params for sermon description, category, and hits.
 
-> **Tip:** If params aren’t defined yet in the component config, they’ll fall back to `0` — meaning no data loads. You’ll fix this in the next step.
+> **Tip:** If params aren't defined yet in the component config, they'll fall back to `0` — meaning no data loads. You'll fix this in the next step.
 
 ---
 
@@ -155,20 +155,20 @@ Within each:
 
 [00:31:52](https://www.youtube.com/watch?v=tiTIG0RZLDQ&t=00h31m52s)
 
-The component’s configuration defines global display options such as:
+The component's configuration defines global display options such as:
 
 * List style (table/grid/list)
 * Show/Hide description, hits, downloads, etc.
 
-To support the new “All Sermons” view:
+To support the new "All Sermons" view:
 
 1. Go to **Component Config** in JCB.
-2. Duplicate the relevant “Preacher” fields.
+2. Duplicate the relevant "Preacher" fields.
 3. Rename each to use the prefix `all_` (e.g., `all_display`, `all_hits`, `all_description`).
 4. Mark them as **Global**.
 5. Add them under a new tab: **All**.
 
-This ensures your “All Sermons” view has its own customizable options.
+This ensures your "All Sermons" view has its own customizable options.
 
 ---
 
@@ -190,7 +190,7 @@ Add others for:
 * `all_icon`
 * `all_colour`
 
-After saving, JCB will include them in your component’s `/config.xml`.
+After saving, JCB will include them in your component's `/config.xml`.
 
 ---
 
@@ -199,7 +199,7 @@ After saving, JCB will include them in your component’s `/config.xml`.
 [00:25:38](https://www.youtube.com/watch?v=tiTIG0RZLDQ&t=00h25m38s)
 
 1. Click **Compile Component**.
-2. Install the generated ZIP file through Joomla’s Extension Manager.
+2. Install the generated ZIP file through Joomla's Extension Manager.
 3. Verify the new **All Sermons** site view appears in your menu item options.
 4. Set appropriate **permissions** under *Options → Permissions* (e.g., allow public access).
 
@@ -224,8 +224,8 @@ You should now see:
 
 [00:37:10](https://www.youtube.com/watch?v=tiTIG0RZLDQ&t=00h37m10s)
 
-Open your component’s backend → **Options**.
-You’ll now see a new **All** tab with settings such as:
+Open your component's backend → **Options**.
+You'll now see a new **All** tab with settings such as:
 
 * Display Style (Table / Grid / List)
 * Show Hits
@@ -237,7 +237,7 @@ Adjust and test these to confirm the view updates dynamically.
 
 ## Summary
 
-You’ve successfully:
+You've successfully:
 
 * Created a **Dynamic GET** query to load all items.
 * Built a **new Site View** called *All Sermons*.
@@ -245,7 +245,7 @@ You’ve successfully:
 * Added **component configuration fields** for custom layout control.
 * Compiled and tested your component in Joomla.
 
-This same process can be used to create similar “All Items” views for any entity in your JCB-built components.
+This same process can be used to create similar "All Items" views for any entity in your JCB-built components.
 
 ---
 
@@ -255,4 +255,4 @@ This same process can be used to create similar “All Items” views for any en
 * Template overrides can be added under `/site/views/[view]/tmpl/`.
 * Config fields map to XML definitions in `/admin/config.xml`.
 * Use `JRoute::_()` for SEF-compliant links.
-* Pagination defaults are managed through Joomla’s core `pagination.php`.
+* Pagination defaults are managed through Joomla's core `pagination.php`.

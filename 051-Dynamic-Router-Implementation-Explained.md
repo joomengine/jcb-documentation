@@ -9,7 +9,7 @@
 
 ## Overview
 
-In this tutorial, we explore JCB’s **new dynamic router implementation**, a system enhancement designed to reduce complexity and improve how URLs are built for your Joomla site views. This update primarily addresses issues in the **router’s parsing and building processes**, especially for components that use **Dynamic Gets** in their **Site Views**.
+In this tutorial, we explore JCB's **new dynamic router implementation**, a system enhancement designed to reduce complexity and improve how URLs are built for your Joomla site views. This update primarily addresses issues in the **router's parsing and building processes**, especially for components that use **Dynamic Gets** in their **Site Views**.
 
 ---
 
@@ -32,7 +32,7 @@ can become:
 /sermondistributor/preacher/john-doe
 ```
 
-JCB automatically generates a `router.php` file for each component, attempting to “guess” the relationships needed for URL parsing and building. While often correct, it can make incorrect assumptions when Dynamic Gets become complex.
+JCB automatically generates a `router.php` file for each component, attempting to "guess" the relationships needed for URL parsing and building. While often correct, it can make incorrect assumptions when Dynamic Gets become complex.
 
 ---
 
@@ -89,7 +89,7 @@ However, for the **Single View (`preacher`)**, the router may misinterpret Dynam
 
 **[00:04:09 → 00:06:25]**
 
-In the `preacher` model’s query, JCB mistakenly builds logic referencing the `sermon` table when it should reference the `preacher` table.
+In the `preacher` model's query, JCB mistakenly builds logic referencing the `sermon` table when it should reference the `preacher` table.
 The fix involves modifying what value the router checks during parsing:
 
 **Incorrect:**
@@ -104,7 +104,7 @@ $getVar('sermon', $id);
 $getVar('preacher', $id);
 ```
 
-You can verify what `getVar()` does at the bottom of `router.php` — it’s responsible for retrieving and validating URL values dynamically.
+You can verify what `getVar()` does at the bottom of `router.php` — it's responsible for retrieving and validating URL values dynamically.
 
 The same adjustment applies to other misidentified site views like **Categories** and **Series**.
 
@@ -121,7 +121,7 @@ Rather than editing router code manually, JCB now allows you to dynamically inje
 1. Open **Dynamic Gets** in JCB.
 2. Select the related **Site View** (e.g., `Preacher`, `Series`, `Category`).
 3. Under each, locate the **Custom Script tab**.
-4. Enable **“Add PHP (parse Method) in Router”**.
+4. Enable **"Add PHP (parse Method) in Router"**.
 5. Adjust placeholders as needed.
 
 This feature allows you to override and target specific views without rewriting the entire router.
@@ -132,7 +132,7 @@ This feature allows you to override and target specific views without rewriting 
 
 **[00:10:06 → 00:11:32]**
 
-When enabling the “Add PHP (parse Method)” option, JCB injects a default snippet that includes **placeholders**:
+When enabling the "Add PHP (parse Method)" option, JCB injects a default snippet that includes **placeholders**:
 
 Example:
 
@@ -155,9 +155,9 @@ case '[sview]':
 
 **[00:11:56 → 00:13:59]**
 
-You’ll need to apply this custom router logic for the following Site Views:
+You'll need to apply this custom router logic for the following Site Views:
 
-* **Sermon (Series ID)** — Correct “sermon” → “series”.
+* **Sermon (Series ID)** — Correct "sermon" → "series".
 * **Sermon (Preacher ID)** — Ensure both values match (`preacher`).
 * **Category** — Add `true` to the `getVar` call to identify it as a category lookup.
 
@@ -201,10 +201,10 @@ If the code matches your intended logic, your router is now correctly handling S
 
 **[00:15:16 → End]**
 
-This implementation represents the **first phase** of JCB’s router improvements.
+This implementation represents the **first phase** of JCB's router improvements.
 Future updates aim to make the dynamic guessing logic more intelligent.
 
-Developers are encouraged to contribute via JCB’s **GitHub repository** to refine these routing methods.
+Developers are encouraged to contribute via JCB's **GitHub repository** to refine these routing methods.
 
 ---
 
@@ -214,7 +214,7 @@ Developers are encouraged to contribute via JCB’s **GitHub repository** to ref
 | ----------------------------------- | ------------------------------------------- | ------------------------------------------------ |
 | Incorrect router variable mapping   | JCB guessed wrong Dynamic Get relationships | Override with Custom Parse Method in Dynamic Get |
 | Redundant router code in list views | Generated defaults not needed               | Remove redundant `id` logic                      |
-| Category view not recognized        | Router didn’t detect category context       | Use `getVar('category', $id, true)`              |
+| Category view not recognized        | Router didn't detect category context       | Use `getVar('category', $id, true)`              |
 | Inconsistent SEF URL generation     | Placeholder mismatch                        | Use `[sview]` placeholders for consistency       |
 
 ---

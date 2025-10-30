@@ -25,7 +25,7 @@ Unlike SaaS tools that limit you to a few tables or features, JCB has no such re
 
 [00:02:18](https://www.youtube.com/watch?v=S9heClCWJrg&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h02m18s)
 
-JCB is a **component that builds other components**. Once installed, you work entirely from within Joomla’s administrator interface. The component builder itself was built using JCB — a testament to its power and self-sustainability.
+JCB is a **component that builds other components**. Once installed, you work entirely from within Joomla's administrator interface. The component builder itself was built using JCB — a testament to its power and self-sustainability.
 
 ### Key Features
 
@@ -40,13 +40,13 @@ JCB is a **component that builds other components**. Once installed, you work en
 
 [00:12:35](https://www.youtube.com/watch?v=S9heClCWJrg&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h12m35s)
 
-After installation, JCB’s **Dashboard** serves as your control center. From here, you can access:
+After installation, JCB's **Dashboard** serves as your control center. From here, you can access:
 
 * **Wiki and Tutorials:** All JCB guides and video tutorials.
 * **Component Management:** Add, edit, or manage components.
 * **Global Configuration:** Access to system-wide options and library settings.
 
-The dashboard also includes a **Wiki link** that points to JCB’s official documentation and video index, making it easy to explore tutorials on topics like field creation, views, and dynamic data handling.
+The dashboard also includes a **Wiki link** that points to JCB's official documentation and video index, making it easy to explore tutorials on topics like field creation, views, and dynamic data handling.
 
 ---
 
@@ -66,7 +66,7 @@ The JCB workflow follows a logical structure:
 8. **Compile and Install**
 9. **Collaborate or Export Packages**
 
-This flow ensures your component is cleanly generated and fully functional with Joomla’s native architecture.
+This flow ensures your component is cleanly generated and fully functional with Joomla's native architecture.
 
 ---
 
@@ -155,7 +155,7 @@ Manage PHP view files (e.g., `default.php`) and break them into smaller, reusabl
 
 [00:24:37](https://www.youtube.com/watch?v=S9heClCWJrg&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h24m37s)
 
-Layouts define the structure of frontend and backend elements, fully compatible with Joomla’s layout system.
+Layouts define the structure of frontend and backend elements, fully compatible with Joomla's layout system.
 
 ### Libraries
 
@@ -195,7 +195,7 @@ You can define reusable code snippets that JCB automatically injects at compile 
 
 [00:32:17](https://www.youtube.com/watch?v=S9heClCWJrg&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h32m17s)
 
-Bespoke code is JCB’s most powerful feature—it allows you to insert or modify code anywhere within the compiled component.
+Bespoke code is JCB's most powerful feature—it allows you to insert or modify code anywhere within the compiled component.
 
 When you rebuild, JCB:
 
@@ -235,9 +235,9 @@ JCB supports **Git-based collaboration**:
 
 * Each component can be version-controlled in Git.
 * Multiple developers can work independently and merge changes.
-* The “mapped component” (the JCB project file) can be shared and forked.
+* The "mapped component" (the JCB project file) can be shared and forked.
 
-> **Tip:** This approach prevents Joomla’s record-locking issue, allowing parallel development.
+> **Tip:** This approach prevents Joomla's record-locking issue, allowing parallel development.
 
 ---
 
@@ -251,7 +251,7 @@ VDM, the creator of JCB, now provides **free access** to key example packages:
 * Question and Answer Component
 * Sermon Distributor
 
-Users can obtain keys by forking or starring the public repositories and then importing them via JCB’s **Import Packages** feature.
+Users can obtain keys by forking or starring the public repositories and then importing them via JCB's **Import Packages** feature.
 
 ---
 
@@ -259,9 +259,9 @@ Users can obtain keys by forking or starring the public repositories and then im
 
 [00:44:29](https://www.youtube.com/watch?v=S9heClCWJrg&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h44m29s)
 
-JCB’s open-source model encourages collaboration. By contributing improvements or sharing your components, you help grow a powerful ecosystem for Joomla developers.
+JCB's open-source model encourages collaboration. By contributing improvements or sharing your components, you help grow a powerful ecosystem for Joomla developers.
 
-> “The fact that you can modify any location within your component and still maintain round-trip development is what makes JCB unique.”
+> "The fact that you can modify any location within your component and still maintain round-trip development is what makes JCB unique."
 
 ---
 

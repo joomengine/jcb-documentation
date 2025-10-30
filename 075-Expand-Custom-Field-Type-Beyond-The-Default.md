@@ -11,11 +11,11 @@
 This tutorial introduces an exciting new option available in **Joomla Component Builder (JCB) version 2.9.3 (Beta)**.
 It allows you to expand **custom field types** directly within JCB — **without modifying the core Joomla files**.
 
-Previously, extending Joomla’s field types required manual changes to the `/libraries/joomla/form/fields` directory. With this update, you can create new field types using the JCB interface alone.
+Previously, extending Joomla's field types required manual changes to the `/libraries/joomla/form/fields` directory. With this update, you can create new field types using the JCB interface alone.
 
 ---
 
-## 2. Understanding JCB’s Field Type System
+## 2. Understanding JCB's Field Type System
 
 **[00:00:36 → 00:02:15]**
 In JCB, the **Field Type** list includes all Joomla core field types.
@@ -34,7 +34,7 @@ With version 2.9.3, JCB adds the ability to **extend the Custom Field itself** �
 ## 3. Joomla Field File Structure
 
 **[00:02:48 → 00:04:59]**
-To understand how this works, look at Joomla’s field definitions:
+To understand how this works, look at Joomla's field definitions:
 
 ```
 administrator/
@@ -57,9 +57,9 @@ Previously, extending one meant editing these files directly. JCB now allows you
 **[00:05:33 → 00:06:07]**
 
 > 🔹 **Field Type** — The structure or blueprint of a field (e.g., list, radio, custom).
-> 🔹 **Field** — An instance used in your component that’s built upon a field type.
+> 🔹 **Field** — An instance used in your component that's built upon a field type.
 
-This distinction is critical when customizing. You’ll modify or extend *field types*, but the result will be seen in your actual *fields* within components.
+This distinction is critical when customizing. You'll modify or extend *field types*, but the result will be seen in your actual *fields* within components.
 
 ---
 
@@ -74,7 +74,7 @@ In JCB:
 * Go to **Component → Field Types**
 * Open the **Custom** field type.
 
-### Step 2 — Define the “Name” with `@`
+### Step 2 — Define the "Name" with `@`
 
 Give your field a unique name using an **`@` symbol**.
 This is how JCB identifies custom field types that extend others:
@@ -119,7 +119,7 @@ This flexibility makes it possible to insert code into multiple parts of your fi
 
 **[00:14:17 → 00:22:46]**
 
-To demonstrate, the tutorial creates a field called **`list@mine`**, extending Joomla’s List field.
+To demonstrate, the tutorial creates a field called **`list@mine`**, extending Joomla's List field.
 
 ### Step-by-Step:
 
@@ -138,7 +138,7 @@ To demonstrate, the tutorial creates a field called **`list@mine`**, extending J
 Once created, your new field type can be reused across multiple components.
 Ensure:
 
-* It’s **Adjustable** (checked)
+* It's **Adjustable** (checked)
 * Not **Mandatory** unless necessary
   Then **Save & Close** to finalize the new custom field type.
 
@@ -179,7 +179,7 @@ This function:
 **[00:29:54 → 00:31:01]**
 After installation:
 
-* Go to your component in Joomla’s backend.
+* Go to your component in Joomla's backend.
 * Create a new item in the view where you placed the custom field.
   If you see your new label and field structure, the compilation succeeded.
   If HTML or options are missing, ensure your PHP code returns a proper HTML output or options array.
@@ -217,7 +217,7 @@ You can view or dump this replace array to inspect available placeholders.
 
 * Always add an `@` in your field name to ensure JCB recognizes it as custom.
 * You can start by duplicating the **default Custom Field**, renaming it, and expanding from there.
-* Never edit Joomla’s core `/libraries/joomla/form/fields` directly.
+* Never edit Joomla's core `/libraries/joomla/form/fields` directly.
 * JCB will safely generate new PHP field files under your component during compilation.
 
 ---

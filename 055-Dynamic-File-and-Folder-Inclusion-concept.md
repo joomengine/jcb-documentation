@@ -2,7 +2,7 @@
 
 ### Tutorial Reference
 
-**Video:** “Dynamic File and Folder Inclusion Concept”
+**Video:** "Dynamic File and Folder Inclusion Concept"
 **Transcript Source:** `055-Dynamic-File-and-Folder-Inclusion-concept.md`
 **Purpose:** To explain how to dynamically include external files, folders, and code into your Joomla Component Builder (JCB) components.
 **Video Timestamp Reference:** Each section includes timestamps for cross-reference with the tutorial.
@@ -31,15 +31,15 @@ You can now:
 
 **[00:02:03 → 00:02:35]**
 
-Navigate to the **“Files & Folders”** area within JCB.
-A new **“Advanced” tab** has been added to complement the existing **Basic tab**.
+Navigate to the **"Files & Folders"** area within JCB.
+A new **"Advanced" tab** has been added to complement the existing **Basic tab**.
 
 ### What It Does
 
 * Allows JCB to **grab files from anywhere in your system** and add them to your component package.
 * Supports **files outside the Joomla root directory**, provided PHP has the necessary read permissions.
 
-> **Tip:** Normally, you’ll only need files inside your Joomla component directory.
+> **Tip:** Normally, you'll only need files inside your Joomla component directory.
 > Use external inclusion only when your workflow specifically requires external dependencies.
 
 ---
@@ -54,7 +54,7 @@ You can configure JCB to package non-generated custom files or folders along wit
 
 * **Use constants** in file paths (e.g., `_VDM_PATH_`).
 * Do **not** wrap constants in quotes.
-* JCB’s compiler automatically interprets these constants correctly.
+* JCB's compiler automatically interprets these constants correctly.
 
 Example (inside JCB):
 
@@ -72,7 +72,7 @@ Becomes dynamically resolved by the compiler without additional syntax.
 
 When setting up file or folder inclusion:
 
-1. **Define the target path** within your component’s ZIP structure.
+1. **Define the target path** within your component's ZIP structure.
    Example: `libraries/vdm_io`
 2. This allows JCB to include non-standard folders (like libraries) into the component package.
 3. On installation, these folders are automatically copied into their proper places.
@@ -150,7 +150,7 @@ When compiling a component with EXTERNALCODE:
 
 If the snippet changes:
 
-* JCB shows a **warning** under “Warnings” after recompilation.
+* JCB shows a **warning** under "Warnings" after recompilation.
 * You are prompted to verify that the code change is legitimate.
 
 ---

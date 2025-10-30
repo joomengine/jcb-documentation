@@ -16,8 +16,8 @@ They partner with major providers like **Amazon Web Services**, and offer ready-
 ### Why Bitnami?
 
 * It bundles **Apache**, **MySQL**, **PHP**, and **Joomla** in a single installable package.
-* It creates an isolated development environment — **no interference** with your system’s existing PHP or MySQL setup.
-* It’s available for **Windows, macOS, and Linux**.
+* It creates an isolated development environment — **no interference** with your system's existing PHP or MySQL setup.
+* It's available for **Windows, macOS, and Linux**.
 * It includes **phpMyAdmin** by default.
 * It supports **quick uninstallation** and **clean removal** when done testing.
 
@@ -31,8 +31,8 @@ They partner with major providers like **Amazon Web Services**, and offer ready-
 
 ### Step 1: Download Bitnami Joomla Stack
 
-1. Search for **“Bitnami Joomla Stack”** in your browser.
-2. Visit the official Bitnami site or Joomla’s documentation link.
+1. Search for **"Bitnami Joomla Stack"** in your browser.
+2. Visit the official Bitnami site or Joomla's documentation link.
 3. Choose the correct installer for your system:
 
    * **Windows** (`.exe`)
@@ -113,7 +113,7 @@ Once complete, click **Finish** and **Launch Bitnami Joomla Stack**.
 ### Step 2: Install Joomla Component Builder (JCB)
 
 * Go to **Extensions → Manage → Install**.
-* Search for **“JCB”** in the Joomla Extensions Directory.
+* Search for **"JCB"** in the Joomla Extensions Directory.
 * Click **Install**.
 
 [00:09:00](https://www.youtube.com/watch?v=zpS52k89YcI&t=00h09m00s)
@@ -172,7 +172,7 @@ joomla_bitnami/
         └── htdocs/
 ```
 
-Inside **`htdocs`** you’ll find the entire Joomla website — including your installed components.
+Inside **`htdocs`** you'll find the entire Joomla website — including your installed components.
 You can edit and test your JCB-generated files directly here.
 
 > **Tip:** This structure allows you to quickly modify PHP, view templates, and test compiled components in real time.
@@ -198,7 +198,7 @@ Use this to inspect and manage your Joomla databases easily.
 
 [00:13:39](https://www.youtube.com/watch?v=zpS52k89YcI&t=00h13m39s)
 
-In your Bitnami folder, you’ll find:
+In your Bitnami folder, you'll find:
 
 * **Manager Tool** → start/stop servers
 * **Uninstall script** → cleanly remove the stack
@@ -206,7 +206,7 @@ In your Bitnami folder, you’ll find:
 To uninstall:
 
 1. Run the uninstaller executable.
-2. Confirm “Yes” when prompted.
+2. Confirm "Yes" when prompted.
 3. Wait while it removes all related files.
 
 [00:14:28](https://www.youtube.com/watch?v=zpS52k89YcI&t=00h14m28s)
@@ -222,7 +222,7 @@ To uninstall:
 | -------------------------------- | -------------- | -------------------------------------------- |
 | Install Bitnami Joomla Stack     | 5 mins         | Full local environment setup                 |
 | Install Joomla Component Builder | 3 mins         | Extension installation via Joomla            |
-| Import “Hello World” Package     | 2 mins         | Load example JCB component                   |
+| Import "Hello World" Package     | 2 mins         | Load example JCB component                   |
 | Compile & Test                   | 2 mins         | Verify functionality in backend and frontend |
 
 > **Total Setup Time:** ~10–15 minutes

@@ -10,9 +10,9 @@
 > [00:00:10](https://www.youtube.com/watch?v=UVICsD82oWk&t=00h00m10s)
 
 In this tutorial, we demonstrate how to **add a form to a Site View** in Joomla Component Builder (JCB).
-The process follows Joomla’s **MVC structure** and JCB’s automated generation workflow.
+The process follows Joomla's **MVC structure** and JCB's automated generation workflow.
 
-While it’s possible to manually add a form to a Site View, **the Joomla best practice** is to use an **Admin View as a Site View**, since Joomla’s core architecture expects form submissions to originate from such views.
+While it's possible to manually add a form to a Site View, **the Joomla best practice** is to use an **Admin View as a Site View**, since Joomla's core architecture expects form submissions to originate from such views.
 
 ---
 
@@ -23,12 +23,12 @@ While it’s possible to manually add a form to a Site View, **the Joomla best p
 When you want to store form data into the database, the recommended way is to:
 
 1. **Create an Admin View** that contains the form and table structure.
-2. **Enable the “Create Site Edit View”** option in JCB.
+2. **Enable the "Create Site Edit View"** option in JCB.
    This automatically makes the Admin View accessible from the **frontend** as a Site View.
 
 **Why this is best practice:**
 
-* Follows Joomla’s native MVC structure.
+* Follows Joomla's native MVC structure.
 * Ensures generated code handles validation, saving, and permissions correctly.
 * Reduces risk of insecure or unsupported form handling.
 
@@ -84,7 +84,7 @@ This means you already have a form—no need to add another.
    ```
 4. You can now simply **add buttons** or **hidden inputs** within this form to capture and process submissions.
 
-*You already have CSRF protection via Joomla’s form token.*
+*You already have CSRF protection via Joomla's form token.*
 
 ---
 
@@ -92,7 +92,7 @@ This means you already have a form—no need to add another.
 
 > [00:05:14](https://www.youtube.com/watch?v=UVICsD82oWk&t=00h05m14s)
 
-To trigger custom form actions, add a button through JCB’s **button configuration**.
+To trigger custom form actions, add a button through JCB's **button configuration**.
 
 **Steps:**
 
@@ -102,7 +102,7 @@ To trigger custom form actions, add a button through JCB’s **button configurat
    * **Name:** `Submit`
    * **Icon:** e.g., `save`
    * **Task / Controller Method:** `saveMyStuff`
-   * **Target Controller:** your view’s controller (e.g., `looks`)
+   * **Target Controller:** your view's controller (e.g., `looks`)
 3. Add the **Custom Option** (code placeholder) to position your button inside the form layout.
 
 When compiled, JCB will:
@@ -161,7 +161,7 @@ Your controller calls model methods such as:
 
 You must implement or extend these in your **Model** file (`models/looks.php`).
 
-If you’re using dynamic or custom fields, you can build your form dynamically via code or XML.
+If you're using dynamic or custom fields, you can build your form dynamically via code or XML.
 
 ---
 
@@ -173,7 +173,7 @@ For search boxes or small submission forms, you can insert a **second form** man
 
 **Steps:**
 
-1. Go to your Site View’s **Custom PHP** tab in JCB.
+1. Go to your Site View's **Custom PHP** tab in JCB.
 2. Add PHP and HTML to create a standalone form:
 
    ```php
@@ -205,7 +205,7 @@ You can verify this inside the generated component files after compilation.
 
 > [00:21:38](https://www.youtube.com/watch?v=UVICsD82oWk&t=00h21m38s)
 
-JCB’s compiler uses Joomla’s **Form Field Objects** for building forms dynamically.
+JCB's compiler uses Joomla's **Form Field Objects** for building forms dynamically.
 
 ### Helper: `getFieldObject()`
 
@@ -223,15 +223,15 @@ $field->setup($xmlField, $value);
 return $field;
 ```
 
-This ensures full compatibility with Joomla’s native field handling system.
+This ensures full compatibility with Joomla's native field handling system.
 
 ---
 
-## 10. Accessing the Compiler’s Custom Admin View Example
+## 10. Accessing the Compiler's Custom Admin View Example
 
 > [00:26:20](https://www.youtube.com/watch?v=UVICsD82oWk&t=00h26m20s)
 
-You can study JCB’s own **Compiler** component for a live example of dynamic form rendering.
+You can study JCB's own **Compiler** component for a live example of dynamic form rendering.
 
 **Steps:**
 
@@ -255,17 +255,17 @@ This is an ideal reference for building your own dynamic site forms.
 
 | Method                              | Description                                                              | Best for                   |
 | ----------------------------------- | ------------------------------------------------------------------------ | -------------------------- |
-| **1. Use Existing Pagination Form** | Add buttons or fields inside Joomla’s existing form structure.           | Full-page data submissions |
+| **1. Use Existing Pagination Form** | Add buttons or fields inside Joomla's existing form structure.           | Full-page data submissions |
 | **2. Custom Form Above View**       | Add separate form via PHP tab for lightweight tasks (search, filtering). | Quick interactions         |
 
 ---
 
 ## Pro Tips
 
-* Always **validate and sanitize** input using Joomla’s model validation.
+* Always **validate and sanitize** input using Joomla's model validation.
 * Use `JSession::checkToken()` to prevent CSRF attacks.
 * Keep logic in controllers and models, not in views.
-* Study JCB’s Compiler View for best-practice examples.
+* Study JCB's Compiler View for best-practice examples.
 * Avoid creating multiple forms unless absolutely needed.
 
 ---
@@ -274,4 +274,4 @@ This is an ideal reference for building your own dynamic site forms.
 
 > [00:30:00](https://www.youtube.com/watch?v=UVICsD82oWk&t=00h30m00s)
 
-By following these steps, you can safely and efficiently add forms to your JCB Site Views—leveraging Joomla’s MVC structure and JCB’s automation while maintaining security and clean architecture.
+By following these steps, you can safely and efficiently add forms to your JCB Site Views—leveraging Joomla's MVC structure and JCB's automation while maintaining security and clean architecture.

@@ -56,7 +56,7 @@ In templates and layouts, whenever you wrap text in a `JText` call, like:
 <?php echo JText::_('COM_EXAMPLE_HELLO_WORLD'); ?>
 ```
 
-JCB’s parser automatically captures the English string and ensures it’s added to the correct `en-GB` file during compilation.
+JCB's parser automatically captures the English string and ensures it's added to the correct `en-GB` file during compilation.
 
 **Tip:** You do not need to manually maintain English language files — JCB compiles and updates them for you.
 
@@ -77,7 +77,7 @@ Now you can define **multiple language tags** (e.g., `fr-FR`, `de-DE`, `es-ES`) 
 
    * **Language Tag** (e.g., `fr-FR`)
    * **Language Name** (e.g., French)
-4. JCB will use Joomla’s naming conventions for prefixes (links to reference may be added later).
+4. JCB will use Joomla's naming conventions for prefixes (links to reference may be added later).
 5. On compile, all strings are extracted into the `en-GB` file and then translated versions are created based on your database entries.
 
 ---
@@ -147,7 +147,7 @@ These functions reside in `a_Get.php` (open-source).
 After fetching translations, JCB injects them back into the compiled component.
 During build, each string is evaluated and merged into the `.ini` files corresponding to its target language.
 
-You can see this in action by compiling any component (e.g., “Document Manager”).
+You can see this in action by compiling any component (e.g., "Document Manager").
 JCB will automatically:
 
 * Collect all English strings
@@ -202,7 +202,7 @@ Once saved, the translations automatically propagate to all linked components.
 
 [00:13:21](https://www.youtube.com/watch?v=zzAcVkn_cWU&t=801s)
 
-Each component’s Translation tab lets you:
+Each component's Translation tab lets you:
 
 * View component-specific strings.
 * Import/export translation sets for collaboration.
@@ -212,7 +212,7 @@ Each component’s Translation tab lets you:
 
 *(This feature is under ongoing development.)*
 
-### B. Via Global “Language Translations”
+### B. Via Global "Language Translations"
 
 ⏱ [00:14:03](https://www.youtube.com/watch?v=zzAcVkn_cWU&t=843s)
 

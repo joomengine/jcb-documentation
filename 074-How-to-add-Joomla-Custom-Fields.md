@@ -17,7 +17,7 @@ With recent updates, **Joomla Component Builder (JCB)** now natively supports **
 
 ## 1. Understanding Joomla Custom Fields and Groups
 
-Before diving into JCB integration, it’s important to understand the Joomla custom field system:
+Before diving into JCB integration, it's important to understand the Joomla custom field system:
 
 * **Fields** are custom input options (e.g., text, list, image) attached to content.
 * **Field Groups** organize fields into logical sets.
@@ -40,7 +40,7 @@ To make Joomla Custom Fields available within a JCB component:
 2. Go to **Admin Views**.
 3. Select or create an Admin View (e.g., `Look`).
 4. Click **Edit** to open its settings.
-5. Scroll to find the new **“Joomla Fields”** toggle.
+5. Scroll to find the new **"Joomla Fields"** toggle.
 6. Enable this option.
 
 > **Note:** This adds Joomla Custom Field integration to the Admin View.
@@ -57,7 +57,7 @@ This ensures that custom fields will be available for data entry in the back-end
 After enabling Joomla Fields:
 
 1. **Compile** your component.
-2. **Install** it on your Joomla site using the JCB compiler’s installation process.
+2. **Install** it on your Joomla site using the JCB compiler's installation process.
 
 Once installed, navigate to your component in the Joomla back-end.
 For example:
@@ -66,7 +66,7 @@ For example:
 Components → Demo → Looks
 ```
 
-You’ll now see two new menu items:
+You'll now see two new menu items:
 
 * **Looks Fields**
 * **Looks Field Groups**
@@ -173,7 +173,7 @@ This ensures field data linked to `com_demo.look` displays correctly in the fron
 
 To output field values in your template:
 
-1. Open your component’s **Site View template file**:
+1. Open your component's **Site View template file**:
 
    ```
    components/com_demo/views/looking/tmpl/default.php
@@ -194,7 +194,7 @@ To output field values in your template:
 
 [00:20:08](https://www.youtube.com/watch?v=n5RBmP0uNCM&t=00h20m08s)
 
-* If fields don’t display:
+* If fields don't display:
 
   * Confirm the **Context** matches.
   * Ensure the correct **event variables** are used.
@@ -208,9 +208,9 @@ To output field values in your template:
 
 > **Example Adjustment:**
 >
-> * Move “Simple Field” to display after content:
+> * Move "Simple Field" to display after content:
 >
->   * Open the field in Joomla → set “Automatic Display” to “After Display”.
+>   * Open the field in Joomla → set "Automatic Display" to "After Display".
 
 ---
 
@@ -221,7 +221,7 @@ To output field values in your template:
 To hide a field label in the front-end display:
 
 1. Edit the field in Joomla.
-2. Set **“Show Label” → “Hide”**.
+2. Set **"Show Label" → "Hide"**.
 3. Save and refresh.
 
 Only the field value will appear on the page.
@@ -238,7 +238,7 @@ You can now:
 * Control field placement and visibility.
 * Extend functionality through **content plugins** and **custom code**.
 
-> **Tip:** This setup mimics Joomla’s native article field behavior, ensuring that your JCB components integrate naturally within the Joomla ecosystem.
+> **Tip:** This setup mimics Joomla's native article field behavior, ensuring that your JCB components integrate naturally within the Joomla ecosystem.
 
 ---
 

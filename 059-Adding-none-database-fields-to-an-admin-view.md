@@ -2,7 +2,7 @@
 
 ### Overview
 
-Joomla Component Builder (JCB) introduces a **“None DB”** field option that enables you to add fields to your **Admin View** without saving them to the database. This enhancement allows for flexible, script-driven interfaces where some fields exist only for logic, interaction, or computation, without altering database structure.
+Joomla Component Builder (JCB) introduces a **"None DB"** field option that enables you to add fields to your **Admin View** without saving them to the database. This enhancement allows for flexible, script-driven interfaces where some fields exist only for logic, interaction, or computation, without altering database structure.
 
 ---
 
@@ -27,14 +27,14 @@ For example, you might want to use two fields on the admin page to capture diffe
 
 When using a **None DB field**, you can handle its data through:
 
-* **Custom PHP code** inside the Admin View’s save method.
+* **Custom PHP code** inside the Admin View's save method.
 * **JavaScript logic** that manipulates the form before submission.
 
 Example workflow:
 
 1. Create a `None DB` field to accept temporary input.
 2. Use JavaScript to gather its value during form submission.
-3. In your PHP save logic, merge that input with another field’s value.
+3. In your PHP save logic, merge that input with another field's value.
 4. Store the merged data into a real database field.
 
 This allows **full flexibility** in how form data is processed and saved.
@@ -45,7 +45,7 @@ This allows **full flexibility** in how form data is processed and saved.
 
 **[00:01:16](https://www.youtube.com/watch?v=6OTRDIgxgq0&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h01m16s)**
 
-Another common use case is when a field’s values are used to **populate or update another table**. In this setup:
+Another common use case is when a field's values are used to **populate or update another table**. In this setup:
 
 * The **None DB** field collects user input.
 * On save, your script writes that data into another table.
@@ -74,7 +74,7 @@ Before this feature, JCB automatically assumed that **every field in an Admin Vi
 
 **[00:02:24](https://www.youtube.com/watch?v=6OTRDIgxgq0&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h02m24s)**
 
-In your JCB Admin View Field configuration, locate the new **“None DB”** option next to the usual *“Show in list”* and *“Default”* settings.
+In your JCB Admin View Field configuration, locate the new **"None DB"** option next to the usual *"Show in list"* and *"Default"* settings.
 
 | Setting           | Description                                                                  |
 | ----------------- | ---------------------------------------------------------------------------- |
@@ -91,7 +91,7 @@ This **third option** allows you to define fields that are used solely in logic 
 **[00:02:49](https://www.youtube.com/watch?v=6OTRDIgxgq0&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h02m49s)**
 
 You can use **None DB** fields for internal validation logic.
-For instance, the tutorial uses a field named **“Not Required”**, which is manipulated through JavaScript to adapt form validation dynamically.
+For instance, the tutorial uses a field named **"Not Required"**, which is manipulated through JavaScript to adapt form validation dynamically.
 
 * The field stores temporary values used to decide if other fields are required or hidden.
 * These values never need to be stored permanently, making `None DB` ideal.
@@ -99,8 +99,8 @@ For instance, the tutorial uses a field named **“Not Required”**, which is m
 **[00:03:18](https://www.youtube.com/watch?v=6OTRDIgxgq0&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h03m18s)**
 When you enable **None DB**, JCB will display two notices:
 
-1. “This field will be removed from being saved in the database.”
-2. “Only use the None DB option if you plan to target this field with JavaScript or PHP to move its value into another field that gets saved.”
+1. "This field will be removed from being saved in the database."
+2. "Only use the None DB option if you plan to target this field with JavaScript or PHP to move its value into another field that gets saved."
 
 These warnings help prevent misuse.
 
@@ -116,7 +116,7 @@ When a field is marked as **None DB**, JCB:
 * **Removes** any form-related save logic that writes to the database.
 * **Clears** incompatible configuration options (like filters, indexes, and DB default values).
 
-After saving, the field’s value **exists only in memory** (via form POST data or scripts) and disappears unless you explicitly handle it.
+After saving, the field's value **exists only in memory** (via form POST data or scripts) and disappears unless you explicitly handle it.
 
 ---
 
@@ -138,19 +138,19 @@ It is best used for:
 * Data transfer between tables.
 * Advanced UI interactions or subforms.
 
-If your use case doesn’t involve these scenarios, you can safely continue using standard database fields.
+If your use case doesn't involve these scenarios, you can safely continue using standard database fields.
 
 ---
 
 ### Key Takeaways
 
-* Use `None DB` when a field’s data shouldn’t persist in the database.
+* Use `None DB` when a field's data shouldn't persist in the database.
 * Always handle its value manually using **JavaScript** or **custom PHP**.
 * Remember: these fields are **excluded** from database schema generation and must be **explicitly processed** during save.
 
 ---
 
 **Tutorial Reference:**
-*“Adding None Database Fields to an Admin View” – JCB Official Tutorial*
+*"Adding None Database Fields to an Admin View" – JCB Official Tutorial*
 *Video Duration: ~5 minutes*
 *Based on latest Joomla Component Builder version and Admin View UI.*

@@ -12,15 +12,15 @@ It assumes that JCB is already installed on your Joomla system.
 There are **two ways** to access the installation view for JCB packages:
 
 1. **From the JCB Dashboard:**
-   Click the **“Import JCB Packages”** icon. This opens the import view directly.
+   Click the **"Import JCB Packages"** icon. This opens the import view directly.
 
 2. **From Joomla Components Menu:**
-   Go to **Components → Joomla Component Builder**, and on the top right corner, click **“Import JCB Packages”**.
+   Go to **Components → Joomla Component Builder**, and on the top right corner, click **"Import JCB Packages"**.
 
 [00:00:35](https://www.youtube.com/watch?v=PGmEoliopv8&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h00m35s)
 This will take you to the same import area that contains several tabs—such as **VDM Packages** and **JCB Community Packages**.
 
-If you do not want to see certain tabs, you can manage their visibility under the **Global Options** section using the **“Manage JCB Package Directories”** setting.
+If you do not want to see certain tabs, you can manage their visibility under the **Global Options** section using the **"Manage JCB Package Directories"** setting.
 You can choose between:
 
 * **Show All**
@@ -35,7 +35,7 @@ Currently, there are two active repositories, but this area is expanding and exp
 
 [00:01:20](https://www.youtube.com/watch?v=PGmEoliopv8&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h01m20s)
 
-When you reach the **“Backup Local Data First”** page, you can select a JCB package to import from one of the following sources:
+When you reach the **"Backup Local Data First"** page, you can select a JCB package to import from one of the following sources:
 
 * Your **local computer**
 * A **server directory**
@@ -62,7 +62,7 @@ In earlier versions, **VDM packages required paid keys**.
 Now, JCB offers **free keys** for verified users who show community support—by forking, starring, or watching the respective GitHub repositories.
 
 Follow the on-screen link for details.
-Once you have your **key**, select the desired package (such as the **Joomla Component Builder itself**) and click **“Get Package.”**
+Once you have your **key**, select the desired package (such as the **Joomla Component Builder itself**) and click **"Get Package."**
 
 [00:03:38](https://www.youtube.com/watch?v=PGmEoliopv8&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h03m38s)
 JCB will automatically download the package from GitHub into your development environment, validating it using a **checksum process**.
@@ -93,12 +93,12 @@ When importing, you must decide between **Merge** or **Clone (New Instance)**:
 
 * **Merge:**
   Updates your existing component if the package version is newer.
-  You can also enable **“Force Local Update”**, which only works if “Merge” is selected.
+  You can also enable **"Force Local Update"**, which only works if "Merge" is selected.
 
 * **Clone:**
   Creates a completely new instance of the component, duplicating all fields, views, and related items.
 
-If you’re importing an updated version of an existing component, **Merge** is recommended.
+If you're importing an updated version of an existing component, **Merge** is recommended.
 For experimentation or side-by-side versions, use **Clone**.
 
 ---
@@ -107,7 +107,7 @@ For experimentation or side-by-side versions, use **Clone**.
 
 [00:06:05](https://www.youtube.com/watch?v=PGmEoliopv8&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h06m05s)
 
-Enable the **“See All Import Information”** option (set to *Yes*) if this is your first import.
+Enable the **"See All Import Information"** option (set to *Yes*) if this is your first import.
 This displays detailed logs showing:
 
 * Every field and view created
@@ -123,12 +123,12 @@ This is especially important for **packages not distributed directly by VDM**.
 
 [00:07:04](https://www.youtube.com/watch?v=PGmEoliopv8&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h07m04s)
 
-Before proceeding, check that the **“Component Being Imported”** field matches what you intended to install.
+Before proceeding, check that the **"Component Being Imported"** field matches what you intended to install.
 
 While VDM distributes single-component packages, JCB allows importing packages containing **multiple components**—useful for backups or bulk development setups.
 
 [00:07:32](https://www.youtube.com/watch?v=PGmEoliopv8&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h07m32s)
-You can even import a **full backup package** that includes every component you’ve built.
+You can even import a **full backup package** that includes every component you've built.
 JCB successfully handles large imports (tested with 20+ components) though it may take some time to complete.
 
 ---
@@ -146,7 +146,7 @@ During this process, JCB dynamically **updates all internal IDs** across:
 
 [00:08:41](https://www.youtube.com/watch?v=PGmEoliopv8&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h08m41s)
 This ensures the new package integrates correctly without conflicts.
-Because JCB exports a complete “snapshot” of the original component, the importer must **remap every identifier** to maintain consistency and functionality.
+Because JCB exports a complete "snapshot" of the original component, the importer must **remap every identifier** to maintain consistency and functionality.
 
 ---
 

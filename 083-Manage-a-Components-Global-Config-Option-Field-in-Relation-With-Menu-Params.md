@@ -1,10 +1,10 @@
-# Manage a Component’s Global Config Option Field in Relation with Menu Params
+# Manage a Component's Global Config Option Field in Relation with Menu Params
 
 ## Overview
 
 This tutorial explains how to **manage global configuration option fields** in your Joomla Component Builder (JCB) component and how those same fields can be linked to **menu parameters** for specific site views.
 
-You’ll learn:
+You'll learn:
 
 * How global options relate to menu view options.
 * How to control where certain fields appear — either in **Global Config**, **Menu Params**, or **both**.
@@ -20,8 +20,8 @@ In Joomla, **Global Configuration Options** define default behaviors for your co
 
 > For example, you may want a setting to appear:
 >
-> * Only in your component’s *Global Configuration* area.
-> * Only in a *Menu Item’s* parameters.
+> * Only in your component's *Global Configuration* area.
+> * Only in a *Menu Item's* parameters.
 > * Or in *both*.
 
 JCB allows you to achieve this distinction easily using a `display` property.
@@ -35,10 +35,10 @@ JCB allows you to achieve this distinction easily using a `display` property.
 Open your component in JCB (for example, **Member Manager**) and locate the **Global Config Fields** area.
 
 1. Navigate to your component in **Components** → **Member Manager**.
-2. Observe existing config fields — these are used in both the component’s config and menu options.
+2. Observe existing config fields — these are used in both the component's config and menu options.
 3. If none exist, click **➕ (Add New Field)** to begin.
 
-You’ll notice that each field’s behavior is largely determined by its **extra properties**, which we’ll look at next.
+You'll notice that each field's behavior is largely determined by its **extra properties**, which we'll look at next.
 
 ---
 
@@ -46,7 +46,7 @@ You’ll notice that each field’s behavior is largely determined by its **extr
 
 **[00:04:31](https://www.youtube.com/watch?v=dhVVQP4KS3Q&t=00h04m31s)**
 
-Each field in JCB’s Field Manager has an *Extra Properties* section.
+Each field in JCB's Field Manager has an *Extra Properties* section.
 A key property is **`display`**, which determines where the field appears:
 
 | Property Value | Field Appears In                   |
@@ -72,14 +72,14 @@ This setting ensures that the field is visible **only** in menu parameters.
 
 **[00:05:10](https://www.youtube.com/watch?v=dhVVQP4KS3Q&t=00h05m10s)**
 
-When the `display` value is set to **menu**, the field will **not appear** in the Global Configuration area, but **will appear** under a site view’s menu parameters.
+When the `display` value is set to **menu**, the field will **not appear** in the Global Configuration area, but **will appear** under a site view's menu parameters.
 
 If you:
 
-* Go to **Global Config** → your component → *members* tab → the field won’t be visible.
+* Go to **Global Config** → your component → *members* tab → the field won't be visible.
 * Go to **Menus** → *Add Menu Item* → select the corresponding view → the field **is** visible.
 
-This confirms the field’s correct placement.
+This confirms the field's correct placement.
 
 ---
 
@@ -87,7 +87,7 @@ This confirms the field’s correct placement.
 
 **[00:07:08](https://www.youtube.com/watch?v=dhVVQP4KS3Q&t=00h07m08s)**
 
-Let’s add a new field called **“Show Title”**.
+Let's add a new field called **"Show Title"**.
 
 ### Steps:
 
@@ -97,13 +97,13 @@ Let’s add a new field called **“Show Title”**.
    * **Name:** `show_title`
    * **Label:** `Show Title`
    * **Type:** `Radio`
-   * **Description:** “Select if the title should be shown.”
+   * **Description:** "Select if the title should be shown."
    * **Options:** Yes / No
    * **Default:** `1` (Yes)
 3. Leave **`display`** blank to make it appear in both Config and Menu areas.
 4. Save the field.
 
-Next, add this field to your component’s **Global Config**.
+Next, add this field to your component's **Global Config**.
 
 ### Add Field to Config Tab:
 
@@ -124,11 +124,11 @@ Compile and install the component to apply the changes.
 After installation:
 
 * Open **System → Global Configuration → Member Manager**
-  You’ll see a **Cpanel** tab with the new **Show Title (Yes/No)** field.
-* Create or edit a **menu item** linked to this component’s site view.
-  Under the **Member Manager** tab, the **Show Title** field also appears, including an option to *“Use Global”*.
+  You'll see a **Cpanel** tab with the new **Show Title (Yes/No)** field.
+* Create or edit a **menu item** linked to this component's site view.
+  Under the **Member Manager** tab, the **Show Title** field also appears, including an option to *"Use Global"*.
 
-> This allows Joomla menu items to **inherit or override** the component’s global value.
+> This allows Joomla menu items to **inherit or override** the component's global value.
 
 ---
 
@@ -149,7 +149,7 @@ To make a field appear **only in Global Config**:
 ### Verify:
 
 * The field **disappears** from the menu item parameters.
-* It **remains visible** in the component’s global configuration area.
+* It **remains visible** in the component's global configuration area.
 
 ---
 
@@ -173,7 +173,7 @@ Now:
 * It is **hidden** from the Global Config screen.
 
 > **Note:**
-> In JCB version 2.9.15 and later, this behavior has been fixed to properly remove the “Global” reference when the field is menu-only.
+> In JCB version 2.9.15 and later, this behavior has been fixed to properly remove the "Global" reference when the field is menu-only.
 
 ---
 
@@ -207,7 +207,7 @@ This ensures that menu parameters properly connect to the corresponding site vie
 
 **[00:14:18](https://www.youtube.com/watch?v=dhVVQP4KS3Q&t=00h14m18s)**
 
-You’ve now learned how to:
+You've now learned how to:
 
 * Create and configure global fields in JCB.
 * Control their display between Global Config and Menu Params using the `display` property.

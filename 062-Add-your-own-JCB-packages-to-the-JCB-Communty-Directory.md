@@ -84,7 +84,7 @@ To contribute a package:
 3. Add your JCB package to your cloned repository.
 
 > 💡 **Tip:**
-> You’ll need a Linux or compatible environment that supports Bash to run the `hash.sh` script later in this process.
+> You'll need a Linux or compatible environment that supports Bash to run the `hash.sh` script later in this process.
 
 ---
 
@@ -101,7 +101,7 @@ Before sharing:
 To prepare:
 
 1. In JCB, **export** your component (e.g., `JCB_QuestionsAnswers.zip`).
-2. Locate it in your system’s **temporal directory**.
+2. Locate it in your system's **temporal directory**.
 3. Move the `.zip` file into your cloned community repository folder.
 
 ---
@@ -171,8 +171,8 @@ After the script finishes:
 Once your package is committed:
 
 1. Open GitHub, navigate to your fork.
-2. You’ll see your branch is “1 commit ahead of VDM.”
-3. Click **“Create Pull Request”**.
+2. You'll see your branch is "1 commit ahead of VDM."
+3. Click **"Create Pull Request"**.
 
 Your previous commit message becomes the PR title. Add extra details as needed, especially if:
 
@@ -189,7 +189,7 @@ The JCB admin team reviews and tests all submissions before merging them into th
 
 Once your pull request is approved and merged:
 
-* The new package automatically appears in JCB’s **Community Packages** tab.
+* The new package automatically appears in JCB's **Community Packages** tab.
 * All users can now **import** it directly from within JCB.
 
 If you encounter issues or want to discuss community packages:

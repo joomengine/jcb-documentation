@@ -23,12 +23,12 @@ With the new feature, you can now **customize or remove this prefix** entirely.
 [00:00:26](https://www.youtube.com/watch?v=vwZyhKp_L38&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h00m26s)
 
 1. In JCB, open your component.
-2. Navigate to the **Global** tab within the component’s configuration.
+2. Navigate to the **Global** tab within the component's configuration.
 3. Look for the **Add Menu Prefix** setting.
 
 Here, you can:
 
-* Set **“No”** to remove the prefix completely.
+* Set **"No"** to remove the prefix completely.
 * Enter a **custom prefix** string or symbol.
 * Leave the field as-is to use the **default arrow (›)**.
 
@@ -63,7 +63,7 @@ JCB MyComponent
 
 [00:01:36](https://www.youtube.com/watch?v=vwZyhKp_L38&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h01m36s)
 
-To demonstrate, let’s change the prefix to a small circle symbol:
+To demonstrate, let's change the prefix to a small circle symbol:
 
 1. Copy the HTML entity:
 

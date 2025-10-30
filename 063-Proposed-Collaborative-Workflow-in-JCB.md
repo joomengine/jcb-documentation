@@ -19,7 +19,7 @@ This functionality applies to all areas of JCB, including:
 * Layouts
 
 JCB also includes a **comprehensive permissions system**, allowing fine-grained control over who can view, edit, or manage specific areas.
-By assigning user groups in Joomla’s Access Control List (ACL), you can enable different levels of contribution.
+By assigning user groups in Joomla's Access Control List (ACL), you can enable different levels of contribution.
 
 > **Tip:** You can configure permissions for JCB itself under *Components → Component Builder → Options → Permissions.*
 
@@ -29,7 +29,7 @@ By assigning user groups in Joomla’s Access Control List (ACL), you can enable
 
 [00:02:23](https://www.youtube.com/watch?v=zlhFyrCGWik&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&index=63&t=00h02m23s)
 
-Although collaborative online environments work well, JCB’s preferred setup is a **local (offline) development environment**, such as:
+Although collaborative online environments work well, JCB's preferred setup is a **local (offline) development environment**, such as:
 
 * XAMPP / LAMP stack
 * Docker containers
@@ -40,7 +40,7 @@ To solve this, JCB introduces mechanisms for **sharing and synchronizing compone
 
 ---
 
-## **3. The “Servers” Area and SFTP Synchronization**
+## **3. The "Servers" Area and SFTP Synchronization**
 
 [00:03:13](https://www.youtube.com/watch?v=zlhFyrCGWik&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&index=63&t=00h03m13s)
 
@@ -107,14 +107,14 @@ You can edit JCB Mapped Components to generate updated Joomla Components, but ch
 
 [00:10:26](https://www.youtube.com/watch?v=zlhFyrCGWik&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&index=63&t=00h10m26s)
 
-As a practical example, let’s use the **Questions & Answers** package.
+As a practical example, let's use the **Questions & Answers** package.
 To collaborate:
 
-1. Go to the package’s **GitHub repository** and **fork** it.
+1. Go to the package's **GitHub repository** and **fork** it.
 2. Clone your fork locally using Git.
 3. In your JCB installation, **import** the JCB package version of that component.
 
-You now have both the Git repository and JCB’s internal mapping of the component ready for synchronized development.
+You now have both the Git repository and JCB's internal mapping of the component ready for synchronized development.
 
 ---
 
@@ -128,7 +128,7 @@ In JCB:
 2. Set the **Git Repository Folder Path** (e.g., `/home/user/Joomla/Git`).
 3. Save your settings.
 
-On your local system, create these directories manually if they don’t exist:
+On your local system, create these directories manually if they don't exist:
 
 ```bash
 mkdir -p ~/Joomla/Git
@@ -143,8 +143,8 @@ Add company and language settings as required, and save the configuration.
 [00:12:49](https://www.youtube.com/watch?v=zlhFyrCGWik&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&index=63&t=00h12m49s)
 
 1. Compile the imported component for the first time.
-2. When prompted, choose **“Add to Repository Folder → Yes”**.
-   This automatically generates your component’s full source structure inside the Git path.
+2. When prompted, choose **"Add to Repository Folder → Yes"**.
+   This automatically generates your component's full source structure inside the Git path.
 3. Navigate to that directory and initialize Git:
 
 ```bash
@@ -184,7 +184,7 @@ git commit -am "Updated the component with improvements made to JCB"
 git push
 ```
 
-Your fork will now show as *“1 commit ahead”* on GitHub.
+Your fork will now show as *"1 commit ahead"* on GitHub.
 Submit a pull request to the original repository for review.
 
 ---
@@ -257,8 +257,8 @@ This links both repositories and ensures traceability between code and JCB data.
 [00:38:42](https://www.youtube.com/watch?v=zlhFyrCGWik&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&index=63&t=00h38m42s)
 
 Each JCB package uses a **unique export key**, encrypted for security.
-To collaborate, developers must use the same key, provided by the package’s original author.
-Without it, exports won’t match or synchronize properly.
+To collaborate, developers must use the same key, provided by the package's original author.
+Without it, exports won't match or synchronize properly.
 
 > **Important:** Keys are encrypted and never exported in plain text.
 > Coordinate directly with the package owner to obtain authorization for shared development.

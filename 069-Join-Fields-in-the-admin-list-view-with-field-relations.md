@@ -7,7 +7,7 @@
 Joomla Component Builder (JCB) version **2.8** introduced a powerful new feature: **Field Relations** for joining fields directly within the **Admin List View**.
 This allows you to **combine multiple field values into a single display column** while keeping the ability to **filter and search** using those same fields.
 
-> ⚠️ If you’ve used **custom scripting** in your component list views before upgrading, note that the new build structure may affect your custom code placement. After upgrading, review and reinsert any custom code snippets where needed.
+> ⚠️ If you've used **custom scripting** in your component list views before upgrading, note that the new build structure may affect your custom code placement. After upgrading, review and reinsert any custom code snippets where needed.
 
 ---
 
@@ -16,7 +16,7 @@ This allows you to **combine multiple field values into a single display column*
 [00:01:27](https://www.youtube.com/watch?v=hh4IIPmYIY8&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h01m27s)
 
 The **Admin Field Relations** feature lets you **join multiple field values** into one combined display column.
-For example, you can combine a **preacher’s name**, **email**, and **website** into a single list entry that shows whichever field has a value — while still keeping filtering and linking functionality intact.
+For example, you can combine a **preacher's name**, **email**, and **website** into a single list entry that shows whichever field has a value — while still keeping filtering and linking functionality intact.
 
 ### Example Scenario
 
@@ -26,7 +26,7 @@ Using the *Sermon Distributor* component, you may want your Preachers list to di
 * **Email (if present)**, or
 * **Website (if no email)**
 
-All in one column beside the preacher’s name.
+All in one column beside the preacher's name.
 
 ---
 
@@ -37,14 +37,14 @@ All in one column beside the preacher’s name.
 1. Open **Component Builder → Admin Views**.
 2. Choose your target admin view (e.g., *Preachers*).
 3. Scroll to the **Fields** area.
-4. At the bottom, click **“Create admin fields relations for this admin view”**.
-5. You’ll be taken to the **Admin Fields Relations Builder**.
+4. At the bottom, click **"Create admin fields relations for this admin view"**.
+5. You'll be taken to the **Admin Fields Relations Builder**.
 
 Here you can define how the fields should be joined and in which area the relation will act.
 
 ---
 
-## Understanding the “Area” Column
+## Understanding the "Area" Column
 
 [00:03:43](https://www.youtube.com/watch?v=hh4IIPmYIY8&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h03m43s)
 
@@ -83,7 +83,7 @@ You can customize the glue or use PHP logic for dynamic behavior.
 
 [00:09:32](https://www.youtube.com/watch?v=hh4IIPmYIY8&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h09m32s)
 
-You can replace the glue option with **custom PHP code** by selecting the **“Code”** type.
+You can replace the glue option with **custom PHP code** by selecting the **"Code"** type.
 JCB uses field IDs wrapped in curly braces `{}` to reference fields (e.g., `{1222}` for email, `{280}` for website).
 
 Example PHP snippet:
@@ -98,7 +98,7 @@ if (!empty($item->{1222})) {
 }
 ```
 
-> 💡 **Tip:** Once you confirm which field IDs map to which values, remove JCB’s generated comments for cleaner output.
+> 💡 **Tip:** Once you confirm which field IDs map to which values, remove JCB's generated comments for cleaner output.
 
 You can use any valid PHP logic or even call functions for advanced behavior.
 
@@ -129,7 +129,7 @@ After compiling and installing your component:
 
 [00:15:53](https://www.youtube.com/watch?v=hh4IIPmYIY8&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h15m53s)
 
-When **Area** is set to **View**, you’re joining the **HTML code blocks** JCB builds for each field, not the raw database values.
+When **Area** is set to **View**, you're joining the **HTML code blocks** JCB builds for each field, not the raw database values.
 
 Example placeholders:
 
@@ -160,7 +160,7 @@ leonard@example.com
 ravenhill.org
 ```
 
-Each field’s HTML (links, permissions, etc.) is preserved.
+Each field's HTML (links, permissions, etc.) is preserved.
 
 ---
 
@@ -173,7 +173,7 @@ You can join **related table fields** (like Preacher and Sermon) while keeping b
 Steps:
 
 1. In the **Sermons Admin View**, open **Fields**.
-2. Remove *Preacher* from “Show in List View” but keep it as a **Filter** and **Link**.
+2. Remove *Preacher* from "Show in List View" but keep it as a **Filter** and **Link**.
 3. Go to **Field Relations → New Relation**.
 4. Choose:
 
@@ -222,19 +222,19 @@ JCB automatically handles:
 ## Best Practices and Tips
 
 * **Always test** your joined fields after compilation and installation.
-* **Use “View”** area when you want to preserve HTML and links.
-* **Use “Model”** area for manipulating raw values or adding PHP logic.
-* **Don’t reuse a target field** more than once per view.
+* **Use "View"** area when you want to preserve HTML and links.
+* **Use "Model"** area for manipulating raw values or adding PHP logic.
+* **Don't reuse a target field** more than once per view.
 * **Keep track of field IDs** when writing custom code.
-* **Use JCB’s GitHub issues** to report unexpected behaviors.
+* **Use JCB's GitHub issues** to report unexpected behaviors.
 
 ---
 
 ## Summary
 
 This feature simplifies what previously required custom PHP manipulation.
-Now, you can easily **join multiple fields in admin list views** using JCB’s GUI while keeping full control over filtering, linking, and display logic.
+Now, you can easily **join multiple fields in admin list views** using JCB's GUI while keeping full control over filtering, linking, and display logic.
 
-It’s a major quality-of-life improvement for developers creating advanced Joomla components with dynamic, readable, and powerful list views.
+It's a major quality-of-life improvement for developers creating advanced Joomla components with dynamic, readable, and powerful list views.
 
 ---

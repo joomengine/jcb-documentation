@@ -9,7 +9,7 @@
 In **JCB version 2.9.14**, a new feature was introduced: **Global and Component-Level Placeholders**.
 This feature allows you to define and reuse placeholders dynamically across your components — enhancing flexibility, reusability, and maintainability of your generated Joomla code.
 
-Before diving into the new functionality, it’s important to understand JCB’s existing placeholders system.
+Before diving into the new functionality, it's important to understand JCB's existing placeholders system.
 
 ---
 
@@ -36,7 +36,7 @@ These placeholders are automatically replaced during compilation with the releva
 
 *(Timestamp: [00:02:02](https://www.youtube.com/watch?v=USVLYu4ZLCc&t=00h02m02s))*
 
-Similarly, **views** have their own set of placeholders. Depending on where they’re used (admin or site), they vary slightly.
+Similarly, **views** have their own set of placeholders. Depending on where they're used (admin or site), they vary slightly.
 
 Common forms include:
 
@@ -72,7 +72,7 @@ Unlike custom code:
 ### Accessing the Manager
 
 1. In JCB, navigate to **Placeholders** in the admin menu.
-2. You’ll see a list of existing placeholders. If you’ve imported components, some may already be defined; otherwise, the list will be empty.
+2. You'll see a list of existing placeholders. If you've imported components, some may already be defined; otherwise, the list will be empty.
 
 ### Creating a New Placeholder
 
@@ -104,7 +104,7 @@ Unlike custom code:
 5. Click **Save & Close** to finalize.
 
 > **Tip:**
-> If your placeholder’s value causes errors (for example, due to special characters), report it on GitHub — placeholders are designed to handle nearly all valid string patterns.
+> If your placeholder's value causes errors (for example, due to special characters), report it on GitHub — placeholders are designed to handle nearly all valid string patterns.
 
 ---
 
@@ -165,7 +165,7 @@ After setting placeholders:
 
 Example:
 
-* In `AnthropometryHelper`, `[[[AnyWord]]]` → “not like the other”
+* In `AnthropometryHelper`, `[[[AnyWord]]]` → "not like the other"
 * In `MedicalAidHelper`, `[[[AnyWord]]]` → global string
 
 This confirms successful context-aware replacement.
@@ -177,10 +177,10 @@ This confirms successful context-aware replacement.
 *(Timestamp: [00:15:09](https://www.youtube.com/watch?v=USVLYu4ZLCc&t=00h15m09s))*
 
 * **Dynamic Reusability** – Write one snippet of code or string logic, reuse it across components with unique contextual differences.
-* **Simplified Maintenance** – Centralize updates; one placeholder definition updates everywhere it’s used.
+* **Simplified Maintenance** – Centralize updates; one placeholder definition updates everywhere it's used.
 * **Component-Level Overrides** – Different behavior for the same placeholder across components.
 * **Seamless Integration** – Works within helpers, custom code, dynamic GET, or any JCB text area.
-* **Cross-Component Compatibility** – Perfect for large projects with interdependent components (e.g., the “Coral” core project example).
+* **Cross-Component Compatibility** – Perfect for large projects with interdependent components (e.g., the "Coral" core project example).
 
 ---
 
@@ -188,7 +188,7 @@ This confirms successful context-aware replacement.
 
 *(Timestamp: [00:16:48](https://www.youtube.com/watch?v=USVLYu4ZLCc&t=00h16m48s))*
 
-The **New Placeholder Feature** represents a major step forward in JCB’s evolution.
+The **New Placeholder Feature** represents a major step forward in JCB's evolution.
 It empowers developers to:
 
 * Write cleaner, more maintainable code,

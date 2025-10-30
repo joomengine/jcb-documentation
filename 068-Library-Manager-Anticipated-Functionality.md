@@ -17,9 +17,9 @@ The feature is currently under development. The user interface (UI) has been pro
 Each library in JCB, such as **Bootstrap**, is represented as an entity that connects to multiple snippets and cannot have its base name changed once added to the **Community Snippets Repository**.
 
 * Once a library becomes part of the community repository, its name becomes **immutable** to prevent inconsistencies.
-* Even if you edit the name and click “Save,” it will automatically revert to the original.
+* Even if you edit the name and click "Save," it will automatically revert to the original.
 
-This ensures that shared libraries remain consistent across developers’ environments.
+This ensures that shared libraries remain consistent across developers' environments.
 
 ---
 
@@ -34,7 +34,7 @@ https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js
 https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css
 ```
 
-The “Always Add” option ensures these assets are automatically included wherever the library is applied.
+The "Always Add" option ensures these assets are automatically included wherever the library is applied.
 
 In the future, when **Joomla 4** is released, developers may prefer using **native Joomla libraries** through its internal API instead of remote URLs. To accommodate this, a **Custom Script** option has been introduced.
 
@@ -60,7 +60,7 @@ When using the **Custom Script** option, you can target these methods to add the
 The **Conditional Option** introduces a dynamic approach to file inclusion:
 
 * You can set rules such as **Include** or **Exclude** based on field conditions.
-* The conditional logic mirrors JCB’s **field conditional system**, using **Isolate** or **Chain** logic.
+* The conditional logic mirrors JCB's **field conditional system**, using **Isolate** or **Chain** logic.
 * Conditions rely on **config fields**, which are pre-created in your component.
 
 For example, linking a radio field named `Bootstrap v4` allows toggling whether Bootstrap assets should be included.
@@ -73,7 +73,7 @@ For example, linking a radio field named `Bootstrap v4` allows toggling whether 
 
 When selecting an **Option Field**, such as a Yes/No toggle:
 
-* If the field “Add Bootstrap” is set to **Yes**, the linked Bootstrap CSS and JS files will load.
+* If the field "Add Bootstrap" is set to **Yes**, the linked Bootstrap CSS and JS files will load.
 * This offers a **conditional method** for including assets.
 
 However, as of now, JCB does not automatically create these conditional fields in all systems. The developer may choose to manually add or script their generation.
