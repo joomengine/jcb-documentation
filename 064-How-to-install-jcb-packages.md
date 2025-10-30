@@ -18,7 +18,7 @@ There are **two ways** to access the installation view for JCB packages:
    Go to **Components → Joomla Component Builder**, and on the top right corner, click **"Import JCB Packages"**.
 
 [00:00:35](https://www.youtube.com/watch?v=PGmEoliopv8&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h00m35s)
-This will take you to the same import area that contains several tabs—such as **VDM Packages** and **JCB Community Packages**.
+This will take you to the same import area that contains several tabs-such as **VDM Packages** and **JCB Community Packages**.
 
 If you do not want to see certain tabs, you can manage their visibility under the **Global Options** section using the **"Manage JCB Package Directories"** setting.
 You can choose between:
@@ -59,7 +59,7 @@ You can contribute your own JCB packages to the **Community Repository**.
 A separate tutorial explains how to do this, ensuring that your shared package becomes accessible to all JCB users.
 
 In earlier versions, **VDM packages required paid keys**.
-Now, JCB offers **free keys** for verified users who show community support—by forking, starring, or watching the respective GitHub repositories.
+Now, JCB offers **free keys** for verified users who show community support-by forking, starring, or watching the respective GitHub repositories.
 
 Follow the on-screen link for details.
 Once you have your **key**, select the desired package (such as the **Joomla Component Builder itself**) and click **"Get Package."**
@@ -125,7 +125,7 @@ This is especially important for **packages not distributed directly by VDM**.
 
 Before proceeding, check that the **"Component Being Imported"** field matches what you intended to install.
 
-While VDM distributes single-component packages, JCB allows importing packages containing **multiple components**—useful for backups or bulk development setups.
+While VDM distributes single-component packages, JCB allows importing packages containing **multiple components**-useful for backups or bulk development setups.
 
 [00:07:32](https://www.youtube.com/watch?v=PGmEoliopv8&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h07m32s)
 You can even import a **full backup package** that includes every component you've built.
@@ -162,14 +162,14 @@ For third-party packages, take time to:
 * Verify that all file paths are legitimate
 * Check that no suspicious files were added
 
-The files are grouped by type—for example:
+The files are grouped by type-for example:
 
 * **Custom folders**
 * **Administrator files**
 * **Compiler files (for both Joomla 3 and 4)**
 * **Helper scripts**
 
-When this process finishes, your imported component will appear in your JCB environment—**fully mapped, verified, and ready for development**.
+When this process finishes, your imported component will appear in your JCB environment-**fully mapped, verified, and ready for development**.
 
 ---
 

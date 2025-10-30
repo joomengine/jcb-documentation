@@ -59,7 +59,7 @@ In complex development setups, you might have multiple JCB components that:
 * Require **simultaneous recompilation** after shared updates.
 * Depend on each other to remain in sync during development.
 
-Traditionally, this required compiling and installing each component manually — one at a time.
+Traditionally, this required compiling and installing each component manually - one at a time.
 
 Run Expansion automates this by allowing you to select several components and compile + install them in one go.
 
@@ -93,7 +93,7 @@ Run Expansion automates this by allowing you to select several components and co
      * Install them directly into your Joomla environment.
      * Clean up temporary build files.
 
-> **Pro Tip:** This feature can be linked to a **cron job** for automated background builds — ideal for continuous integration setups.
+> **Pro Tip:** This feature can be linked to a **cron job** for automated background builds - ideal for continuous integration setups.
 
 ---
 

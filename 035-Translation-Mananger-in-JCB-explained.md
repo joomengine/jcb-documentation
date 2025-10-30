@@ -28,7 +28,7 @@ JCB is built as an English-first component builder. Whenever you define **fields
 
 ### How It Works
 
-When creating a field, certain text areas—such as labels or descriptions—can be marked as *translatable*.
+When creating a field, certain text areas-such as labels or descriptions-can be marked as *translatable*.
 If you add a description like:
 
 ```xml
@@ -42,7 +42,7 @@ If you add a description like:
 
 JCB automatically converts `"Enter a short acronym"` into a **language placeholder** (e.g., `COM_EXAMPLE_FIELD_ACRONYM_DESC`) and adds it to the `en-GB` language file.
 
-This happens throughout the compiler—for admin views, site views, and templates—ensuring that all visible text can be translated later.
+This happens throughout the compiler-for admin views, site views, and templates-ensuring that all visible text can be translated later.
 
 ---
 
@@ -58,7 +58,7 @@ In templates and layouts, whenever you wrap text in a `JText` call, like:
 
 JCB's parser automatically captures the English string and ensures it's added to the correct `en-GB` file during compilation.
 
-**Tip:** You do not need to manually maintain English language files — JCB compiles and updates them for you.
+**Tip:** You do not need to manually maintain English language files - JCB compiles and updates them for you.
 
 ---
 
@@ -233,7 +233,7 @@ A future enhancement under consideration is a **community translation exchange**
 * Push English strings to a shared repository.
 * Pull existing translations for reuse.
 
-Community input is encouraged — open suggestions and issues on [GitHub](https://github.com/vdm-io/Joomla-Component-Builder).
+Community input is encouraged - open suggestions and issues on [GitHub](https://github.com/vdm-io/Joomla-Component-Builder).
 
 ---
 

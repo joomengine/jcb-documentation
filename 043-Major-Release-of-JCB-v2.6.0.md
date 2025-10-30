@@ -95,7 +95,7 @@ To perform the upgrade:
 3. Click **Update**.
 4. Once complete, return to JCB and verify that it shows **"up-to-date."**
 
-No manual migration steps are necessary — the upgrade process handles conversions automatically.
+No manual migration steps are necessary - the upgrade process handles conversions automatically.
 
 ---
 

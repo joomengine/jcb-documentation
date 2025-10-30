@@ -123,7 +123,7 @@ To make the greeting publicly accessible:
 Set them to **Public → Allowed**.
 Click **Save & Close**.
 
-Now refresh your frontend page — your greeting ("Hi James") will appear.
+Now refresh your frontend page - your greeting ("Hi James") will appear.
 Click on it to open and view the greeting message.
 
 ---
@@ -148,7 +148,7 @@ At this point, your Hello World component is fully operational:
 * Frontend display is active.
 * Permissions are properly configured.
 
-You've successfully installed, compiled, and tested a Joomla component using JCB — all within minutes.
+You've successfully installed, compiled, and tested a Joomla component using JCB - all within minutes.
 
 ---
 
@@ -172,5 +172,5 @@ From here, you can begin customizing your Hello World component:
 ---
 
 **Conclusion:**
-The "Quick Hello World" is an essential first step to understanding JCB's workflow — from importing a package to deploying it live.
+The "Quick Hello World" is an essential first step to understanding JCB's workflow - from importing a package to deploying it live.
 With these steps mastered, you're ready to build and customize your own Joomla components confidently.

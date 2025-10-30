@@ -4,7 +4,7 @@
 
 [00:00:00](https://www.youtube.com/watch?v=_mXlbAO79J8&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h00m00s)
 
-This guide explains how to **add a language string** to your component in Joomla Component Builder (JCB) and how to generate a **language placeholder** for **dynamic use** — particularly useful when working within classes or arrays where the direct `JText` call cannot be used.
+This guide explains how to **add a language string** to your component in Joomla Component Builder (JCB) and how to generate a **language placeholder** for **dynamic use** - particularly useful when working within classes or arrays where the direct `JText` call cannot be used.
 
 ---
 
@@ -30,7 +30,7 @@ During compilation, JCB automatically ensures that `COM_MYCOMPONENT_HELLO_WORLD`
 
 [00:00:59](https://www.youtube.com/watch?v=_mXlbAO79J8&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h00m59s)
 
-Sometimes, you may need **only the language placeholder**, not the full translation at compile-time — for instance, when working inside a **class array**.
+Sometimes, you may need **only the language placeholder**, not the full translation at compile-time - for instance, when working inside a **class array**.
 
 Example scenario:
 You have a class with an array of field properties (like `listclass`, `escape`, `display`, or `validate`) and you want to reference the translated string later in runtime, not immediately when JCB compiles it.
@@ -82,7 +82,7 @@ This means the placeholder string is inserted, not translated yet. You can later
 JText::_($value);
 ```
 
-— where `$value` was the placeholder created by `JustTEXT`.
+- where `$value` was the placeholder created by `JustTEXT`.
 
 ---
 
@@ -167,6 +167,6 @@ To summarize:
 
 ### Pro Tip
 
-If you have logic where language strings are used conditionally (for example, inside loops, arrays, or custom functions), `JustTEXT` keeps your code flexible and your translations organized — without forcing early interpretation during compilation.
+If you have logic where language strings are used conditionally (for example, inside loops, arrays, or custom functions), `JustTEXT` keeps your code flexible and your translations organized - without forcing early interpretation during compilation.
 
 ---

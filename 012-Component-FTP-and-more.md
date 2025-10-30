@@ -13,7 +13,7 @@ The **README script** in Joomla Component Builder (JCB) allows you to add a mark
 
 For example, when viewing a component repository on GitHub, the README file displays information such as an image, description, and layout. These are all defined in Markdown format and stored within the component.
 
-To view the raw version of this README file, click **"Raw"** in GitHub — this shows you the exact markdown syntax.
+To view the raw version of this README file, click **"Raw"** in GitHub - this shows you the exact markdown syntax.
 In JCB, you can add both the **README** and **README text** directly inside your component settings.
 
 These sections use **placeholders** (for example: `###version###`) that automatically pull dynamic information from the component's metadata.
@@ -28,7 +28,7 @@ The `#` symbol in markdown indicates a **header** (H1–H6). It's essential to u
 
 Within the JCB README text area, placeholders such as `###version###`, `###author###`, or `###component_name###` are automatically replaced by their actual values during compilation.
 
-If you update your component's version, these placeholders will automatically reflect the new version — no need for manual edits.
+If you update your component's version, these placeholders will automatically reflect the new version - no need for manual edits.
 
 ---
 
@@ -160,7 +160,7 @@ When compiling, JCB will:
 
 1. Generate all component files in the **Git folder** (uncompressed).
 2. Replace older files with updated ones (Git will track file changes).
-3. Leave your Git repository intact — only modified files are updated.
+3. Leave your Git repository intact - only modified files are updated.
 
 You can then push the folder to **GitHub**, **GitLab**, or any Git server.
 
@@ -192,7 +192,7 @@ In the backend, JCB's compiler file (`compiler.php`) includes specific functions
 * **`getFTP()`** – Checks for existing FTP connections and loads relevant credentials.
 
 These functions utilize Joomla's **FTP Client Library (`/libraries/joomla/client/ftp.php`)**.
-They securely handle host, port, username, and password during file transmission — ensuring no sensitive data is exposed.
+They securely handle host, port, username, and password during file transmission - ensuring no sensitive data is exposed.
 
 ---
 
@@ -228,7 +228,7 @@ Each version must have:
 > * `1.2.9` → `1.3.0` → `1.3.1` → `1.3.2`
 >   The latest version in the list must match the current version set in the component.
 
-You can host updates on any platform — **GitHub**, **Bitbucket**, or your custom URL.
+You can host updates on any platform - **GitHub**, **Bitbucket**, or your custom URL.
 
 ---
 

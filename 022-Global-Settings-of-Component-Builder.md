@@ -208,6 +208,6 @@ Field permissions can be added or removed at any time and compiled into the comp
 
 The **Global Settings** area of Joomla Component Builder provides developers with granular control over how components are configured, how users interact with them, and how securely they manage their data.
 
-By understanding and properly configuring these options—especially versioning, encryption, and permissions—you can ensure that your components are secure, efficient, and professionally structured for any project environment.
+By understanding and properly configuring these options-especially versioning, encryption, and permissions-you can ensure that your components are secure, efficient, and professionally structured for any project environment.
 
 ---

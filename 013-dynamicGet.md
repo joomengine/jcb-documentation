@@ -284,4 +284,4 @@ Essentially, the Dynamic Get defines **what** data to pull and **how** it is str
 * Use **pagination** when dealing with large datasets.
 * Properly set **joins** and **aliases** to avoid conflicts.
 * Leverage **custom scripting** for advanced data manipulation.
-* JCB automates much of the model code — focus on configuring logic rather than writing it manually.
+* JCB automates much of the model code - focus on configuring logic rather than writing it manually.

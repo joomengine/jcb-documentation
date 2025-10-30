@@ -41,7 +41,7 @@ You may notice that some Site View checkboxes or toggles appear **unselected** e
 
 ### ⚠️ Important
 
-This is a **Joomla JavaScript glitch** — not an issue with JCB.
+This is a **Joomla JavaScript glitch** - not an issue with JCB.
 
 **How to handle it:**
 
@@ -50,7 +50,7 @@ This is a **Joomla JavaScript glitch** — not an issue with JCB.
    * Close the Site View editor.
    * Reopen it again.
 2. The selections should now appear correctly.
-3. Avoid saving while the boxes are unchecked — this would save `null` values and cause unexpected results.
+3. Avoid saving while the boxes are unchecked - this would save `null` values and cause unexpected results.
 
 > 💡 **Tip:** The same issue can occasionally occur in Admin Views. Always double-check before saving.
 
@@ -82,7 +82,7 @@ After compiling the component:
 2. Under **Select Menu Item Type**, your component's view (e.g., "List of Sermons") will now appear.
 3. Selecting it will link the front-end display directly to that Site View.
 
-> 💡 **Tip:** This saves time — you don't have to manually write XML for Joomla menu types.
+> 💡 **Tip:** This saves time - you don't have to manually write XML for Joomla menu types.
 
 ---
 

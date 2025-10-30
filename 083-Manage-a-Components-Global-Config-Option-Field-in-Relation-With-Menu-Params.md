@@ -7,7 +7,7 @@ This tutorial explains how to **manage global configuration option fields** in y
 You'll learn:
 
 * How global options relate to menu view options.
-* How to control where certain fields appear — either in **Global Config**, **Menu Params**, or **both**.
+* How to control where certain fields appear - either in **Global Config**, **Menu Params**, or **both**.
 * How to use the `display` property in JCB to dynamically assign field visibility.
 
 ---
@@ -35,7 +35,7 @@ JCB allows you to achieve this distinction easily using a `display` property.
 Open your component in JCB (for example, **Member Manager**) and locate the **Global Config Fields** area.
 
 1. Navigate to your component in **Components** → **Member Manager**.
-2. Observe existing config fields — these are used in both the component's config and menu options.
+2. Observe existing config fields - these are used in both the component's config and menu options.
 3. If none exist, click **➕ (Add New Field)** to begin.
 
 You'll notice that each field's behavior is largely determined by its **extra properties**, which we'll look at next.
@@ -56,7 +56,7 @@ A key property is **`display`**, which determines where the field appears:
 | `config`       | Global Config only                 |
 
 > **Tip:**
-> Leaving `display` blank is equivalent to the legacy behavior — the field appears in both Global and Menu contexts.
+> Leaving `display` blank is equivalent to the legacy behavior - the field appears in both Global and Menu contexts.
 
 Example:
 

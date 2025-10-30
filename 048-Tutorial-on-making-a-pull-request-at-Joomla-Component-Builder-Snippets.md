@@ -119,7 +119,7 @@ Only administrators can manage the following fields:
 * **Projects**
 * **Milestones**
 
-You don't need to fill these out — the JCB maintainers will handle it.
+You don't need to fill these out - the JCB maintainers will handle it.
 
 ---
 

@@ -1,12 +1,12 @@
 # How to Add More Helper Methods to Your Component's Helper Class
 
-Learn how to add and manage helper methods in your Joomla Component Builder (JCB) component helper class — both for the **admin** and **site** areas. This guide also covers how to include custom helper classes and trigger them globally using JCB's event system.
+Learn how to add and manage helper methods in your Joomla Component Builder (JCB) component helper class - both for the **admin** and **site** areas. This guide also covers how to include custom helper classes and trigger them globally using JCB's event system.
 
 ---
 
 ## Overview
 
-Helper classes in Joomla Component Builder allow you to store reusable PHP methods that can be accessed throughout your component — in both **admin** and **frontend (site)** contexts.
+Helper classes in Joomla Component Builder allow you to store reusable PHP methods that can be accessed throughout your component - in both **admin** and **frontend (site)** contexts.
 This tutorial demonstrates how to:
 
 * Add helper methods directly within JCB.
@@ -26,9 +26,9 @@ This tutorial demonstrates how to:
 
    * Here you'll find multiple target areas for helper methods:
 
-     * **Site Helper** — frontend-only logic.
-     * **Admin Helper** — backend-only logic.
-     * **Both** — shared methods available to both frontend and backend.
+     * **Site Helper** - frontend-only logic.
+     * **Admin Helper** - backend-only logic.
+     * **Both** - shared methods available to both frontend and backend.
 
 > **Tip:** Use "Both" when you want the same helper available everywhere. This is ideal for general-purpose utilities (e.g., formatting dates, validation).
 
@@ -101,7 +101,7 @@ Once you compile and install the component:
 
 Helper methods can be called using Joomla's registered helper class.
 
-Example — calling the `fancyDate()` method in your site view:
+Example - calling the `fancyDate()` method in your site view:
 
 ```php
 use Joomla\CMS\Factory;
@@ -112,7 +112,7 @@ $dateFormatted = DemoHelper::fancyDate($item->created);
 
 This example formats a date value using the `fancyDate()` method defined earlier.
 
-> Helper classes are automatically registered by JCB during component generation — no manual inclusion is needed for these built-in helpers.
+> Helper classes are automatically registered by JCB during component generation - no manual inclusion is needed for these built-in helpers.
 
 ---
 

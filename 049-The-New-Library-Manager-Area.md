@@ -9,7 +9,7 @@ This tutorial explains the new **Library Manager** area in Joomla Component Buil
 ## 1. Understanding Libraries in JCB
 
 Libraries are external frameworks or tools that enhance your Joomla components.
-Previously, JCB supported three prebuilt libraries—**UiKit**, **FooTable**, and **No Library**—that could be toggled via the "Add UiKit" and "Add FooTable" options in the component settings.
+Previously, JCB supported three prebuilt libraries-**UiKit**, **FooTable**, and **No Library**-that could be toggled via the "Add UiKit" and "Add FooTable" options in the component settings.
 
 Now, with the **Library Manager**, libraries are handled dynamically and linked directly to specific **views**, allowing for greater flexibility and reuse across components.
 
@@ -171,7 +171,7 @@ In a bundle, you can write PHP-based logic using component parameters to determi
 These parameters are accessed via `$this->params` in the PHP code.
 You can check parameter values and conditionally include files based on configuration fields.
 
-This allows complex scenarios—such as switching between UiKit versions or loading Bootstrap only under certain component options.
+This allows complex scenarios-such as switching between UiKit versions or loading Bootstrap only under certain component options.
 
 ---
 

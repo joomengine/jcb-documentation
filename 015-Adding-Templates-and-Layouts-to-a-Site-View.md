@@ -30,11 +30,11 @@ Each of these is a **template**, and they are recognized as such because of how 
 
 ---
 
-### **The Default File — The Site View Core**
+### **The Default File - The Site View Core**
 
 [00:01:18](https://www.youtube.com/watch?v=6VBbi3Rl2eY&t=00h01m18s)
 
-The `default.php` file is the main file for the site view — essentially **the view's entry point**.
+The `default.php` file is the main file for the site view - essentially **the view's entry point**.
 Inside this file, templates are loaded and rendered.
 When you open the **Site View editor in JCB**, the code shown there corresponds directly to the contents of this default file.
 
@@ -143,7 +143,7 @@ This allows precise control over what data each layout receives.
 
 [00:08:53](https://www.youtube.com/watch?v=6VBbi3Rl2eY&t=00h08m53s)
 
-Within JCB, when creating a layout, you can choose which **Dynamic Get dataset** is available. However, the layout itself won't affect the Site View's data model—it's purely for display.
+Within JCB, when creating a layout, you can choose which **Dynamic Get dataset** is available. However, the layout itself won't affect the Site View's data model-it's purely for display.
 
 ---
 

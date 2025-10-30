@@ -136,7 +136,7 @@ Repeat this step for other Custom Gets if needed to verify their data structures
 
 [00:07:33](https://www.youtube.com/watch?v=vEJZe6XqHJE&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h07m33s)
 
-To see how Custom Gets become available in your Site View, open the **model file** — for example, `preacher.php`.
+To see how Custom Gets become available in your Site View, open the **model file** - for example, `preacher.php`.
 
 [00:07:55](https://www.youtube.com/watch?v=vEJZe6XqHJE&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h07m55s)
 

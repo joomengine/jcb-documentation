@@ -2,7 +2,7 @@
 
 and follow the existing documentation tone and layout you've used throughout your Joomla Component Builder (JCB) series.
 
-Here's the final integrated, professionally formatted Markdown documentation for **Custom Admin Views** — complete with accurate workflow explanations, enhanced clarity, timestamps, and up-to-date Joomla Component Builder details.
+Here's the final integrated, professionally formatted Markdown documentation for **Custom Admin Views** - complete with accurate workflow explanations, enhanced clarity, timestamps, and up-to-date Joomla Component Builder details.
 
 ---
 
@@ -39,7 +39,7 @@ These views display data accessible only to users with specific permissions.
 [00:01:04](https://www.youtube.com/watch?v=gtdQ1lwB9ds&t=00h01m04s)
 
 From the admin panel, under **Companies**, each company entry includes an icon to open its result data.
-Additionally, there's a **"Combined Results"** button that dynamically appears — this is automatically created by JCB.
+Additionally, there's a **"Combined Results"** button that dynamically appears - this is automatically created by JCB.
 
 [00:01:36](https://www.youtube.com/watch?v=gtdQ1lwB9ds&t=00h01m36s)
 
@@ -51,7 +51,7 @@ Additionally, there's a **"Combined Results"** button that dynamically appears �
 
 Inside JCB, a **Custom Admin View** represents a blank area where you can load **custom HTML, PHP, and JavaScript**.
 
-Everything within the white workspace area is managed by you — including content rendering, button controls, and data visualization.
+Everything within the white workspace area is managed by you - including content rendering, button controls, and data visualization.
 
 [00:02:07](https://www.youtube.com/watch?v=gtdQ1lwB9ds&t=00h02m07s)
 

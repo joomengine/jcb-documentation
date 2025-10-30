@@ -96,7 +96,7 @@ Before sharing:
 
 * Ensure your package is **tested and stable**.
 * Avoid sharing incomplete or non-functional components.
-* Avoid duplicates—if a similar package exists, contribute improvements instead.
+* Avoid duplicates-if a similar package exists, contribute improvements instead.
 
 To prepare:
 

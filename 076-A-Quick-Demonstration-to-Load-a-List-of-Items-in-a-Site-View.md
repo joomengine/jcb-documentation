@@ -1,6 +1,6 @@
 # Tutorial 76: A Quick Demonstration to Load a List of Items in a Site View
 
-This tutorial demonstrates how to build and configure a **List View** in Joomla Component Builder (JCB) using both **Dynamic GET** and **AJAX (FooTable)** methods. It also covers how to integrate the list into a Site View, adjust templates, and manage configuration fields — following the exact Joomla Component Builder workflow.
+This tutorial demonstrates how to build and configure a **List View** in Joomla Component Builder (JCB) using both **Dynamic GET** and **AJAX (FooTable)** methods. It also covers how to integrate the list into a Site View, adjust templates, and manage configuration fields - following the exact Joomla Component Builder workflow.
 
 >  **Goal:** Load a list of items (sermons, in this case) in a Joomla Site View without filters, complete with pagination and layout control.
 
@@ -80,7 +80,7 @@ This method supports:
 [00:06:00](https://www.youtube.com/watch?v=tiTIG0RZLDQ&t=00h06m00s)
 
 Navigate to **Dynamic GETs** in JCB.
-You'll see existing queries — for example, fetching sermons or preachers. Each "List Query" retrieves multiple records from the database.
+You'll see existing queries - for example, fetching sermons or preachers. Each "List Query" retrieves multiple records from the database.
 
 We'll create a new one called **`Sermons All`**.
 
@@ -111,7 +111,7 @@ These static methods:
 * Append the correct `Itemid` for menu context.
 * Use `JRoute::_()` to convert URLs according to Joomla's SEF settings.
 
-> **Note:** You rarely need to manually modify these — JCB handles their generation dynamically.
+> **Note:** You rarely need to manually modify these - JCB handles their generation dynamically.
 
 ---
 
@@ -147,7 +147,7 @@ Within each:
 * Replace any `SView` placeholder with `all`.
 * Update params for sermon description, category, and hits.
 
-> **Tip:** If params aren't defined yet in the component config, they'll fall back to `0` — meaning no data loads. You'll fix this in the next step.
+> **Tip:** If params aren't defined yet in the component config, they'll fall back to `0` - meaning no data loads. You'll fix this in the next step.
 
 ---
 

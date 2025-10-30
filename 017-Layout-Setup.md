@@ -28,7 +28,7 @@ Before creating or using layouts, understand **which site view is calling the la
 Each **Dynamic GET** targets a specific **site view**.
 For example, the `sermon (preacher.id)` dynamic get is designed for the **Preacher** view.
 
-Inside the custom script, you can define a **view key** — in this case, `"Preacher"`.
+Inside the custom script, you can define a **view key** - in this case, `"Preacher"`.
 This ensures:
 
 * Only the relevant item is passed to the layout (not the full list).
@@ -50,7 +50,7 @@ You can then customize the layout's output based on the `$viewKey`.
 
 Templates can call layouts using `JLayoutHelper::render()`.
 
-Example — from the **sermon list** template:
+Example - from the **sermon list** template:
 
 [00:01:54](https://www.youtube.com/watch?v=52OLSZio0F8&t=00h01m54s)
 
@@ -70,7 +70,7 @@ This `JLayoutHelper::render()` call will output each list item based on the sele
 
 ---
 
-## Sermon List — Item Layout
+## Sermon List - Item Layout
 
 [00:03:08](https://www.youtube.com/watch?v=52OLSZio0F8&t=00h03m08s)
 
@@ -125,7 +125,7 @@ This lets one template be reused for multiple site views without duplicating fil
 [00:05:46](https://www.youtube.com/watch?v=52OLSZio0F8&t=00h05m46s)
 
 The placeholder `[[[sview]]]` ensures dynamic insertion of the site view name.
-It draws values from the **component's global parameters** — for example, `sermon_list_style`.
+It draws values from the **component's global parameters** - for example, `sermon_list_style`.
 
 The template will then automatically adjust based on the current view (Preacher, Series, or Category).
 
@@ -217,7 +217,7 @@ echo JLayoutHelper::render('sub.layout.name', $subData);
 ## Pro Tips
 
 * Use **meaningful view keys** to manage logic per site view.
-* Keep all **layout files modular** — one per display concept.
+* Keep all **layout files modular** - one per display concept.
 * Reference **global parameters** in `config.xml` to standardize look and feel.
 * When in doubt, check `$displayData` to see what data is available.
 * Reuse layouts to maintain **DRY** (Don't Repeat Yourself) principles.

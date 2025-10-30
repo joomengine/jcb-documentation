@@ -79,7 +79,7 @@ The **store method** defines how data is stored in the database:
 
 * **Default:** Standard method for most fields.
 * **JSON:** Used for storing arrays (e.g., multiple selections in list fields or checkboxes).
-* **Base64:** Encodes data—often used for storing custom code or scripts.
+* **Base64:** Encodes data-often used for storing custom code or scripts.
 * **Encryption:** For advanced security needs (optional, complex to implement).
 
 > **Example:**
@@ -343,7 +343,7 @@ You have now learned how to create and configure **basic fields** in Joomla Comp
 * Conditional visibility (Showon).
 * Adding scripts and translations.
 
-Next, we move on to **connecting fields to views** — the foundation for building the component's backend interface.
+Next, we move on to **connecting fields to views** - the foundation for building the component's backend interface.
 
 ---
 

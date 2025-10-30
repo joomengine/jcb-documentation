@@ -66,7 +66,7 @@ Each snippet includes **contributor information**:
 
 When you create a new snippet, JCB automatically fills in your contributor details (set in **Global Options → Company Tab**).
 
-You can't edit contributor details of existing snippets — those are fixed to maintain credit integrity.
+You can't edit contributor details of existing snippets - those are fixed to maintain credit integrity.
 
 > **Tip:** If contributor names are missing, update your contributor database under *Snippets → Contributor Area*.
 

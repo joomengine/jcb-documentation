@@ -1,4 +1,4 @@
-# **Component Scripts — Joomla Component Builder Tutorial**
+# **Component Scripts - Joomla Component Builder Tutorial**
 
 [Watch the video on YouTube](https://www.youtube.com/watch?v=xY9TWQrF8AQ&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h00m00s)
 (*Click on any timestamp below to jump to that moment in the video.*)
@@ -8,7 +8,7 @@
 ## **Overview**
 
 In this tutorial, we explore the **Scripts tab** in **Joomla Component Builder (JCB)**.
-This section enables developers to add **custom global scripting** to their components — including helper methods, CSS, JavaScript libraries, MySQL dumps, and dashboard data integration.
+This section enables developers to add **custom global scripting** to their components - including helper methods, CSS, JavaScript libraries, MySQL dumps, and dashboard data integration.
 
 These options empower you to extend your component's functionality **without modifying the core JCB logic**, allowing better control and maintainability.
 
@@ -39,7 +39,7 @@ The **User Helper Method** allows you to write **custom PHP functions** that ext
 
 > **Note:**
 > This feature is for developers comfortable with PHP.
-> JCB will not generate logic automatically — you'll need to script it.
+> JCB will not generate logic automatically - you'll need to script it.
 
 ### **Example: Creating a User Automatically**
 
@@ -126,7 +126,7 @@ You can enable popular CSS/JS frameworks with a toggle:
 These libraries are automatically included in your media folder and linked in your component.
 
 > **Tip:**
-> You don't need to manually enqueue them — JCB handles that dynamically.
+> You don't need to manually enqueue them - JCB handles that dynamically.
 
 ---
 
@@ -223,7 +223,7 @@ This is useful for:
 
 [00:14:23](https://www.youtube.com/watch?v=xY9TWQrF8AQ&t=00h14m23s)
 
-**Dashboard Methods** let you show dynamic data directly on the component's backend dashboard — no extra view needed.
+**Dashboard Methods** let you show dynamic data directly on the component's backend dashboard - no extra view needed.
 
 Example: Display usage statistics.
 

@@ -11,7 +11,7 @@
 
 ## 1. Overview
 
-In Joomla Component Builder, a **custom time field** allows you to capture specific time values (e.g., `05:15`) in your components. Because time is stored as an integer in databases, you cannot use a standalone time format — it must either be stored as part of a datetime or validated via text input.
+In Joomla Component Builder, a **custom time field** allows you to capture specific time values (e.g., `05:15`) in your components. Because time is stored as an integer in databases, you cannot use a standalone time format - it must either be stored as part of a datetime or validated via text input.
 
 This guide walks you through:
 

@@ -10,7 +10,7 @@ Joomla Component Builder (JCB) is a powerful open-source tool for building Jooml
 
 [00:00:40](https://www.youtube.com/watch?v=S9heClCWJrg&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h00m40s)
 
-Component creation in Joomla traditionally involves repetitive work—manually writing boilerplate code, setting up MVC folders, and maintaining naming conventions. Tools like Component Creator and JoomDD exist to automate parts of this process, but JCB goes further by offering:
+Component creation in Joomla traditionally involves repetitive work-manually writing boilerplate code, setting up MVC folders, and maintaining naming conventions. Tools like Component Creator and JoomDD exist to automate parts of this process, but JCB goes further by offering:
 
 * **Complete local control:** JCB runs directly in your Joomla installation.
 * **No SaaS dependency:** Everything happens within your environment.
@@ -25,7 +25,7 @@ Unlike SaaS tools that limit you to a few tables or features, JCB has no such re
 
 [00:02:18](https://www.youtube.com/watch?v=S9heClCWJrg&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h02m18s)
 
-JCB is a **component that builds other components**. Once installed, you work entirely from within Joomla's administrator interface. The component builder itself was built using JCB — a testament to its power and self-sustainability.
+JCB is a **component that builds other components**. Once installed, you work entirely from within Joomla's administrator interface. The component builder itself was built using JCB - a testament to its power and self-sustainability.
 
 ### Key Features
 
@@ -94,7 +94,7 @@ Go to **Components → Joomla Component Builder → Components → New**.
 
 ### Field Types
 
-Field Types define reusable input structures — e.g., text, calendar, category, checkbox, color, or custom inputs. They are **global** across all your components, promoting reusability.
+Field Types define reusable input structures - e.g., text, calendar, category, checkbox, color, or custom inputs. They are **global** across all your components, promoting reusability.
 
 ### Fields
 
@@ -139,7 +139,7 @@ Views show the linked fields and their configuration (sortable, searchable, requ
 
 [00:23:05](https://www.youtube.com/watch?v=S9heClCWJrg&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h23m05s)
 
-Define field conditions to control when a field is displayed based on other field values—ideal for cleaner, context-sensitive forms.
+Define field conditions to control when a field is displayed based on other field values-ideal for cleaner, context-sensitive forms.
 
 ---
 
@@ -179,7 +179,7 @@ The **Dynamic GET** feature lets you build advanced database queries visually.
 
 [00:29:16](https://www.youtube.com/watch?v=S9heClCWJrg&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h29m16s)
 
-Use joins to combine multiple tables into one dataset. You can add as many joins as needed—inner, left, or right—directly through the GUI. This provides a relational model without writing SQL manually.
+Use joins to combine multiple tables into one dataset. You can add as many joins as needed-inner, left, or right-directly through the GUI. This provides a relational model without writing SQL manually.
 
 ---
 
@@ -195,7 +195,7 @@ You can define reusable code snippets that JCB automatically injects at compile 
 
 [00:32:17](https://www.youtube.com/watch?v=S9heClCWJrg&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h32m17s)
 
-Bespoke code is JCB's most powerful feature—it allows you to insert or modify code anywhere within the compiled component.
+Bespoke code is JCB's most powerful feature-it allows you to insert or modify code anywhere within the compiled component.
 
 When you rebuild, JCB:
 
@@ -203,7 +203,7 @@ When you rebuild, JCB:
 * Updates only the changed portions
 * Keeps your logic intact during upgrades or Joomla version changes
 
-This ensures **true round-trip development**—you can edit generated code safely and rebuild anytime without losing your changes.
+This ensures **true round-trip development**-you can edit generated code safely and rebuild anytime without losing your changes.
 
 ---
 

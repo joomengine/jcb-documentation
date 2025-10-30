@@ -16,7 +16,7 @@ This allows you to **combine multiple field values into a single display column*
 [00:01:27](https://www.youtube.com/watch?v=hh4IIPmYIY8&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h01m27s)
 
 The **Admin Field Relations** feature lets you **join multiple field values** into one combined display column.
-For example, you can combine a **preacher's name**, **email**, and **website** into a single list entry that shows whichever field has a value — while still keeping filtering and linking functionality intact.
+For example, you can combine a **preacher's name**, **email**, and **website** into a single list entry that shows whichever field has a value - while still keeping filtering and linking functionality intact.
 
 ### Example Scenario
 

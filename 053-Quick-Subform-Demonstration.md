@@ -27,7 +27,7 @@ While earlier tutorials covered *repeatable fields*, those have since been **dis
 **[00:01:13](https://www.youtube.com/watch?v=3j4xPQC4apI&t=73s)**
 
 A **subform** in Joomla allows you to group several fields together into a single fieldset that can be repeated.
-Each instance of a subform acts as a mini form inside your main form — ideal for storing related sets of data.
+Each instance of a subform acts as a mini form inside your main form - ideal for storing related sets of data.
 
 **Example use case:**
 
@@ -58,7 +58,7 @@ Before creating the subform field itself, these individual fields must exist in 
 4. Configure each field as desired.
 5. Save each one individually.
 
-**Tip:** Use clear field names and labels — they will appear inside the subform.
+**Tip:** Use clear field names and labels - they will appear inside the subform.
 
 ---
 
@@ -133,7 +133,7 @@ The **Formsource** option allows you to load an external XML file defining the s
 However, this is **optional** in JCB since it already generates XML automatically.
 
 * Use **Formsource** only if you maintain custom XML outside JCB (for example, an XML file in your component's `models/forms` folder).
-* You can use **either** the `Fields` option **or** `Formsource` — not both.
+* You can use **either** the `Fields` option **or** `Formsource` - not both.
 
 If you include a `Formsource`, JCB's compiler recognizes it and handles it correctly during component compilation.
 

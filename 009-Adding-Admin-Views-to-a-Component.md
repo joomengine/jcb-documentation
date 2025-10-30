@@ -155,7 +155,7 @@ JCB can automatically add **Import/Export** functionality to each admin view.
   * An **Import** button (upload and map CSV data to database fields).
 
 **Note:**
-Encrypted fields require care — imported data won't automatically re-encrypt unless handled manually.
+Encrypted fields require care - imported data won't automatically re-encrypt unless handled manually.
 
 ---
 
@@ -181,7 +181,7 @@ A "Company" admin view, when enabled, generates a front-end page where logged-in
 * Edit company data.
 * Add new records (if permitted).
 
-Permissions are enforced automatically — if a user lacks permission to edit certain fields, those will not appear in their form.
+Permissions are enforced automatically - if a user lacks permission to edit certain fields, those will not appear in their form.
 
 **Important:**
 JCB generates the front-end code but doesn't automatically create menu links.

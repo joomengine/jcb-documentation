@@ -24,7 +24,7 @@ In this guide, we will:
 1. Open **Joomla Component Builder (JCB)** and select your **Hello World** component.
 2. Go to the **Admin Views** tab and open the **Greetings** view.
 3. Locate the **Greetings** field (usually of type `Textarea`).
-4. Check the field attributes — if the `validation` option is missing, it can be added manually in the Fieldtype configuration.
+4. Check the field attributes - if the `validation` option is missing, it can be added manually in the Fieldtype configuration.
 
 > 💡 *Tip: If your JCB version doesn't have the "validation" property available, you can edit the field type directly to add it.*
 
@@ -57,7 +57,7 @@ Now, when editing a field using this fieldtype, you'll see a **Validate** option
 
 2. Edit the `Greeting` field.
 
-3. In the **Validate** property, enter your custom rule name — for example:
+3. In the **Validate** property, enter your custom rule name - for example:
 
    ```xml
    validate="strlenTen"
@@ -135,9 +135,9 @@ Add these placeholders to your rule file for automatic branding during compilati
  */
 ```
 
-* `###BOM###` — ensures the correct file header format.
-* `###component###` — replaced with the actual component name.
-* `###LICENSE###` — replaced with your component's license text.
+* `###BOM###` - ensures the correct file header format.
+* `###component###` - replaced with the actual component name.
+* `###LICENSE###` - replaced with your component's license text.
 
 ---
 
@@ -154,13 +154,13 @@ Add these placeholders to your rule file for automatic branding during compilati
    ```
 
    You should now see your file `strlenten.php` (automatically lowercased).
-4. Open the file — note that your license header and component tags have been applied.
+4. Open the file - note that your license header and component tags have been applied.
 
 ### Test in the Admin View:
 
 * Go to **Components → Hello World → Greetings → New**.
 * Enter a short string (less than 10 characters).
-* Click **Save** — you'll see:
+* Click **Save** - you'll see:
   `Warning: Invalid Field: Greetings`
 
 If this doesn't trigger:
@@ -175,7 +175,7 @@ If this doesn't trigger:
 
 You can show a custom error message instead of Joomla's default.
 
-### Option A — Add Message Inside PHP Rule:
+### Option A - Add Message Inside PHP Rule:
 
 Edit `strlenten.php`:
 
@@ -184,7 +184,7 @@ $element->addAttribute('message', 'Field must have more than 10 characters!');
 return false;
 ```
 
-### Option B — Add Message in XML Field Definition:
+### Option B - Add Message in XML Field Definition:
 
 [00:13:45](https://www.youtube.com/watch?v=Z6-ggKtX35o&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h13m45s)
 
@@ -213,12 +213,12 @@ return false;
 [00:15:00](https://www.youtube.com/watch?v=Z6-ggKtX35o&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h15m00s)
 
 1. Open **Greetings → New** in Joomla Admin.
-2. Enter a short string and save — you should see your custom message:
+2. Enter a short string and save - you should see your custom message:
 
    ```
    Warning: Field must have more than 10 characters!
    ```
-3. Enter a valid string (>10 chars) and save — the record saves successfully.
+3. Enter a valid string (>10 chars) and save - the record saves successfully.
 
 ---
 

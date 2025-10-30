@@ -109,7 +109,7 @@ There are a few important limitations when using custom code tags:
 
 ---
 
-## 6. Demonstration — Replace Example
+## 6. Demonstration - Replace Example
 
 **[00:08:00](https://www.youtube.com/watch?v=DFMfIl-VkSk&t=00h08m00s)**
 
@@ -142,7 +142,7 @@ Once you reinstall the compiled component:
 
 ---
 
-## 8. Demonstration — Insert Example
+## 8. Demonstration - Insert Example
 
 **[00:11:32](https://www.youtube.com/watch?v=DFMfIl-VkSk&t=00h11m32s)**
 

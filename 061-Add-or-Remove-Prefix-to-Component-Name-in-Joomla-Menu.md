@@ -32,7 +32,7 @@ Here, you can:
 * Enter a **custom prefix** string or symbol.
 * Leave the field as-is to use the **default arrow (›)**.
 
-> **Tip:** You do not need to manually add a space after the prefix — JCB automatically includes one.
+> **Tip:** You do not need to manually add a space after the prefix - JCB automatically includes one.
 
 ---
 

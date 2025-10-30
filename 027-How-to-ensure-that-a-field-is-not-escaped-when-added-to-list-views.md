@@ -7,7 +7,7 @@
 ## Overview
 
 Sometimes, when working with **List Views** in **Joomla Component Builder (JCB)**, you may want to add **custom styling** or **HTML formatting** directly into a field output.
-However, by default, JCB **escapes all field values** for security reasons — meaning HTML is rendered as plain text.
+However, by default, JCB **escapes all field values** for security reasons - meaning HTML is rendered as plain text.
 
 This guide demonstrates how to safely disable field escaping for specific fields, allowing you to include HTML output such as colored labels or stylized dates in your list views.
 
@@ -40,7 +40,7 @@ However, this is **not the ideal location** to modify the data for HTML renderin
 **Timestamp:** [00:00:58](https://www.youtube.com/watch?v=bfl0l3AoLKU&t=00h00m58s)
 
 The setup involves **configuration fields** that define "warning" and "danger" time thresholds (for example, *3 weeks* and *1 week*).
-These configuration values are used in logic that determines when a field's display should change visually — for instance, changing a job date to red when overdue.
+These configuration values are used in logic that determines when a field's display should change visually - for instance, changing a job date to red when overdue.
 
 This logic typically involves:
 
@@ -105,7 +105,7 @@ After adding the `escape="false"` attribute:
 2. Install or update the generated ZIP in your Joomla site.
 3. Refresh your list view to see the formatted HTML display.
 
-You should now see proper visual output — for example, dates highlighted in red or warning labels showing with their intended styles.
+You should now see proper visual output - for example, dates highlighted in red or warning labels showing with their intended styles.
 
 ---
 

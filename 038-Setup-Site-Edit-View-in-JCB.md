@@ -1,6 +1,6 @@
 # Setup Site Edit View in Joomla Component Builder
 
-Learn how to configure and enable editing for an **Admin View** on the **front-end site** using Joomla Component Builder (JCB). This allows users to **create** and **edit** component items directly from the public interface — with permissions controlling who can do what.
+Learn how to configure and enable editing for an **Admin View** on the **front-end site** using Joomla Component Builder (JCB). This allows users to **create** and **edit** component items directly from the public interface - with permissions controlling who can do what.
 
 ---
 
@@ -22,7 +22,7 @@ JCB enables linking an **Admin View** (the backend editing interface) to the **f
    * Website
    * Publishing, Permissions, and Structure settings
 
-These fields collectively form what JCB calls an **Admin View** — a structure defining how records are created and edited in your component.
+These fields collectively form what JCB calls an **Admin View** - a structure defining how records are created and edited in your component.
 
 ---
 
@@ -53,8 +53,8 @@ For example:
 
 There are **two main permission switches** that determine front-end access:
 
-1. **Global Switch:** Located under *Options* — controls access across the entire component.
-2. **Local Switch:** Found in each Admin View — controls access for that specific view.
+1. **Global Switch:** Located under *Options* - controls access across the entire component.
+2. **Local Switch:** Found in each Admin View - controls access for that specific view.
 
 If a front-end edit form does not appear or fails to open, revisit these settings to ensure the appropriate user group (e.g., *Registered* or *Author*) has editing permissions.
 
@@ -118,7 +118,7 @@ Since the "Look" site edit view was auto-generated, you do not need to create it
 
 3. Open **Dynamic GETs** in JCB.
 4. Locate the dynamic get entries for "Looks" and "Looking".
-5. Edit the "Looks" Dynamic Get — in its **Custom Script** area, check for code that looks like this:
+5. Edit the "Looks" Dynamic Get - in its **Custom Script** area, check for code that looks like this:
 
    ```php
    if ($cando->get('core.edit')) {

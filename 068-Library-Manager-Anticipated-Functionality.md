@@ -103,7 +103,7 @@ These files can be conditionally added using custom fields. For example, create 
 
 [00:09:33](https://www.youtube.com/watch?v=joT8weuPcwU&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h09m33s)
 
-Previously, such functionality was **hardcoded in the compiler**—for instance, automatically detecting UIkit v2 usage. The new system aims to make this behavior **dynamic and developer-driven**.
+Previously, such functionality was **hardcoded in the compiler**-for instance, automatically detecting UIkit v2 usage. The new system aims to make this behavior **dynamic and developer-driven**.
 
 You can still leverage global library buttons such as:
 

@@ -9,7 +9,7 @@
 
 **[00:00:00](https://www.youtube.com/watch?v=Mu9H0zgH9Lw&t=0s)**
 This tutorial introduces an exciting new option available in **Joomla Component Builder (JCB) version 2.9.3 (Beta)**.
-It allows you to expand **custom field types** directly within JCB — **without modifying the core Joomla files**.
+It allows you to expand **custom field types** directly within JCB - **without modifying the core Joomla files**.
 
 Previously, extending Joomla's field types required manual changes to the `/libraries/joomla/form/fields` directory. With this update, you can create new field types using the JCB interface alone.
 
@@ -19,7 +19,7 @@ Previously, extending Joomla's field types required manual changes to the `/libr
 
 **[00:00:36 → 00:02:15]**
 In JCB, the **Field Type** list includes all Joomla core field types.
-Among these is the **Custom** field type — a flexible, dynamic option capable of extending:
+Among these is the **Custom** field type - a flexible, dynamic option capable of extending:
 
 * `List`
 * `Radio`
@@ -27,7 +27,7 @@ Among these is the **Custom** field type — a flexible, dynamic option capable 
 
 The **Custom** field type acts as a foundation for creating new, specialized field types.
 
-With version 2.9.3, JCB adds the ability to **extend the Custom Field itself** — enabling deeper customization *without editing the core.*
+With version 2.9.3, JCB adds the ability to **extend the Custom Field itself** - enabling deeper customization *without editing the core.*
 
 ---
 
@@ -56,8 +56,8 @@ Previously, extending one meant editing these files directly. JCB now allows you
 
 **[00:05:33 → 00:06:07]**
 
-> 🔹 **Field Type** — The structure or blueprint of a field (e.g., list, radio, custom).
-> 🔹 **Field** — An instance used in your component that's built upon a field type.
+> 🔹 **Field Type** - The structure or blueprint of a field (e.g., list, radio, custom).
+> 🔹 **Field** - An instance used in your component that's built upon a field type.
 
 This distinction is critical when customizing. You'll modify or extend *field types*, but the result will be seen in your actual *fields* within components.
 
@@ -67,14 +67,14 @@ This distinction is critical when customizing. You'll modify or extend *field ty
 
 **[00:07:13 → 00:09:35]**
 
-### Step 1 — Open the Custom Field Type
+### Step 1 - Open the Custom Field Type
 
 In JCB:
 
 * Go to **Component → Field Types**
 * Open the **Custom** field type.
 
-### Step 2 — Define the "Name" with `@`
+### Step 2 - Define the "Name" with `@`
 
 Give your field a unique name using an **`@` symbol**.
 This is how JCB identifies custom field types that extend others:
@@ -87,7 +87,7 @@ The placement of `@` can be anywhere in the name (beginning, middle, or end).
 
 > **Note:** Without the `@`, JCB will treat it as a standard field type and not a custom extension.
 
-### Step 3 — Keep Required Properties
+### Step 3 - Keep Required Properties
 
 You must preserve key values:
 
@@ -95,7 +95,7 @@ You must preserve key values:
 * **Extends** – Defines which Joomla field type it inherits from (`list`, `radio`, etc.)
 * **Label**, **Name**, and **Description** can be customized.
 
-Avoid using reserved type names like `list` or `radio` directly — they already exist.
+Avoid using reserved type names like `list` or `radio` directly - they already exist.
 
 ---
 
@@ -105,7 +105,7 @@ Avoid using reserved type names like `list` or `radio` directly — they already
 Each line in the **Custom Field Type PHP editor** represents a line of code.
 
 JCB provides up to **16 PHP code segment placeholders** (`typephp`, `typephp_a`, `typephp_b`, … `typephp_x`).
-These segments allow you to inject PHP into various logical parts of your field class — for example:
+These segments allow you to inject PHP into various logical parts of your field class - for example:
 
 * `typephp` → default PHP section
 * `typephp_a` → secondary logic
@@ -197,7 +197,7 @@ You can refine your field by:
 
 Example shown: adding simple **Option 1** and **Option 2** to the field output to demonstrate `getOptions()` returning dynamic values.
 
-> Tip: Always keep `extends` set (e.g., `list`) — it determines inheritance.
+> Tip: Always keep `extends` set (e.g., `list`) - it determines inheritance.
 
 ---
 
@@ -231,5 +231,5 @@ You can view or dump this replace array to inspect available placeholders.
 | **Base Fields**      | List, Radio, Checkbox (or any Joomla field type)         |
 | **Identifier**       | Must contain `@` (e.g., `list@mine`)                     |
 | **Compiler Role**    | Replaces placeholders and builds field files dynamically |
-| **Reusable**         | Yes — can be used across multiple components             |
+| **Reusable**         | Yes - can be used across multiple components             |
 | **Best Practice**    | Keep field generic and well-commented for reuse          |

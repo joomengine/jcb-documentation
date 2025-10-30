@@ -1,6 +1,6 @@
 # Joomla Component Builder Tutorial
 
-## 10 — Component Settings
+## 10 - Component Settings
 
 > **Video Source:** [Component Settings](https://www.youtube.com/watch?v=V2WkTjNFjvo&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE)
 > **Duration:** ~29 minutes

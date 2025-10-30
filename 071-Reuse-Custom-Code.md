@@ -125,7 +125,7 @@ This makes your snippets more flexible across different contexts.
 
 ---
 
-## Example 2: Helper Function Reuse — `getFilePath()`
+## Example 2: Helper Function Reuse - `getFilePath()`
 
 [00:05:55](https://www.youtube.com/watch?v=8Yl4lAAAWMQ&t=00h05m55s)
 

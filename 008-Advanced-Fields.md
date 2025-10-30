@@ -1,4 +1,4 @@
-# Joomla Component Builder (JCB) — Advanced Fields
+# Joomla Component Builder (JCB) - Advanced Fields
 
 ### [Video Tutorial](https://www.youtube.com/watch?v=VpzYbifqv0M&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h00m00s)
 
@@ -140,7 +140,7 @@ administrator/components/com_componentbuilder/helpers/compiler
 
 ---
 
-## 7. Dropbox File List — External Data Example
+## 7. Dropbox File List - External Data Example
 
 [00:22:31 → 00:23:24](https://www.youtube.com/watch?v=VpzYbifqv0M&t=00h22m31s)
 
@@ -169,9 +169,9 @@ These can contain static functions used across custom fields.
 
 Common built-in helper methods include:
 
-* `getVar()` and `getVars()` — Retrieve component variables.
-* `isPublished()` — Check if an object is published.
-* `jsonToString()` — Convert JSON objects to strings safely.
+* `getVar()` and `getVars()` - Retrieve component variables.
+* `isPublished()` - Check if an object is published.
+* `jsonToString()` - Convert JSON objects to strings safely.
 
 You can extend these helpers with your own logic.
 

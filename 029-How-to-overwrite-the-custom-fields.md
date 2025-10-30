@@ -8,7 +8,7 @@
 ## Overview
 
 [00:00:00](https://www.youtube.com/watch?v=FHQfIhWHYyQ&t=00h00m00s)
-In Joomla Component Builder (JCB), certain **default fields** are automatically added to every admin view. However, there are situations where you may want to **customize or reposition these default fields**—for example, showing the *Created By* or *Created Date* fields in a different tab or list view.
+In Joomla Component Builder (JCB), certain **default fields** are automatically added to every admin view. However, there are situations where you may want to **customize or reposition these default fields**-for example, showing the *Created By* or *Created Date* fields in a different tab or list view.
 
 This guide explains how to safely overwrite these fields, update their placement, and maintain compatibility with JCB's compiler.
 
@@ -36,7 +36,7 @@ When creating or editing an Admin View, JCB automatically includes a set of defa
 * `metadescription`
 * `metadata`
 
-These fields exist in every Admin View—even if you don't explicitly add them.
+These fields exist in every Admin View-even if you don't explicitly add them.
 By default, **only the ID and State fields** appear in the List View.
 
 ---
@@ -55,7 +55,7 @@ In the "Experts" view:
 * The `id`, `state`, and `ordering` fields are displayed by default.
 * The ordering column is shown as up/down icons rather than numeric values.
 
-If you wish to display more fields—like *Created By* or *Created Date*—you can overwrite the default ones by creating new fields with **the same names**.
+If you wish to display more fields-like *Created By* or *Created Date*-you can overwrite the default ones by creating new fields with **the same names**.
 
 ---
 
@@ -89,7 +89,7 @@ To overwrite any default field:
 * Description: *The date when this record was created*
 
 > **Tip:**
-> Always match the field names exactly. JCB identifies overwrites by comparing names—if they differ, your changes won't take effect.
+> Always match the field names exactly. JCB identifies overwrites by comparing names-if they differ, your changes won't take effect.
 
 ---
 
@@ -108,7 +108,7 @@ These are the values JCB uses when building your component.
 
 > **Important:**
 > Do **not** rename the XML nodes for default fields directly in the compiled files.
-> JCB relies on the field name to detect overwrites—modifying them may break this link.
+> JCB relies on the field name to detect overwrites-modifying them may break this link.
 
 ---
 
@@ -176,7 +176,7 @@ You'll now see that:
 * You can safely **overwrite** these fields by creating custom versions with the same names.
 * Use the **tab number** to control placement.
 * Always **compile and test** your component after overwriting.
-* Do **not** modify compiled XML directly — perform changes within JCB.
+* Do **not** modify compiled XML directly - perform changes within JCB.
 
 ---
 

@@ -1,6 +1,6 @@
 # Adding Helper Structures to Any JCB Component
 
-This guide walks you through the process of integrating **Helper Structures**—such as help documentation—into any Joomla Component Builder (JCB) component.
+This guide walks you through the process of integrating **Helper Structures**-such as help documentation-into any Joomla Component Builder (JCB) component.
 It is based on the official tutorial video *"Adding Helper Structures to Any JCB Component"* and expanded for clarity, accuracy, and completeness.
 
 ---
@@ -186,7 +186,7 @@ You'll see that your **Dump Data** has been properly inserted, confirming that t
 **[00:16:45](https://www.youtube.com/watch?v=nw9YPu9emws&t=1005s)**
 
 You can create your own Help Document structure from scratch without purchasing the Sermon Distributor package.
-However, that package includes **custom PHP scripting** that automates adaptation of the help structure for any component — a good reference for advanced users.
+However, that package includes **custom PHP scripting** that automates adaptation of the help structure for any component - a good reference for advanced users.
 
 ---
 

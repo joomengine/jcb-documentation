@@ -11,7 +11,7 @@
 [00:00:00](https://www.youtube.com/watch?v=tU7TeYn1Djo&t=00h00m00s)
 
 JCB now offers developers the ability to **add their own custom dashboard** to any Joomla component created with it.
-This enhancement allows for **greater UI flexibility** and a **unique administrative experience**—no longer limited to the default dashboard layout.
+This enhancement allows for **greater UI flexibility** and a **unique administrative experience**-no longer limited to the default dashboard layout.
 
 In previous versions of JCB, all components used the same default dashboard. The layout and icons were auto-generated based on your component's configuration. Now, you can **replace or redesign** that dashboard entirely to match your brand or functionality needs.
 
@@ -25,7 +25,7 @@ When you create a new component in JCB without defining a custom dashboard, the 
 * Icons
 * Field layouts
 
-This is the **default JCB dashboard** — functional, but not customizable.
+This is the **default JCB dashboard** - functional, but not customizable.
 
 > **Tip:** If you don't add your own dashboard, JCB continues to build this default layout for you.
 
@@ -128,7 +128,7 @@ To assign one as the dashboard:
 After recompiling:
 
 * JCB's dashboard is replaced by the **Compiler view**.
-* Some dashboard elements (like version info, tabs, and updates) are no longer available — because the dashboard files were removed.
+* Some dashboard elements (like version info, tabs, and updates) are no longer available - because the dashboard files were removed.
 
 If you refresh the admin page:
 
@@ -137,7 +137,7 @@ If you refresh the admin page:
 
 [00:06:23](https://www.youtube.com/watch?v=tU7TeYn1Djo&t=00h06m23s)
 
-The change is **clean and complete** — no residual dashboard files remain in the component structure.
+The change is **clean and complete** - no residual dashboard files remain in the component structure.
 
 ---
 
@@ -194,4 +194,4 @@ You can design dashboards that:
 ### Final Thoughts
 
 The **Custom Dashboard** feature is a major step toward flexibility in JCB.
-You now have the power to make your component's backend truly **your own** — blending JCB's automation with your design creativity.
+You now have the power to make your component's backend truly **your own** - blending JCB's automation with your design creativity.

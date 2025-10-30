@@ -5,7 +5,7 @@
 **Video Reference:** [00:00:00](https://www.youtube.com/watch?v=q5NwKGnOHoQ&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h00m00s)
 
 This feature introduces a **new implementation** in JCB that allows translations to be performed using an **Excel spreadsheet**, making multilingual component development simpler and faster.
-You can now **export language strings**, send them to translators, and **import** the translated values back into JCB — without manually editing `.ini` language files.
+You can now **export language strings**, send them to translators, and **import** the translated values back into JCB - without manually editing `.ini` language files.
 
 ---
 
@@ -42,7 +42,7 @@ When compiling your component:
 
 * JCB gathers English strings from **fields**, **site views**, and **admin views**.
 * These are dynamically populated in the **Language Translations** area.
-* You do not need to manually click "New" — the compiler handles it.
+* You do not need to manually click "New" - the compiler handles it.
 
 **Pro Tip:** If you run the compiler once and then revisit "Language Translations," you'll see all strings listed, ready for translation.
 
@@ -92,7 +92,7 @@ From now on, every instance of "Author" will use the Afrikaans translation autom
 
 ---
 
-## 7. New Feature — Translation via Excel
+## 7. New Feature - Translation via Excel
 
 [00:10:51](https://www.youtube.com/watch?v=q5NwKGnOHoQ&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h10m51s)
 
@@ -124,7 +124,7 @@ When importing:
 
 * Ensure the top header matches the **language tag** (e.g., `af-ZA`).
 * The corresponding language must already exist in JCB.
-* **Do not modify the English strings** — JCB matches by both **ID** and **string**.
+* **Do not modify the English strings** - JCB matches by both **ID** and **string**.
 
 ### Import Steps:
 
@@ -178,6 +178,6 @@ This new **Excel-based translation workflow** dramatically simplifies managing m
 * Import translations in seconds.
 * Automatically synchronize across all components.
 
-You only need to translate each unique string once — JCB takes care of everything else dynamically.
+You only need to translate each unique string once - JCB takes care of everything else dynamically.
 
 ---

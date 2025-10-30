@@ -60,7 +60,7 @@ cd Joomla-Component-Builder-Snippets
 
 > **Tip:** Use SSH for security if you're familiar with SSH keys; otherwise, use HTTPS.
 
-After cloning, you'll see all files locally. Avoid editing them directly — instead, make all snippet modifications within **Joomla Component Builder** and export them properly.
+After cloning, you'll see all files locally. Avoid editing them directly - instead, make all snippet modifications within **Joomla Component Builder** and export them properly.
 
 ---
 
@@ -169,7 +169,7 @@ git add "Uikit v3 - (Collapse) Accordion.json"
 git commit -m "Added Accordion snippet for Uikit v3."
 ```
 
-> **Tip:** Commit frequently and descriptively—each major change should have its own message.
+> **Tip:** Commit frequently and descriptively-each major change should have its own message.
 
 ---
 

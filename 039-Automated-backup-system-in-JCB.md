@@ -9,7 +9,7 @@
 
 [00:00:00](https://www.youtube.com/watch?v=GUWZaODo_IM&t=00h00m00s)
 
-The automated backup system is part of JCB's **Extension API**, enabling operations via a URL request — including creating a full backup of your JCB components.
+The automated backup system is part of JCB's **Extension API**, enabling operations via a URL request - including creating a full backup of your JCB components.
 
 The API extension introduces new automation possibilities. The first implemented feature is the **automated backup**, which allows exporting and securely storing your components either manually or via a CronJob.
 
@@ -84,7 +84,7 @@ If neither command works, you can manually call the provided **CronJob URL** on 
 
 When triggered successfully:
 
-* A green confirmation message appears — "Backup completed and email sent."
+* A green confirmation message appears - "Backup completed and email sent."
 * This output may optionally be logged in future versions.
 
 > **Tip:** If your site uses a firewall (e.g., RSFirewall), you may need to configure the request to behave like a normal browser request. Refer to related StackOverflow discussions for `curl` adjustments.
@@ -184,7 +184,7 @@ To verify:
 
 1. Check the backup folder for the new ZIP file.
 2. Confirm receipt of the encryption key email.
-3. Open the ZIP file to verify all expected files are present — including custom folders if applicable.
+3. Open the ZIP file to verify all expected files are present - including custom folders if applicable.
 
 > **Tip:** Always use a secure email account with SSL/TLS-enabled SMTP for receiving the encryption key.
 

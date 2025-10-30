@@ -23,7 +23,7 @@ In this tutorial, we'll cover:
 
 [00:00:00](https://www.youtube.com/watch?v=khxKeeubhiY&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h00m00s)
 
-In the previous tutorial, we explored how to set up templates and layouts for a **site view**. Inside a typical site view—like `preacherpanel`, `preachersmall`, or `preacherbox`—you'll find templates loaded to define how data is displayed.
+In the previous tutorial, we explored how to set up templates and layouts for a **site view**. Inside a typical site view-like `preacherpanel`, `preachersmall`, or `preacherbox`-you'll find templates loaded to define how data is displayed.
 
 To view or modify these, go to:
 **JCB → Templates**
@@ -105,7 +105,7 @@ To include JS:
 
 [00:03:13](https://www.youtube.com/watch?v=khxKeeubhiY&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h03m13s)
 
-You still have full access to all **global "this" field values**—meaning your JS can interact dynamically with JCB's runtime data.
+You still have full access to all **global "this" field values**-meaning your JS can interact dynamically with JCB's runtime data.
 
 [00:03:35](https://www.youtube.com/watch?v=khxKeeubhiY&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h03m35s)
 

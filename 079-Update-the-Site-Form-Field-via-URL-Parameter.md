@@ -3,7 +3,7 @@
 ## Overview
 
 In this tutorial, we'll learn how to **add a form to a site view** in Joomla Component Builder (JCB), manage its submission through a **controller**, and dynamically link it with the **model** for validation and saving.
-We'll also see how JCB helps generate much of the needed code automatically — including **buttons**, **controllers**, and **model methods** — while keeping the MVC structure intact.
+We'll also see how JCB helps generate much of the needed code automatically - including **buttons**, **controllers**, and **model methods** - while keeping the MVC structure intact.
 
 > **[00:00:10](https://www.youtube.com/watch?v=UVICsD82oWk&t=10s)**
 
@@ -56,7 +56,7 @@ if ($canEdit) {
 }
 ```
 
-> *Tip:* Keep data modeling separate from display logic — build links in the model layer, not in the view.
+> *Tip:* Keep data modeling separate from display logic - build links in the model layer, not in the view.
 
 ---
 
@@ -66,7 +66,7 @@ if ($canEdit) {
 
 If your site view already has **pagination**, JCB automatically generates a `<form>` tag around the list.
 
-You **don't need to add another form** — simply add inputs or buttons inside it.
+You **don't need to add another form** - simply add inputs or buttons inside it.
 
 ### How It Works
 

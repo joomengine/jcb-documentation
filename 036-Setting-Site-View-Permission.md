@@ -63,10 +63,10 @@ It should typically be an **unrestricted page** that explains how users can gain
 
 [00:03:52](https://www.youtube.com/watch?v=gWjQjdhYqXI&t=00h03m52s)
 
-When a restricted page is accessed, JCB automatically **redirects** the user to this default view—avoiding endless loops or 403 errors.
+When a restricted page is accessed, JCB automatically **redirects** the user to this default view-avoiding endless loops or 403 errors.
 
 > 🧠 **Note:**
-> This feature prevents access errors but doesn't replace Joomla's permission logic—it's a graceful fallback mechanism.
+> This feature prevents access errors but doesn't replace Joomla's permission logic-it's a graceful fallback mechanism.
 
 ---
 

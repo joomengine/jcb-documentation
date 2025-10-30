@@ -11,11 +11,11 @@
 Joomla! Component Builder (JCB) generates complete Joomla components, including XML form definitions, models, views, and controllers.
 Understanding **field types** is essential, as they determine what form elements are rendered in your component's admin and site views.
 
-A **field type** defines how a field behaves and appears — for example, a text box, checkbox, date picker, list, or repeatable input.
+A **field type** defines how a field behaves and appears - for example, a text box, checkbox, date picker, list, or repeatable input.
 These are stored in XML format and processed through Joomla's API to render the form dynamically.
 
 > **Key Concept:**
-> All fields exist within views — either **list views** (plural) or **edit views** (single).
+> All fields exist within views - either **list views** (plural) or **edit views** (single).
 > JCB builds these automatically when you define them in your component.
 
 ---
@@ -57,7 +57,7 @@ Each view includes fields mapped to the view, so the fields you define in JCB ar
 
 ## 4. All Fields Live in Views
 
-Even though a list view looks like a table, it still contains **fields** — for example:
+Even though a list view looks like a table, it still contains **fields** - for example:
 
 * The search box, filters, and table columns are all technically **fields**.
 * The edit view displays individual input fields, grouped in tabs or sections.
@@ -81,7 +81,7 @@ When compiling your component in JCB, make sure to configure the **Global Settin
 * Ensure Git repository options are set (if using automatic pushing).
 * If not, deselect repository actions before compiling.
 
-If you encounter a warning like "Could not move file to Git repository," it usually indicates that repository paths are unset — not an actual compile error.
+If you encounter a warning like "Could not move file to Git repository," it usually indicates that repository paths are unset - not an actual compile error.
 
 [06:35](https://youtu.be/OhLzvThDXls?t=395)
 Once compiled, click **Install** to deploy the component directly into your Joomla instance.
@@ -144,7 +144,7 @@ JCB allows developers to create **custom field types** mapped to Joomla's field 
 * Extending Joomla's repeatable field.
 * Adding custom attributes or logic (e.g., "Show On" conditions).
 
-The **"Show On"** option controls field visibility based on other field values — a JCB enhancement on top of Joomla's native functionality.
+The **"Show On"** option controls field visibility based on other field values - a JCB enhancement on top of Joomla's native functionality.
 
 > **Pro Tip:**
 > When adding new field types, always match Joomla's standard naming and property conventions to ensure compatibility.
@@ -181,7 +181,7 @@ Example:
 Adding new attributes in JCB automatically appends them to the XML string used during compilation.
 
 [14:45](https://youtu.be/OhLzvThDXls?t=885)
-Each field type in JCB shows which **fields** use it — for instance, multiple text fields can share the "Text" field type definition.
+Each field type in JCB shows which **fields** use it - for instance, multiple text fields can share the "Text" field type definition.
 
 ---
 
@@ -238,7 +238,7 @@ For example:
 ## 16. Conclusion
 
 JCB automates the complex XML, MVC, and API mappings Joomla! needs to build robust components.
-Field types are at the heart of this process — understanding how they link to fields, views, and XML output will help you design efficient and scalable components.
+Field types are at the heart of this process - understanding how they link to fields, views, and XML output will help you design efficient and scalable components.
 
 > Next step: [Using Field Types in Fields →](#)
 

@@ -4,7 +4,7 @@
 
 **Timestamps from transcript included for reference**
 
-Joomla Component Builder (JCB) automates database table creation and updates during component development by adhering to Joomla's native SQL file conventions. This automation ensures that your component stays synchronized with database changes—whether you're adding new views, creating new fields, or restructuring existing ones.
+Joomla Component Builder (JCB) automates database table creation and updates during component development by adhering to Joomla's native SQL file conventions. This automation ensures that your component stays synchronized with database changes-whether you're adding new views, creating new fields, or restructuring existing ones.
 
 [00:00:00](https://www.youtube.com/watch?v=zN2M15fzf_M)
 
@@ -14,7 +14,7 @@ When you compile a JCB component, such as **Sermon Distributor**, JCB generates 
 admin/sql/
 ```
 
-Here, you'll find the **install.mysql.utf8.sql** file—Joomla's standard script for creating the initial database tables during installation.
+Here, you'll find the **install.mysql.utf8.sql** file-Joomla's standard script for creating the initial database tables during installation.
 
 ---
 
@@ -22,7 +22,7 @@ Here, you'll find the **install.mysql.utf8.sql** file—Joomla's standard script
 
 [00:01:17](https://www.youtube.com/watch?v=zN2M15fzf_M)
 
-* The `install.mysql.utf8.sql` file runs **only once**—on the first installation.
+* The `install.mysql.utf8.sql` file runs **only once**-on the first installation.
 * Even if you modify or add new data later, Joomla will **not re-run** this file.
 * JCB automatically keeps this file updated with any new views (tables) or fields (columns) you add.
 * However, these updates only matter for **new installations**, not for sites where the component is already installed.
@@ -49,7 +49,7 @@ For existing installations, Joomla uses **update SQL files** located in the `upd
 
 4. **Compile the Component**
    After saving your changes, run the **compiler** again.
-   JCB automatically increments the component version—e.g., from `2.0.0` to `2.0.1`—and generates a new SQL update file.
+   JCB automatically increments the component version-e.g., from `2.0.0` to `2.0.1`-and generates a new SQL update file.
 
 5. **Check the Generated Files**
    Extract your compiled component and open:

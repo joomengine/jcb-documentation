@@ -2,7 +2,7 @@
 
 > **Video Reference:** [YouTube Tutorial](https://www.youtube.com/watch?v=zpS52k89YcI&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE)
 > **Duration:** ~14 minutes
-> **Purpose:** Learn how to quickly set up a self-contained Joomla development environment using Bitnami — ideal for Joomla Component Builder (JCB) development.
+> **Purpose:** Learn how to quickly set up a self-contained Joomla development environment using Bitnami - ideal for Joomla Component Builder (JCB) development.
 
 ---
 
@@ -16,7 +16,7 @@ They partner with major providers like **Amazon Web Services**, and offer ready-
 ### Why Bitnami?
 
 * It bundles **Apache**, **MySQL**, **PHP**, and **Joomla** in a single installable package.
-* It creates an isolated development environment — **no interference** with your system's existing PHP or MySQL setup.
+* It creates an isolated development environment - **no interference** with your system's existing PHP or MySQL setup.
 * It's available for **Windows, macOS, and Linux**.
 * It includes **phpMyAdmin** by default.
 * It supports **quick uninstallation** and **clean removal** when done testing.
@@ -91,7 +91,7 @@ Bitnami now installs and configures:
 
 [00:06:58](https://www.youtube.com/watch?v=zpS52k89YcI&t=00h06m58s)
 
-The installer isolates everything in one directory (e.g., `joomla_bitnami`) — making it safe to test without affecting existing environments.
+The installer isolates everything in one directory (e.g., `joomla_bitnami`) - making it safe to test without affecting existing environments.
 
 Once complete, click **Finish** and **Launch Bitnami Joomla Stack**.
 
@@ -152,7 +152,7 @@ Once imported, compile and install the **Hello World** component.
 [00:11:14](https://www.youtube.com/watch?v=zpS52k89YcI&t=00h11m14s)
 
 Return to the frontend and confirm the text displays correctly.
-You now have a fully working **Hello World** Joomla component on your Bitnami stack — all within minutes.
+You now have a fully working **Hello World** Joomla component on your Bitnami stack - all within minutes.
 
 ---
 
@@ -172,7 +172,7 @@ joomla_bitnami/
         └── htdocs/
 ```
 
-Inside **`htdocs`** you'll find the entire Joomla website — including your installed components.
+Inside **`htdocs`** you'll find the entire Joomla website - including your installed components.
 You can edit and test your JCB-generated files directly here.
 
 > **Tip:** This structure allows you to quickly modify PHP, view templates, and test compiled components in real time.
@@ -231,7 +231,7 @@ To uninstall:
 
 ## Key Benefits of Using Bitnami for JCB Development
 
-* Quick setup — no manual LAMP/XAMPP configuration.
+* Quick setup - no manual LAMP/XAMPP configuration.
 * Complete isolation from global server environment.
 * Easy file access for debugging and component editing.
 * Built-in phpMyAdmin and service control.

@@ -52,7 +52,7 @@ Inside the **Email Helper Class**, there is a `send()` method that manages the p
 When the email is successfully sent, the result is stored in a variable such as `$sendEmail`.
 
 [00:01:47](https://www.youtube.com/watch?v=peVNLsAncGY&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h01m47s)
-At the end of this method, JCB allows you to call another helper method—**if it exists**—to perform additional actions after the email is sent (like logging or storing).
+At the end of this method, JCB allows you to call another helper method-**if it exists**-to perform additional actions after the email is sent (like logging or storing).
 
 This check is performed using:
 
@@ -120,7 +120,7 @@ if (method_exists('JobtrackingHelper', 'storeMessage')) {
 
 [00:04:52](https://www.youtube.com/watch?v=peVNLsAncGY&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h04m52s)
 If the method **does not exist**, it simply skips this part and returns the `$sendEmail` result.
-If it **does exist**, it executes the `storeMessage()` method—allowing you to handle or log email data dynamically.
+If it **does exist**, it executes the `storeMessage()` method-allowing you to handle or log email data dynamically.
 
 ---
 
@@ -173,7 +173,7 @@ The `storeMessage()` method gives you complete control to:
 * Use **default parameter values (`= null`)** to prevent runtime errors.
 * Employ the `method_exists()` check to ensure safe execution.
 * Combine this approach with Joomla's native **logging or database storage** methods for reliability.
-* Keep your code modular—avoid placing logic directly in the Email Helper.
+* Keep your code modular-avoid placing logic directly in the Email Helper.
 
 ---
 

@@ -12,7 +12,7 @@
 
 The **Create User Helper Method** allows your Joomla Component to create Joomla Users dynamically from within your component views or actions. This is done using a built-in JCB Helper Class extension which adds reusable methods accessible across both front-end and back-end of your component.
 
-This integration is helpful for components like job managers, membership systems, or expert directories—any place where a custom user creation process is needed.
+This integration is helpful for components like job managers, membership systems, or expert directories-any place where a custom user creation process is needed.
 
 ---
 
@@ -20,7 +20,7 @@ This integration is helpful for components like job managers, membership systems
 
 [00:00:32](https://www.youtube.com/watch?v=ckFakaQ90JY&t=00h00m32s)
 
-Each JCB-generated component contains a **Helper Class**—one for the administrator side and one for the site side.
+Each JCB-generated component contains a **Helper Class**-one for the administrator side and one for the site side.
 
 You can locate it in:
 
@@ -77,7 +77,7 @@ $new = array(
 
 The helper method leverages Joomla's built-in **User Registration Model**, creating the user via the standard Joomla API.
 
-It simplifies the process but **does not automatically assign users to groups**—that must be handled manually after creation.
+It simplifies the process but **does not automatically assign users to groups**-that must be handled manually after creation.
 
 ---
 

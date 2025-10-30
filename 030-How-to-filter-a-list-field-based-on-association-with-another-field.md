@@ -25,7 +25,7 @@ You will learn how to connect two related fields, fetch data via Ajax, and dynam
 
 **Timestamp:** [00:00:00](https://www.youtube.com/watch?v=Z8FLifQOjUk&t=00h00m00s)
 
-The objective is to **limit a dropdown (list) field** based on another field's value — for example:
+The objective is to **limit a dropdown (list) field** based on another field's value - for example:
 
 * When selecting a **Country**, only the corresponding **Regions** are loaded.
 * When a Country is **unselected**, the Region field should also reset.
@@ -249,7 +249,7 @@ When implemented correctly:
 
 * Selecting a country dynamically filters the region dropdown.
 * Ajax ensures seamless updates.
-* The same pattern can be applied to **any related fields** — e.g., Categories → Subcategories, Brand → Models, etc.
+* The same pattern can be applied to **any related fields** - e.g., Categories → Subcategories, Brand → Models, etc.
 
 ---
 
@@ -270,7 +270,7 @@ When implemented correctly:
 
 * Always sanitize input and validate returned data.
 * Use consistent naming for fields (e.g., `country`, `region`) to avoid confusion.
-* JCB compiles all Ajax methods into one file (`models/ajax.php`) — no need to manually add multiple controllers.
+* JCB compiles all Ajax methods into one file (`models/ajax.php`) - no need to manually add multiple controllers.
 * If targeting another component's table, ensure you know the association field name.
 
 ---

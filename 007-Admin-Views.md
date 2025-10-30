@@ -1,4 +1,4 @@
-# **Joomla Component Builder — Admin Views**
+# **Joomla Component Builder - Admin Views**
 
 ### Based on [Admin Views Tutorial](https://www.youtube.com/watch?v=CdSKSCTzmRA&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE)
 
@@ -11,7 +11,7 @@
 [00:00:00](https://www.youtube.com/watch?v=CdSKSCTzmRA&t=00h00m00s)
 
 In this lesson, we explore how to set up **Admin Views** in Joomla Component Builder (JCB).
-Admin Views are the **foundation of your component's database structure** — every Admin View corresponds to a **database table** that defines how your component's data is stored and managed.
+Admin Views are the **foundation of your component's database structure** - every Admin View corresponds to a **database table** that defines how your component's data is stored and managed.
 
 Before this stage, you should already understand:
 
@@ -139,7 +139,7 @@ Example: *Preacher → Sermons.*
 4. Enable **Add New Button** if you want to allow new child entries from within the parent view.
 
 > **Tip:**
-> Make sure the database relationships match — the child table should store the parent's ID.
+> Make sure the database relationships match - the child table should store the parent's ID.
 
 ---
 

@@ -1,6 +1,6 @@
 # How to Add Custom Buttons in JCB to Your Component Admin Area
 
-This guide explains how to **add custom buttons** to your Joomla Component Builder (JCB) components — both in **List Views** and **Edit Views** — using JCB's interface without custom PHP overrides.
+This guide explains how to **add custom buttons** to your Joomla Component Builder (JCB) components - both in **List Views** and **Edit Views** - using JCB's interface without custom PHP overrides.
 You'll also learn how these buttons integrate with **controllers, models**, and Joomla's **permission system**, following MVC principles.
 
 > *Based on the video tutorial: [How to Add Custom Buttons in JCB to Your Component Admin Area](https://www.youtube.com/watch?v=VyBxWpJWb40)*
@@ -17,7 +17,7 @@ This tutorial demonstrates how to add buttons to either:
 * The **Admin List View** toolbar, or
 * The **Edit View** toolbar.
 
-These buttons allow you to trigger custom controller methods — e.g., redirect users, run custom logic, or modify data — directly from the Joomla admin interface, without manual code edits.
+These buttons allow you to trigger custom controller methods - e.g., redirect users, run custom logic, or modify data - directly from the Joomla admin interface, without manual code edits.
 
 ---
 
@@ -82,9 +82,9 @@ Follow these steps to add your first custom button:
    * `both`
 4. **Type:**
 
-   * `Function` — runs directly when clicked.
-   * `Selection` — requires selected rows to pass IDs.
-   * `Default` — similar to selection but with flexible behavior.
+   * `Function` - runs directly when clicked.
+   * `Selection` - requires selected rows to pass IDs.
+   * `Default` - similar to selection but with flexible behavior.
 
 Save your button.
 
@@ -115,7 +115,7 @@ public function getTested()
 > If no code is added, JCB inserts placeholder slashes `//` to maintain structure.
 
 Compile and install your component.
-Go to **Components → Demo → Looks** — your new **Test** button appears.
+Go to **Components → Demo → Looks** - your new **Test** button appears.
 Clicking it will redirect to the dashboard.
 
 ---
@@ -268,7 +268,7 @@ You have now learned how to:
 * Reuse this feature for automations, validations, and shortcuts.
 
 > 🧭 **Tip:**
-> Experiment with different button types and methods — JCB handles the Joomla MVC integration, letting you focus purely on your custom logic.
+> Experiment with different button types and methods - JCB handles the Joomla MVC integration, letting you focus purely on your custom logic.
 
 ---
 

@@ -21,7 +21,7 @@ To solve this, JCB now allows you to define **default database values per field 
 [00:00:16](https://www.youtube.com/watch?v=wGFqV63KzeA&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h00m16s)
 
 1. In your Joomla Component Builder interface, go to **Fields** and click **New**.
-2. Choose the desired **Field Type** — for example, `Text` or `List`.
+2. Choose the desired **Field Type** - for example, `Text` or `List`.
 3. Configure the **properties** as usual:
 
    * Set the label
@@ -49,7 +49,7 @@ This helps standardize your database schema across multiple fields and component
 To configure default values:
 
 1. Open the **Field Types** area in JCB.
-2. Select the field type you want to modify — for example, `Number`.
+2. Select the field type you want to modify - for example, `Number`.
 3. In the **Database Values** section, enter your preferred configuration.
 
 **Example:**
@@ -78,7 +78,7 @@ To verify that your default settings are working:
 2. Select the field type you configured (e.g., `Number`).
 3. Observe that the database values are automatically filled with your defaults.
 
-You can still modify them for special cases, but the base configuration is already in place — saving time and ensuring consistency.
+You can still modify them for special cases, but the base configuration is already in place - saving time and ensuring consistency.
 
 ---
 
@@ -116,7 +116,7 @@ Once saved, these configurations automatically apply each time you create new fi
 
 * **Keep it consistent:** Define sensible, standard defaults that reflect how you typically use each field type.
 * **Use naming conventions:** Match database types to Joomla field expectations (e.g., `INT` for numeric values, `VARCHAR` for short text).
-* **Review before saving:** Default values apply globally per field type — double-check your setup before saving.
+* **Review before saving:** Default values apply globally per field type - double-check your setup before saving.
 * **Override when needed:** You can still customize the database values in individual fields when exceptions arise.
 
 ---

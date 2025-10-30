@@ -18,7 +18,7 @@ In this tutorial, we explore JCB's **new dynamic router implementation**, a syst
 **[00:00:00 → 00:00:49]**
 
 When a Joomla Component Builder component includes **Site Views** (frontend views), those views typically use **Dynamic Gets** to fetch data.
-The router then uses this data—combined with the view name—to construct **search engine friendly (SEF) URLs**.
+The router then uses this data-combined with the view name-to construct **search engine friendly (SEF) URLs**.
 
 For example:
 
@@ -48,8 +48,8 @@ After compiling your component, navigate to:
 
 This file contains two key methods inside a router class:
 
-* `build($query)` — Converts URL parameters into SEF segments.
-* `parse($segments)` — Interprets SEF segments back into query variables.
+* `build($query)` - Converts URL parameters into SEF segments.
+* `parse($segments)` - Interprets SEF segments back into query variables.
 
 Inside `parse()`, a `switch` statement evaluates the first segment, usually representing the **view name**.
 
@@ -81,7 +81,7 @@ $vars['view'] = 'preachers';
 
 The rest of the auto-generated code (for IDs, aliases, etc.) is redundant and can be safely removed.
 
-However, for the **Single View (`preacher`)**, the router may misinterpret Dynamic Get relationships—for instance, incorrectly pulling data from the `sermon` table instead of the `preacher` table.
+However, for the **Single View (`preacher`)**, the router may misinterpret Dynamic Get relationships-for instance, incorrectly pulling data from the `sermon` table instead of the `preacher` table.
 
 ---
 
@@ -104,7 +104,7 @@ $getVar('sermon', $id);
 $getVar('preacher', $id);
 ```
 
-You can verify what `getVar()` does at the bottom of `router.php` — it's responsible for retrieving and validating URL values dynamically.
+You can verify what `getVar()` does at the bottom of `router.php` - it's responsible for retrieving and validating URL values dynamically.
 
 The same adjustment applies to other misidentified site views like **Categories** and **Series**.
 
@@ -157,9 +157,9 @@ case '[sview]':
 
 You'll need to apply this custom router logic for the following Site Views:
 
-* **Sermon (Series ID)** — Correct "sermon" → "series".
-* **Sermon (Preacher ID)** — Ensure both values match (`preacher`).
-* **Category** — Add `true` to the `getVar` call to identify it as a category lookup.
+* **Sermon (Series ID)** - Correct "sermon" → "series".
+* **Sermon (Preacher ID)** - Ensure both values match (`preacher`).
+* **Category** - Add `true` to the `getVar` call to identify it as a category lookup.
 
 Example for Category:
 

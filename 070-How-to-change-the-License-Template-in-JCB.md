@@ -15,7 +15,7 @@ The license template is managed inside the JCB compiler system and can be easily
 
 ---
 
-## Step 1 — Locate the License Template Files
+## Step 1 - Locate the License Template Files
 
 [00:00:34](https://www.youtube.com/watch?v=AveBf6YZzmo&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h00m34s)
 
@@ -32,7 +32,7 @@ You can add your own `.txt` file here and select it as a license template within
 
 ---
 
-## Step 2 — Viewing the Available Templates
+## Step 2 - Viewing the Available Templates
 
 [00:00:57](https://www.youtube.com/watch?v=AveBf6YZzmo&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h00m57s)
 
@@ -42,7 +42,7 @@ Choose one `.txt` file to serve as your current template, or create a new one ba
 
 ---
 
-## Step 3 — Editing an Existing Template
+## Step 3 - Editing an Existing Template
 
 [00:01:50](https://www.youtube.com/watch?v=AveBf6YZzmo&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h01m50s)
 
@@ -51,7 +51,7 @@ You can edit a default template directly; however, this is **not recommended** b
 Instead:
 
 1. Open the default license file in the compiler folder.
-2. Modify it as needed — for example, remove lines or adjust credits.
+2. Modify it as needed - for example, remove lines or adjust credits.
 3. **Leave the following placeholders intact:**
 
    * `@copyright`
@@ -63,7 +63,7 @@ These placeholders are dynamically replaced during compilation with the values f
 
 ---
 
-## Step 4 — Understanding Placeholder Variables
+## Step 4 - Understanding Placeholder Variables
 
 [00:05:00](https://www.youtube.com/watch?v=AveBf6YZzmo&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h05m00s)
 
@@ -89,7 +89,7 @@ Common placeholders include:
 
 ---
 
-## Step 5 — Saving a New Template (Recommended Method)
+## Step 5 - Saving a New Template (Recommended Method)
 
 [00:07:03](https://www.youtube.com/watch?v=AveBf6YZzmo&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h07m03s)
 
@@ -105,7 +105,7 @@ When you select it and recompile your component, JCB will use your new license t
 
 ---
 
-## Step 6 — Verify the License Update
+## Step 6 - Verify the License Update
 
 [00:08:03](https://www.youtube.com/watch?v=AveBf6YZzmo&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h08m03s)
 
@@ -119,7 +119,7 @@ JCB automatically replaces the license content during compilation, applying your
 
 ---
 
-## Step 7 — Final Notes and Good Practices
+## Step 7 - Final Notes and Good Practices
 
 [00:09:02](https://www.youtube.com/watch?v=AveBf6YZzmo&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h09m02s)
 

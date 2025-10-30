@@ -13,7 +13,7 @@
 
 **[00:00:00 → 00:01:17]**
 
-Joomla Component Builder introduces a **dynamic file and folder inclusion system** that allows developers to include external files or folders—either local or remote—directly into their component package.
+Joomla Component Builder introduces a **dynamic file and folder inclusion system** that allows developers to include external files or folders-either local or remote-directly into their component package.
 
 This feature enhances automation and flexibility when developing complex Joomla components that rely on shared or external resources.
 
@@ -134,7 +134,7 @@ EXTERNALCODE:https://gist.githubusercontent.com/username/raw/fancydate.txt
 This snippet fetches the raw file contents and embeds it into your component helper or class area.
 
 > **Note:**
-> Currently, EXTERNALCODE does **not support constants** in paths—use absolute paths or full URLs.
+> Currently, EXTERNALCODE does **not support constants** in paths-use absolute paths or full URLs.
 
 ---
 

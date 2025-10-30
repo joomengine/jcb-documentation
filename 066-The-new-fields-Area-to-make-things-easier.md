@@ -14,7 +14,7 @@ The latest update introduces a new sub-form layout that replaces the old XML def
 
 [00:00:46](https://www.youtube.com/watch?v=26x_Sc8jbp8&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h00m46s)
 
-In earlier versions of JCB, each field used an **XML field definition area**. Developers could freely edit or omit elements directly, which gave flexibility but also caused instability — accidental changes or missing XML tags could break functionality.
+In earlier versions of JCB, each field used an **XML field definition area**. Developers could freely edit or omit elements directly, which gave flexibility but also caused instability - accidental changes or missing XML tags could break functionality.
 
 While this flexibility was useful for advanced users, it posed challenges for ensuring consistent, error-free components. To address this, JCB's team restructured the system to make it more robust and user-friendly.
 
@@ -33,7 +33,7 @@ Starting in version **2.7.5**, the XML field definition area was replaced with a
 When you open a field like *Alias*, the new sub-form shows pre-defined field values and allows adding new properties that aren't already present.
 
 **Example:**
-If you want to add a new property like `size`, simply select it from the dropdown list — JCB automatically loads its default description and value.
+If you want to add a new property like `size`, simply select it from the dropdown list - JCB automatically loads its default description and value.
 
 **Tip:**
 Even though mandatory fields can technically be left empty, it's best practice to always provide valid values to ensure clean compiles.
@@ -56,7 +56,7 @@ This improvement reduces common XML-related errors and streamlines the process o
 
 In version **2.7.6**, JCB introduced a **new implementation for Custom Fields** and **Custom Users**.
 
-When creating a new custom field, JCB now automatically organizes related PHP code (such as `getOptions`) into a dedicated text area — making it much easier to read and modify.
+When creating a new custom field, JCB now automatically organizes related PHP code (such as `getOptions`) into a dedicated text area - making it much easier to read and modify.
 
 For the **User** field type, two new methods are clearly separated:
 
@@ -131,7 +131,7 @@ If the selected field type already supports validation, it's better to use its n
 One of the most user-friendly additions is the **auto-restore feature**.
 If you modify or remove a property and decide to revert it, JCB restores the previous or default value automatically.
 
-This ensures you never lose your work by mistake — even when experimenting with different settings.
+This ensures you never lose your work by mistake - even when experimenting with different settings.
 
 **Example Workflow:**
 
@@ -149,7 +149,7 @@ The new Fields Area in JCB simplifies the process of building and managing field
 
 **Key Takeaways:**
 
-* XML editing is no longer required — use structured sub-forms instead.
+* XML editing is no longer required - use structured sub-forms instead.
 * Mandatory values are auto-validated during compilation.
 * Custom field PHP code is clearly organized.
 * Extra options (`listclass`, `escape`, `display`, `validate`) enhance flexibility.

@@ -1,6 +1,6 @@
 # Auto Create SQL Updates for Components in JCB
 
-This tutorial demonstrates the **Auto SQL Update Generation** feature in **Joomla Component Builder (JCB)** — a major improvement that automatically creates SQL update scripts when new tables or fields are added to a component.
+This tutorial demonstrates the **Auto SQL Update Generation** feature in **Joomla Component Builder (JCB)** - a major improvement that automatically creates SQL update scripts when new tables or fields are added to a component.
 
 **Video Source:** [Watch on YouTube](https://www.youtube.com/watch?v=bRPJTRat158&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE)
 
@@ -173,7 +173,7 @@ The **Auto SQL Update** feature simplifies JCB component evolution by:
 
 ## 11. Conclusion
 
-This automation makes JCB even more powerful — capable of **writing your SQL updates for you**.
+This automation makes JCB even more powerful - capable of **writing your SQL updates for you**.
 It saves time, prevents errors, and ensures your components remain consistent and upgradeable.
 
-> "Auto SQL generation makes JCB one of the most advanced Joomla development tools — handling database evolution dynamically and intelligently."
+> "Auto SQL generation makes JCB one of the most advanced Joomla development tools - handling database evolution dynamically and intelligently."

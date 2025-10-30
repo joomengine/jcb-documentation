@@ -58,7 +58,7 @@ When clicking **Export Data**, note the following behavior:
 
 [00:02:16](https://www.youtube.com/watch?v=fau5mZ6naLc&t=00h02m16s)
 
-While JCB List Views can handle up to 10,000 items, complex relationships can slow down the process — especially when exporting.
+While JCB List Views can handle up to 10,000 items, complex relationships can slow down the process - especially when exporting.
 
 ---
 

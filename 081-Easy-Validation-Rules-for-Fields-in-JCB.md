@@ -10,7 +10,7 @@
 Adding **validation rules** to fields in **Joomla Component Builder (JCB)** ensures that data entered into your forms meets specific conditions before being stored in the database.
 
 With the newer versions of JCB, this process has become **extremely simple**, thanks to the **dedicated Validation Rules area**.
-You can now easily create, customize, and assign validation rules to any field in your components — without needing to manually edit PHP code in your component files.
+You can now easily create, customize, and assign validation rules to any field in your components - without needing to manually edit PHP code in your component files.
 
 ---
 
@@ -62,7 +62,7 @@ These can serve as examples or templates for your own rule.
 > [00:02:28](https://www.youtube.com/watch?v=gYcZvL3u2To&t=00h02m28s)
 
 1. Click **Create New Validation Rule**.
-2. When prompted, click **OK** — you'll be redirected to the *New Validation Rule* form.
+2. When prompted, click **OK** - you'll be redirected to the *New Validation Rule* form.
 3. Enter a **unique rule name** (e.g., `myvalidation`).
 4. Optionally, add a **description** to explain its purpose.
 
@@ -77,7 +77,7 @@ These can serve as examples or templates for your own rule.
 You can choose a **Joomla core rule** as a base.
 This dropdown list helps you inspect existing implementations (like `email`, `url`, etc.) for reference.
 
-Selecting one doesn't store any data — it just loads the code into your editor as a starting point.
+Selecting one doesn't store any data - it just loads the code into your editor as a starting point.
 
 For example, select **email** to view Joomla's built-in email validation logic.
 
@@ -219,7 +219,7 @@ Here you can:
 
 ## Key Takeaways
 
-* JCB automates the entire validation rule process — from creation to integration.
+* JCB automates the entire validation rule process - from creation to integration.
 * You can base new rules on Joomla core rules.
 * All custom rules are stored in `/admin/models/rules/`.
 * They are referenced automatically in XML forms and config files.
@@ -244,6 +244,6 @@ Here you can:
 > [00:09:25](https://www.youtube.com/watch?v=gYcZvL3u2To&t=00h09m25s)
 
 JCB's **Validation Rule** system streamlines validation logic across your component.
-You can now create, reuse, and maintain validation rules efficiently — with full automatic integration during compilation.
+You can now create, reuse, and maintain validation rules efficiently - with full automatic integration during compilation.
 
 This ensures clean, reliable data validation that follows Joomla's standards while remaining easy to extend and maintain.

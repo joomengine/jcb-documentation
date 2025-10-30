@@ -107,7 +107,7 @@ This indicates the code has been imported successfully.
 **[00:08:49](https://www.youtube.com/watch?v=KiAtJawZ3oo&t=00h08m49s)**
 Do **not** modify the numerical ID following a placeholder. This number identifies the database entry of your stored code. Changing it will cause JCB to lose track of that custom script.
 
-To re-trigger updates manually, **add the diamond symbol (<>)** back into your placeholder — this signals to JCB that the code block has been modified and must be reimported on the next compilation.
+To re-trigger updates manually, **add the diamond symbol (<>)** back into your placeholder - this signals to JCB that the code block has been modified and must be reimported on the next compilation.
 
 ---
 
@@ -179,7 +179,7 @@ In your script, JCB replaces `arg0`, `arg1`, `arg2` with these passed values dur
 To ensure stability, JCB currently avoids reimporting changes from external edits when ARGs are used, as the values may vary across multiple usage points.
 
 **[00:22:22](https://www.youtube.com/watch?v=KiAtJawZ3oo&t=00h22m22s)**
-Future updates aim to unify both systems — allowing JCB to reimport dynamic code changes from the editor safely.
+Future updates aim to unify both systems - allowing JCB to reimport dynamic code changes from the editor safely.
 
 ---
 
@@ -232,7 +232,7 @@ The example component used in the tutorial was **"Registry"**, demonstrating fie
 
 ### Tip
 
-If you often reuse complex JavaScript or PHP snippets across views, fields, or layouts — store them in JCB's **Custom Code Manager**. It dramatically reduces redundancy and keeps your component consistent during updates.
+If you often reuse complex JavaScript or PHP snippets across views, fields, or layouts - store them in JCB's **Custom Code Manager**. It dramatically reduces redundancy and keeps your component consistent during updates.
 
 ---
 

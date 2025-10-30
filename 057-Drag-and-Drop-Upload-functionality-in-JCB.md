@@ -209,7 +209,7 @@ Validates user permissions and deletes files from both server and database.
 ### **Uploading an Image**
 
 **[00:43:18](https://www.youtube.com/watch?v=UvzDyVQyHDI&t=00h43m18s)**
-Drag an image into the drop zone — it uploads, crops, and displays instantly.
+Drag an image into the drop zone - it uploads, crops, and displays instantly.
 
 ### **Uploading a Document**
 

@@ -9,7 +9,7 @@ Each section includes timestamps linked to the official tutorial video for deepe
 
 [00:00:00](https://www.youtube.com/watch?v=zlhFyrCGWik&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&index=63&t=00h00m00s)
 
-JCB supports collaborative development within a shared Joomla environment. When a user opens a component for editing, the system **locks (checks out)** that item—preventing others from editing it simultaneously. Once saved and closed, the component becomes available again.
+JCB supports collaborative development within a shared Joomla environment. When a user opens a component for editing, the system **locks (checks out)** that item-preventing others from editing it simultaneously. Once saved and closed, the component becomes available again.
 
 This functionality applies to all areas of JCB, including:
 
@@ -45,7 +45,7 @@ To solve this, JCB introduces mechanisms for **sharing and synchronizing compone
 [00:03:13](https://www.youtube.com/watch?v=zlhFyrCGWik&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&index=63&t=00h03m13s)
 
 A new JCB feature called **Servers** introduces **SFTP connections**, allowing data exchange between remote JCB instances.
-This lays the groundwork for syncing JCB data (like components, views, or fields) between multiple installations — effectively linking teams working on the same component in different environments.
+This lays the groundwork for syncing JCB data (like components, views, or fields) between multiple installations - effectively linking teams working on the same component in different environments.
 
 > **Future Goal:** Establish a system where multiple JCB installations automatically synchronize components using secure SFTP transfers.
 
@@ -61,7 +61,7 @@ Located under *Global Options → Development Method*, this feature includes two
 1. **Default:** Traditional manual compiling and installing.
 2. **Expansion:** Automatically builds and installs selected components based on cron job frequency.
 
-This automation helps prepare JCB for seamless project synchronization between local and remote installations—essential for distributed teams.
+This automation helps prepare JCB for seamless project synchronization between local and remote installations-essential for distributed teams.
 
 ---
 
@@ -71,7 +71,7 @@ This automation helps prepare JCB for seamless project synchronization between l
 
 The long-term goal is to enable **multiple developers** to work on the same project from their local environments.
 Each developer can push their changes (after reaching a stable state) to a shared online JCB hub.
-Team members review, test, and merge these changes, just like a Git pull request workflow—but integrated within JCB.
+Team members review, test, and merge these changes, just like a Git pull request workflow-but integrated within JCB.
 
 ---
 
@@ -196,7 +196,7 @@ Submit a pull request to the original repository for review.
 Before submitting multiple pull requests, coordinate with others to avoid duplication.
 Each JCB package managed on GitHub will include a **Pull Request Template** with contributor guidelines.
 
-> **Tip:** Be patient with reviews—community contributions are validated thoroughly for consistency and stability.
+> **Tip:** Be patient with reviews-community contributions are validated thoroughly for consistency and stability.
 
 ---
 

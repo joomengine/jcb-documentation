@@ -7,7 +7,7 @@
 *(Timestamp: [00:00:00](https://www.youtube.com/watch?v=USVLYu4ZLCc&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h00m26s))*
 
 In **JCB version 2.9.14**, a new feature was introduced: **Global and Component-Level Placeholders**.
-This feature allows you to define and reuse placeholders dynamically across your components — enhancing flexibility, reusability, and maintainability of your generated Joomla code.
+This feature allows you to define and reuse placeholders dynamically across your components - enhancing flexibility, reusability, and maintainability of your generated Joomla code.
 
 Before diving into the new functionality, it's important to understand JCB's existing placeholders system.
 
@@ -22,11 +22,11 @@ Before diving into the new functionality, it's important to understand JCB's exi
 JCB already includes a set of **default placeholders** that you can use throughout the system.
 Examples include:
 
-* `[[[component]]]` — Lowercase component name
-* `[[[Component]]]` — Capitalized first letter
-* `[[[COMPONENT]]]` — Uppercase
-* `###component###` — Wrapped in hashes
-* `<<<component>>>` — Wrapped in angle brackets
+* `[[[component]]]` - Lowercase component name
+* `[[[Component]]]` - Capitalized first letter
+* `[[[COMPONENT]]]` - Uppercase
+* `###component###` - Wrapped in hashes
+* `<<<component>>>` - Wrapped in angle brackets
 
 These placeholders are automatically replaced during compilation with the relevant component name in the correct format.
 
@@ -42,7 +42,7 @@ Common forms include:
 
 * `[[[view]]]`, `[[[View]]]`, `[[[VIEW]]]`
 * `###view###`
-* `[[[views]]]` — for list views (plural)
+* `[[[views]]]` - for list views (plural)
 
 **Note:**
 
@@ -55,7 +55,7 @@ Common forms include:
 
 *(Timestamp: [00:04:36](https://www.youtube.com/watch?v=USVLYu4ZLCc&t=00h04m36s))*
 
-The new **Placeholder Manager** in JCB allows you to define **your own placeholders** within the GUI, giving developers the same flexibility as custom code snippets — but for **text strings** instead of code.
+The new **Placeholder Manager** in JCB allows you to define **your own placeholders** within the GUI, giving developers the same flexibility as custom code snippets - but for **text strings** instead of code.
 
 Unlike custom code:
 
@@ -80,7 +80,7 @@ Unlike custom code:
 
 1. Click **New** to create a new placeholder.
 
-2. Enter a **name** — JCB will automatically enclose it in triple square brackets, e.g.:
+2. Enter a **name** - JCB will automatically enclose it in triple square brackets, e.g.:
 
    ```
    [[[MyPlaceholder]]]
@@ -104,7 +104,7 @@ Unlike custom code:
 5. Click **Save & Close** to finalize.
 
 > **Tip:**
-> If your placeholder's value causes errors (for example, due to special characters), report it on GitHub — placeholders are designed to handle nearly all valid string patterns.
+> If your placeholder's value causes errors (for example, due to special characters), report it on GitHub - placeholders are designed to handle nearly all valid string patterns.
 
 ---
 
@@ -112,7 +112,7 @@ Unlike custom code:
 
 *(Timestamp: [00:08:26](https://www.youtube.com/watch?v=USVLYu4ZLCc&t=00h08m26s))*
 
-Once a placeholder is created, it can be inserted in multiple areas — helper classes, custom code snippets, or dynamic GET methods.
+Once a placeholder is created, it can be inserted in multiple areas - helper classes, custom code snippets, or dynamic GET methods.
 
 ### Example: Adding a Placeholder to a Helper Class
 
@@ -148,7 +148,7 @@ Then, for each component:
   * For one component: `[[[AnyWord]]] = "not like the other"`
   * For another: `[[[AnyWord]]] = "default string"`
 
-During compilation, JCB replaces these dynamically — ensuring component-specific variations without duplicating code.
+During compilation, JCB replaces these dynamically - ensuring component-specific variations without duplicating code.
 
 ---
 
