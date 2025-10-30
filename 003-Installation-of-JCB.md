@@ -100,7 +100,7 @@ In the **paid version**, the SQL file contains a richer dataset, enabling more p
 
 The simplest way to switch to a paid version is:
 
-1. Go to **Extensions → Manage → Manage**.
+1. Go to **Extensions -> Manage -> Manage**.
 2. Select your existing Component Builder installation.
 3. Click **Uninstall**.
 4. Install the new (paid) version you downloaded.
@@ -143,7 +143,7 @@ If you uninstall the free version and install the paid one from **VDM.IO**, you'
 * No old component data remains.
 * Only the updated field types and structures are installed.
 
-After installation, navigate to **Components → Component Builder** in the backend.
+After installation, navigate to **Components -> Component Builder** in the backend.
 [00:11:20](https://www.youtube.com/watch?v=t6Eux157428&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h11m20s)
 
 You'll see an empty component list but with a full set of **enhanced field types** available for future projects.
