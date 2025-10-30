@@ -10,7 +10,7 @@ In this tutorial, we begin at the **Joomla Component Builder (JCB) Dashboard** i
 
 Joomla Component Builder allows developers to create, manage, and compile complex Joomla components entirely from within the Joomla interface. It provides an environment where multiple components can coexist, share views, and use the same infrastructure.
 
-The instructor introduces several components already built with JCB, including multiple versions of the Component Builder itself — all maintained within a single instance of JCB.
+The instructor introduces several components already built with JCB, including multiple versions of the Component Builder itself - all maintained within a single instance of JCB.
 [00:01:10](https://www.youtube.com/watch?v=t6Eux157428&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h01m10s)
 
 > **Tip:** You can easily create different versions of your component for clients by **duplicating** a component in JCB and making specific adjustments to the copy. This allows rapid version management and streamlined development.
