@@ -19,10 +19,10 @@ You'll start with the simplest setup - a **"Hello World"** greeting - and end wi
 2. Create a new field (`greeting`)
 3. Build an admin view (`greetings`)
 4. Create and compile a new component (`world`)
-5. Add frontend (site) views
+5. Add frontend site views
 6. Link menu items and add edit links
 
-Download the latest JCB release from [VDM GitHub Releases](https://github.com/vdm-io/Joomla-Component-Builder/releases), then install it via **Extensions → Manage → Install**.
+Download or explore the latest JCB version from the [VDM GitHub Releases](https://github.com/vdm-io/Joomla-Component-Builder), then install it via **Extensions → Manage → Install**.
 
 ---
 
