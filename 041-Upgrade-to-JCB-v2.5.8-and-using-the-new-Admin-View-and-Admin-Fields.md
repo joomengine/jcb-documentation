@@ -199,7 +199,4 @@ Saving once is necessary before you can attach fields, as the Admin View must ha
 The upgrade to **JCB 2.5.8** marks a significant milestone in improving performance, reliability, and compatibility.
 By fully adopting Subform Fields, JCB becomes more stable and future-ready for Joomla 4 and beyond.
 
-If you encounter any issues during or after upgrading, open an issue on GitHub:
-[vdm-io/Joomla-Component-Builder](https://github.com/vdm-io/Joomla-Component-Builder)
-
 ---

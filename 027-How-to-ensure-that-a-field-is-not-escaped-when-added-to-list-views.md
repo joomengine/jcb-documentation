@@ -15,7 +15,7 @@ This guide demonstrates how to safely disable field escaping for specific fields
 
 ## 1. Understanding Field Escaping
 
-**Timestamp:** [00:00:06](https://www.youtube.com/watch?v=bfl0l3AoLKU&t=00h00m06s)
+[00:00:06](https://www.youtube.com/watch?v=bfl0l3AoLKU&t=00h00m06s)
 
 By default, Joomla automatically **escapes** field values in list views to prevent malicious code injection (XSS).
 When you want to display **HTML-based styling** (e.g., `<span class="danger">Overdue</span>`), this escaping prevents the HTML from rendering properly.
@@ -26,7 +26,7 @@ If you notice that your styled content appears as text rather than HTML, escapin
 
 ## 2. Example Scenario: Adding Extra Styling to Fields
 
-**Timestamp:** [00:00:31](https://www.youtube.com/watch?v=bfl0l3AoLKU&t=00h00m31s)
+[00:00:31](https://www.youtube.com/watch?v=bfl0l3AoLKU&t=00h00m31s)
 
 In this tutorial, the **Job Order Admin View** is used as an example.
 Within the `getItems()` method (before translation fix and decryption), a PHP snippet is added to apply color-based styling depending on time-sensitive values.
@@ -37,7 +37,7 @@ However, this is **not the ideal location** to modify the data for HTML renderin
 
 ## 3. Working with Configuration Values
 
-**Timestamp:** [00:00:58](https://www.youtube.com/watch?v=bfl0l3AoLKU&t=00h00m58s)
+[00:00:58](https://www.youtube.com/watch?v=bfl0l3AoLKU&t=00h00m58s)
 
 The setup involves **configuration fields** that define "warning" and "danger" time thresholds (for example, *3 weeks* and *1 week*).
 These configuration values are used in logic that determines when a field's display should change visually - for instance, changing a job date to red when overdue.
@@ -52,7 +52,7 @@ This logic typically involves:
 
 ## 4. Looping Through Data and Applying Styling
 
-**Timestamp:** [00:01:44](https://www.youtube.com/watch?v=bfl0l3AoLKU&t=00h01m44s)
+[00:01:44](https://www.youtube.com/watch?v=bfl0l3AoLKU&t=00h01m44s)
 
 Next, iterate through the dataset and determine which records should be visually marked.
 For example, you might:
@@ -70,7 +70,7 @@ This happens because the **Joomla escape method** (`htmlspecialchars()`) runs on
 
 ## 5. Preventing HTML Escaping
 
-**Timestamp:** [00:03:27](https://www.youtube.com/watch?v=bfl0l3AoLKU&t=00h03m27s)
+[00:03:27](https://www.youtube.com/watch?v=bfl0l3AoLKU&t=00h03m27s)
 
 To allow HTML output in your list view:
 
@@ -83,13 +83,13 @@ To allow HTML output in your list view:
 
 3. In the **code section**, add the attribute:
 
-   ```php
-   escape="false"
-   ```
+```php
+escape="false"
+```
 
 4. Save your changes.
 
-**Timestamp:** [00:04:09](https://www.youtube.com/watch?v=bfl0l3AoLKU&t=00h04m09s)
+[00:04:09](https://www.youtube.com/watch?v=bfl0l3AoLKU&t=00h04m09s)
 
 During compilation, JCB will now instruct Joomla not to escape that field's output, allowing your HTML to render correctly.
 
@@ -97,7 +97,7 @@ During compilation, JCB will now instruct Joomla not to escape that field's outp
 
 ## 6. Recompiling the Component
 
-**Timestamp:** [00:04:37](https://www.youtube.com/watch?v=bfl0l3AoLKU&t=00h04m37s)
+[00:04:37](https://www.youtube.com/watch?v=bfl0l3AoLKU&t=00h04m37s)
 
 After adding the `escape="false"` attribute:
 
@@ -111,7 +111,7 @@ You should now see proper visual output - for example, dates highlighted in red 
 
 ## 7. Key Takeaways
 
-**Timestamp:** [00:05:15](https://www.youtube.com/watch?v=bfl0l3AoLKU&t=00h05m15s)
+[00:05:15](https://www.youtube.com/watch?v=bfl0l3AoLKU&t=00h05m15s)
 
 * Joomla escapes field outputs by default to enhance security.
 * To display HTML safely, set `escape="false"` on that specific field in JCB.

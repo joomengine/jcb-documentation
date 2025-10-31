@@ -30,7 +30,7 @@ Here, you can:
 
 * Set **"No"** to remove the prefix completely.
 * Enter a **custom prefix** string or symbol.
-* Leave the field as-is to use the **default arrow (›)**.
+* Leave the field as-is to use the **default arrow (\u203A)**.
 
 > **Tip:** You do not need to manually add a space after the prefix - JCB automatically includes one.
 

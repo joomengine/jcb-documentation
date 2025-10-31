@@ -1,4 +1,4 @@
-# Joomla Component Builder (JCB) - Advanced Fields
+# Advanced Fields - Joomla Component Builder (JCB)
 
 ### [Video Tutorial](https://www.youtube.com/watch?v=VpzYbifqv0M&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h00m00s)
 
@@ -23,7 +23,7 @@ Advanced fields allow you to:
 
 ## 1. Setting Up a Local Folder Field
 
-[00:00:38 → 00:04:48](https://www.youtube.com/watch?v=VpzYbifqv0M&t=00h00m38s)
+[00:00:38](https://www.youtube.com/watch?v=VpzYbifqv0M&t=00h00m38s)
 
 ### Purpose
 
@@ -57,7 +57,7 @@ When enabling **multiple selections**, ensure that the field is stored as `JSON`
 
 ## 2. Building a "Sermon Preacher" Custom Field
 
-[00:05:32 → 00:06:56](https://www.youtube.com/watch?v=VpzYbifqv0M&t=00h05m32s)
+[00:05:32](https://www.youtube.com/watch?v=VpzYbifqv0M&t=00h05m32s)
 
 This example demonstrates a field that displays a list of **preachers** from the `preachers` list view.
 
@@ -72,7 +72,7 @@ This example demonstrates a field that displays a list of **preachers** from the
 
 ## 3. Understanding `JFormField` Extensions
 
-[00:07:02 → 00:09:04](https://www.youtube.com/watch?v=VpzYbifqv0M&t=00h07m02s)
+[00:07:02](https://www.youtube.com/watch?v=VpzYbifqv0M&t=00h07m02s)
 
 Custom fields in JCB typically **extend Joomla's native `JFormField` classes** such as:
 
@@ -88,7 +88,7 @@ You can explore or add new ones if your project requires unique behaviors.
 
 ## 4. Extending List Fields Dynamically
 
-[00:09:16 → 00:15:28](https://www.youtube.com/watch?v=VpzYbifqv0M&t=00h09m16s)
+[00:09:16](https://www.youtube.com/watch?v=VpzYbifqv0M&t=00h09m16s)
 
 When targeting data from another table (e.g., `preachers`), use placeholders to make your component **name-agnostic**.
 
@@ -113,7 +113,7 @@ When targeting data from another table (e.g., `preachers`), use placeholders to 
 
 ## 5. Adding Custom PHP in Field Definitions
 
-[00:15:59 → 00:16:51](https://www.youtube.com/watch?v=VpzYbifqv0M&t=00h15m59s)
+[00:15:59](https://www.youtube.com/watch?v=VpzYbifqv0M&t=00h15m59s)
 
 You can inject PHP directly in field definitions to fine-tune logic.
 **Use single quotes only** inside your PHP to avoid escaping issues.
@@ -126,7 +126,7 @@ $options[] = array('value' => $file, 'text' => $file);
 
 ## 6. Compiling and Code Replacement
 
-[00:16:51 → 00:21:37](https://www.youtube.com/watch?v=VpzYbifqv0M&t=00h16m51s)
+[00:16:51](https://www.youtube.com/watch?v=VpzYbifqv0M&t=00h16m51s)
 
 When compiling, JCB replaces placeholders (like `###ID###`, `###name###`, and `###component###`) with actual component data.
 This ensures reusable code across multiple components.
@@ -142,7 +142,7 @@ administrator/components/com_componentbuilder/helpers/compiler
 
 ## 7. Dropbox File List - External Data Example
 
-[00:22:31 → 00:23:24](https://www.youtube.com/watch?v=VpzYbifqv0M&t=00h22m31s)
+[00:22:31](https://www.youtube.com/watch?v=VpzYbifqv0M&t=00h22m31s)
 
 Example of integrating a custom helper method (`getDropboxlinks`) to fetch data from external sources like Dropbox.
 It dynamically builds a dropdown list based on retrieved links.
@@ -151,7 +151,7 @@ It dynamically builds a dropdown list based on retrieved links.
 
 ## 8. Component Helper Classes
 
-[00:23:32 → 00:26:58](https://www.youtube.com/watch?v=VpzYbifqv0M&t=00h23m32s)
+[00:23:32](https://www.youtube.com/watch?v=VpzYbifqv0M&t=00h23m32s)
 
 Each JCB component includes **helper classes** located in:
 
@@ -179,7 +179,7 @@ You can extend these helpers with your own logic.
 
 ## 9. Custom User Fields
 
-[00:31:02 → 00:35:48](https://www.youtube.com/watch?v=VpzYbifqv0M&t=00h31m02s)
+[00:31:02](https://www.youtube.com/watch?v=VpzYbifqv0M&t=00h31m02s)
 
 ### Purpose
 
@@ -208,7 +208,7 @@ $group = ComponentHelper::getParams('com_example')->get('user_group');
 
 ## 10. Naming Conventions
 
-[00:38:08 → 00:39:21](https://www.youtube.com/watch?v=VpzYbifqv0M&t=00h38m08s)
+[00:38:08](https://www.youtube.com/watch?v=VpzYbifqv0M&t=00h38m08s)
 
 When naming custom field types:
 
@@ -223,7 +223,7 @@ Field type `studentusers` → File name `studentusers.php`
 
 ## 11. Repeatable Custom Fields
 
-[00:40:38 → 00:47:11](https://www.youtube.com/watch?v=VpzYbifqv0M&t=00h40m38s)
+[00:40:38](https://www.youtube.com/watch?v=VpzYbifqv0M&t=00h40m38s)
 
 ### Concept
 
@@ -241,7 +241,7 @@ Repeatable fields are containers holding multiple sub-fields.
 
 ## 12. Custom Icons for Buttons
 
-[00:44:41 → 00:46:02](https://www.youtube.com/watch?v=VpzYbifqv0M&t=00h44m41s)
+[00:44:41](https://www.youtube.com/watch?v=VpzYbifqv0M&t=00h44m41s)
 
 Use Joomla's [Icomoon font icons](https://docs.joomla.org/J3.x:Joomla_Standard_Icomoon_fonts) to customize buttons.
 
@@ -255,7 +255,7 @@ Example:
 
 ## 13. Radio Buttons in Repeatable Fields
 
-[00:47:39 → 00:48:38](https://www.youtube.com/watch?v=VpzYbifqv0M&t=00h47m39s)
+[00:47:39](https://www.youtube.com/watch?v=VpzYbifqv0M&t=00h47m39s)
 
 When using **radio buttons** in repeatable fields:
 

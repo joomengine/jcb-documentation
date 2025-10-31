@@ -1,341 +1,225 @@
-# Building a "Hello World" Component with Joomla Component Builder v5
+# Joomla Component Builder - Beginner-Friendly Guide
 
-*(Complete Beginner Walkthrough)*
-
-### [Tutorial Video](https://www.youtube.com/watch?v=1KBBtQUxMTc)
-
----
-
-## Introduction
-
-[01:55](https://youtu.be/1KBBtQUxMTc?t=115)
-
-This tutorial teaches you how to build a fully working Joomla component from scratch using **Joomla Component Builder (JCB)**.
-You'll start with the simplest setup - a **"Hello World"** greeting - and end with a dynamic site view where you can list, view, and even edit those greetings from the frontend.
-
-**What you'll do:**
-
-1. Install JCB
-2. Create a new field (`greeting`)
-3. Build an admin view (`greetings`)
-4. Create and compile a new component (`world`)
-5. Add frontend (site) views
-6. Link menu items and add edit links
-
-Download the latest JCB release from [VDM GitHub Releases](https://github.com/vdm-io/Joomla-Component-Builder/releases), then install it via **Extensions → Manage → Install**.
+This guide provides a practical, beginner-friendly overview of how to use **Joomla Component Builder (JCB)** based on the *Introduction to Joomla Component Builder* tutorial.
+It explains the essential workflow, tools, and best practices - with accurate, up-to-date details reflecting the latest JCB UI and behavior.
 
 ---
 
-## 1. Create the Greeting Field
+## 1) Prerequisites & Mindset
 
-[02:46](https://youtu.be/1KBBtQUxMTc?t=166)
+[00:00:18](https://www.youtube.com/watch?v=9evJkBTnKxE&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h00m18s)
 
-Fields define the data columns your component will use. Here you'll create a simple text field that stores greetings.
+JCB is designed for developers familiar with **PHP** and the **Joomla MVC framework**.
 
-### Steps
+* **PHP knowledge:** The builder automates large parts of code generation but expects that you can understand and edit PHP.
+* **Learning Joomla's API:** Explore Joomla's core structure (models, views, controllers) to understand how JCB-generated components fit in. Open the Joomla `/components` directory, browse its folders, and inspect how core components are structured.
+* **Using an IDE (e.g., NetBeans):** You can jump to function definitions (like `getLayout`) to trace how Joomla handles rendering.
 
-1. Go to **JCB → Fields → New**.
-2. Under **Set Properties** tab:
-
-   * **Name** → `greeting`
-   * **Label** → `Greeting`
-   * **Type** → Select **Text**
-3. Switch to the **Database** tab:
-
-   * **Data Type** → Select `VARCHAR`
-   * **Length** → `255` (typical for short text)
-   * **Null Switch** → choose `NOT NULL` (so it can't be empty)
-   * **Modelling Method** → `Default`
-
-     > *This defines how JCB models the field data in generated code.*
-4. You may leave **Category** and **Publishing** defaults unchanged.
-5. Click **Save & Close**.
-
-> 💡 *Explanation:*
-> The **Database tab** tells JCB what SQL column to generate.
->
-> * `VARCHAR(255)` stores short text.
-> * `NOT NULL` makes it required.
-> * `Modelling Method` lets you choose JSON/base64/encryption options, but "Default" is fine here.
+*Tip:* If you're new to PHP or Joomla MVC, consider online developer courses before diving deeper.
 
 ---
 
-## 2. Create an Admin View
+## 2) Local Development Environment
 
-[03:51](https://youtu.be/1KBBtQUxMTc?t=263)
+[00:04:17](https://www.youtube.com/watch?v=9evJkBTnKxE&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h04m17s)
 
-The **Admin View** connects fields to a database table and creates Joomla's backend management screens.
+You should **build and test components offline** on a local sandbox environment.
 
-### Steps
+### Recommended Setup
 
-1. Go to **Admin Views → New**.
-2. Configure basic info:
+* **Operating System:** Ubuntu or another Linux distribution.
+* **Stack:** PHP, MySQL/MariaDB, and Joomla installed locally.
+* **Debug Tools:** Add tools like Xdebug to inspect and debug your code efficiently.
 
-   * **Name (Singular)** → `greeting`
-   * **Name (Plural)** → `greetings`
-   * **System Name** → `greetings`
-3. Select a suitable icon if you want.
-4. In the **Fields** tab, click **Add Field** and choose `greeting`.
+Developing locally lets you work offline, debug easily, and avoid server-related issues.
 
-   * Mark it as:
-
-     * **Show in list**
-     * **First column**
-     * **Title field**
-     * **Sortable**
-     * **Searchable**
-     * **Linked to edit view**
-5. Save & Close.
-
-This admin view will manage records of greetings in the backend.
+*Resource Suggestion:* The course *"Up and Running with Linux for PHP Developers with Jon Peck"* (Lynda.com) is a great starting point for setting up your environment.
 
 ---
 
-## 3. Create the Component "World"
+## 3) Security and Offline Preference
 
-[04:55](https://youtu.be/1KBBtQUxMTc?t=295)
+[00:07:51](https://www.youtube.com/watch?v=9evJkBTnKxE&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h07m51s)
 
-Now you tie everything together into a real Joomla component.
+Although JCB can run on a live server, it's best used **offline**.
 
-### Steps
+When compiling, JCB places your build temporarily in the Joomla `/tmp` directory.
+If hosted online, this could expose your compiled packages publicly.
 
-1. Open **Components → New**.
-2. **Name** → `World`
+To stay safe:
 
-   * System name auto-fills as `world`.
-3. Optional: choose an icon/image.
-4. Under **Admin View Settings**:
-
-   * Link the main admin view to `Greetings`.
-5. Enable options (per video):
-
-   * Add to Main Menu
-   * Allow Sub-menu
-   * Auto-checking
-   * History
-   * Has Metadata
-   * Has Access
-   * Allow Import / Export
-6. Under **Site View Options**, enable:
-
-   * **Create Site View** → Yes
-   * **Linked Admin View** → `Greetings`
-   * **Has Edit View** → Yes
-   * **Default View** → `Greetings`
-7. **Save & Close.**
+* Always develop locally when possible.
+* If you must work online, delete temporary builds immediately after compiling.
+* Limit server permissions to protect sensitive directories.
 
 ---
 
-## 4. Compile and Install the Component
+## 4) Understanding the Purpose of JCB
 
-[07:25](https://youtu.be/1KBBtQUxMTc?t=445)
+[00:03:55](https://www.youtube.com/watch?v=9evJkBTnKxE&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h03m55s)
 
-1. Go to **Compiler** in JCB.
-2. Select your new component (**World**).
-3. Deselect any optional build items not needed (as in video).
-4. Click **Compile**.
+The **Joomla Component Builder** was created to **accelerate development** by automating repetitive code generation for Joomla components.
 
-JCB writes the PHP, XML, and SQL files (≈ 8 000 lines, 160 files).
-When done, click **Install** to add it directly to Joomla.
+It:
 
-### Verify the Admin Area
+* Follows **Joomla conventions** closely.
+* Lets you **customize generated code** freely.
+* Supports **complex admin and site interfaces** using standard MVC structure.
 
-* Go to **Components → Hello World → Greetings**.
-* Click **New**, enter "Hi there James Sable", then **Save & Close**.
-* Re-open, change it to "Hi there Michael", save, and check **Versions**.
-  You'll see automatic version control and permission handling.
-  [09:55](https://youtu.be/1KBBtQUxMTc?t=595)
+You're encouraged to suggest improvements or share better implementation methods with the developer community.
 
 ---
 
-## 5. Add Frontend (Site) Views
+## 5) Creating Your First Component
 
-[12:15](https://youtu.be/1KBBtQUxMTc?t=737)
+[00:05:43](https://www.youtube.com/watch?v=9evJkBTnKxE&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h05m43s)
 
-JCB lets you quickly build frontend pages (site views) to display data.
+Once JCB is installed in your local Joomla site:
 
----
+1. Go to **Components → Component Builder → Components → New**.
+2. Enter:
 
-### 5.1 Create Dynamic Gets
+   * **Name:** The readable name of your component.
+   * **Option:** Usually formatted as `com_example`.
+   * **Description:** Short overview of purpose.
+   * **Version:** Your current version number.
+3. Save the new component.
 
-Dynamic Gets define what data each site view retrieves.
-
-[13:34](https://youtu.be/1KBBtQUxMTc?t=814)
-
-**A. List of Items**
-
-1. **Dynamic Gets → New**.
-2. Set **Type** → List Query.
-3. **Admin View** → `Greetings`.
-4. **Pagination** → No.
-5. Add a **WHERE filter**:
-
-   ```sql
-   published = 1
-   ```
-6. **Save & Close.**
-
-**B. Single Item**
-
-1. **Dynamic Gets → New**.
-2. **Type** → Get Item.
-3. **Admin View** → `Greetings`.
-4. **WHERE filter**:
-
-   ```sql
-   id = {id}
-   ```
-5. **Save & Close.**
+You now have the foundation for your custom extension.
 
 ---
 
-### 5.2 Create Site Views
+## 6) Adding Admin Views and Fields
 
-[17:05](https://youtu.be/1KBBtQUxMTc?t=1025)
+[00:06:07](https://www.youtube.com/watch?v=9evJkBTnKxE&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h06m07s)
 
-**List View (`greetings`)**
+Admin views define the **backend structure** and determine how data is managed.
 
-1. Add a new Site View.
-2. Link it to the **list** Dynamic Get.
-3. In the PHP output area, insert:
+### Steps to Add an Admin View:
 
-   ```php
-   <ul>
-   <?php foreach ($this->items as $item): ?>
-       <li><?php echo $item->greeting; ?></li>
-   <?php endforeach; ?>
-   </ul>
-   ```
-4. **Save & Close.**
+1. Navigate to **Admin Views → New**.
+2. Choose between:
 
-**Single View (`greet`)**
+   * **Item View** (single record)
+   * **List View** (multiple records)
+3. Link the view to a **database table** (JCB auto-generates this table).
+4. Configure ACL (permissions), toolbar options, and category/tag support.
 
-1. Add another Site View.
-2. Link it to the **single** Dynamic Get.
-3. Output:
+### Adding Fields:
 
-   ```php
-   <h2><?php echo $this->item->greeting; ?></h2>
-   ```
-4. Name it `greet` (avoid conflict with edit view `greeting`).
-5. **Save & Close.**
+* Go to **Fields → New**.
+* Define field type (text, list, media, repeatable, etc.).
+* Assign the field to the correct admin view.
+* Configure validation rules, default values, and filters.
+
+Fields can be reused across views, plugins, and modules.
 
 ---
 
-### 5.3 Attach Site Views to Component
+## 7) Building Frontend (Site) Views
 
-[20:30](https://youtu.be/1KBBtQUxMTc?t=1230)
+[00:07:24](https://www.youtube.com/watch?v=9evJkBTnKxE&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h07m24s)
 
-1. In **Component → Settings → Site Views**:
+Frontend or "site" views define what visitors see on your website.
 
-   * `greet` → no menu; metadata on.
-   * `greetings` → menu on; metadata on; set default.
-   * Access → Public for both.
-2. **Save & Close**, then **Compile** and **Install** again.
+### Steps:
 
----
+1. Go to **Site Views → New**.
+2. Choose between **List** or **Item** view types.
+3. Connect the site view to its corresponding table or Dynamic GET.
+4. Define templates and layouts to control how data is displayed.
 
-## 6. Verify Frontend and Public Access
-
-[24:00](https://youtu.be/1KBBtQUxMTc?t=1440)
-
-If your new views don't appear publicly:
-
-1. Uninstall the component.
-2. Re-install it fresh - JCB applies public access on first install.
-
-To keep existing data:
-
-* In **Admin View → MySQL Tab**, enable table backup.
-* Exclude volatile fields (`created_by`, `modified_by`, `access`, `asset_id`).
-* Compile before uninstalling.
+Templates allow page-level customization, while layouts define smaller view sections.
 
 ---
 
-## 7. Link a Menu Item
+## 8) Using Dynamic GETs
 
-[27:40](https://youtu.be/1KBBtQUxMTc?t=1660)
+[00:08:14](https://www.youtube.com/watch?v=9evJkBTnKxE&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h08m14s)
 
-1. In Joomla → **Menus → Main Menu → New**.
-2. **Menu Item Type** → Component → Hello World → `Greeting`.
-3. Optionally set as **Home**.
-4. **Save & Close**, then view the site.
-   You'll see "Hi there Michael".
+**Dynamic GETs** are JCB's **visual query builder**, letting you create advanced database queries without manual SQL.
 
----
+Use a Dynamic GET when:
 
-## 8. Make List Items Clickable (Using Slug & Route Helper)
+* You need to fetch data from multiple tables.
+* You want to apply filters, joins, or ordering visually.
 
-[31:10](https://youtu.be/1KBBtQUxMTc?t=1870)
+### To Create a Dynamic GET:
 
-In the `greetings` view, wrap each greeting in a link to the `greet` view:
+1. Go to **Dynamic GETs → New**.
+2. Select a **base table**.
+3. Add **joins**, **fields**, and **filters**.
+4. Save it and link it to a **Site View** or **Admin Report View**.
 
-```php
-<ul>
-<?php foreach ($this->items as $item): ?>
-    <li>
-        <a href="<?php echo JRoute::_('index.php?option=com_world&view=greet&id=' . $item->slug); ?>">
-            <?php echo $item->greeting; ?>
-        </a>
-    </li>
-<?php endforeach; ?>
-</ul>
-```
-
-> JCB creates the `slug` automatically in the model (using `alias` + `id`).
-> Check `models/greetings.php` or use the helper route method `WorldHelperRoute::getGreetRoute($slug)`.
-
-Recompile and install.
+This feature keeps your logic organized and reusable across multiple layouts.
 
 ---
 
-## 9. Add Edit Links on Frontend
+## 9) Compiling and Installing the Component
 
-[34:55](https://youtu.be/1KBBtQUxMTc?t=2095)
+[00:08:51](https://www.youtube.com/watch?v=9evJkBTnKxE&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h08m51s)
 
-1. In the **Custom PHP Tab** of the site view, add:
+After defining views, fields, and templates, it's time to build your installable component.
 
-   ```php
-   $this->edit = JRoute::_('index.php?option=com_world&task=greeting.edit');
-   ```
-2. In the default template, add:
+### Compile Steps:
 
-   ```php
-   <a href="<?php echo $this->edit . '&id=' . $this->item->id; ?>">Edit</a>
-   ```
-3. Recompile and Install.
+1. From the **Component list**, click **Compile**.
+2. Choose:
 
-If you click **Edit** without permission, Joomla shows a "not permitted" message.
-Login as an authorized user to see the edit form.
+   * **Test Mode (Dry Run):** Generate code without installation.
+   * **Normal Build:** Create an installable ZIP file.
+3. After successful build:
 
----
+   * You can **install directly** from JCB's compiler view, or
+   * Upload the ZIP via Joomla's **Extensions → Install**.
 
-## 10. Verify Permissions Logic
+Verify that:
 
-[38:40](https://youtu.be/1KBBtQUxMTc?t=2320)
-
-The helper class (`/admin/helpers/world.php`) contains `getActions($view, $id = 0)` which returns an object of permissions:
-
-* `core.create`
-* `core.edit`
-* `core.delete`
-* `core.edit.state`
-
-Use it to show/hide buttons based on user rights in your templates.
+* Backend views load correctly under **Components → Your Component**.
+* Site menu items link to frontend views as expected.
 
 ---
 
-## Result
+## 10) Contributing and Feature Requests
 
-Congratulations 🎉
+[00:09:50](https://www.youtube.com/watch?v=9evJkBTnKxE&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h09m50s)
 
-In under 30 minutes you've built a component that supports:
+The developer encourages collaboration to ensure JCB's ongoing improvement.
 
-* Admin field definitions and database integration
-* Dynamic Gets and site views
-* Versioning and permissions
-* Public frontend display and editing
+If you encounter issues or have feature suggestions:
 
-Your new **Hello World** component now shows how quickly JCB can build powerful Joomla applications with just a few clicks.
+* Report them publicly on GitHub under the **Issues** section.
+* Start new **feature requests** there.
+* For sponsored development or priority requests, you can reach out directly to the maintainer.
+
+Engaging publicly ensures that discussions and resolutions benefit everyone.
+
+---
+
+## 11) Supporting the Project
+
+[00:08:51](https://www.youtube.com/watch?v=9evJkBTnKxE&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h08m51s)
+
+Since JCB is free, users are asked **not to distribute the training videos** without permission.
+If you find value in the tool and it saves you time, consider contributing financially to help fund continued development.
+
+Your support helps sustain improvements for the whole Joomla developer community.
+
+---
+
+## 12) Summary - Complete Workflow
+
+[00:11:09](https://www.youtube.com/watch?v=9evJkBTnKxE&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h11m09s)
+
+1. **Set up** a local Joomla environment.
+2. **Install** Joomla Component Builder.
+3. **Create** your component (base configuration).
+4. **Add** Admin Views and Fields.
+5. **Build** Site Views and Templates.
+6. **Use Dynamic GETs** for complex queries.
+7. **Compile and Test** using Dry Run mode.
+8. **Install** and verify functionality.
+9. **Refine and iterate** until stable.
+10. **Contribute** to the JCB community.
 
 ---
