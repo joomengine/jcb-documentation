@@ -69,6 +69,7 @@ Joomla Component Builder (JCB) packs years of community knowledge into one docum
 - [Reuse Custom Code](./Reuse-Custom-Code.md)
 
 ### 3. User experience & site delivery
+Combine layouts, Dynamic Gets, and optional JavaScript/CSS libraries to craft polished administrator and frontend experiences that mirror your data model.
 - [Custom Admin Views](./Custom-Admin-Views.md)
 - [Setup Site Edit View](./Setup-Site-Edit-View-in-JCB.md)
 - [Quick Hello World (accelerated build)](./The-Quick-Hello-Word-with-JCB.md)

@@ -2,7 +2,7 @@
 
 ## Start here
 
-These tutorials will give you a practical understanding of how Joomla Component Builder (JCB) works. The documentation below pairs each walkthrough with timeline references from its companion video so you can jump straight to the moment you need.
+These tutorials will give you a practical understanding of how Joomla Component Builder (JCB) works. The documentation below pairs each walkthrough with timeline references from its companion video so you can jump straight to the moment you need. As you read, pay particular attention to how **Custom Admin Views** extend Joomla's backend—those chapters now highlight how templates, layouts, Dynamic Gets, and optional assets combine to deliver bespoke administrator workflows.
 
 A revision of this knowledge base is underway to add timelines and polish every transcript. Chapters one through seventy-one already include raw transcriptions and are actively being edited. Progress updates will continue to appear in the title of the chapter currently being refined, and new announcements are posted in the community forum once a chapter is finished.
 

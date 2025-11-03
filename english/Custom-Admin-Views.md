@@ -1,11 +1,56 @@
 # Custom Admin Views
 
-[00:00:00](https://www.youtube.com/watch?v=gtdQ1lwB9ds&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h00m00s)
-(*Click on these time links to see YouTube video.*)
+## Concept Primer
+
+### What Are Custom Admin Views?
+
+**Custom Admin Views** give you complete freedom to define bespoke administrative interfaces within your Joomla components—without being limited to Joomla's default view generators. They are the **admin-side counterpart to Site Views**, built using familiar JCB building blocks such as **Templates**, **Layouts**, **Dynamic Gets**, and **Custom Code**, with optional **JavaScript or CSS** assets layered on top when needed.
+
+Use Custom Admin Views to create:
+
+- Data dashboards
+- Import/export areas
+- Report generators
+- One-off administrative tools
+- Multi-tab editing views
+
+This turns Joomla's back end into a **powerful canvas** for any interface you envision—fully powered by the same JCB architecture used throughout the frontend.
+
+### How Are Custom Admin Views Composed?
+
+Each Custom Admin View can be an **Item View** (single entity), **List View** (multiple entities with pagination), or a **Hybrid/Utility View** for dashboards, batch operations, or bespoke tooling. Assemble them by combining:
+
+- One or more **Dynamic Gets** to fetch and relate data across tables
+- Optional **Forms**, **Filters**, or **Toolbars** to capture input
+- **Templates and Layouts** to structure output
+- **Custom Code blocks** to inject logic at specific compile points
+- Optional **JavaScript/CSS libraries** for richer interactions
+
+The result is total control over both data and design while still benefiting from JCB's compiler-driven workflow.
+
+### Reset, Fork, or Customise
+
+Like other JCB-powered assets, Custom Admin Views support version-controlled workflows:
+
+- **Init** a Custom Admin View from this repository
+- **Reset** to sync with the latest updates
+- **Push** your own improved versions
+- **Fork** the repo to fully customise your private admin interfaces
+
+Every Custom Admin View can evolve with your project's back-end needs, and JCB ensures your changes are safely retained through the compile lifecycle.
+
+> Admin interface design should never be an afterthought. With Custom Admin Views, you own the experience—from logic to layout, all inside Joomla Component Builder.
+
+### Index of Custom Admin Views
+
+Use the [_Sidebar](./_Sidebar.md) or [documentation index](./index.md) to jump straight to tutorials, walkthroughs, and reusable view definitions that demonstrate how Custom Admin Views behave in real projects.
 
 ---
 
-## Overview
+## Video Walkthrough Overview
+
+[00:00:00](https://www.youtube.com/watch?v=gtdQ1lwB9ds&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h00m00s)
+(*Click on these time links to see YouTube video.*)
 
 Custom Admin Views in **Joomla Component Builder (JCB)** are specialized backend views that allow you to display **custom layouts, reports, dashboards, or analytics** within the Joomla administrator area.
 
