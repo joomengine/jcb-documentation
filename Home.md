@@ -18,10 +18,10 @@ The [list of videos](https://www.youtube.com/playlist?list=PLQRGFI8XZ_wtGvPQZWBf
 # [Installation](https://git.vdm.dev/joomla/Component-Builder/wiki/003-Installation-of-JCB)
 + Basic installation instructions
 
-# [General Planning](https://git.vdm.dev/joomla/Component-Builder/wiki/004-General-Planning)
+# [General Planning](wiki/004-General-Planning)
 + Planning your component
 
-# [Field Types](https://git.vdm.dev/joomla/Component-Builder/wiki/005-Field-Types)
+# [Field Types](005-Field-Types)
 + [01:05](https://youtu.be/OhLzvThDXls?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=1m5s) **Field types** _Create Field Types Using basic joomla article to explain field types and their relationship within views_
 + [01:57](https://youtu.be/OhLzvThDXls?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=1m57s) **List view** _Difference between list view and edit view. Plural and single_
 + [05:45](https://youtu.be/OhLzvThDXls?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=5m45s) **Compile error** _Remember to select correct options that suit your build._
