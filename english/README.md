@@ -2,7 +2,7 @@
 
 ## What this page does
 
-Joomla Component Builder (JCB) packs years of community knowledge into one documentation set. This page curates the most important links and concepts so that a newcomer can move from “I have Joomla experience” to “I can ship a JCB component” without getting lost in the library. Use it together with the [Home](./Home.md) index: Start Here gives you the narrative path, while Home provides a chapter-by-chapter reference.
+Joomla Component Builder (JCB) packs years of community knowledge into one documentation set. This page curates the most important links and concepts so that a newcomer can move from “I have Joomla experience” to “I can ship a JCB component” without getting lost in the library. Use it together with the [Home](./index.md) index: Start Here gives you the narrative path, while Home provides a chapter-by-chapter reference.
 
 ---
 

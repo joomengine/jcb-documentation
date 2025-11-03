@@ -4,7 +4,7 @@ This page explains how the written and video resources for Joomla Component Buil
 
 ## Why these transcripts exist
 
-The video lessons listed on the [Home](./Home.md) page are being transcribed so that every spoken instruction is available as searchable text. Each chapter will eventually include:
+The video lessons listed on the [Home](./index.md) page are being transcribed so that every spoken instruction is available as searchable text. Each chapter will eventually include:
 
 - Verbatim dialogue that clarifies terminology used in the videos.
 - Screenshots taken from the lesson with direct links to the moment they appear on YouTube.
@@ -24,4 +24,4 @@ A Microsoft Word edition of the manual is in development. It will mirror the wik
 
 ## Continue learning
 
-Start at [Chapter 1 – Intro to JCB](https://github.com/vdm-io/Joomla-Component-Builder/wiki/4.-Intro-to-JCB) to see how transcripts and videos work together. From there follow the navigation links in [Start Here](./Start-Here.md) or the [Home](./Home.md) index to choose your next topic.
+Start at [Chapter 1 – Intro to JCB](https://github.com/vdm-io/Joomla-Component-Builder/wiki/4.-Intro-to-JCB) to see how transcripts and videos work together. From there follow the navigation links in [Start Here](./Start-Here.md) or the [Home](./index.md) index to choose your next topic.
