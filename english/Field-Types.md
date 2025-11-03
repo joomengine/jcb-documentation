@@ -14,9 +14,47 @@ Understanding **field types** is essential, as they determine what form elements
 A **field type** defines how a field behaves and appears - for example, a text box, checkbox, date picker, list, or repeatable input.
 These are stored in XML format and processed through Joomla's API to render the form dynamically.
 
+Beyond local definitions, JCB also integrates with **Field Type repositories**. Field types are maintained separately—just like
+[packages](How-to-install-jcb-packages.md) and [snippets](General-overview-of-how-community-snippets-work.md)—so you can share,
+reuse, and synchronise them across projects or entire teams.
+
 > **Key Concept:**
 > All fields exist within views - either **list views** (plural) or **edit views** (single).
 > JCB builds these automatically when you define them in your component.
+
+---
+
+## 1.1 Field Type Repositories & Global Syncing
+
+JCB ships with full repository support for field types. A central, community-maintained repository keeps the canonical
+definitions for every field type used across JCB projects. The official repository lives at
+[`joomengine/joomla-fieldtypes`](https://github.com/joomengine/joomla-fieldtypes) and contains the latest versions of every core
+type—ranging from **Text** and **List** to more advanced types such as **ModalSelect**, **Repeatable**, or **DynamicCheckboxes**.
+
+### Why repositories matter
+
+* **Global reset** – Any local field type can be reset to the upstream definition directly from the JCB GUI using the **Reset**
+  button. This ensures the metadata, XML attributes, and demo values match the authoritative version.
+* **Project bootstrap** – When you initialise a new JCB installation, you can immediately pull every field type from the global
+  repository so that the component builder starts with the most up-to-date library.
+* **Collaboration** – Teams can rely on a shared source of truth. Updates made in one project (and pushed to the repository) can
+  be distributed to every other project through a pull.
+
+### Repository operations
+
+Field type repositories support the same workflow as snippets and packages:
+
+| Action | Description |
+| --- | --- |
+| **Init** | Configure a local JCB installation to track a field type repository (community, organisational, or personal). |
+| **Pull** | Import or refresh all field types from the remote repository. Use this when setting up a new environment or when new versions are published upstream. |
+| **Push** | Publish your local updates back to the repository—ideal when you curate a custom library for your organisation. |
+
+You can connect to the global community repository or point JCB to a fork/alternative remote, giving you full autonomy over the
+definitions you distribute.
+
+> **Tip:** Fork the official repository if you need custom defaults while still benefiting from upstream improvements. You can
+> merge updates into your fork whenever new field types are released.
 
 ---
 
