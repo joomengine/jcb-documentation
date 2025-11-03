@@ -1,6 +1,6 @@
 # Making a Pull Request at Joomla Component Builder Snippets
 
-This guide explains how to **submit your snippet contributions** to the official Joomla Component Builder (JCB) Snippets repository by creating a **pull request** (PR). It follows the exact workflow demonstrated in the [video tutorial](https://www.youtube.com/watch?v=vQ-yxVtc-Co&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h00m00s) and provides a clear, beginner-friendly explanation of each step.
+This guide explains how to **submit your snippet contributions** to the official Joomla Component Builder (JCB) Snippets repository by creating a **pull request** (PR). It follows the exact workflow demonstrated in the [video tutorial](https://www.youtube.com/watch?v=vQ-yxVtc-Co&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h00m00s) and provides a clear, beginner-friendly explanation of each step. The refreshed Snippet Manager now uses the **Reset → Init → Push** flow, so you can prepare, commit, and push updates straight from within JCB before opening your PR.
 
 ---
 
@@ -8,7 +8,7 @@ This guide explains how to **submit your snippet contributions** to the official
 
 [00:00:00](https://www.youtube.com/watch?v=vQ-yxVtc-Co&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h00m00s)
 
-A pull request (PR) allows you to submit your **committed changes** from your **forked version** of the `vdm-io/Joomla-Component-Builder-Snippets` repository back to the official repository.
+A pull request (PR) allows you to submit your **committed changes** from your **forked version** of the `joomengine/snippets` repository back to the official repository.
 
 * You'll be contributing to the **Snippets library** used by the JCB community.
 * The JCB team and other community managers will review and merge valid contributions.
@@ -22,11 +22,11 @@ A pull request (PR) allows you to submit your **committed changes** from your **
 
 Before you create a PR, make sure you have:
 
-1. **Forked** the main repository (`vdm-io/Joomla-Component-Builder-Snippets`).
-2. **Cloned** your fork locally.
-3. **Unzipped and updated** the snippet files into your local repository.
-4. **Committed** all your changes with clear commit messages.
-5. **Synchronized your branch** with the upstream (master) branch to avoid conflicts.
+1. **Forked** the main repository (`joomengine/snippets`).
+2. **Configured the Snippet Manager** in JCB to use your fork via the **Reset** dialog.
+3. **Initialized** the repository so the snippets you plan to edit are available locally.
+4. **Committed** your changes from JCB using the **Push** action (which writes to your fork).
+5. **Synchronized your branch** with the upstream (usually the `main` branch) before opening a pull request.
 
 > **Tip:** If you're unsure about forking or syncing your repository, watch the **previous tutorial** in the playlist before proceeding.
 
@@ -42,7 +42,7 @@ Once your commits are ready and pushed to GitHub:
 * You'll see a message like:
 
   ```
-  This branch is 4 commits ahead of vdm-io:master.
+  This branch is 4 commits ahead of joomengine:main.
   ```
 * Click **"Pull request"** to start the PR process.
 
@@ -54,7 +54,7 @@ Once your commits are ready and pushed to GitHub:
 
 GitHub will show:
 
-* **Base repository:** `vdm-io/Joomla-Component-Builder-Snippets (master)`
+* **Base repository:** `joomengine/snippets (main)`
 * **Head repository:** your fork and branch
 
 If GitHub shows **"Able to merge"**, everything is ready.
@@ -162,8 +162,8 @@ For conflicts, follow GitHub's **"command-line instructions"** link to learn how
 
 Once merged:
 
-* The new or updated snippets become visible in **JCB's Snippet Get area**.
-* Other users can now download and use them directly from JCB.
+* The new or updated snippets become visible when users click **Init** in JCB's Snippets view.
+* Other users can now select and pull them directly into their projects from the same repository workflow.
 
 This streamlined integration keeps community snippets synced through GitHub without requiring manual database updates.
 
