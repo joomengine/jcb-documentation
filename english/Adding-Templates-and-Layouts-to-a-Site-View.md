@@ -128,6 +128,8 @@ In Joomla conventions:
 
 These rules stem from how Joomla implements rendering, not limitations in JCB.
 
+> 📚 **Need the repository workflow?** Read the [JCB! Layouts guide](./JCB-Layouts.md) to see how Init, Reset, Push, and Fork options keep these reusable files aligned with shared layout repositories.
+
 ---
 
 ### **Passing Data into Layouts**

@@ -15,6 +15,8 @@ If you have questions or want to get involved, join the project [discussions](ht
 
 > 📌 **New: Site View Architecture Explained** – Start with the revised [Adding Site Views](./Adding-Site-Views-to-a-Component.md) guide to see how Dynamic Gets, templates, layouts, custom code placeholders, and optional JS/CSS libraries assemble your frontend. Pair it with the updated [Template Setup](./Template-Setup.md) chapter to understand how these modular wrappers shape both site and admin experiences and how to keep them maintained across projects.
 
+> 🧱 **New: JCB! Layouts overview** – The dedicated [JCB! Layouts guide](./JCB-Layouts.md) now explains how to initialise, reset, push, and fork layout repositories inside the Layouts tab so your reusable markup stays version-controlled alongside your components.
+
 > 🔌 **New: JCB! Joomla Plugins** – Read the [Joomla Plugins overview](./Joomla-Plugins.md) to learn how event-driven logic travels with your component. The article now explains how plugins are bundled, configured, and shipped with each build so you can document automation next to the component features that depend on it.
 
 > 🧩 **Updated: Custom Code Workflows** – The new [JCB! Custom Codes Overview](./JCB-Custom-Codes.md) distils how argument-based manual snippets and hash-driven automation complement each other, including encoding rules, language-string round trips, and collaboration tips.
