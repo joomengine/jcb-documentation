@@ -9,8 +9,8 @@ Joomla Component Builder (JCB) packs years of community knowledge into one docum
 ## Step 1 – Understand the landscape
 
 1. **Review Joomla's MVC structure** to see how administrator and site applications mirror each other, how controllers, models, and views are named, and how packages are assembled. [Component Structure and MVC Implementation](./Component-Structure-and-MVC-Implementation.md) bridges the gap between Joomla theory and JCB's automation.  
-2. **Clarify the JCB workflow mindset**—what the tool automates, what remains in your control, and how Dynamic Get, views, and fields relate. [Joomla Component Builder – Beginner-Friendly Guide](./002-Intro-to-JCB.md) summarises prerequisites, environment expectations, and the overall build loop.  
-3. **Map the database-to-interface relationship** so you know how admin views, site views, and fields combine to deliver data to users. Chapters [004 – General Planning](./004-General-Planning.md) and [005 – Field Types](./005-Field-Types.md) outline how to plan entities, choose field types, and prepare for compilation.
+2. **Clarify the JCB workflow mindset**—what the tool automates, what remains in your control, and how Dynamic Get, views, and fields relate. [Joomla Component Builder – Beginner-Friendly Guide](./Intro-to-JCB.md) summarises prerequisites, environment expectations, and the overall build loop.  
+3. **Map the database-to-interface relationship** so you know how admin views, site views, and fields combine to deliver data to users. Chapters [General Planning](./General-Planning.md) and [Field Types](./Field-Types.md) outline how to plan entities, choose field types, and prepare for compilation.
 
 > 🧭 **Outcome:** you should be able to describe the main Joomla directories, explain how JCB mirrors them, and articulate the planning steps before touching the builder interface.
 
@@ -18,8 +18,8 @@ Joomla Component Builder (JCB) packs years of community knowledge into one docum
 
 ## Step 2 – Prepare your toolchain
 
-1. **Set up a local Joomla environment** using the OctoJoom toolchain, which provisions Joomla's official Docker containers and Traefik for you. Follow [Setup Local Development Environment with OctoJoom](./072-Setup-Local-Development-Environment-with-OctoJoom.md) for a guided walkthrough, or replicate the same containerised requirements manually.
-2. **Install Joomla Component Builder** using the [Installation walkthrough](./003-Installation-of-JCB.md) (free vs paid packages, compiler usage, clearing temporary files).  
+1. **Set up a local Joomla environment** using the OctoJoom toolchain, which provisions Joomla's official Docker containers and Traefik for you. Follow [Setup Local Development Environment with OctoJoom](./Setup-Local-Development-Environment-with-OctoJoom.md) for a guided walkthrough, or replicate the same containerised requirements manually.
+2. **Install Joomla Component Builder** using the [Installation walkthrough](./Installation-of-JCB.md) (free vs paid packages, compiler usage, clearing temporary files).  
 3. **Verify PHP and server requirements** so compilation succeeds. The [PHP Settings reference](./PHP-Settings.md) lists recommended configuration values and troubleshooting tips.  
 4. **Import demo data (optional)** to explore working examples. The [Using the JCB Demo Component](./Using-the-JCB-Demo-Component-While-Building-Your-Local-Development-System.md) guide explains how to load and inspect it.
 
@@ -29,9 +29,9 @@ Joomla Component Builder (JCB) packs years of community knowledge into one docum
 
 ## Step 3 – Build your first component
 
-1. **Start with a guided example:** follow [001 – Hello World with Joomla Component Builder](./001-Hello-World-with-Joomla-Component-Builder.md) to create a simple component from scratch, including admin and site views, menu links, and permissions.  
-2. **Reinforce the foundations** by revisiting [006 – Basic Fields](./006-Basic-Fields.md) and [007 – Admin Views](./007-Admin-Views.md) to understand how fields populate lists and forms.  
-3. **Practice compilation and installation** by iterating through small changes, recompiling, and reinstalling within Joomla using the instructions in the Hello World tutorial and [005 – Field Types](./005-Field-Types.md#5-compiling-and-installing-your-component).  
+1. **Start with a guided example:** follow [Hello World with Joomla Component Builder](./Hello-World-with-Joomla-Component-Builder.md) to create a simple component from scratch, including admin and site views, menu links, and permissions.  
+2. **Reinforce the foundations** by revisiting [Basic Fields](./Basic-Fields.md) and [Admin Views](./Admin-Views.md) to understand how fields populate lists and forms.  
+3. **Practice compilation and installation** by iterating through small changes, recompiling, and reinstalling within Joomla using the instructions in the Hello World tutorial and [Field Types](./Field-Types.md#5-compiling-and-installing-your-component).  
 4. **Document your learning**—update component notes, track field names, and keep a changelog. This habit will ease later export/import or collaboration tasks.
 
 > 🧭 **Outcome:** you can create a functioning component, compile it, install it, and recognise how admin data flows to the site frontend.
@@ -42,11 +42,11 @@ Joomla Component Builder (JCB) packs years of community knowledge into one docum
 
 | Concept | Why it matters | Key resources |
 | --- | --- | --- |
-| **Planning views and fields** | Translating requirements into database tables, relationships, and permissions. | [004 – General Planning](./004-General-Planning.md), [009 – Adding Admin Views](./009-Adding-Admin-Views-to-a-Component.md), [019 – Adding Site Views](./019-Adding-Site-Views-to-a-Component.md) |
-| **Field types and validation** | Selecting the right inputs and enforcing correct data. | [005 – Field Types](./005-Field-Types.md), [008 – Advanced Fields](./008-Advanced-Fields.md), [045 – Adding Rule Validation](./045-Adding-your-own-rule-validation-to-a-field-in-JCB.md), [081 – Easy Validation Rules](./081-Easy-Validation-Rules-for-Fields-in-JCB.md) |
-| **Dynamic data retrieval** | Combining records across tables without manual SQL. | [013 – dynamicGet](./013-dynamicGet.md), [014 – Add dynamicGet to a Site View](./014-Adding-dynamicGet-to-a-Site-View.md), [031 – Automatic Custom Code Import](./031-Automatic-import-of-custom-code-during-compilation-in-JCB.md) |
-| **Templates and layouts** | Controlling presentation and reusing markup. | [015 – Templates & Layouts](./015-Adding-Templates-and-Layouts-to-a-Site-View.md), [016 – Template Setup](./016-Template-Setup.md), [017 – Layout Setup](./017-Layout-Setup.md) |
-| **Custom code and helpers** | Extending generated components safely. | [032 – Manual Custom Code Implementation](./032-JCB-manual-custom-code-implementation.md), [040 – Helper Structures](./040-Adding-Helper-Structures-to-any-JCB-component.md), [080 – Additional Helper Methods](./080-How-to-Add-More-Helper-Methods-to-Your-Components-Helper-Class.md) |
+| **Planning views and fields** | Translating requirements into database tables, relationships, and permissions. | [General Planning](./General-Planning.md), [Adding Admin Views](./Adding-Admin-Views-to-a-Component.md), [Adding Site Views](./Adding-Site-Views-to-a-Component.md) |
+| **Field types and validation** | Selecting the right inputs and enforcing correct data. | [Field Types](./Field-Types.md), [Advanced Fields](./Advanced-Fields.md), [Adding Rule Validation](./Adding-your-own-rule-validation-to-a-field-in-JCB.md), [Easy Validation Rules](./Easy-Validation-Rules-for-Fields-in-JCB.md) |
+| **Dynamic data retrieval** | Combining records across tables without manual SQL. | [dynamicGet](./dynamicGet.md), [Add dynamicGet to a Site View](./Adding-dynamicGet-to-a-Site-View.md), [Automatic Custom Code Import](./Automatic-import-of-custom-code-during-compilation-in-JCB.md) |
+| **Templates and layouts** | Controlling presentation and reusing markup. | [Templates & Layouts](./Adding-Templates-and-Layouts-to-a-Site-View.md), [Template Setup](./Template-Setup.md), [Layout Setup](./Layout-Setup.md) |
+| **Custom code and helpers** | Extending generated components safely. | [Manual Custom Code Implementation](./JCB-manual-custom-code-implementation.md), [Helper Structures](./Adding-Helper-Structures-to-any-JCB-component.md), [Additional Helper Methods](./How-to-Add-More-Helper-Methods-to-Your-Components-Helper-Class.md) |
 
 > 🧭 **Outcome:** you know where to deepen knowledge on each pillar as soon as your project requires it.
 
@@ -55,28 +55,28 @@ Joomla Component Builder (JCB) packs years of community knowledge into one docum
 ## Step 5 – Choose your learning pathway
 
 ### 1. Project planning & collaboration
-- [010 – Component Settings](./010-Component-Settings.md)
-- [063 – Collaborative Workflow](./063-Proposed-Collaborative-Workflow-in-JCB.md)
-- [033 – Export/Import Fully Mapped Components](./033-Export-Import-of-fully-mapped-components.md)
-- [039 – Automated Backup System](./039-Automated-backup-system-in-JCB.md)
+- [Component Settings](./Component-Settings-Overview.md)
+- [Collaborative Workflow](./Proposed-Collaborative-Workflow-in-JCB.md)
+- [Export/Import Fully Mapped Components](./Export-Import-of-fully-mapped-components.md)
+- [Automated Backup System](./Automated-backup-system-in-JCB.md)
 
 ### 2. Data management & automation
-- [021 – Tweaking MySQL Demo Data](./021-Tweaking-MySQL-Demo-Data.md)
-- [037 – Auto-create SQL Updates](./037-Auto-create-SQL-updates-for-Componets-in-JCB.md)
-- [052 – Automated Database Updates](./052-Automated-database-updates-in-Joomla-during-development-of-a-component.md)
-- [071 – Reuse Custom Code](./071-Reuse-Custom-Code.md)
+- [Tweaking MySQL Demo Data](./Tweaking-MySQL-Demo-Data.md)
+- [Auto-create SQL Updates](./Auto-create-SQL-updates-for-Componets-in-JCB.md)
+- [Automated Database Updates](./Automated-database-updates-in-Joomla-during-development-of-a-component.md)
+- [Reuse Custom Code](./Reuse-Custom-Code.md)
 
 ### 3. User experience & site delivery
-- [018 – Custom Admin Views](./018-Custom-Admin-Views.md)
-- [038 – Setup Site Edit View](./038-Setup-Site-Edit-View-in-JCB.md)
-- [058 – Quick Hello World (accelerated build)](./058-The-Quick-Hello-Word-with-JCB.md)
-- [060 – Custom Dashboard Option](./060-The-custom-dashboard-option-in-JCB.md)
+- [Custom Admin Views](./Custom-Admin-Views.md)
+- [Setup Site Edit View](./Setup-Site-Edit-View-in-JCB.md)
+- [Quick Hello World (accelerated build)](./The-Quick-Hello-Word-with-JCB.md)
+- [Custom Dashboard Option](./The-custom-dashboard-option-in-JCB.md)
 
 ### 4. Extensibility & ecosystem
-- [046 – Community Snippets Overview](./046-General-overview-of-how-community-snippets-work.md)
-- [047 – Forking JCB Snippets](./047-Tutorial-on-forking-JCB-snippets-so-you-can-share-your-snippets-with-the-rest-of-the-Community.md)
-- [048 – Making a Snippet Pull Request](./048-Tutorial-on-making-a-pull-request-at-Joomla-Component-Builder-Snippets.md)
-- [062 – Add Your Own JCB Packages](./062-Add-your-own-JCB-packages-to-the-JCB-Communty-Directory.md)
+- [Community Snippets Overview](./General-overview-of-how-community-snippets-work.md)
+- [Forking JCB Snippets](./Tutorial-on-forking-JCB-snippets-so-you-can-share-your-snippets-with-the-rest-of-the-Community.md)
+- [Making a Snippet Pull Request](./Tutorial-on-making-a-pull-request-at-Joomla-Component-Builder-Snippets.md)
+- [Add Your Own JCB Packages](./Add-your-own-JCB-packages-to-the-JCB-Communty-Directory.md)
 
 > 🧭 **Outcome:** pick the pathway that matches your immediate project stage and follow the linked tutorials in sequence.
 
@@ -84,10 +84,10 @@ Joomla Component Builder (JCB) packs years of community knowledge into one docum
 
 ## Step 6 – Maintain and scale your builds
 
-1. **Global configuration management:** master component-level settings via [022 – Global Settings](./022-Global-Settings-of-Component-Builder.md) and learn how menu parameters interact in [083 – Manage Component Config Options](./083-Manage-a-Components-Global-Config-Option-Field-in-Relation-With-Menu-Params.md).  
-2. **Deploy upgrades confidently:** study [037 – Auto-create SQL updates](./037-Auto-create-SQL-updates-for-Componets-in-JCB.md) alongside [070 – License Template Changes](./070-How-to-change-the-License-Template-in-JCB.md) to automate schema migrations and package metadata.  
-3. **Handle translations and localisation:** combine [050 – Easy Translation via Excel](./050-Easy-Translation-via-excel.md) with [035 – Translation Manager](./035-Translation-Mananger-in-JCB-explained.md) to streamline multilingual work.  
-4. **Monitor performance and stability:** leverage [039 – Automated Backup System](./039-Automated-backup-system-in-JCB.md) and [055 – Dynamic File Inclusion Concept](./055-Dynamic-File-and-Folder-Inclusion-concept.md) to keep generated code maintainable.
+1. **Global configuration management:** master component-level settings via [Global Settings](./Global-Settings-of-Component-Builder.md) and learn how menu parameters interact in [Manage Component Config Options](./Manage-a-Components-Global-Config-Option-Field-in-Relation-With-Menu-Params.md).  
+2. **Deploy upgrades confidently:** study [Auto-create SQL updates](./Auto-create-SQL-updates-for-Componets-in-JCB.md) alongside [License Template Changes](./How-to-change-the-License-Template-in-JCB.md) to automate schema migrations and package metadata.  
+3. **Handle translations and localisation:** combine [Easy Translation via Excel](./Easy-Translation-via-excel.md) with [Translation Manager](./Translation-Mananger-in-JCB-explained.md) to streamline multilingual work.  
+4. **Monitor performance and stability:** leverage [Automated Backup System](./Automated-backup-system-in-JCB.md) and [Dynamic File Inclusion Concept](./Dynamic-File-and-Folder-Inclusion-concept.md) to keep generated code maintainable.
 
 > 🧭 **Outcome:** you have a checklist for long-term maintenance tasks that go beyond the first release.
 
@@ -98,7 +98,7 @@ Joomla Component Builder (JCB) packs years of community knowledge into one docum
 - **Use Start Here + Home together:** Start Here points you to the right topic; Home lists every chapter with timeline references for quick scanning.  
 - **Search within the repository:** use your editor's search or command-line tools (`rg "keyword" english/`) to find specific features, field names, or helper references across the Markdown files.  
 - **Leverage the sidebar:** [`_Sidebar.md`](./_Sidebar.md) mirrors the Home index and can be pinned in GitHub or wiki views for persistent navigation.  
-- **Track revision status:** chapter titles include progress notes while the editing project is underway. Prioritise fully edited lessons like [005 – Field Types](./005-Field-Types.md) when you need polished guidance.  
+- **Track revision status:** chapter titles include progress notes while the editing project is underway. Prioritise fully edited lessons like [Field Types](./Field-Types.md) when you need polished guidance.  
 - **Keep personal notes:** maintain a `docs/notes.md` or issue tracker in your project repo to record how you applied tutorials—this shortens the feedback loop when troubleshooting.
 
 ---
