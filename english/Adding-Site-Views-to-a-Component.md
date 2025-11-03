@@ -12,7 +12,6 @@ Site Views in JCB define what users see on the front end of your Joomla componen
 - Optional **Custom Code placeholders** where you can inject reusable frontend logic from snippets or repositories.
 - Optional **JavaScript and CSS libraries** to enhance interaction or styling.
 
-Because Site Views initiate the requests that Joomla plugins respond to, map each view to the plugin events it might raise. For example, views that render content typically fire `onContentPrepare`, while views that manage authentication hand-offs may involve `onUserLogin`. Coordinating Site View design with the [JCB! Joomla Plugins](./Joomla-Plugins.md) checklist keeps frontend interactions and background automation in sync.
 
 Because every part is modular, you can reset a Site View to the maintained baseline whenever a repository updates, or fork it into your own repository when you need long-term customisation.
 

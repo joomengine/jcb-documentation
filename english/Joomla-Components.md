@@ -13,7 +13,7 @@ A component can include:
 - **Admin Views** – data tables, edit forms, ACL rules, and toolbar actions that power the backend experience.
 - **Site Views** – list and item layouts that ship to the frontend.
 - **Custom Admin Views** – bespoke management screens that sit outside the CRUD scaffolding.
-- **Modules and Plugins** – optional extensions that are packaged alongside the main component; document how their event triggers align with Site View flows using the [JCB! Joomla Plugins](./Joomla-Plugins.md) notes.
+- **Modules and Plugins** – optional extensions that are packaged alongside the main component; outline how each plugin is bundled, configured, and enabled using the [JCB! Joomla Plugins](./Joomla-Plugins.md) notes.
 - **Custom Code** – helper methods, class overrides, and reusable snippets injected into the generated output.
 - **Files and Folders** – media assets, scripts, language packs, or other resources that need to be copied into Joomla's filesystem.
 - **Database Tweaks** – schema updates, install/upgrade SQL, and demo data.
@@ -67,7 +67,7 @@ Use this page as a hub before diving into the deeper tutorials:
 - [Component Settings Overview](./Component-Settings-Overview.md) – understand global options, version targets, and packaging metadata.
 - [Adding Admin Views to a Component](./Adding-Admin-Views-to-a-Component.md) – define the data tables and backend screens that live inside your component.
 - [Adding Site Views to a Component](./Adding-Site-Views-to-a-Component.md) – surface data to the frontend once the component structure is in place.
-- [JCB! Joomla Plugins](./Joomla-Plugins.md) – connect Site View interactions to the plugin automation bundled with your component.
+- [JCB! Joomla Plugins](./Joomla-Plugins.md) – document how background automation and event listeners travel with the component during every compile.
 - [JCB Packaging Engine](./JCB-Packaging-Engine.md) – learn how JCB builds the installable archive after you configure your component.
 
 ---
