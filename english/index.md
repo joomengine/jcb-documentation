@@ -21,6 +21,8 @@ If you have questions or want to get involved, join the project [discussions](ht
 
 > 🧩 **Updated: Custom Code Workflows** – The new [JCB! Custom Codes Overview](./JCB-Custom-Codes.md) distils how argument-based manual snippets and hash-driven automation complement each other, including encoding rules, language-string round trips, and collaboration tips.
 
+> 📦 **New: JCB! Joomla Modules** – Explore the [JCB! Joomla Modules](./Joomla-Modules.md) overview to understand how modules compile with your components, inherit Reset/Fork versioning, and deliver reusable widgets to Joomla module positions.
+
 ---
 
 ### [Joomla Components in JCB](./Joomla-Components.md)
@@ -30,6 +32,16 @@ If you have questions or want to get involved, join the project [discussions](ht
 | Component overview | Summarises how admin views, site views, helpers, assets, and configuration are compiled into a Joomla extension. |
 | Release management | Explains how version targets, changelogs, and distribution metadata anchor each component. |
 | Collaboration links | Points you to deeper tutorials covering component settings, packaging, and team workflows. |
+
+---
+
+### [JCB! Joomla Modules](./Joomla-Modules.md)
+
+| Focus | Why it matters |
+| --- | --- |
+| Module fundamentals | Shows how modules attach to components, inherit Joomla structure, and render in module positions. |
+| Workflow integration | Explains Reset/Fork maintenance, version targeting, and how modules reuse component helpers and custom code. |
+| Placement planning | Highlights how to design administrator parameters and document recommended module placements. |
 
 ---
 

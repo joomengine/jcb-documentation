@@ -29,6 +29,7 @@
         - [Custom Admin Views Primer](Custom-Admin-Views)
         - [Adding Site Views](Adding-Site-Views-to-a-Component)
         - [Joomla Plugins](Joomla-Plugins)
+        - [JCB! Joomla Modules](Joomla-Modules)
         - [Custom Admin Integration](Adding-Custom-Admin-Views-to-a-Component)
 	- [MySQL Demo Tweaking](Tweaking-MySQL-Demo-Data)
 	- [Global JCB Settings](Global-Settings-of-Component-Builder)
