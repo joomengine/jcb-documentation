@@ -58,11 +58,9 @@ The **VDM Packages** and **JCB Community Packages** sections are managed to main
 You can contribute your own JCB packages to the **Community Repository**.
 A separate tutorial explains how to do this, ensuring that your shared package becomes accessible to all JCB users.
 
-In earlier versions, **VDM packages required paid keys**.
-Now, JCB offers **free keys** for verified users who show community support-by forking, starring, or watching the respective GitHub repositories.
+Earlier releases required access keys, but the unified public edition no longer hides packages behind licensing.
 
-Follow the on-screen link for details.
-Once you have your **key**, select the desired package (such as the **Joomla Component Builder itself**) and click **"Get Package."**
+Select the desired package (such as the **Joomla Component Builder itself**) and click **"Get Package."**
 
 [00:03:38](https://www.youtube.com/watch?v=PGmEoliopv8&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h03m38s)
 JCB will automatically download the package from GitHub into your development environment, validating it using a **checksum process**.
@@ -81,7 +79,7 @@ To ensure the package is authentic:
 
 This quick manual check guarantees that your package is legitimate and unchanged from the original source.
 
-Once verified, **enter your package key** in the corresponding field to continue.
+Once verified, proceed with the import—no package key is required.
 
 ---
 

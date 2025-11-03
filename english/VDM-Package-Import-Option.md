@@ -7,9 +7,9 @@
 ## Overview
 
 [00:00:00]
-The **VDM Package Import Option** in Joomla Component Builder (JCB) allows developers to easily import prebuilt component packages—either **free or paid**—from the official JCB GitHub repositories or other authorized sources.
+The **VDM Package Import Option** in Joomla Component Builder (JCB) allows developers to easily import prebuilt component packages from the official JCB GitHub repositories or other trusted community sources.
 
-This feature is especially beneficial for users who have purchased **JCB packages**, such as:
+This feature is especially beneficial for users who want quick access to maintained **JCB packages**, such as:
 
 * The **Advanced Demo Component**
 * The **Sermon Distributor Component**
@@ -34,7 +34,7 @@ This process may take a few moments as it fetches live data.
 [00:01:01]
 If GitHub repositories are updated with new packages, they will appear automatically within this list.
 
-**Currently available free packages** include:
+**Currently available packages** include:
 
 * Hello World
 * Demo Version
@@ -74,8 +74,7 @@ This initiates the download from GitHub. The process might take a few minutes de
 [00:02:55]
 When prompted:
 
-* If the package requires a license key, a **link** to purchase or retrieve it will be displayed.
-* Enter your **license key** if applicable.
+* Confirm the package details.
 * Click **Continue** to proceed.
 
 JCB will then install the package (for example, “Sermon Distributor 2.0.2”) and display installation details.
@@ -157,12 +156,12 @@ A proposed future enhancement is a **Community tab** in the Import Components ar
 
 This would allow:
 
-* Community members to share **free JCB packages**.
-* Developers to distribute **paid components** via controlled channels.
+* Community members to share **JCB packages** openly.
+* Maintainers to curate highlighted bundles for specific use cases.
 
 [00:08:04]
-Each package determines its own **metadata and purchase links**.
-For example, clicking on a package like `googlePlusProfileFeed` would redirect users to its associated product page.
+Each package determines its own **metadata and documentation links**.
+For example, clicking on a package like `googlePlusProfileFeed` could redirect users to its associated project page.
 
 [00:09:06]
 There are ongoing discussions about whether JCB should include contribution mechanisms to support this ecosystem.

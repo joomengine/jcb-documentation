@@ -17,13 +17,19 @@ The instructor introduces several components already built with JCB, including m
 
 ---
 
+## JCB Is Fully Open Source
+
+Joomla Component Builder is a single, unified project released under the GNU GPL. There is **no hidden “pro” edition** and no paid upgrade that unlocks additional capabilities. All advanced tooling, helper scripts, plugins, and demo material ship in the public package you download. The community decided to make the entire feature set openly available so that everyone can study, use, and improve JCB without encountering a pay gate. When you install the extension, you receive the complete toolchain that previously powered the closed “pro” release.
+
+---
+
 ## Using the Compiler
 
 [00:01:55](https://www.youtube.com/watch?v=t6Eux157428&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h01m55s)
 
 The **Compiler** is the heart of JCB. It transforms all the database settings, configurations, and code templates into a ready-to-install Joomla component.
 
-1. Select the component you wish to compile (in this example, the *public* version is chosen).
+1. Select the component you wish to compile (in this example, the Component Builder package itself is chosen).
 2. Click **Compile** to begin.
 3. JCB runs its internal scripts, taking data from the database and generating complete code for your component.
    [00:02:14](https://www.youtube.com/watch?v=t6Eux157428&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h02m14s)
@@ -68,13 +74,11 @@ To test your component, it's best practice to install it on a **fresh Joomla ins
 
 ---
 
-## Adding Database Information from Paid Versions
+## Understanding the Included Sample Data
 
 [00:05:19](https://www.youtube.com/watch?v=t6Eux157428&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h05m19s)
 
-If you start with the **free version** of JCB and later upgrade to a **paid version**, note that the **core functionality remains identical**-the difference lies only in the **database data** included.
-
-Paid versions include additional preloaded datasets such as more field types, demo components, and configuration examples. You can integrate this data manually if needed.
+JCB ships with the full collection of field types, demo components, and configuration examples that were historically bundled with the closed editions. These reference items live inside the package’s SQL files so that every installation starts with the same rich dataset. If you ever experiment with the data and want to compare it to the defaults, the following sections explain how to inspect and restore those records.
 
 ---
 
@@ -89,30 +93,29 @@ Paid versions include additional preloaded datasets such as more field types, de
 4. Scroll to the bottom of this file to view **dumped data entries**.
    [00:06:28](https://www.youtube.com/watch?v=t6Eux157428&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h06m28s)
 
-In the **free version**, only a few entries (like field types and help menus) are included.
-In the **paid version**, the SQL file contains a richer dataset, enabling more predefined field types and configurations.
+The installer now includes the complete dataset by default. You will find numerous predefined field types, help menus, and demo records ready to explore or adapt for your own projects.
 
 ---
 
-## Option 1: Uninstall Free Version and Install Purchased Version
+## Option 1: Reinstall JCB to Restore Default Data
 
 [00:07:05](https://www.youtube.com/watch?v=t6Eux157428&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h07m05s)
 
-The simplest way to switch to a paid version is:
+If you want to reset JCB to the original dataset, perform a clean reinstall:
 
 1. Go to **Extensions → Manage → Manage**.
 2. Select your existing Component Builder installation.
 3. Click **Uninstall**.
-4. Install the new (paid) version you downloaded.
+4. Install the current public package you downloaded.
 
 > Joomla only creates tables during a **fresh installation**, not on updates.
-> Therefore, uninstalling ensures the new version's data is properly installed.
+> Therefore, uninstalling ensures the default data is restored exactly as shipped.
 
 [00:07:29](https://www.youtube.com/watch?v=t6Eux157428&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h07m29s)
 
 ---
 
-## Option 2: Import Database Data Manually via MySQL
+## Option 2: Restore Sample Data Manually via MySQL
 
 [00:07:41](https://www.youtube.com/watch?v=t6Eux157428&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h07m41s)
 
@@ -122,23 +125,22 @@ Advanced users can manually import database content:
 2. Locate the relevant JCB tables (e.g., `#__fieldtypes`).
 3. **Truncate** the table to clear old data.
    [00:08:30](https://www.youtube.com/watch?v=t6Eux157428&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h08m30s)
-4. Copy the SQL dump data from the paid version's `install.sql` file.
+4. Copy the SQL dump data from the package's `install.sql` file.
 5. Replace the table prefix (`#__`) with your actual Joomla table prefix.
 6. Paste and execute the SQL query.
    [00:09:49](https://www.youtube.com/watch?v=t6Eux157428&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h09m49s)
 
-This will update your JCB tables with the richer dataset from the paid version-without reinstalling the entire component.
-However, this approach requires SQL knowledge and careful handling.
+This will update your JCB tables with the default dataset—without reinstalling the entire component. However, this approach requires SQL knowledge and careful handling.
 
 [00:10:29](https://www.youtube.com/watch?v=t6Eux157428&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h10m29s)
 
 ---
 
-## Installing the Paid Version
+## Reinstalling JCB After a Reset
 
 [00:10:53](https://www.youtube.com/watch?v=t6Eux157428&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h10m53s)
 
-If you uninstall the free version and install the paid one from **VDM.IO**, you'll start with a clean slate:
+After a clean reinstall from **VDM.IO**, you'll start with a clean slate:
 
 * No old component data remains.
 * Only the updated field types and structures are installed.
@@ -150,11 +152,11 @@ You'll see an empty component list but with a full set of **enhanced field types
 
 ---
 
-## More Field Types Available
+## Exploring the Included Field Types
 
 [00:12:15](https://www.youtube.com/watch?v=t6Eux157428&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h12m15s)
 
-With the Developer (paid) version now installed:
+With the public package installed:
 
 * Navigate to **Field Types** inside Component Builder.
 * Notice a larger selection of predefined field types.
@@ -173,7 +175,7 @@ The tutorial will continue by exploring **Field Types** in detail as the next st
 | 1    | Install or compile a component | Use JCB's compiler to generate an installable `.zip` package |
 | 2    | Clear temporary folder         | Remove `.zip` files from `/tmp` for security                 |
 | 3    | Install on test Joomla site    | Test on a blank installation to confirm success              |
-| 4    | Upgrade to paid version        | Either uninstall free version or import database data        |
-| 5    | Verify field types             | Confirm that additional field types are available            |
+| 4    | Restore default data (optional)| Reinstall JCB or import the sample dataset if you need a reset |
+| 5    | Verify field types             | Confirm that the full library of field types is available    |
 
 ---

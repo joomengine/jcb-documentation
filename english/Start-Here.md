@@ -19,7 +19,7 @@ Joomla Component Builder (JCB) packs years of community knowledge into one docum
 ## Step 2 – Prepare your toolchain
 
 1. **Set up a local Joomla environment** using the OctoJoom toolchain, which provisions Joomla's official Docker containers and Traefik for you. Follow [Setup Local Development Environment with OctoJoom](./Setup-Local-Development-Environment-with-OctoJoom.md) for a guided walkthrough, or replicate the same containerised requirements manually.
-2. **Install Joomla Component Builder** using the [Installation walkthrough](./Installation-of-JCB.md) (free vs paid packages, compiler usage, clearing temporary files).  
+2. **Install Joomla Component Builder** using the [Installation walkthrough](./Installation-of-JCB.md) (single public package, compiler usage, clearing temporary files).
 3. **Verify PHP and server requirements** so compilation succeeds. The [PHP Settings reference](./PHP-Settings.md) lists recommended configuration values and troubleshooting tips.  
 4. **Import demo data (optional)** to explore working examples. The [Using the JCB Demo Component](./Using-the-JCB-Demo-Component-While-Building-Your-Local-Development-System.md) guide explains how to load and inspect it.
 
