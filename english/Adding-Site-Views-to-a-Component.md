@@ -2,6 +2,18 @@
 
 Site Views in JCB define what users see on the front end of your Joomla component.
 
+## Site View fundamentals
+
+**Site Views** are the public-facing view of your Joomla component—JCB generates the Joomla-native model, view, and controller files for you while you decide how information appears. Each view combines:
+
+- A **Main Dynamic Get** that determines how data loads (single record or lists).
+- Any number of **Custom Dynamic Gets** to provide supplemental datasets.
+- Integrated **Templates** and **Layouts** so you can organise markup and reuse presentation logic.
+- Optional **Custom Code placeholders** where you can inject reusable frontend logic from snippets or repositories.
+- Optional **JavaScript and CSS libraries** to enhance interaction or styling.
+
+Because every part is modular, you can reset a Site View to the maintained baseline whenever a repository updates, or fork it into your own repository when you need long-term customisation.
+
 ---
 
 ## [00:00:00](https://www.youtube.com/watch?v=zZ_HJeYL8ps&t=00h00m00s) - Accessing Component Settings
@@ -158,6 +170,18 @@ Once you've configured your Site Views:
    * Default view redirection.
 
 > **Result:** Your Site Views are now active, accessible, and properly configured.
+
+---
+
+## Keep Site Views in sync across projects
+
+Site Views ship from curated repositories. Whenever an upstream definition improves:
+
+1. **Select** the Site Views you want to refresh in JCB.
+2. Click **Reset** to pull in the latest maintained version.
+3. Recompile your component so the generated MVC files include the updates.
+
+If you need to diverge permanently, **fork the repository** that maintains the Site View, adjust it to your needs, and point JCB to your fork. This keeps your custom logic version-controlled while still benefiting from JCB's automatic generation.
 
 ---
 

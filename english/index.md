@@ -2,7 +2,7 @@
 
 ## Start here
 
-These tutorials will give you a practical understanding of how Joomla Component Builder (JCB) works. The documentation below pairs each walkthrough with timeline references from its companion video so you can jump straight to the moment you need. As you read, pay particular attention to how **Custom Admin Views** extend Joomla's backend—those chapters now highlight how templates, layouts, Dynamic Gets, and optional assets combine to deliver bespoke administrator workflows.
+These tutorials will give you a practical understanding of how Joomla Component Builder (JCB) works. The documentation below pairs each walkthrough with timeline references from its companion video so you can jump straight to the moment you need. As you read, pay particular attention to how **Custom Admin Views** extend Joomla's backend and how the refreshed **Site View** chapters explain the public-facing side—JCB now documents how Dynamic Gets, templates, layouts, reusable code blocks, and frontend libraries combine to deliver bespoke experiences for your visitors.
 
 A revision of this knowledge base is underway to add timelines and polish every transcript. Chapters one through seventy-one already include raw transcriptions and are actively being edited. Progress updates will continue to appear in the title of the chapter currently being refined, and new announcements are posted in the community forum once a chapter is finished.
 
@@ -10,7 +10,7 @@ For a glimpse at the target quality, review the fully edited [Field Types](./Fie
 
 If you have questions or want to get involved, join the project [discussions](https://github.com/vdm-io/Joomla-Component-Builder/discussions). You can also explore the complete [YouTube playlist](https://www.youtube.com/playlist?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE) of JCB tutorials.
 
-> 📌 **New: Updated JCB Template Guidance** – Templates now have dedicated coverage that explains how they wrap both site and custom admin views, nest layouts, and sync from shared repositories. Start with [Template Setup](./Template-Setup.md) to understand how these modular wrappers shape your component output and how to keep them maintained across projects.
+> 📌 **New: Site View Architecture Explained** – Start with the revised [Adding Site Views](./Adding-Site-Views-to-a-Component.md) guide to see how Dynamic Gets, templates, layouts, custom code placeholders, and optional JS/CSS libraries assemble your frontend. Pair it with the updated [Template Setup](./Template-Setup.md) chapter to understand how these modular wrappers shape both site and admin experiences and how to keep them maintained across projects.
 
 ---
 

@@ -11,7 +11,7 @@ Joomla Component Builder (JCB) packs years of community knowledge into one docum
 1. **See the big picture of a component** so you understand what JCB ultimately packages. [Joomla Components in JCB](./Joomla-Components.md) explains how every view, helper, script, and configuration ends up inside the compiled extension.
 2. **Review Joomla's MVC structure** to see how administrator and site applications mirror each other, how controllers, models, and views are named, and how packages are assembled. [Component Structure and MVC Implementation](./Component-Structure-and-MVC-Implementation.md) bridges the gap between Joomla theory and JCB's automation.
 3. **Clarify the JCB workflow mindset**—what the tool automates, what remains in your control, and how Dynamic Get, views, and fields relate. [Joomla Component Builder – Beginner-Friendly Guide](./Intro-to-JCB.md) summarises prerequisites, environment expectations, and the overall build loop.
-4. **Map the database-to-interface relationship** so you know how admin views, site views, and fields combine to deliver data to users. Chapters [General Planning](./General-Planning.md) and [Field Types](./Field-Types.md) outline how to plan entities, choose field types, and prepare for compilation.
+4. **Map the database-to-interface relationship** so you know how admin views, site views, and fields combine to deliver data to users. Chapters [General Planning](./General-Planning.md) and [Field Types](./Field-Types.md) outline how to plan entities, choose field types, and prepare for compilation, while the refreshed [Adding Site Views](./Adding-Site-Views-to-a-Component.md) guide explains how Dynamic Gets, templates, layouts, reusable code blocks, and libraries assemble the public experience.
 
 > 🧭 **Outcome:** you should be able to describe the main Joomla directories, explain how JCB mirrors them, and articulate the planning steps before touching the builder interface.
 
@@ -44,6 +44,7 @@ Joomla Component Builder (JCB) packs years of community knowledge into one docum
 | Concept | Why it matters | Key resources |
 | --- | --- | --- |
 | **Planning views and fields** | Translating requirements into database tables, relationships, and permissions. | [General Planning](./General-Planning.md), [Adding Admin Views](./Adding-Admin-Views-to-a-Component.md), [Adding Site Views](./Adding-Site-Views-to-a-Component.md) |
+| **Site View composition & reuse** | Design public layouts by pairing a main Dynamic Get with templates, layouts, custom code placeholders, and optional JS/CSS libraries, then manage updates through resets or forks. | [Adding Site Views](./Adding-Site-Views-to-a-Component.md), [Adding Templates & Layouts](./Adding-Templates-and-Layouts-to-a-Site-View.md), [dynamicGet](./dynamicGet.md) |
 | **Field types and validation** | Selecting the right inputs and enforcing correct data. | [Field Types](./Field-Types.md), [Advanced Fields](./Advanced-Fields.md), [Adding Rule Validation](./Adding-your-own-rule-validation-to-a-field-in-JCB.md), [Easy Validation Rules](./Easy-Validation-Rules-for-Fields-in-JCB.md) |
 | **Dynamic data retrieval** | Combining records across tables without manual SQL. | [dynamicGet](./dynamicGet.md), [Add dynamicGet to a Site View](./Adding-dynamicGet-to-a-Site-View.md), [Automatic Custom Code Import](./Automatic-import-of-custom-code-during-compilation-in-JCB.md) |
 | **Templates and layouts** | Wrap site/admin views with modular structures, nest layouts, and sync reusable markup from shared repositories. | [Templates & Layouts](./Adding-Templates-and-Layouts-to-a-Site-View.md), [Template Setup](./Template-Setup.md), [Layout Setup](./Layout-Setup.md) |
@@ -69,7 +70,7 @@ Joomla Component Builder (JCB) packs years of community knowledge into one docum
 - [Reuse Custom Code](./Reuse-Custom-Code.md)
 
 ### 3. User experience & site delivery
-Combine layouts, Dynamic Gets, and optional JavaScript/CSS libraries to craft polished administrator and frontend experiences that mirror your data model.
+Combine layouts, Dynamic Gets, optional JavaScript/CSS libraries, and reusable custom code placeholders to craft polished administrator and frontend experiences that mirror your data model. Reset or fork Site Views when you need to sync with shared repositories or maintain long-term customisations.
 - [Custom Admin Views](./Custom-Admin-Views.md)
 - [Setup Site Edit View](./Setup-Site-Edit-View-in-JCB.md)
 - [Quick Hello World (accelerated build)](./The-Quick-Hello-Word-with-JCB.md)

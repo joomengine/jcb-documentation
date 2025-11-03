@@ -1,6 +1,6 @@
 # Setup Site Edit View in Joomla Component Builder
 
-Learn how to configure and enable editing for an **Admin View** on the **front-end site** using Joomla Component Builder (JCB). This allows users to **create** and **edit** component items directly from the public interface - with permissions controlling who can do what.
+Learn how to configure and enable editing for an **Admin View** on the **front-end site** using Joomla Component Builder (JCB). This allows users to **create** and **edit** component items directly from the public interface - with permissions controlling who can do what. Frontend Site Views now share the same modular building blocks highlighted across the documentation: a main Dynamic Get feeds your templates, optional Custom Gets power additional layouts or libraries, and reusable custom code placeholders keep your logic tidy.
 
 ---
 

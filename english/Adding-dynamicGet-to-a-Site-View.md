@@ -4,7 +4,7 @@
 
 [00:00:00](https://www.youtube.com/watch?v=vEJZe6XqHJE&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h00m57s)
 
-Now that the DynamicGet is in place, the next step is to **add it to a Site View** and observe how it functions within the component.
+Now that the DynamicGet is in place, the next step is to **add it to a Site View** and observe how it functions within the component. In the refreshed Site View workflow, the main Dynamic Get anchors the data that flows into your templates and layouts, while additional Custom Gets fuel reusable code placeholders, AJAX loaders, or library-powered UI widgets.
 
 1. Navigate to **Site Views** in Joomla Component Builder.
 2. Click **New** to create a new Site View.
@@ -222,6 +222,12 @@ All Site View templates are stored under:
 The **default.php** file represents the main output layout, while other layout templates (in the `layouts` folder) can extend or override this default layout.
 
 [00:14:24](https://www.youtube.com/watch?v=vEJZe6XqHJE&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h14m24s)
+
+---
+
+### Keep data-powered views maintainable
+
+Dynamic Gets, templates, and libraries are version-controlled in JCB repositories. When a maintained Site View updates, select it in JCB and click **Reset** to pull in the latest Dynamic Get bindings and layout structure, then recompile. If your project needs a bespoke variation, fork the repository, point JCB to your copy, and continue evolving your custom code placeholders in sync with your data model.
 
 ---
 
