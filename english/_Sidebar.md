@@ -1,3 +1,4 @@
+* [Start Here](Start-Here)
 * [Home](https://git.vdm.dev/joomla/Component-Builder/wiki)
 * [Beta Testing](Beta-Testing)
 * [Custom Code](https://git.vdm.dev/joomla/Component-Builder/wiki/TIPS:-Custom-Code)
