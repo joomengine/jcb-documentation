@@ -71,12 +71,12 @@ JCB includes a **Custom Code Manager** under:
 
 > **Component → Custom Code**
 
-This area allows you to define reusable PHP code blocks. These snippets can be inserted into multiple areas of your components during compilation.
+This area allows you to define reusable code blocks that are injected during compilation. The UI now labels two complementary workflows:
 
-There are two main types:
+1. **JCB (manual)** – Write a reusable snippet once, inject it anywhere with `[CUSTOMCODE=...]`, and optionally pass arguments that map to `[[[arg0]]]`, `[[[arg1]]]`, etc. Remember to encode reserved characters such as `,` or `+` (`&#44;`, `&#43;`) when sending them as arguments.
+2. **Hash (automation)** – Surround code inside a compiled component with insert or replace tags (e.g. `/***[INSERT<>123]***/`) so JCB can import the block, track its location, and reapply it on future builds.
 
-1. **Manual Custom Code (Reusable snippets)** - Functions you create and use across many components or views.
-2. **Automated Custom Code (Hash-based)** - Code managed and inserted by JCB automatically into specific file areas.
+Both types live in the same manager so you can mix reusable helper logic with on-disk overrides without losing the relationship to their target files.
 
 ---
 

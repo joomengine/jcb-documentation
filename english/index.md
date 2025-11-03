@@ -12,6 +12,8 @@ If you have questions or want to get involved, join the project [discussions](ht
 
 > 📌 **New: Updated JCB Template Guidance** – Templates now have dedicated coverage that explains how they wrap both site and custom admin views, nest layouts, and sync from shared repositories. Start with [Template Setup](./Template-Setup.md) to understand how these modular wrappers shape your component output and how to keep them maintained across projects.
 
+> 🧩 **Updated: Custom Code Workflows** – The new [JCB! Custom Codes Overview](./JCB-Custom-Codes.md) distils how argument-based manual snippets and hash-driven automation complement each other, including encoding rules, language-string round trips, and collaboration tips.
+
 ---
 
 ### [Joomla Components in JCB](./Joomla-Components.md)

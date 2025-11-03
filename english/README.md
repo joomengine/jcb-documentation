@@ -47,7 +47,7 @@ Joomla Component Builder (JCB) packs years of community knowledge into one docum
 | **Field types and validation** | Selecting the right inputs and enforcing correct data. | [Field Types](./Field-Types.md), [Advanced Fields](./Advanced-Fields.md), [Adding Rule Validation](./Adding-your-own-rule-validation-to-a-field-in-JCB.md), [Easy Validation Rules](./Easy-Validation-Rules-for-Fields-in-JCB.md) |
 | **Dynamic data retrieval** | Combining records across tables without manual SQL. | [dynamicGet](./dynamicGet.md), [Add dynamicGet to a Site View](./Adding-dynamicGet-to-a-Site-View.md), [Automatic Custom Code Import](./Automatic-import-of-custom-code-during-compilation-in-JCB.md) |
 | **Templates and layouts** | Wrap site/admin views with modular structures, nest layouts, and sync reusable markup from shared repositories. | [Templates & Layouts](./Adding-Templates-and-Layouts-to-a-Site-View.md), [Template Setup](./Template-Setup.md), [Layout Setup](./Layout-Setup.md) |
-| **Custom code and helpers** | Extending generated components safely. | [Manual Custom Code Implementation](./JCB-manual-custom-code-implementation.md), [Helper Structures](./Adding-Helper-Structures-to-any-JCB-component.md), [Additional Helper Methods](./How-to-Add-More-Helper-Methods-to-Your-Components-Helper-Class.md) |
+| **Custom code and helpers** | Extending generated components safely with argument-aware snippets and hash automation. | [JCB! Custom Codes Overview](./JCB-Custom-Codes.md), [Manual Custom Code Implementation](./JCB-manual-custom-code-implementation.md), [Helper Structures](./Adding-Helper-Structures-to-any-JCB-component.md), [Additional Helper Methods](./How-to-Add-More-Helper-Methods-to-Your-Components-Helper-Class.md) |
 
 > 🧭 **Outcome:** you know where to deepen knowledge on each pillar as soon as your project requires it.
 
@@ -66,6 +66,7 @@ Joomla Component Builder (JCB) packs years of community knowledge into one docum
 - [Tweaking MySQL Demo Data](./Tweaking-MySQL-Demo-Data.md)
 - [Auto-create SQL Updates](./Auto-create-SQL-updates-for-Componets-in-JCB.md)
 - [Automated Database Updates](./Automated-database-updates-in-Joomla-during-development-of-a-component.md)
+- [JCB! Custom Codes Overview](./JCB-Custom-Codes.md)
 - [Reuse Custom Code](./Reuse-Custom-Code.md)
 
 ### 3. User experience & site delivery

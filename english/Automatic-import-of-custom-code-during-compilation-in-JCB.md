@@ -63,9 +63,17 @@ Custom code uses specific placeholder tags that JCB can recognize and manage. Th
 To **insert** new code:
 
 ```php
-///***[INSERT<>$$$$]***///
-[Your custom PHP code here]
-///***[INSERT<>$$$$]***///
+/***[INSERT<>$$$$]***/
+// Your custom PHP code here
+/***[/INSERT<>$$$$]***/
+```
+
+For HTML blocks, wrap the same markers with HTML comments:
+
+```html
+<!--***[INSERT<>$$$$]***-->
+<!-- Your custom markup here -->
+<!--***[/INSERT<>$$$$]***-->
 ```
 
 ### b. Replacement Tags
@@ -73,9 +81,9 @@ To **insert** new code:
 To **replace** existing code:
 
 ```php
-///***[REPLACE<>$$$$]***///
-[Your replacement PHP code here]
-///***[REPLACE<>$$$$]***///
+/***[REPLACE<>$$$$]***/
+// Your replacement PHP code here
+/***[/REPLACE<>$$$$]***/
 ```
 
 ### c. After Compilation
@@ -87,6 +95,8 @@ Once compiled, JCB updates these placeholders:
 
 > **Tip:**
 > If you later modify your code, re-add the diamond brackets `<>` to indicate that JCB should update the stored version.
+
+For a side-by-side comparison of manual snippet injection and hash automation, see the [JCB! Custom Codes Overview](./JCB-Custom-Codes.md).
 
 ---
 
@@ -115,9 +125,9 @@ There are a few important limitations when using custom code tags:
 2. Add your replacement tags:
 
    ```php
-   ///***[REPLACE<>$$$$]***///
+   /***[REPLACE<>$$$$]***/
    echo 'hi, it worked!';
-   ///***[REPLACE<>$$$$]***///
+   /***[/REPLACE<>$$$$]***/
    ```
 3. Save your file and re-compile the component in JCB.
 
@@ -150,9 +160,9 @@ Follow these steps to test **insertions**:
 2. Add an insertion block:
 
    ```php
-   ///***[INSERT<>$$$$]***///
+   /***[INSERT<>$$$$]***/
    echo 'New insert block added!';
-   ///***[INSERT<>$$$$]***///
+   /***[/INSERT<>$$$$]***/
    ```
 3. Save and compile your component again.
 

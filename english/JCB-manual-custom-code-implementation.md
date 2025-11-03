@@ -127,9 +127,12 @@ This option allows developers to define reusable custom code snippets within JCB
 3. Copy the provided **placeholder**, for example:
 
    ```
-   (((customcode)))
+   [CUSTOMCODE=myReusableBlock]
    ```
-4. Paste this placeholder into your **field**, **view**, or **layout** where the code should appear.
+
+   > 📌 **Legacy note:** older videos and exports may still show the rounded placeholder syntax `(((customcode)))`. JCB now standardises on the square-bracket `[CUSTOMCODE=...]` format so that argument passing is explicit.
+
+4. Paste this placeholder into your **field**, **view**, or **layout** where the code should appear. You can embed manual custom codes in any PHP, XML, HTML, or JavaScript block that JCB renders.
 
 ---
 
@@ -141,7 +144,7 @@ Let's say you have a drag-and-drop field for uploading images, containing JavaSc
 
 * Move the script to JCB's Custom Code area.
 * Replace dynamic text like `image`, `teaser`, etc., with **arg placeholders**.
-* Use `(((customcode)))` to call it wherever needed.
+* Insert the placeholder wherever needed, for example `[CUSTOMCODE=myReusableBlock]` or `[CUSTOMCODE=myReusableBlock+image,image,teaser]` when passing arguments.
 
 ---
 
@@ -153,15 +156,23 @@ Custom code can include **arg values**, acting as variables passed during compil
 
 Example placeholder usage:
 
-```php
-(((customcode|image,image,teaser)))
+```text
+[CUSTOMCODE=myReusableBlock+image,image,teaser]
 ```
 
-In your script, JCB replaces `arg0`, `arg1`, `arg2` with these passed values during compilation.
+Inside your script, reference the values with zero-based placeholders:
+
+```php
+[[[arg0]]] // image
+[[[arg1]]] // image
+[[[arg2]]] // teaser
+```
+
+If you need to include reserved characters such as commas or plus signs in the arguments, encode them as HTML entities (`&#44;`, `&#43;`, `&#61;`, etc.) before compiling.
 
 **Rules for ARG placeholders:**
 
-* Arguments must be **single-word** (no commas or plus signs).
+* Encode reserved characters (`[`, `]`, `,`, `+`, `=`) using HTML entities before passing them as arguments.
 * You can include `$` if needed.
 * The number of arguments must **match** the number of placeholders in the code.
 
