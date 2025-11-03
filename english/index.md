@@ -10,6 +10,8 @@ For a glimpse at the target quality, review the fully edited [Field Types](./Fie
 
 If you have questions or want to get involved, join the project [discussions](https://github.com/vdm-io/Joomla-Component-Builder/discussions). You can also explore the complete [YouTube playlist](https://www.youtube.com/playlist?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE) of JCB tutorials.
 
+> 🆕 **Dynamic Gets deep dive** – The refreshed [Dynamic Get guide](./dynamicGet.md#overview) now explains how the visual query builder selects tables, joins, filters, ordering, and grouping, how multiple gets combine inside a single view, and how Init/Reset/Fork workflows keep complex queries version-controlled.
+
 > 📌 **New: Site View Architecture Explained** – Start with the revised [Adding Site Views](./Adding-Site-Views-to-a-Component.md) guide to see how Dynamic Gets, templates, layouts, custom code placeholders, and optional JS/CSS libraries assemble your frontend. Pair it with the updated [Template Setup](./Template-Setup.md) chapter to understand how these modular wrappers shape both site and admin experiences and how to keep them maintained across projects.
 
 > 🧩 **Updated: Custom Code Workflows** – The new [JCB! Custom Codes Overview](./JCB-Custom-Codes.md) distils how argument-based manual snippets and hash-driven automation complement each other, including encoding rules, language-string round trips, and collaboration tips.

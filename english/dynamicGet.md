@@ -9,9 +9,30 @@
 
 ## Overview
 
-In this tutorial, we explore how to create and configure a **Dynamic Get** in **Joomla Component Builder (JCB)**. The **Dynamic Get** allows you to dynamically fetch data from your component's backend views or even other installed components.
+In this tutorial, we explore how to create and configure a **Dynamic Get** in **Joomla Component Builder (JCB)**. Dynamic Gets are graphically designed database queries that define how data should be fetched, joined, filtered, and structured through an easy selection query builder interface. They form a visual abstraction layer over SQL joins and filters, similar to a visual query builder, an ORM relationship graph, or a custom query composition engine.
+
+### What Are Dynamic Gets?
+
+Dynamic Gets allow you to:
+
+- Choose a **primary table**
+- Join **multiple related tables**
+- Select fields from across those joins
+- Apply **filters**, **WHERE clauses**, **ordering**, and **grouping** — all within the GUI
+
+JCB then auto-generates the complete **SQL JOIN** logic, any **Joomla-compliant API interaction**, and the **PHP model code** required to support the query. As you progress through the steps below, keep this conceptual model in mind: every field you select and every join you create feeds into a maintainable, standards-compliant query without hand-written SQL.
 
 Using the *Sermon Distributor* component as an example, this guide demonstrates how to create a `preacher` get method, configure joins, filters, and pagination, and see how it translates into PHP code during compilation.
+
+### How Do Dynamic Gets Integrate Into Views?
+
+Each **Site View** or **Custom Admin View** requires a **main Dynamic Get** that defines how its item or list data is fetched from the database. You can also attach multiple additional Dynamic Gets to a single view, enabling you to merge data from different tables dynamically, cleanly, and consistently. JCB embeds this logic directly into your component's models so that the resulting component uses secure Joomla API calls, avoids repetitive code, and keeps your dataset definitions centralised.
+
+This architecture means the steps later in this document—assigning main and custom gets, previewing dynamic values, and wiring the results into templates—aren't ad-hoc tricks. They're the culmination of a structured workflow where every view pulls data through its declared Dynamic Gets.
+
+### Reset, Fork, or Customise
+
+Just like other JCB entities, Dynamic Gets support a Git-based update workflow. You can initialise (`Init`) from a remote repository, keep in sync via `Reset`, share improvements with `Push`, or maintain a tailored variant using `Fork`. Treat Dynamic Gets as part of your component's version-controlled assets so that complex query logic can evolve without copy-paste drift.
 
 ---
 

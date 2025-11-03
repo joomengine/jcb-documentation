@@ -19,7 +19,7 @@
         - [Component Setting Customization](Component-Settings-Overview)
 	- [Scripting Components](Component-Scripts)
 	- [Component FTP Options](Component-FTP-and-more)
-	- [Dynamic Get Method](dynamicGet)
+	- [Dynamic Gets (Visual Query Builder)](dynamicGet)
 	- [Site View DynamicGet](Adding-dynamicGet-to-a-Site-View)
 	- [Site View Templates](Adding-Templates-and-Layouts-to-a-Site-View)
         - [Template Setup Guide (Modular Wrappers)](Template-Setup)
