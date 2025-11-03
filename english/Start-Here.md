@@ -8,9 +8,10 @@ Joomla Component Builder (JCB) packs years of community knowledge into one docum
 
 ## Step 1 – Understand the landscape
 
-1. **Review Joomla's MVC structure** to see how administrator and site applications mirror each other, how controllers, models, and views are named, and how packages are assembled. [Component Structure and MVC Implementation](./Component-Structure-and-MVC-Implementation.md) bridges the gap between Joomla theory and JCB's automation.  
-2. **Clarify the JCB workflow mindset**—what the tool automates, what remains in your control, and how Dynamic Get, views, and fields relate. [Joomla Component Builder – Beginner-Friendly Guide](./Intro-to-JCB.md) summarises prerequisites, environment expectations, and the overall build loop.  
-3. **Map the database-to-interface relationship** so you know how admin views, site views, and fields combine to deliver data to users. Chapters [General Planning](./General-Planning.md) and [Field Types](./Field-Types.md) outline how to plan entities, choose field types, and prepare for compilation.
+1. **See the big picture of a component** so you understand what JCB ultimately packages. [Joomla Components in JCB](./Joomla-Components.md) explains how every view, helper, script, and configuration ends up inside the compiled extension.
+2. **Review Joomla's MVC structure** to see how administrator and site applications mirror each other, how controllers, models, and views are named, and how packages are assembled. [Component Structure and MVC Implementation](./Component-Structure-and-MVC-Implementation.md) bridges the gap between Joomla theory and JCB's automation.
+3. **Clarify the JCB workflow mindset**—what the tool automates, what remains in your control, and how Dynamic Get, views, and fields relate. [Joomla Component Builder – Beginner-Friendly Guide](./Intro-to-JCB.md) summarises prerequisites, environment expectations, and the overall build loop.
+4. **Map the database-to-interface relationship** so you know how admin views, site views, and fields combine to deliver data to users. Chapters [General Planning](./General-Planning.md) and [Field Types](./Field-Types.md) outline how to plan entities, choose field types, and prepare for compilation.
 
 > 🧭 **Outcome:** you should be able to describe the main Joomla directories, explain how JCB mirrors them, and articulate the planning steps before touching the builder interface.
 

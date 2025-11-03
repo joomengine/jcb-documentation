@@ -11,6 +11,8 @@ Once you've added your admin views to the component, JCB provides additional con
 
 Custom admin menus control the structure of backend menus, while the **component settings** area defines configuration options that apply globally across your component.
 
+> If you need a refresher on everything a component bundles together, start with [Joomla Components in JCB](./Joomla-Components.md). It frames how these settings fit into the wider packaging process.
+
 ---
 
 ## 1. Compiler Overview

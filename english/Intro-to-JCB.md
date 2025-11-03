@@ -87,6 +87,8 @@ Once JCB is installed in your local Joomla site:
 
 You now have the foundation for your custom extension.
 
+> 📘 Want a refresher on what the component controls? Review [Joomla Components in JCB](./Joomla-Components.md) to see how views, helpers, assets, and packaging metadata all converge inside this single definition.
+
 ---
 
 ## 6) Adding Admin Views and Fields

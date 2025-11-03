@@ -12,6 +12,16 @@ If you have questions or want to get involved, join the project [discussions](ht
 
 ---
 
+### [Joomla Components in JCB](./Joomla-Components.md)
+
+| Focus | Why it matters |
+| --- | --- |
+| Component overview | Summarises how admin views, site views, helpers, assets, and configuration are compiled into a Joomla extension. |
+| Release management | Explains how version targets, changelogs, and distribution metadata anchor each component. |
+| Collaboration links | Points you to deeper tutorials covering component settings, packaging, and team workflows. |
+
+---
+
 ### [Building a "Hello World" Component with Joomla Component Builder](./Hello-World-with-Joomla-Component-Builder.md)
 
 | Video timeline | Documentation sections |
