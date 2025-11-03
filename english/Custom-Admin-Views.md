@@ -11,6 +11,8 @@ Custom Admin Views in **Joomla Component Builder (JCB)** are specialized backend
 
 While **Site Views** are focused on frontend presentation, **Custom Admin Views** allow you to build highly interactive, PHP-driven, and permission-controlled admin interfaces.
 
+> ⚠️ Remember: Custom Admin Views do **not** replace standard Admin Views. Every component still needs at least one normal Admin View to define its data schema, database table, and generated CRUD stack. Custom Admin Views build on top of that foundation to deliver bespoke dashboards or workflows.
+
 In this example, we'll reference the **Cost-Benefit Projection** component, which uses Custom Admin Views to visualize company health data and intervention impact.
 
 ---

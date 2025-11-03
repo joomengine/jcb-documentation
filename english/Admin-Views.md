@@ -20,6 +20,39 @@ Before this stage, you should already understand:
 
 Admin Views bring those fields together to form the actual backend interface and logic of your component.
 
+### What Are Admin Views?
+
+Admin Views form the foundational interface layer of every JCB-built Joomla component. Each Admin View is tightly bound to a
+database table and automatically generates the required **forms**, **models**, **controllers**, **list and edit views**, as well as
+permission handling and field validation. Because Admin Views produce the entire CRUD stack, every JCB component must include at
+least one Admin View to be considered valid and to compile correctly. They ensure your component stays aligned with Joomla's
+native MVC architecture and provide a consistent administrative experience out-of-the-box.
+
+### Why Are Admin Views Important?
+
+Admin Views serve as the data anchor for a component:
+
+* Link directly to Joomla database tables
+* Automatically attach multiple fields while respecting their visibility and edit permissions
+* Enable subforms that reference other Admin Views for nested data structures
+* Respect Joomla ACL per view **and** per field
+* Remain reusable across multiple components thanks to namespace-aware compilation
+
+This makes Admin Views the heart of every component, defining its schema, edit experience, and administrative backbone. Whereas
+Custom Admin Views or Site Views focus on layout and rendering, Admin Views define the structural data definition and baseline logic.
+
+### Versioning and Sharing Admin Views
+
+When you need to update Admin Views in any JCB project you can:
+
+1. Select the views you want to update inside JCB.
+2. Click **Reset** to pull the latest version from this repository.
+3. Or **Fork** this repository and point your JCB instance to that fork if you need your own baseline.
+
+This workflow keeps shared Admin Views maintainable while giving you the flexibility to customise per project. Remember that Admin
+Views are more than UI patterns—they are declarations of how your component manages data. Reviewing the shipped demo component is
+an effective way to see best practices in action.
+
 ---
 
 ## **2. Naming Conventions**
