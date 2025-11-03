@@ -1,6 +1,7 @@
 # Adding Site Views to a Component in Joomla Component Builder (JCB)
 
 Site Views in JCB define what users see on the front end of your Joomla component.
+They consume the same fields you design in the back-end—review the [JCB! Fields](./JCB-Fields.md) overview to understand how each field's schema, validation, and rendering rules carry over to the public interface.
 
 ## Site View fundamentals
 

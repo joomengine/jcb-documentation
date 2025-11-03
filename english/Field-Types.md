@@ -9,7 +9,7 @@
 ## 1. Overview
 
 Joomla! Component Builder (JCB) generates complete Joomla components, including XML form definitions, models, views, and controllers.
-Understanding **field types** is essential, as they determine what form elements are rendered in your component's admin and site views.
+Understanding **field types** is essential, as they determine what form elements are rendered in your component's admin and site views. Pair this chapter with [JCB! Fields](./JCB-Fields.md) to see how individual field records consume these field types, define database schema, and stay versioned via repositories.
 
 A **field type** defines how a field behaves and appears - for example, a text box, checkbox, date picker, list, or repeatable input.
 These are stored in XML format and processed through Joomla's API to render the form dynamically.

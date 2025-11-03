@@ -15,6 +15,7 @@ Admin Views are the **foundation of your component's database structure** - ever
 
 Before this stage, you should already understand:
 
+* The [JCB! Fields](./JCB-Fields.md) overview that explains how each field definition governs storage, rendering, and sharing
 * **Field Types** and **Basic Fields** (previous tutorials)
 * The **General Planning** structure of your component
 

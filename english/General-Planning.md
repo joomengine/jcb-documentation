@@ -16,6 +16,8 @@ Before building with Joomla Component Builder (JCB), preparation is key. You sho
 * Plan the **database structure** you want to set up.
 * Know how your tables and fields will **map to each other**.
 
+Revisit the [JCB! Fields overview](./JCB-Fields.md) before you start modelling—its breakdown of schema, rendering, validation, and repository workflows will help you translate requirements into reusable field definitions.
+
 > **Tip:** A clear data map will help you define views, relationships, and field connections correctly in JCB.
 
 If you are new to database design, review basic **table relationships** (one-to-many, many-to-many) to ensure your component logic aligns with Joomla's MVC structure.

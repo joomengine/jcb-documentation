@@ -6,10 +6,11 @@ These tutorials will give you a practical understanding of how Joomla Component 
 
 A revision of this knowledge base is underway to add timelines and polish every transcript. Chapters one through seventy-one already include raw transcriptions and are actively being edited. Progress updates will continue to appear in the title of the chapter currently being refined, and new announcements are posted in the community forum once a chapter is finished.
 
-For a glimpse at the target quality, review the fully edited [Field Types](./Field-Types.md) chapter. Work is progressing through the earlier lessons before continuing with chapters six through seventy-one.
+For a glimpse at the target quality, review the fully edited [Field Types](./Field-Types.md) chapter. Work is progressing through the earlier lessons before continuing with chapters six through seventy-one. Pair it with the new [JCB! Fields overview](./JCB-Fields.md) whenever you need a refresher on how field definitions govern database schema, rendering, validation, and sharing.
 
 If you have questions or want to get involved, join the project [discussions](https://github.com/vdm-io/Joomla-Component-Builder/discussions). You can also explore the complete [YouTube playlist](https://www.youtube.com/playlist?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE) of JCB tutorials.
 
+> 🧱 **Updated: JCB! Fields foundation** – The [JCB! Fields chapter](./JCB-Fields.md) now consolidates how field definitions control database schema, rendering, validation, sharing, and repository-driven versioning so you can explain the workflow to new teammates quickly.
 > 🆕 **Dynamic Gets deep dive** – The refreshed [Dynamic Get guide](./dynamicGet.md#overview) now explains how the visual query builder selects tables, joins, filters, ordering, and grouping, how multiple gets combine inside a single view, and how Init/Reset/Fork workflows keep complex queries version-controlled.
 
 > 📌 **New: Site View Architecture Explained** – Start with the revised [Adding Site Views](./Adding-Site-Views-to-a-Component.md) guide to see how Dynamic Gets, templates, layouts, custom code placeholders, and optional JS/CSS libraries assemble your frontend. Pair it with the updated [Template Setup](./Template-Setup.md) chapter to understand how these modular wrappers shape both site and admin experiences and how to keep them maintained across projects.
@@ -51,6 +52,14 @@ If you have questions or want to get involved, join the project [discussions](ht
 | Video timeline | Documentation sections |
 | --- | --- |
 | <ul><li>Planning your component</li></ul> | <ul><li><a href="./General-Planning.md#1-be-prepared-to-build-components">**1. Be Prepared to Build Components**</a></li><li><a href="./General-Planning.md#2-using-demo-components-as-learning-tools">**2. Using Demo Components as Learning Tools**</a></li><li><a href="./General-Planning.md#3-understanding-the-purpose-of-conventions">**3. Understanding the Purpose of Conventions**</a></li><li><a href="./General-Planning.md#4-backend-views-and-database-connections">**4. Backend Views and Database Connections**</a></li><li><a href="./General-Planning.md#5-dynamic-get-and-data-relationships">**5. Dynamic Get and Data Relationships**</a></li><li><a href="./General-Planning.md#6-mapping-views-to-database-tables">**6. Mapping Views to Database Tables**</a></li><li><a href="./General-Planning.md#7-using-dynamic-get-for-combined-data">**7. Using Dynamic Get for Combined Data**</a></li><li><a href="./General-Planning.md#8-structuring-fields-and-data-mapping">**8. Structuring Fields and Data Mapping**</a></li><li><a href="./General-Planning.md#9-adding-compulsory-fields">**9. Adding Compulsory Fields**</a></li><li><a href="./General-Planning.md#10-adding-and-creating-views">**10. Adding and Creating Views**</a></li><li><a href="./General-Planning.md#11-adding-fields-to-views">**11. Adding Fields to Views**</a></li><li><a href="./General-Planning.md#12-admin-views-and-field-creation">**12. Admin Views and Field Creation**</a></li><li><a href="./General-Planning.md#13-creating-normal-vs-custom-fields">**13. Creating Normal vs Custom Fields**</a></li><li><a href="./General-Planning.md#14-planning-your-component">**14. Planning Your Component**</a></li><li><a href="./General-Planning.md#15-whats-next">**15. What's Next**</a></li></ul> |
+
+### [JCB! Fields](./JCB-Fields.md)
+
+| Focus | Why it matters |
+| --- | --- |
+| Field foundations | Summarises how a single field definition governs storage, rendering, validation, and permissions across every JCB context. |
+| Workflow overview | Provides a quick-start path from planning to mapping, compiling, and maintaining reusable fields. |
+| Repository alignment | Explains how reset/fork workflows keep shared field libraries versioned and in sync. |
 
 ### [Field Types in Joomla Component Builder](./Field-Types.md)
 
