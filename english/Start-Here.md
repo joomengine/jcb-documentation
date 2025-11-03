@@ -76,7 +76,8 @@ Joomla Component Builder (JCB) packs years of community knowledge into one docum
 - [Community Snippets Overview](./General-overview-of-how-community-snippets-work.md)
 - [Forking JCB Snippets](./Tutorial-on-forking-JCB-snippets-so-you-can-share-your-snippets-with-the-rest-of-the-Community.md)
 - [Making a Snippet Pull Request](./Tutorial-on-making-a-pull-request-at-Joomla-Component-Builder-Snippets.md)
-- [Add Your Own JCB Packages](./Add-your-own-JCB-packages-to-the-JCB-Communty-Directory.md)
+- [JCB Packaging Engine](./JCB-Packaging-Engine.md)
+- [Publish Your JCB Packages](./Add-your-own-JCB-packages-to-the-JCB-Communty-Directory.md)
 
 > 🧭 **Outcome:** pick the pathway that matches your immediate project stage and follow the linked tutorials in sequence.
 

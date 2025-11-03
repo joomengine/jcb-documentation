@@ -88,7 +88,8 @@ cp -R /path/to/your/component/target/folder /path/to/new/target/folder
 
 2. Set up your new blank install of the beta version of JCB to target this new folder.
 
-3. Import your component into the new JCB instance via the JCB package import area.
+3. Initialise your repositories in the beta instance and use **Init**/**Reset** to pull the
+   component blueprint from source control.
 
 ### Step 4: Compile Your Component with the Beta JCB Instance
 

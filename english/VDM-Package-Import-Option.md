@@ -1,189 +1,90 @@
-# VDM Package Import Option — Joomla Component Builder Documentation
+# Repository Index & Demo Packages
 
-*(Based on video tutorial: “VDM Package Import Option”)*
-
----
-
-## Overview
-
-[00:00:00]
-The **VDM Package Import Option** in Joomla Component Builder (JCB) allows developers to easily import prebuilt component packages from the official JCB GitHub repositories or other trusted community sources.
-
-This feature is especially beneficial for users who want quick access to maintained **JCB packages**, such as:
-
-* The **Advanced Demo Component**
-* The **Sermon Distributor Component**
-
-It simplifies access to these ready-made components and automates importing them directly into your JCB installation.
+JCB no longer downloads ZIP archives from the “VDM Packages” tab. Instead, you can initialise a
+repository index that lists official demo components and helper libraries. This page explains how to
+bring the catalogue into your installation, explore the included documentation, and import the
+blueprints you need.
 
 ---
 
-## 1. Accessing the VDM Packages Import Tab
+## 1. Load the Repository Index
 
-[00:00:20]
-A new **tab named "VDM Packages"** has been added under the **Import Components** section in JCB.
+1. Go to **Components → Component Builder → Repositories**.
+2. Click **New** and create an entry for the index:
+   * **Organization:** `joomengine`
+   * **Repository:** `repoindex`
+   * **Read Branch:** `master`
+   * **Type:** `GitHub`
+   * **Target Content:** `repositories`
+   * **Access:** `global`
+3. Save the record and return to the list view.
+4. Press **Init**, select the repo index entry, and choose **Initialize Selected Repositories**.
 
-### Steps
-
-1. Go to **Components → Joomla Component Builder → Import Components**.
-2. Select the **VDM Packages** tab.
-
-JCB will now connect to GitHub to retrieve a list of all available packages.
-This process may take a few moments as it fetches live data.
-
-[00:01:01]
-If GitHub repositories are updated with new packages, they will appear automatically within this list.
-
-**Currently available packages** include:
-
-* Hello World
-* Demo Version
-
-> **Tip:** More packages will be added over time. Ensure you have a stable internet connection to allow JCB to fetch the latest packages from GitHub.
+JCB clones the index, creates local records for every listed repository, and displays their README
+files directly in the interface. You now have instant access to the demo catalogue.
 
 ---
 
-## 2. Resetting Sermon Distributor or Similar Packages
+## 2. Explore the Included Demo Components
 
-[00:01:24]
-If you already have the **Sermon Distributor** component installed and wish to reset or update it:
+After initialisation you will see repositories for:
 
-* You may **reinstall** or **import** the package again.
-* This will overwrite the existing component structure, **resetting every field and Field Type** to the original values.
+* **Joomla 4 Demo Component**
+* **Joomla 5 Demo Component**
+* **Hello World for Joomla 5**
+* **Recipe Manager for Joomla 5**
+* **E-Health Portal for Joomla 5**
 
-[00:01:52]
-
-> **Warning:** Importing a package over an existing one will **reset all data**, including custom fields, configurations, and field types.
-
-[00:02:07]
-To protect your previous work, ensure **Joomla’s Version History** is enabled for the JCB component.
-This allows you to roll back changes if necessary.
+Each entry includes documentation that highlights the patterns used in the component, such as
+multi-view relationships, custom field types, or advanced routing examples.
 
 ---
 
-## 3. Installing Packages via "Get Package"
+## 3. Import a Demo Using Init
 
-[00:02:22]
-Once the package list loads, follow these steps:
+1. Open the entity type that matches the repository (e.g. **Components** for the demo component).
+2. Select **Init** in the toolbar.
+3. Pick the repository entry you want to import and confirm.
+4. Review the README to understand prerequisites or optional dependencies.
 
-1. Select the desired package (e.g., Sermon Distributor).
-2. Click **Get Package**.
-
-This initiates the download from GitHub. The process might take a few minutes depending on package size and connection speed.
-
-[00:02:55]
-When prompted:
-
-* Confirm the package details.
-* Click **Continue** to proceed.
-
-JCB will then install the package (for example, “Sermon Distributor 2.0.2”) and display installation details.
-
-> **Tip:** Always review the displayed information to confirm that you are installing the correct version from a trusted source.
+JCB imports the blueprint, resolves any linked field types, snippets, or superpowers, and makes the
+component available in your installation. Compile it as usual to generate a Joomla extension ZIP for
+local testing.
 
 ---
 
-## 4. The “Quiet” Switch
+## 4. Reset to Pull Updates
 
-[00:03:28]
-The **Quiet** switch allows you to toggle between detailed and minimal installation feedback.
+When the upstream repository receives improvements:
 
-* **Quiet = Yes** → Minimal output; hides ID mapping details.
-* **Quiet = No** → Verbose output; displays all ID references and actions.
+1. Ensure only the repositories you trust are **published** for the relevant target content.
+2. Open the entity and press **Reset**.
+3. JCB pulls the latest commit and updates the blueprint, keeping your local copy in sync.
 
-[00:03:50]
-Note that earlier versions of JCB contained a typo (“Quite”)—this has been fixed in **JCB version 2.7.1**.
-
-[00:04:19]
-
-> **Tip:** Enable “Quiet = No” only when debugging import behavior or verifying data mapping changes.
+If multiple repositories provide the same entity, drag them into the desired order or temporarily
+unpublish alternatives before resetting.
 
 ---
 
-## 5. Force Local Update — Overwriting Existing Data
+## 5. Use the README as Documentation
 
-[00:04:33]
-When importing a component, you may encounter items that already exist locally.
-JCB uses timestamps to decide whether to replace or keep local data.
+The packaging engine doubles as a documentation viewer. Each repository README may include:
 
-### Force Local Update Options
+* Overview of the component or library
+* Setup and configuration notes
+* Links to tutorials, issues, or sample data
+* Contribution guidelines
 
-* **No (Default):** Keeps newer local data and skips importing older records.
-* **Yes:** Forces overwrite of all existing data, regardless of version or timestamp.
-
-[00:05:15]
-After enabling **Force Local Update**, click **Continue**.
-You’ll see a detailed printout showing which IDs were found, updated, or newly imported.
-
-[00:05:44]
-If you disabled Quiet mode, you’ll see a complete log of the import actions.
+Read the documentation before importing so you understand how the blueprint fits into your project.
 
 ---
 
-## 6. Post-Import Actions: Compiling and Installing
+## 6. Next Steps
 
-After successful import:
+* Import additional repositories from the catalogue (field types, snippets, powers) as needed.
+* Fork the repositories to customise demos or propose improvements.
+* Contribute new blueprints by following the
+  [package publishing workflow](./Add-your-own-JCB-packages-to-the-JCB-Communty-Directory.md).
 
-1. If the package uses a licensing file (e.g., `vdm.txt`), verify or replace it if necessary.
-2. Save and close the imported component.
-
-[00:06:28]
-
-### Compile the Component
-
-* Go to **Components → Joomla Component Builder → Components**.
-* Select **Sermon Distributor** (or your imported package).
-* Click **Compile**.
-
-Once compiled, JCB generates a **Joomla installable package (.zip)** that includes all external scripts defined in the package.
-
-[00:06:54]
-Some packages, such as the Sermon Distributor, also include **external scripts** (e.g., MIME type checkers).
-These are automatically fetched from GitHub during compilation.
-
-> **Security Note:** Always verify that external code strings (`EXTERNALCODE`) are safe before compiling, to prevent importing malicious code.
-
-[00:07:17]
-Finally, install the compiled package in Joomla via the **Extension Manager**.
-Your component (e.g., Sermon Distributor) will appear in the Components menu, fully functional and ready for use.
-
----
-
-## 7. Suggested Feature — Community Package Sharing
-
-[00:07:39]
-A proposed future enhancement is a **Community tab** in the Import Components area.
-
-This would allow:
-
-* Community members to share **JCB packages** openly.
-* Maintainers to curate highlighted bundles for specific use cases.
-
-[00:08:04]
-Each package determines its own **metadata and documentation links**.
-For example, clicking on a package like `googlePlusProfileFeed` could redirect users to its associated project page.
-
-[00:09:06]
-There are ongoing discussions about whether JCB should include contribution mechanisms to support this ecosystem.
-
-[00:09:33]
-Another idea is integrating the Import Components section directly into the **JCB Dashboard**, improving accessibility.
-
-[00:09:54]
-Until then, developers can manually import any GitHub package using its repository link and package key.
-
----
-
-## 8. Summary
-
-The **VDM Package Import Option** streamlines how developers access and install JCB components.
-Key takeaways:
-
-* Quickly import **ready-made JCB packages** directly from GitHub.
-* Use **Quiet** and **Force Local Update** options to control import verbosity and overwrite behavior.
-* **Compile and install** your imported component easily through JCB.
-* Expect future enhancements, including community-driven package sharing.
-
-This feature greatly simplifies development and sharing within the Joomla Component Builder ecosystem.
-
----
+The repository index keeps your JCB installation stocked with maintained demo projects that reflect
+the latest best practices.

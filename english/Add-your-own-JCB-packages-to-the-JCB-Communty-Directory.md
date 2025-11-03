@@ -1,214 +1,112 @@
-# Add Your Own JCB Packages to the JCB Community Directory
+# Publish Your JCB Packages to the Community Catalogue
 
-## Overview
+The modern JCB packaging engine treats every blueprint as a Git repository. Sharing your work now
+means publishing the entities (components, field types, snippets, etc.) to a repository and opening a
+pull request so the community catalogue can list it. This guide explains how to prepare your package,
+document it, and submit it for inclusion.
 
-This tutorial explains how to **add your Joomla Component Builder (JCB) packages to the JCB Community Directory**, allowing you to share your work, help others get started quickly, and reuse packages efficiently. It also introduces key JCB features such as **importing, cloning, merging, and community sharing**.
-
----
-
-## 1. Introduction to the Community Packages Tab
-
-**[00:00:00](https://www.youtube.com/watch?v=8FplwKKa708&t=00h00m00s)**
-
-JCB now includes a new tab under **Import JCB Packages** called **Community Packages**. This feature allows developers to share, import, and reuse ready-made JCB packages contributed by the community.
-
-**Purpose:**
-
-* Provides a **quick start** for building components.
-* Acts as a **backup repository** for your own packages.
-* Enables **reuse of component features**, such as linking Joomla users or field configurations.
-
-Once a package is available in the community directory, you can import it to start new projects without affecting your existing components.
+> 💡 **Terminology refresher:** A *JCB package* is a blueprint stored in Git. A *Joomla package* is the
+> compiled ZIP you install on a Joomla site. The instructions below focus on blueprints.
 
 ---
 
-## 2. The Clone Feature
+## 1. Decide What You’re Publishing
 
-**[00:01:17](https://www.youtube.com/watch?v=8FplwKKa708&t=00h01m17s)**
+JCB groups repositories by **target content**. Before creating a repository, decide which entity you
+want to share:
 
-JCB includes a **Clone** function that creates an exact duplicate of an existing component.
+| Target content | Typical use |
+| --- | --- |
+| `packages` | Full component blueprints (views, fields, layouts, scripts) |
+| `field_types` | Reusable field type libraries |
+| `snippets` | HTML/CSS/JS snippets for layouts and forms |
+| `super_powers` & `joomla_powers` | Helper classes and integrations |
+| `repositories` | Meta catalogue entries (used by maintainers) |
 
-**Key points:**
-
-* Cloning generates a new component not linked to the original.
-* All **Admin Views**, **Fields**, and related items are duplicated.
-* New fields carry a suffix (e.g., `(EO)`) to distinguish them.
-
-This feature complements community package imports by allowing developers to work on new variations safely.
-
----
-
-## 3. Import Feature and Merge Options
-
-**[00:02:00](https://www.youtube.com/watch?v=8FplwKKa708&t=00h02m00s)**
-
-When importing a JCB package, you can choose whether to **merge** with an existing component or **create a new one**.
-
-* If **Merge = Yes**, the imported data updates existing items.
-* If **Merge = No**, JCB creates a new component with independent Admin Views and Fields.
-
-During import, JCB still merges universal items like:
-
-* Validation rules
-* Field types
-* Snippets
-* Language strings
-
-After import, JCB displays a log showing which files were added and which actions occurred. This transparency helps you verify that a **new, isolated component** was created successfully.
+Separate repositories keep dependencies manageable. If your component relies on custom field types,
+publish the field types in their own repository and list them as dependencies in your readme.
 
 ---
 
-## 4. Community Sharing and Collaboration
+## 2. Fork or Create a Repository
 
-**[00:04:01](https://www.youtube.com/watch?v=8FplwKKa708&t=00h04m01s)**
+1. If you want to contribute to the official catalogue, **fork** the relevant JoomEngine repository
+   (for example `joomengine/packages`).
+2. For organisation-specific work, create a repository under your own account or company namespace.
+3. Clone the repository locally and add a README that explains what the blueprint provides, how to
+   initialise it, and any configuration steps.
 
-JCB encourages developers to **share their packages** with the community. Sharing promotes collaboration, speeds up development, and supports open-source contribution.
-
-**Community Repository:**
-
-* Hosted on GitHub under:
-  `https://github.com/vdm-io/JCB-Community-Packages`
-
-This repository stores shared JCB packages for others to import directly through the JCB interface.
+JCB renders the README inside the interface, so write it for end users.
 
 ---
 
-## 5. Forking and Cloning the Repository
+## 3. Register the Repository in JCB
 
-**[00:05:06](https://www.youtube.com/watch?v=8FplwKKa708&t=00h05m06s)**
+1. Go to **Components → Component Builder → Repositories**.
+2. Click **New** and fill in:
+   * **Organization** and **Repository** (matching the Git remote).
+   * **Type** (GitHub, Gitea, etc.).
+   * **Target Content** matching the table above.
+   * **Read Branch** (e.g. `main` or `master`).
+   * **Write Branch** if you plan to push from this JCB instance.
+   * **Access** (`global`, `protected`, or `private`).
+3. Save and press **Init** to link the repository. JCB will display the README and available
+   blueprints.
 
-To contribute a package:
-
-1. **Fork** the `JCB-Community-Packages` repository on GitHub.
-2. **Clone** your forked version to your development environment.
-3. Add your JCB package to your cloned repository.
-
-> **Tip:**
-> You'll need a Linux or compatible environment that supports Bash to run the `hash.sh` script later in this process.
-
----
-
-## 6. Preparing Your Package for Contribution
-
-**[00:07:13](https://www.youtube.com/watch?v=8FplwKKa708&t=00h07m13s)**
-
-Before sharing:
-
-* Ensure your package is **tested and stable**.
-* Avoid sharing incomplete or non-functional components.
-* Avoid duplicates-if a similar package exists, contribute improvements instead.
-
-To prepare:
-
-1. In JCB, **export** your component (e.g., `JCB_QuestionsAnswers.zip`).
-2. Locate it in your system's **temporal directory**.
-3. Move the `.zip` file into your cloned community repository folder.
+If the repository is private, add a GitHub token under **Override Global Settings** or configure the
+site-wide token in JCB’s Options.
 
 ---
 
-## 7. Running the Hash Script
+## 4. Prepare the Blueprint Locally
 
-**[00:14:02](https://www.youtube.com/watch?v=8FplwKKa708&t=00h14m02s)**
+Design or update your entity inside JCB as usual. When you are ready to publish:
 
-In the terminal:
+1. Ensure the entity is linked to the correct repository (use **Init** if necessary).
+2. Click **Push**. JCB serialises the entity and commits it to the repository branch.
+3. Review the changes locally (`git status`, `git diff`) and commit with a clear message.
+4. Push the commit to your remote fork.
 
-1. Navigate to your cloned repository.
-2. Verify untracked files:
-
-   ```bash
-   git status
-   ```
-3. Run the Bash script:
-
-   ```bash
-   ./hash.sh
-   ```
-
-### Script Requirements
-
-Ensure the following tools are installed:
-
-* `jq`
-* `sha1sum`
-
-The script:
-
-* Calculates SHA1 checksums for each `.zip` file.
-* Extracts metadata (`info.vdm`) from your package.
-* Updates `checksum.json` with package details.
+> 🔁 **Tip:** Always run **Reset** after collaborators merge changes so your local copy stays in sync
+> with the repository history.
 
 ---
 
-## 8. Committing Your Package
+## 5. Document Dependencies and Usage
 
-**[00:17:30](https://www.youtube.com/watch?v=8FplwKKa708&t=00h17m30s)**
+Because repositories double as documentation, include the following in your README:
 
-After the script finishes:
+* Overview of what the package contains and when to use it.
+* Dependencies on other repositories (link to their catalogue entries).
+* Setup steps, sample data, or configuration hints.
+* Versioning or migration notes for new releases.
 
-1. Stage and commit your files:
-
-   ```bash
-   git add .
-   git commit -am "Adds Questions and Answers package"
-   ```
-2. Sign your commits if possible to verify authenticity:
-
-   ```bash
-   gpg --sign
-   ```
-3. Push changes to your forked repository:
-
-   ```bash
-   git push origin main
-   ```
+Well-documented packages are more likely to be accepted into the community catalogue.
 
 ---
 
-## 9. Creating a Pull Request
+## 6. Submit to the Community Directory
 
-**[00:19:54](https://www.youtube.com/watch?v=8FplwKKa708&t=00h19m54s)**
+To list your package alongside the official demos:
 
-Once your package is committed:
+1. Open a pull request against the upstream repository (e.g. `joomengine/packages`).
+2. Describe what the blueprint provides, how it was tested, and any prerequisites.
+3. If required, add your repository metadata to the [`repoindex`](https://github.com/joomengine/repoindex)
+   so other users can discover it through the Init workflow.
+4. Monitor feedback from maintainers and update your PR if requested.
 
-1. Open GitHub, navigate to your fork.
-2. You'll see your branch is "1 commit ahead of VDM."
-3. Click **"Create Pull Request"**.
-
-Your previous commit message becomes the PR title. Add extra details as needed, especially if:
-
-* Your package includes a **key**.
-* Special instructions or testing notes are required.
-
-The JCB admin team reviews and tests all submissions before merging them into the official repository.
+Once merged, the catalogue will list your package automatically and other JCB installations will see
+it after refreshing the repository index.
 
 ---
 
-## 10. Package Visibility and Automatic Updates
+## 7. Maintain Your Package
 
-**[00:21:30](https://www.youtube.com/watch?v=8FplwKKa708&t=00h21m30s)**
+* Keep the README and package metadata up to date with every release.
+* Tag Git releases so users can pin to a known state when needed.
+* Respond to issues or discussions raised by the community.
+* Archive old repositories if they are no longer supported so users do not accidentally import stale
+  blueprints.
 
-Once your pull request is approved and merged:
-
-* The new package automatically appears in JCB's **Community Packages** tab.
-* All users can now **import** it directly from within JCB.
-
-If you encounter issues or want to discuss community packages:
-
-* Open an issue in the **JCB Community Packages** repository.
-* Do **not** post these issues in the main JCB repository.
-
----
-
-## Summary
-
-By following these steps, you can easily share your Joomla Component Builder creations with the community:
-
-1. Export your package from JCB.
-2. Fork and clone the community repository.
-3. Add your `.zip` file and run the `hash.sh` script.
-4. Commit and push your changes.
-5. Create a pull request on GitHub.
-
-This system encourages collaboration, accelerates development, and builds a stronger JCB ecosystem.
-
----
+Publishing through the packaging engine ensures every blueprint is version controlled, documented,
+and ready for collaborative development.

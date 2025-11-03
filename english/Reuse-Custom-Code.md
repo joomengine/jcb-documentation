@@ -53,7 +53,9 @@ To follow along, use a Joomla test environment. You can quickly spin up a **Dock
 
 [00:02:22](https://www.youtube.com/watch?v=8Yl4lAAAWMQ&t=00h02m22s)
 
-If you have a **JCB package key**, import it via the "Get Package" area to gain access to example components.
+Initialise the [repository index](./JCB-Packaging-Engine.md) and use **Init** on the Components view to
+import the demo blueprints that ship with JCB. They provide real-world examples of how custom code is
+structured inside full projects.
 
 > **Tip:** Always click **Force Local Update** to ensure your local JCB fields and structure are up to date.
 

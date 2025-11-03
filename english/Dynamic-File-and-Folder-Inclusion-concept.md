@@ -101,11 +101,12 @@ If JCB detects that your target path is **outside** the usual Admin, Media, or S
 
 **[00:09:13]**
 
-Be mindful when importing JCB packages created by others.
+Be mindful when importing blueprints from repositories you do not control.
 
 > **Note:**
 > Dynamic inclusion can theoretically move files anywhere on your system.
-> Only import and install JCB packages from **trusted developers**.
+> Review the repository README, source history, and maintainers before running **Init** or **Reset**.
+> Only link published repositories that you trust.
 
 ---
 
@@ -191,7 +192,7 @@ The **Dynamic File and Folder Inclusion** and **EXTERNALCODE** features are adva
 However, with great flexibility comes great responsibility:
 
 * Always validate source integrity.
-* Only share JCB packages with trusted collaborators.
+* Only publish repositories for collaborators you trust and document the behaviour clearly.
 * Keep inclusion paths and permissions tightly controlled.
 
 ---

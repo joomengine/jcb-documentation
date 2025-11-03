@@ -28,26 +28,19 @@ If JCB is already installed, you can update it from the same menu to ensure you 
 
 **[00:00:37](https://www.youtube.com/watch?v=MEKs1c7LfO8&t=00h00m37s)**
 
-Once JCB is installed, the next step is to import the prebuilt "Hello World" package.
+Once JCB is installed, import the prebuilt "Hello World" blueprint through the packaging engine.
 
-1. In the Joomla Administrator menu, navigate to:
-   **Components → Component Builder → Import JCB Packages**
-2. Select the **VDM Packages** tab.
-3. Locate the **Hello World Component (Free)** package.
-4. Click **Get Package**.
-   The system will perform a checksum validation such as:
+1. Open **Components → Component Builder → Repositories** and register the
+   `joomengine/repoindex` entry (Organization `joomengine`, Repository `repoindex`, Target Content
+   `repositories`).
+2. Click **Init** in the Repositories list and initialise the catalogue. This adds the demo
+   repositories to your installation.
+3. Go to **Components → Component Builder → Components**.
+4. Press **Init** in the toolbar and select the **Hello World for Joomla 5** blueprint.
+5. Review the repository README and confirm the import. JCB resolves any dependencies
+   automatically.
 
-   ```
-   4134e94.....
-   ```
-
-**[00:01:06](https://www.youtube.com/watch?v=MEKs1c7LfO8&t=00h01m06s)**
-5. Confirm the key matches the one published on **GitHub** to ensure authenticity.
-6. Choose **Yes, Force Local Update** and click **Continue**.
-
-When successful, you'll see:
-
-> "Import was successful."
+When the process completes, the component appears in your Components list ready for compilation.
 
 ---
 
