@@ -1,6 +1,6 @@
 # General Overview of How Community Snippets Work in Joomla Component Builder
 
-This guide explains how the **Community Snippets system** works in **Joomla Component Builder (JCB)**. The new system introduces a **community concept**, allowing users to **share, import, and maintain** code snippets collaboratively within the JCB ecosystem.
+This guide explains how the **Community Snippets system** works in **Joomla Component Builder (JCB)**. The revamped snippets area now follows the same **Reset → Init → Push** workflow that powers JCB Packages, making it easy to **back up, pull, and share** snippets directly inside the JCB interface.
 
 > **Video Tutorial:** [Watch on YouTube](https://www.youtube.com/watch?v=qr4I1jeCp7I&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE)
 
@@ -18,7 +18,9 @@ Originally, Snippets were only local assets you could reuse within:
 * Templates
 * Layouts
 
-Now, with the community feature, you can share and import Snippets from the JCB community repository.
+Now, with the community feature, you can share and import Snippets from dedicated Git repositories. JCB ships with a reference
+repository that the whole community can use, but you can also point the Snippet Manager at your own internal repositories when
+needed.
 
 ---
 
@@ -87,93 +89,82 @@ If you rename or alter them, JCB treats your snippet as *new* instead of *update
 
 ---
 
-## 6. Getting and Sharing Snippets
+## 6. The Git-Based Snippet Workflow (Reset → Init → Push)
 
-[00:04:48](https://www.youtube.com/watch?v=qr4I1jeCp7I&t=00h04m48s)
+The Snippet Manager now mirrors the same Git-centric workflow used by **JCPackages**. Every snippet lives inside a Git
+repository, which means you can keep perfect version history, branch, and collaborate in familiar ways. The toolbar offers
+three key actions:
 
-Use the **"Get Snippets"** area to:
+1. **Reset** – Ensures the configured snippet repository is prepared locally. Use this if you need to recreate a clean working
+   copy or back up the repository location before pulling updates.
+2. **Init** – Fetches the latest metadata from the remote repository, shows you everything that is available, and lets you
+   select which snippets to import or update. This is where you “pull” snippets into your JCB instance.
+3. **Push** – Sends any local changes back to the remote repository. Combine this with a forked repository if you want to
+   contribute updates to the community.
 
-* **Share** your local snippets with the community.
-* **Download** snippets shared by others.
-
-When you click **"Share Snippets"**, JCB:
-
-1. Packages your selected snippets.
-2. Stores them at `/media/host/Dropbox/sandbox/joomla/tmp/snippets.zip`.
+Because snippets now follow the same repository life cycle as packages, you can confidently back up your work, stay in sync with
+the community, and automate collaboration using standard Git flows.
 
 ---
 
-## 7. Helper Resources
+## 7. Initializing Snippets from the Community Repository
 
-[00:05:33](https://www.youtube.com/watch?v=qr4I1jeCp7I&t=00h05m33s)
+To bring community snippets into your project:
 
-For assistance:
+1. Open the **Snippets** view and click **Init** on the toolbar.
+2. Choose the repository you want to pull from. By default you can point JCB at the community repository hosted at
+   [github.com/joomengine/snippets](https://github.com/joomengine/snippets). You can also configure your own Git remote if you
+   want a private catalogue.
+3. After selecting the repository, JCB lists all available snippets together with their type, library, contributor, and
+   description. Each entry is version controlled, so you know exactly what you are importing.
+4. Tick the snippets you want and confirm. JCB initializes them locally and they immediately become available inside Custom
+   Admin Views, Site Views, Layouts, and Templates.
+
+Once a snippet is initialized you can reset it at any time to match the version stored in the repository. JCB handles the Git
+operations for you, keeping everything consistent between your project and the source repository.
+
+---
+
+## 8. Working with Local Changes and Backups
+
+Because the snippet repository is a normal Git clone under the hood, every change you make is tracked. You can:
+
+* Review modified snippets before committing them back to a remote.
+* Create branches if you need to experiment with new ideas before sharing them with a team.
+* Use **Reset** to roll back to the clean state of the repository at any time, ensuring you always have a safe baseline.
+
+This approach lets you treat snippets like any other source code asset—perfect for teams that want predictable backups or
+integration with CI pipelines.
+
+---
+
+## 9. Sharing Snippets Back to Git
+
+When you are happy with your local improvements:
+
+1. Make sure your contributor details are filled out under **Global Options → Company Tab** so the metadata stays accurate.
+2. Click **Push** inside the Snippet Manager. JCB stages and commits the selected snippets, then pushes them to the configured
+   remote.
+3. If you are working against your own repository, the push completes immediately and your teammates can pull the updates.
+4. To contribute to the global catalogue, fork the community repository at
+   [github.com/joomengine/snippets](https://github.com/joomengine/snippets), set your fork as the remote inside JCB, push the
+   changes, and open a pull request from your fork back to the upstream repository. This mirrors the standard GitHub workflow
+   many developers already use.
+
+All snippets in the repository are plain text files stored under version control, so reviewing pull requests and collaborating
+with others is straightforward.
+
+---
+
+## 10. Helper Resources
+
+For assistance with Git or the contribution workflow:
 
 * [Git Quick Start (Udemy)](https://www.udemy.com/git-quick-start/)
 * [JCB Snippet Tutorials (YouTube)](https://www.youtube.com)
-* [Open GitHub Issues](https://github.com/vdm-io/Joomla-Component-Builder-Snippets/issues)
+* [Community Snippets Repository Issues](https://github.com/joomengine/snippets/issues)
 
 These resources help you learn version control, forking, and pull requests.
-
----
-
-## 8. How "Get Snippets" Works
-
-[00:06:07](https://www.youtube.com/watch?v=qr4I1jeCp7I&t=00h06m07s)
-
-When you click **Get Snippets**:
-
-* JCB connects to the **GitHub Snippet Repository**.
-* Loads all community snippets via **Ajax**.
-* Displays them in categories such as *Equal*, *Out of Date*, *New*, *Diverged*, and *Ahead*.
-
-You can view the repository directly on GitHub.
-
----
-
-## 9. Snippet Status Categories
-
-### a. Equal (In Sync)
-
-[00:06:55](https://www.youtube.com/watch?v=qr4I1jeCp7I&t=00h06m55s)
-Indicates your local snippet matches the community version exactly.
-
-### b. Out of Date
-
-[00:07:22](https://www.youtube.com/watch?v=qr4I1jeCp7I&t=00h07m22s)
-Appears when a community version has been improved or updated.
-You can import the new version to stay current.
-
-### c. New
-
-[00:07:57](https://www.youtube.com/watch?v=qr4I1jeCp7I&t=00h07m57s)
-Lists snippets that exist in the community but not locally.
-Click **"Get Snippet"** to import them into your JCB.
-
-### d. Diverged
-
-[00:08:49](https://www.youtube.com/watch?v=qr4I1jeCp7I&t=00h08m49s)
-Occurs when both your local and community versions have been modified differently.
-You can choose to **revert** to the community version.
-
-### e. Ahead
-
-[00:09:18](https://www.youtube.com/watch?v=qr4I1jeCp7I&t=00h09m18s)
-Means your local snippet is newer.
-You can either keep your version or revert to the community one.
-
----
-
-## 10. Bulk Tools
-
-[00:10:05](https://www.youtube.com/watch?v=qr4I1jeCp7I&t=00h10m05s)
-
-The **Bulk Update Tool** helps you:
-
-* Fetch all **new** or **ahead** snippets at once.
-* **Revert** all outdated snippets in bulk.
-
-This is useful when many community snippets have been added or changed.
 
 ---
 

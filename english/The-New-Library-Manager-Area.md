@@ -137,11 +137,11 @@ This ensures that only relevant snippets (like Bootstrap alerts) are available f
 
 [00:15:19](https://www.youtube.com/watch?v=rDjvgLYOt1o&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h15m19s)
 
-You can import snippets for each library directly from the community:
+You can import snippets for each library directly from the community repositories:
 
-1. Click **Get Snippets**.
-2. Choose a library (e.g., Bootstrap v4).
-3. Import snippets individually or use **Get All New Snippets** to bulk import all available snippets.
+1. Click **Init** in the Snippets toolbar.
+2. Choose the repository and library you want to pull from (e.g., Bootstrap v4 in the community catalogue).
+3. Select individual snippets or use the bulk selection tools to bring in everything that is new or updated.
 
 Installed snippets will then appear under that library's Snippets list, ready for use in your views.
 
