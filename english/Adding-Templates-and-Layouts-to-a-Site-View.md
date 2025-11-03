@@ -5,7 +5,9 @@
 [00:00:00](https://www.youtube.com/watch?v=6VBbi3Rl2eY&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h00m00s)
 (*Click the timestamp to open the video in YouTube.*)
 
-After adding a **Dynamic Get** to a Site View, it's essential to understand how **templates** and **layouts** integrate with these views. This helps you know where each piece of code resides, how Joomla loads it, and how JCB structures them during component compilation.
+After adding a **Dynamic Get** to a Site View, it's essential to understand how **templates** and **layouts** integrate with these views. Templates act as the high-level wrappers that orchestrate HTML, PHP, and reusable layouts for both site and custom admin views. This section shows you where each piece of code resides, how Joomla loads it, and how JCB structures them during component compilation.
+
+> **New to JCB Templates?** Think of them as modular view structures that can include other templates, call layouts, and even be synced from shared repositories. Mastering how they wrap your view logic will make the rest of this tutorial much easier to follow.
 
 ---
 
@@ -183,5 +185,6 @@ By combining templates and layouts effectively:
 * Templates have access to `$this` and all global view properties.
 * Layouts require explicit variable passing.
 * Joomla's conventions govern how templates and layouts can be nested.
+* The **Templates** tab in JCB lets you import, reset, or push these wrappers from template repositories so teams stay in sync.
 
 ---

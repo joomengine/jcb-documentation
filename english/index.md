@@ -10,6 +10,8 @@ For a glimpse at the target quality, review the fully edited [Field Types](./Fie
 
 If you have questions or want to get involved, join the project [discussions](https://github.com/vdm-io/Joomla-Component-Builder/discussions). You can also explore the complete [YouTube playlist](https://www.youtube.com/playlist?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE) of JCB tutorials.
 
+> 📌 **New: Updated JCB Template Guidance** – Templates now have dedicated coverage that explains how they wrap both site and custom admin views, nest layouts, and sync from shared repositories. Start with [Template Setup](./Template-Setup.md) to understand how these modular wrappers shape your component output and how to keep them maintained across projects.
+
 ---
 
 ### [Joomla Components in JCB](./Joomla-Components.md)
