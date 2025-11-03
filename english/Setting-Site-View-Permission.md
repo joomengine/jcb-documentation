@@ -9,7 +9,7 @@
 
 [00:00:00](https://www.youtube.com/watch?v=gWjQjdhYqXI&t=00h00m00s)
 
-In Joomla Component Builder (JCB), **Site View Permissions** control front-end access for each view in your component.
+In Joomla Component Builder (JCB), **Site View Permissions** control front-end access for each view in your component. Those access gates also decide which plugin events can run, because a blocked view never reaches the point where Joomla fires site-level triggers. Cross-reference the [JCB! Joomla Plugins](./Joomla-Plugins.md) guide when auditing permissions so that automation and UI exposure remain aligned.
 By default, these permissions are set to **"Not Allowed"**, because JCB relies on Joomla's **Global Component Permissions**. Unless these are explicitly written to the database (either manually or via script), no site view will be accessible on the front end.
 
 ---

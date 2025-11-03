@@ -2,7 +2,7 @@
 
 ## Start here
 
-These tutorials will give you a practical understanding of how Joomla Component Builder (JCB) works. The documentation below pairs each walkthrough with timeline references from its companion video so you can jump straight to the moment you need. As you read, pay particular attention to how **Custom Admin Views** extend Joomla's backend and how the refreshed **Site View** chapters explain the public-facing side—JCB now documents how Dynamic Gets, templates, layouts, reusable code blocks, and frontend libraries combine to deliver bespoke experiences for your visitors.
+These tutorials will give you a practical understanding of how Joomla Component Builder (JCB) works. The documentation below pairs each walkthrough with timeline references from its companion video so you can jump straight to the moment you need. As you read, pay particular attention to how **Custom Admin Views** extend Joomla's backend and how the refreshed **Site View** chapters explain the public-facing side—JCB now documents how Dynamic Gets, templates, layouts, reusable code blocks, and frontend libraries combine to deliver bespoke experiences for your visitors while keeping plugin-powered automation in step with what end users see.
 
 A revision of this knowledge base is underway to add timelines and polish every transcript. Chapters one through seventy-one already include raw transcriptions and are actively being edited. Progress updates will continue to appear in the title of the chapter currently being refined, and new announcements are posted in the community forum once a chapter is finished.
 
@@ -11,6 +11,8 @@ For a glimpse at the target quality, review the fully edited [Field Types](./Fie
 If you have questions or want to get involved, join the project [discussions](https://github.com/vdm-io/Joomla-Component-Builder/discussions). You can also explore the complete [YouTube playlist](https://www.youtube.com/playlist?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE) of JCB tutorials.
 
 > 📌 **New: Site View Architecture Explained** – Start with the revised [Adding Site Views](./Adding-Site-Views-to-a-Component.md) guide to see how Dynamic Gets, templates, layouts, custom code placeholders, and optional JS/CSS libraries assemble your frontend. Pair it with the updated [Template Setup](./Template-Setup.md) chapter to understand how these modular wrappers shape both site and admin experiences and how to keep them maintained across projects.
+
+> 🔌 **New: JCB! Joomla Plugins** – Read the [Joomla Plugins overview](./Joomla-Plugins.md) to learn how event-driven logic travels with your component. The new "Site Views and Plugin Events" section shows how frontend requests raise plugin triggers so you can document automation alongside the pages that expose it.
 
 > 🧩 **Updated: Custom Code Workflows** – The new [JCB! Custom Codes Overview](./JCB-Custom-Codes.md) distils how argument-based manual snippets and hash-driven automation complement each other, including encoding rules, language-string round trips, and collaboration tips.
 
