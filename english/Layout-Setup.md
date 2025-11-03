@@ -9,7 +9,7 @@
 
 [00:00:00](https://www.youtube.com/watch?v=52OLSZio0F8&t=00h00m00s)
 
-In **Joomla Component Builder (JCB)**, layouts are used to **reuse display code** across multiple templates or site views. This helps maintain consistency and reduces duplication.
+In **Joomla Component Builder (JCB)**, layouts are used to **reuse display code** across multiple templates or site views. This helps maintain consistency and reduces duplication. The [JCB! Layouts overview](./JCB-Layouts.md) explains how to initialise, reset, push, and fork layout repositories inside JCB so that the techniques in this walkthrough stay version-controlled across projects.
 
 Layouts let you:
 

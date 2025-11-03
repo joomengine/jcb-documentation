@@ -25,6 +25,7 @@
 	- [Site View Templates](Adding-Templates-and-Layouts-to-a-Site-View)
         - [Template Setup Guide (Modular Wrappers)](Template-Setup)
 	- [Layout Configuration Steps](Layout-Setup)
+        - [JCB! Layouts Overview](JCB-Layouts)
         - [Custom Admin Views Primer](Custom-Admin-Views)
         - [Adding Site Views](Adding-Site-Views-to-a-Component)
         - [Joomla Plugins](Joomla-Plugins)
