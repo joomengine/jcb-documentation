@@ -22,7 +22,7 @@
 	- [Dynamic Get Method](dynamicGet)
 	- [Site View DynamicGet](Adding-dynamicGet-to-a-Site-View)
 	- [Site View Templates](Adding-Templates-and-Layouts-to-a-Site-View)
-	- [Template Setup Guide](Template-Setup)
+        - [Template Setup Guide (Modular Wrappers)](Template-Setup)
 	- [Layout Configuration Steps](Layout-Setup)
 	- [Custom Admin Management](Custom-Admin-Views)
 	- [Adding Site Views](Adding-Site-Views-to-a-Component)

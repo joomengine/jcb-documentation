@@ -7,15 +7,65 @@
 
 ## Overview
 
-Templates in **Joomla Component Builder (JCB)** are reusable layout structures that can be applied across site or admin views. They allow you to define and reuse HTML or PHP blocks that dynamically pull data from your component's views and fields.
+Templates in **Joomla Component Builder (JCB)** are more than convenient snippets—they are modular, reusable view structures that wrap your component's presentation layer. They provide the high-level skeleton that renders data for both **site views** and **custom admin views**, mirroring Joomla's MVC templating approach while remaining fully overrideable.
+
+Use templates to:
+
+1. Coordinate the HTML and PHP that wraps each view.
+2. Delegate repeated markup to layouts or even other templates.
+3. Keep business logic in models/controllers while letting templates focus on presentation.
+4. Share consistent UI building blocks across components or projects.
 
 In this tutorial, we'll cover:
 
-1. Creating new templates
-2. Copying and modifying existing templates
-3. Managing language strings
-4. Adding custom scripts and JavaScript
-5. Understanding how templates integrate with site views
+1. Understanding what JCB templates are and why they matter
+2. Creating new templates
+3. Copying and modifying existing templates
+4. Managing language strings
+5. Adding custom scripts and JavaScript
+6. Understanding how templates integrate with site views
+7. Syncing templates with repositories for collaborative reuse
+
+---
+
+## What Are JCB Templates?
+
+JCB Templates act as **modular wrappers** around your component output. Within a template you can:
+
+* Include other templates to nest more complex structures.
+* Render layouts (`JLayoutHelper::render()`) to reuse fragments.
+* Mix PHP logic and HTML safely, just like Joomla's native templates.
+
+Because templates are loaded through `$this->loadTemplate('name');`, they have full access to the view object and any helper methods you expose. That parity with Joomla's default approach means any developer already familiar with Joomla templating can quickly adapt to JCB's workflow.
+
+---
+
+## Why Use Templates in JCB?
+
+Templates give you a clean separation of concerns:
+
+* **Consistency:** reuse the same structural wrapper across multiple views for visual alignment.
+* **Maintainability:** update one template and instantly refresh its presentation wherever it is loaded.
+* **Extensibility:** override or extend templates per project, just as you would with Joomla's core template overrides.
+* **Composability:** nest layouts, call helper logic, or include other templates for complex UIs.
+
+Templates are especially valuable when you are:
+
+* Building a suite of components that should share the same design system.
+* Maintaining custom admin dashboards that need repeatable panels or grids.
+* Creating frontend experiences that mix multiple dynamic fragments on a single page.
+
+---
+
+## Managing Templates in the JCB Interface
+
+Templates are managed directly from the **Templates** tab inside JCB's GUI. Here you can:
+
+1. Click **Init** to connect to a repository.
+2. Choose the repository that stores reusable templates.
+3. Select individual templates to **import**, **reset**, or **push** back to the source.
+
+This repository-driven workflow keeps teams in sync. You can fork the official library, maintain a private collection, or contribute updates upstream—all without leaving the interface.
 
 ---
 
@@ -134,7 +184,7 @@ This is how your template becomes part of the main component view, ensuring that
 ## Summary
 
 * Templates in JCB are modular layout pieces that can include HTML, PHP, and JavaScript.
-* You can **create**, **copy**, or **extend** templates easily from the JCB interface.
+* You can **create**, **copy**, or **extend** templates easily from the JCB interface, and keep them synced through repository imports/exports.
 * Language strings are managed automatically for English but can be extended.
 * Code snippets and JS can be safely added for UI customization.
 * Templates are linked to main views via the Joomla `loadTemplate()` method.
