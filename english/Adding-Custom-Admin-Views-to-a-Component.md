@@ -6,7 +6,17 @@
 
 In Joomla Component Builder (JCB), *Custom Admin Views* allow developers to create dynamic and flexible administrative views inside their components. These views enhance the backend interface by providing additional dashboard sections, menu links, and functionality such as custom buttons and result displays.
 
+Think of them as the admin-side counterpart to Site Views: you use the same building blocks—**Layouts**, **Templates**, **Dynamic Gets**, **Custom Code blocks**, and optional **JavaScript/CSS libraries**—but you aim the output at administrators instead of public visitors. This lets you prototype dashboards, data utilities, or one-off workflow helpers without abandoning the JCB compile cycle.
+
 In this example, we'll use the **Cost-Benefit Projection** component to demonstrate how to add and configure *Custom Admin Views* in JCB.
+
+### **Before you start: assemble the ingredients**
+
+1. **Plan the data sources.** Decide which Admin Views or database tables will feed your Custom Admin View and model the relationships via Dynamic Gets.
+2. **Sketch the interface.** Determine whether you need Item, List, or hybrid behaviour and outline the tabs, filters, and toolbar actions that support the workflow.
+3. **Prepare reusable assets.** Identify shared layouts, helper methods, JavaScript, or CSS that the view should reference so you avoid duplicating logic across the admin area.
+
+Doing this homework keeps your implementation focused and prevents last-minute rewrites when you start wiring buttons, queries, and templates together.
 
 ---
 
@@ -159,6 +169,6 @@ Use these strategically to create a clean, user-friendly backend layout for your
 
 ## **Conclusion**
 
-Adding Custom Admin Views in Joomla Component Builder empowers developers to design rich, interactive administrative interfaces. By properly setting menu placement, target views, and dynamic data handling, you can build professional back-end dashboards and management tools without manually writing all the boilerplate code.
+Adding Custom Admin Views in Joomla Component Builder empowers developers to design rich, interactive administrative interfaces. By properly setting menu placement, target views, and dynamic data handling, you can build professional back-end dashboards and management tools without manually writing all the boilerplate code. And because Custom Admin Views support the same **Init → Reset → Push → Fork** workflow used throughout the repository, you can iterate on these interfaces with confidence while keeping your bespoke layouts under source control.
 
 ---

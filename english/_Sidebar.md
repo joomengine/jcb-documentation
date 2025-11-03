@@ -24,7 +24,7 @@
 	- [Site View Templates](Adding-Templates-and-Layouts-to-a-Site-View)
 	- [Template Setup Guide](Template-Setup)
 	- [Layout Configuration Steps](Layout-Setup)
-	- [Custom Admin Management](Custom-Admin-Views)
+        - [Custom Admin Views Primer](Custom-Admin-Views)
 	- [Adding Site Views](Adding-Site-Views-to-a-Component)
 	- [Custom Admin Integration](Adding-Custom-Admin-Views-to-a-Component)
 	- [MySQL Demo Tweaking](Tweaking-MySQL-Demo-Data)
