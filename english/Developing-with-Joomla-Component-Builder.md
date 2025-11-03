@@ -1,7 +1,27 @@
-The videos on the Home page of this wiki are being transcribed and edited to retain each video's spoken words as closely as possible. Screen shots from the video are added if they are deemed necessary to illustrate the text by example, and include the YouTube timeline location to quickly move the video controller's slider to where that frame begins. Links are inserted where they are referred to in the video to quickly view the site and explore the topic further while pausing the video. 
+# Developing with Joomla Component Builder
 
-If the video could not be completed in one sitting, a suggestion is to use the timeline location in YouTube and place it in a copy of the manual or section of it in your editor as a study guide. Use the timeline location to mark any locations so you can pick up where you left off later. You may also wish to mark text elsewhere with timeline locations to revisit a concept requiring further study. Many other uses are possible to enhance your learning experience such as making notes in your copy of the manual.
+This page explains how the written and video resources for Joomla Component Builder (JCB) work together. The original text was a loose transcript about documenting the tutorial series; the rewritten version gives you a concise guide you can follow when planning your own study routine.
 
-The transcripts also facilitate requests for a written manual. To achieve this, a Microsoft Word document will accompany this wiki soon. It will be updated along with the wiki as new video transcriptions are added. This document and the wiki will be identical except for the various formatting and other enhancements made available by the application that are more difficult to accomplish in the wiki and give the manual a more polished appearance. For those not using Word, [Apache OpenOffice](https://www.openoffice.org/) is also able to read the document and is freely available.
+## Why these transcripts exist
 
-[Chapter 1 - Intro to JCB](https://github.com/vdm-io/Joomla-Component-Builder/wiki/4.-Intro-to-JCB)
+The video lessons listed on the [Home](./Home.md) page are being transcribed so that every spoken instruction is available as searchable text. Each chapter will eventually include:
+
+- Verbatim dialogue that clarifies terminology used in the videos.
+- Screenshots taken from the lesson with direct links to the moment they appear on YouTube.
+- Contextual links to documentation or companion tools mentioned in the recording.
+
+As a result, you can learn visually, read along, or quickly check a topic without replaying an entire video.
+
+## Tips for studying effectively
+
+- **Track your progress:** copy the timeline markers from the documentation into your own notes. When you return to a chapter you can jump straight to the minute you left off.
+- **Annotate while you learn:** add reminders or TODOs next to concepts you need to revisit. The structured Markdown makes it easy to paste sections into your favourite editor.
+- **Switch modalities:** pause the video, review the written steps, and then resume playback. Alternating between formats reinforces understanding.
+
+## Companion manual (forthcoming)
+
+A Microsoft Word edition of the manual is in development. It will mirror the wiki but apply richer formatting so you can read offline or print excerpts. If you prefer open-source tooling, [Apache OpenOffice](https://www.openoffice.org/) can open the document without issue.
+
+## Continue learning
+
+Start at [Chapter 1 – Intro to JCB](https://github.com/vdm-io/Joomla-Component-Builder/wiki/4.-Intro-to-JCB) to see how transcripts and videos work together. From there follow the navigation links in [Start Here](./Start-Here.md) or the [Home](./Home.md) index to choose your next topic.

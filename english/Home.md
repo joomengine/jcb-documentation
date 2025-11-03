@@ -543,7 +543,7 @@ If you have questions or want to get involved, join the project [discussions](ht
 
 | Video timeline | Documentation sections |
 | --- | --- |
-| _No linked videos yet._ | _No section headings found._ |
+| _No linked videos yet._ | <ul><li><a href="./Component-Settings.md#prerequisites">Prerequisites</a></li><li><a href="./Component-Settings.md#navigating-the-component-settings-workspace">Navigating the Component Settings workspace</a></li><li><a href="./Component-Settings.md#building-custom-administrator-menus">Building custom administrator menus</a></li><li><a href="./Component-Settings.md#importing-custom-files-and-folders">Importing custom files and folders</a></li><li><a href="./Component-Settings.md#configuring-global-component-options">Configuring global component options</a></li><li><a href="./Component-Settings.md#advanced-tools-mysql-tweak">Advanced tools: MySQL tweak</a></li><li><a href="./Component-Settings.md#recommended-conventions">Recommended conventions</a></li><li><a href="./Component-Settings.md#related-resources">Related resources</a></li></ul> |
 
 ### [Component Structure And Mvc Implementation](./Component-Structure-and-MVC-Implementation.md)
 
@@ -561,7 +561,7 @@ If you have questions or want to get involved, join the project [discussions](ht
 
 | Video timeline | Documentation sections |
 | --- | --- |
-| _No linked videos yet._ | _No section headings found._ |
+| _No linked videos yet._ | <ul><li><a href="./Developing-with-Joomla-Component-Builder.md#why-these-transcripts-exist">Why these transcripts exist</a></li><li><a href="./Developing-with-Joomla-Component-Builder.md#tips-for-studying-effectively">Tips for studying effectively</a></li><li><a href="./Developing-with-Joomla-Component-Builder.md#companion-manual-forthcoming">Companion manual (forthcoming)</a></li><li><a href="./Developing-with-Joomla-Component-Builder.md#continue-learning">Continue learning</a></li></ul> |
 
 ### [Php Settings](./PHP-Settings.md)
 

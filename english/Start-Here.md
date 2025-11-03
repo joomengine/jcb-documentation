@@ -56,6 +56,7 @@ Joomla Component Builder (JCB) packs years of community knowledge into one docum
 ## Step 5 – Choose your learning pathway
 
 ### 1. Project planning & collaboration
+- [Component Settings Deep Dive](./Component-Settings.md)
 - [Component Settings](./Component-Settings-Overview.md)
 - [Collaborative Workflow](./Proposed-Collaborative-Workflow-in-JCB.md)
 - [Export/Import Fully Mapped Components](./Export-Import-of-fully-mapped-components.md)
@@ -97,7 +98,8 @@ Joomla Component Builder (JCB) packs years of community knowledge into one docum
 
 ## How to navigate the documentation efficiently
 
-- **Use Start Here + Home together:** Start Here points you to the right topic; Home lists every chapter with timeline references for quick scanning.  
+- **Use Start Here + Home together:** Start Here points you to the right topic; Home lists every chapter with timeline references for quick scanning.
+- **Understand how the documentation is produced:** [Developing with Joomla Component Builder](./Developing-with-Joomla-Component-Builder.md) outlines the transcription project and gives tips for studying alongside the videos.
 - **Search within the repository:** use your editor's search or command-line tools (`rg "keyword" english/`) to find specific features, field names, or helper references across the Markdown files.  
 - **Leverage the sidebar:** [`_Sidebar.md`](./_Sidebar.md) mirrors the Home index and can be pinned in GitHub or wiki views for persistent navigation.  
 - **Track revision status:** chapter titles include progress notes while the editing project is underway. Prioritise fully edited lessons like [Field Types](./Field-Types.md) when you need polished guidance.  
