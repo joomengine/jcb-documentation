@@ -76,7 +76,7 @@
 	- [Join Field Relations](069-Join-Fields-in-the-admin-list-view-with-field-relations)
 	- [License Template Change](070-How-to-change-the-License-Template-in-JCB)
 	- [Code Reusability](071-Reuse-Custom-Code)
-	- [Local Dev Environment](072-Setup-Local-Development-Environment-with-Bitnami)
+    - [Local Dev Environment (OctoJoom)](072-Setup-Local-Development-Environment-with-OctoJoom)
 	- [Extended Field Types](073-JCB-Fields-Type-Extended)
 	- [Joomla Custom Fields](074-How-to-add-Joomla-Custom-Fields)
 	- [Custom Field Expansion](075-Expand-Custom-Field-Type-Beyond-The-Default)
