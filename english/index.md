@@ -8,7 +8,7 @@ A revision of this knowledge base is underway to add timelines and polish every 
 
 For a glimpse at the target quality, review the fully edited [Field Types](./Field-Types.md) chapter. Work is progressing through the earlier lessons before continuing with chapters six through seventy-one. Pair it with the new [JCB! Fields overview](./JCB-Fields.md) whenever you need a refresher on how field definitions govern database schema, rendering, validation, and sharing.
 
-If you have questions or want to get involved, join the project [discussions](https://github.com/vdm-io/Joomla-Component-Builder/discussions). You can also explore the complete [YouTube playlist](https://www.youtube.com/playlist?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE) of JCB tutorials.
+If you have questions or want to get involved, join the project [discussions](https://github.com/orgs/joomengine/discussions). You can also explore the complete [YouTube playlist](https://www.youtube.com/playlist?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE) of JCB tutorials.
 
 > 🧱 **Updated: JCB! Fields foundation** – The [JCB! Fields chapter](./JCB-Fields.md) now consolidates how field definitions control database schema, rendering, validation, sharing, and repository-driven versioning so you can explain the workflow to new teammates quickly.
 > 🆕 **Dynamic Gets deep dive** – The refreshed [Dynamic Get guide](./dynamicGet.md#overview) now explains how the visual query builder selects tables, joins, filters, ordering, and grouping, how multiple gets combine inside a single view, and how Init/Reset/Fork workflows keep complex queries version-controlled.

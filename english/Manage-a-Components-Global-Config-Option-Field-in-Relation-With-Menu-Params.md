@@ -215,7 +215,7 @@ You've now learned how to:
 
 If you encounter issues or have feature requests:
 
-* Visit the [JCB Forum](https://github.com/vdm-io/Joomla-Component-Builder/discussions)
+* Visit the [JCB Forum](https://github.com/orgs/joomengine/discussions)
 * Or open an issue on [GitHub](https://github.com/vdm-io/Joomla-Component-Builder/issues)
 
 ---

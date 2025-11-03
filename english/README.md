@@ -114,7 +114,7 @@ Combine layouts, Dynamic Gets, optional JavaScript/CSS libraries, and reusable c
 
 ## Where to get help and stay updated
 
-- **Community discussions:** join ongoing conversations and ask questions in the [JCB Discussions board](https://github.com/vdm-io/Joomla-Component-Builder/discussions).  
+- **Community discussions:** join ongoing conversations and ask questions in the [JCB Discussions board](https://github.com/orgs/joomengine/discussions).
 - **Video playlist:** follow the full [YouTube tutorial playlist](https://www.youtube.com/playlist?list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE) alongside the written chapters.  
 - **Beta testing updates:** keep an eye on [Beta Testing](./Beta-Testing.md) for release notes and calls for testers.  
 - **Contribute back:** when you craft helpers, layouts, or snippets, consider sharing them via the snippets workflow or package directory linked above.
