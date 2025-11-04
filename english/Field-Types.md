@@ -1,6 +1,8 @@
 # Field Types in Joomla Component Builder
 
-### [Video Tutorial](https://youtu.be/OhLzvThDXls)
+### Video Tutorial
+
+[Watch on YouTube](https://youtu.be/OhLzvThDXls)
 
 *Use the timestamp links to jump to relevant sections.*
 

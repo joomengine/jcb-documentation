@@ -2,7 +2,9 @@
 
 *(Complete Beginner Walkthrough)*
 
-### [Tutorial Video](https://www.youtube.com/watch?v=1KBBtQUxMTc)
+### Tutorial Video
+
+[Watch on YouTube](https://www.youtube.com/watch?v=1KBBtQUxMTc)
 
 ---
 

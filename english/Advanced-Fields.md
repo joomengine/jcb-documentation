@@ -1,6 +1,8 @@
 # Advanced Fields - Joomla Component Builder (JCB)
 
-### [Video Tutorial](https://www.youtube.com/watch?v=VpzYbifqv0M&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h00m00s)
+### Video Tutorial
+
+[Watch on YouTube](https://www.youtube.com/watch?v=VpzYbifqv0M&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h00m00s)
 
 (*Click the timestamps below to watch specific sections in the tutorial.*)
 
