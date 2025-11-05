@@ -93,4 +93,6 @@
 	- [Field Validation Rules](Easy-Validation-Rules-for-Fields-in-JCB)
 	- [New Placeholder Feature](New-Placeholders-Feature)
 	- [Component Config Params](Manage-a-Components-Global-Config-Option-Field-in-Relation-With-Menu-Params)
-	- [Per-field Default Values](Default-Database-Values-can-be-set-per-Field-Type)
+        - [Per-field Default Values](Default-Database-Values-can-be-set-per-Field-Type)
+* [Features](Features/README)
+        - [JCB! Admin Views](Features/JCB-Admin-Views)
