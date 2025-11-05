@@ -31,7 +31,7 @@ Joomla Component Builder (JCB) packs years of community knowledge into one docum
 ## Step 3 – Build your first component
 
 1. **Start with a guided example:** follow [Hello World with Joomla Component Builder](./Hello-World-with-Joomla-Component-Builder.md) to create a simple component from scratch, including admin and site views, menu links, and permissions.  
-2. **Reinforce the foundations** by revisiting [Basic Fields](./Basic-Fields.md) and [Admin Views](./Admin-Views.md) to understand how fields populate lists and forms.  
+2. **Reinforce the foundations** by revisiting [Basic Fields](./Basic-Fields.md), [Admin Views](./Admin-Views.md), and the [JCB! Admin Views feature deep dive](./Features/JCB-Admin-Views.md) to understand how fields populate lists and forms while the builder automates the surrounding MVC code.
 3. **Practice compilation and installation** by iterating through small changes, recompiling, and reinstalling within Joomla using the instructions in the Hello World tutorial and [Field Types](./Field-Types.md#5-compiling-and-installing-your-component).  
 4. **Document your learning**—update component notes, track field names, and keep a changelog. This habit will ease later export/import or collaboration tasks.
 
@@ -43,7 +43,7 @@ Joomla Component Builder (JCB) packs years of community knowledge into one docum
 
 | Concept | Why it matters | Key resources |
 | --- | --- | --- |
-| **Planning views and fields** | Translating requirements into database tables, relationships, and permissions. | [General Planning](./General-Planning.md), [Adding Admin Views](./Adding-Admin-Views-to-a-Component.md), [Adding Site Views](./Adding-Site-Views-to-a-Component.md) |
+| **Planning views and fields** | Translating requirements into database tables, relationships, and permissions. | [General Planning](./General-Planning.md), [JCB! Admin Views feature guide](./Features/JCB-Admin-Views.md), [Adding Admin Views](./Adding-Admin-Views-to-a-Component.md), [Adding Site Views](./Adding-Site-Views-to-a-Component.md) |
 | **Site View composition & reuse** | Design public layouts by pairing a main Dynamic Get with templates, layouts, custom code placeholders, and optional JS/CSS libraries, then manage updates through resets or forks. | [Adding Site Views](./Adding-Site-Views-to-a-Component.md), [Adding Templates & Layouts](./Adding-Templates-and-Layouts-to-a-Site-View.md), [JCB! Layouts](./JCB-Layouts.md), [dynamicGet](./dynamicGet.md) |
 | **Field types and validation** | Selecting the right inputs and enforcing correct data. | [JCB! Fields](./JCB-Fields.md), [Field Types](./Field-Types.md), [Advanced Fields](./Advanced-Fields.md), [Adding Rule Validation](./Adding-your-own-rule-validation-to-a-field-in-JCB.md), [Easy Validation Rules](./Easy-Validation-Rules-for-Fields-in-JCB.md) |
 | **Dynamic data retrieval** | Combining records across tables without manual SQL. | [dynamicGet](./dynamicGet.md), [Add dynamicGet to a Site View](./Adding-dynamicGet-to-a-Site-View.md), [Automatic Custom Code Import](./Automatic-import-of-custom-code-during-compilation-in-JCB.md) |
@@ -107,7 +107,8 @@ Combine layouts, Dynamic Gets, optional JavaScript/CSS libraries, and reusable c
 - **Use Start Here + Home together:** Start Here points you to the right topic; Home lists every chapter with timeline references for quick scanning.
 - **Understand how the documentation is produced:** [Developing with Joomla Component Builder](./Developing-with-Joomla-Component-Builder.md) outlines the transcription project and gives tips for studying alongside the videos.
 - **Search within the repository:** use your editor's search or command-line tools (`rg "keyword" english/`) to find specific features, field names, or helper references across the Markdown files.  
-- **Leverage the sidebar:** [`_Sidebar.md`](./_Sidebar.md) mirrors the Home index and can be pinned in GitHub or wiki views for persistent navigation.  
+- **Leverage the sidebar:** [`_Sidebar.md`](./_Sidebar.md) mirrors the Home index and can be pinned in GitHub or wiki views for persistent navigation. Use the new **Features** section there to jump straight into deep dives like [JCB! Admin Views](./Features/JCB-Admin-Views.md).
+- **Bookmark the feature hub:** The [Features index](./Features/README.md) lists every flagship capability with links to detailed walkthroughs so you can brief teammates quickly.
 - **Track revision status:** chapter titles include progress notes while the editing project is underway. Prioritise fully edited lessons like [Field Types](./Field-Types.md) when you need polished guidance.  
 - **Keep personal notes:** maintain a `docs/notes.md` or issue tracker in your project repo to record how you applied tutorials—this shortens the feedback loop when troubleshooting.
 

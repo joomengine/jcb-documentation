@@ -6,6 +6,11 @@
 
 ---
 
+> 📘 **Need the big-picture feature summary?** Read the [JCB! Admin Views feature guide](./Features/JCB-Admin-Views.md) to learn
+> why this area supercharges productivity before diving into the detailed tutorial below.
+
+---
+
 ## **1. Overview**
 
 [00:00:00](https://www.youtube.com/watch?v=CdSKSCTzmRA&t=00h00m00s)

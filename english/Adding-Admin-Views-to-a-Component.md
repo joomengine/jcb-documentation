@@ -10,6 +10,9 @@
 In this tutorial, we'll explore how to **add admin views** to a component using **Joomla Component Builder (JCB)**.
 You'll learn how to connect your created admin views to your component, configure visibility settings, enable key Joomla features like **Auto Check-In**, **Version History**, **Import/Export**, and **Front-End Editing**, and understand how these affect your workflow and generated component.
 
+> 🔎 **New to Admin Views?** Start with the [JCB! Admin Views feature overview](./Features/JCB-Admin-Views.md) to understand the
+> concepts before applying them inside a component.
+
 Admin Views are the mandatory, schema-defining layer for every JCB-built component. Each one is bound to a database table and automatically supplies the generated models, controllers, list/edit layouts, and permission handling that power Joomla's MVC stack. Because of this, a component cannot compile without at least one Admin View, and any additional component behaviour should always build on top of these generated CRUD foundations.
 
 This section assumes that you have already:

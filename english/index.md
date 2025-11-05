@@ -25,6 +25,14 @@ If you have questions or want to get involved, join the project [discussions](ht
 
 ---
 
+### Feature deep dives
+
+| Feature | Why it matters |
+| --- | --- |
+| [JCB! Admin Views](./Features/JCB-Admin-Views.md) | Shows how JCB turns a single data definition into a full Joomla administration experience, complete with ACL, relationships, and generated CRUD screens. |
+
+---
+
 ### [Joomla Components in JCB](./Joomla-Components.md)
 
 | Focus | Why it matters |

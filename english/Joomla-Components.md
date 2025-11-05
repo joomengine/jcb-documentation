@@ -10,7 +10,8 @@ A component is the **top-level bundle** that JCB compiles into an installable Jo
 
 A component can include:
 
-- **Admin Views** – data tables, edit forms, ACL rules, and toolbar actions that power the backend experience.
+- **Admin Views** – data tables, edit forms, ACL rules, and toolbar actions that power the backend experience; review the
+  [JCB! Admin Views feature deep dive](./Features/JCB-Admin-Views.md) to see how they accelerate builds.
 - **Site Views** – list and item layouts that ship to the frontend.
 - **Custom Admin Views** – bespoke management screens that sit outside the CRUD scaffolding.
 - **Modules and Plugins** – optional extensions that are packaged alongside the main component; see [JCB! Joomla Modules](./Joomla-Modules.md) for module-specific workflows and the [JCB! Joomla Plugins](./Joomla-Plugins.md) notes for event-driven logic.

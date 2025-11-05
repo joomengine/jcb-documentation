@@ -185,6 +185,9 @@ After setting up your component, proceed to create **Admin Views**:
 3. Create and attach fields - avoid duplicates.
 4. Mark **custom fields** when linking related data (e.g., preacher IDs).
 
+> 📚 **Need a refresher on what Admin Views deliver?** Review the
+> [JCB! Admin Views feature deep dive](./Features/JCB-Admin-Views.md) before modelling your tables.
+
 Custom fields allow you to pull IDs or values from another view's dataset, like *Preachers* or *Series*.
 
 ---
