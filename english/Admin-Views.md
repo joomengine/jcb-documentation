@@ -6,7 +6,7 @@
 
 ---
 
-> 📘 **Need the big-picture feature summary?** Read the [JCB! Admin Views feature guide](./Features/JCB-Admin-Views.md) to learn
+> 📘 **Need the big-picture feature summary?** Read the [JCB Admin Views feature guide](./Features/JCB-Admin-Views.md) to learn
 > why this area supercharges productivity before diving into the detailed tutorial below.
 
 ---
@@ -20,7 +20,7 @@ Admin Views are the **foundation of your component's database structure** - ever
 
 Before this stage, you should already understand:
 
-* The [JCB! Fields](./JCB-Fields.md) overview that explains how each field definition governs storage, rendering, and sharing
+* The [JCB Fields](./JCB-Fields.md) overview that explains how each field definition governs storage, rendering, and sharing
 * **Field Types** and **Basic Fields** (previous tutorials)
 * The **General Planning** structure of your component
 

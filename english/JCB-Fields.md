@@ -1,4 +1,4 @@
-# JCB! Fields
+# JCB Fields
 
 Joomla Component Builder (JCB) revolves around **fields**. They shape your database schema, drive the Joomla forms that administrators and site users interact with, and coordinate how information moves through every extension you compile. This chapter consolidates the latest guidance on how fields behave, where they are used, and how to keep them maintainable across projects.
 

@@ -1,4 +1,4 @@
-# JCB! Joomla Plugins
+# JCB Joomla Plugins
 
 ## What Are Joomla Plugins?
 **Joomla Plugins** created in JCB are event-driven extensions that allow you to inject custom logic at key points in the Joomla application lifecycle. They are perfect for scenarios such as:
