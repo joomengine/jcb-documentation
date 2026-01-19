@@ -16,7 +16,7 @@ Before building with Joomla Component Builder (JCB), preparation is key. You sho
 * Plan the **database structure** you want to set up.
 * Know how your tables and fields will **map to each other**.
 
-Revisit the [JCB! Fields overview](./JCB-Fields.md) before you start modelling—its breakdown of schema, rendering, validation, and repository workflows will help you translate requirements into reusable field definitions.
+Revisit the [JCB Fields overview](./JCB-Fields.md) before you start modelling—its breakdown of schema, rendering, validation, and repository workflows will help you translate requirements into reusable field definitions.
 
 > **Tip:** A clear data map will help you define views, relationships, and field connections correctly in JCB.
 
@@ -186,7 +186,7 @@ After setting up your component, proceed to create **Admin Views**:
 4. Mark **custom fields** when linking related data (e.g., preacher IDs).
 
 > 📚 **Need a refresher on what Admin Views deliver?** Review the
-> [JCB! Admin Views feature deep dive](./Features/JCB-Admin-Views.md) before modelling your tables.
+> [JCB Admin Views feature deep dive](./Features/JCB-Admin-Views.md) before modelling your tables.
 
 Custom fields allow you to pull IDs or values from another view's dataset, like *Preachers* or *Series*.
 

@@ -1,4 +1,4 @@
-Here are some 'tips' when using custom code. For a narrative overview of how manual placeholders and hash automation work together, read [JCB! Custom Codes Overview](./JCB-Custom-Codes.md) before diving into the syntax tables below.
+Here are some 'tips' when using custom code. For a narrative overview of how manual placeholders and hash automation work together, read [JCB Custom Codes Overview](./JCB-Custom-Codes.md) before diving into the syntax tables below.
 
 # The custom PHP script placeholders
 

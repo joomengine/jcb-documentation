@@ -1,4 +1,4 @@
-# JCB! Custom Codes Overview
+# JCB Custom Codes Overview
 
 Joomla Component Builder (JCB) lets you centralise bespoke logic in **Custom Codes** so that you can reuse, share, and automatically maintain behaviour across multiple components. The feature now covers two complementary workflows:
 

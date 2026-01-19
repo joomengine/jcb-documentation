@@ -1,6 +1,6 @@
-# JCB! Layouts
+# JCB Layouts
 
-JCB! Layouts are Joomla layout files you curate, version, and reuse through the Joomla Component Builder (JCB) interface. They let you share the same markup between multiple templates, admin views, and site views without repeating yourself.
+JCB Layouts are Joomla layout files you curate, version, and reuse through the Joomla Component Builder (JCB) interface. They let you share the same markup between multiple templates, admin views, and site views without repeating yourself.
 
 > 📚 New to Joomla layout overrides? Start with [Layout Setup](./Layout-Setup.md) for a code-level walkthrough, then return here to master the repository workflow that keeps those overrides in sync across projects.
 

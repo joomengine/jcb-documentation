@@ -11,10 +11,10 @@ A component is the **top-level bundle** that JCB compiles into an installable Jo
 A component can include:
 
 - **Admin Views** – data tables, edit forms, ACL rules, and toolbar actions that power the backend experience; review the
-  [JCB! Admin Views feature deep dive](./Features/JCB-Admin-Views.md) to see how they accelerate builds.
+  [JCB Admin Views feature deep dive](./Features/JCB-Admin-Views.md) to see how they accelerate builds.
 - **Site Views** – list and item layouts that ship to the frontend.
 - **Custom Admin Views** – bespoke management screens that sit outside the CRUD scaffolding.
-- **Modules and Plugins** – optional extensions that are packaged alongside the main component; see [JCB! Joomla Modules](./Joomla-Modules.md) for module-specific workflows and the [JCB! Joomla Plugins](./Joomla-Plugins.md) notes for event-driven logic.
+- **Modules and Plugins** – optional extensions that are packaged alongside the main component; see [JCB Joomla Modules](./Joomla-Modules.md) for module-specific workflows and the [JCB Joomla Plugins](./Joomla-Plugins.md) notes for event-driven logic.
 - **Custom Code** – helper methods, class overrides, and reusable snippets injected into the generated output.
 - **Files and Folders** – media assets, scripts, language packs, or other resources that need to be copied into Joomla's filesystem.
 - **Database Tweaks** – schema updates, install/upgrade SQL, and demo data.
@@ -68,8 +68,8 @@ Use this page as a hub before diving into the deeper tutorials:
 - [Component Settings Overview](./Component-Settings-Overview.md) – understand global options, version targets, and packaging metadata.
 - [Adding Admin Views to a Component](./Adding-Admin-Views-to-a-Component.md) – define the data tables and backend screens that live inside your component.
 - [Adding Site Views to a Component](./Adding-Site-Views-to-a-Component.md) – surface data to the frontend once the component structure is in place.
-- [JCB! Joomla Modules](./Joomla-Modules.md) – plan reusable widgets that sit in module positions while staying versioned with the component.
-- [JCB! Joomla Plugins](./Joomla-Plugins.md) – document how background automation and event listeners travel with the component during every compile.
+- [JCB Joomla Modules](./Joomla-Modules.md) – plan reusable widgets that sit in module positions while staying versioned with the component.
+- [JCB Joomla Plugins](./Joomla-Plugins.md) – document how background automation and event listeners travel with the component during every compile.
 - [JCB Packaging Engine](./JCB-Packaging-Engine.md) – learn how JCB builds the installable archive after you configure your component.
 
 ---

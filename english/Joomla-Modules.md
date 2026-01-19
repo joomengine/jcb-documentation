@@ -1,4 +1,4 @@
-# JCB! Joomla Modules
+# JCB Joomla Modules
 
 Joomla Component Builder (JCB) can compile fully fledged modules alongside your components. Use this primer to understand how they slot into your build workflow, what features they inherit from Joomla, and how JCB keeps them versioned with the rest of your project.
 

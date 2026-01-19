@@ -96,7 +96,7 @@ Once compiled, JCB updates these placeholders:
 > **Tip:**
 > If you later modify your code, re-add the diamond brackets `<>` to indicate that JCB should update the stored version.
 
-For a side-by-side comparison of manual snippet injection and hash automation, see the [JCB! Custom Codes Overview](./JCB-Custom-Codes.md).
+For a side-by-side comparison of manual snippet injection and hash automation, see the [JCB Custom Codes Overview](./JCB-Custom-Codes.md).
 
 ---
 

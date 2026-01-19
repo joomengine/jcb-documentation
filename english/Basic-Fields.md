@@ -10,7 +10,7 @@
 [00:00:00](https://www.youtube.com/watch?v=9NO2rKnC6Ug&t=0s)
 
 In this tutorial, we explore how to create **fields** in Joomla Component Builder (JCB).
-Fields are fundamental to any component as they define the **data structure**, **form inputs**, and **database mappings** of your custom component. If you need a refresher on how much a single field controls—database schema, rendering, validation, ACL, and sharing—start with the [JCB! Fields overview](./JCB-Fields.md) and then return here for the hands-on walkthrough.
+Fields are fundamental to any component as they define the **data structure**, **form inputs**, and **database mappings** of your custom component. If you need a refresher on how much a single field controls—database schema, rendering, validation, ACL, and sharing—start with the [JCB Fields overview](./JCB-Fields.md) and then return here for the hands-on walkthrough.
 
 There are two categories of fields in JCB:
 
