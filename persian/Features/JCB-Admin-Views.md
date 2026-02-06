@@ -1,5 +1,3 @@
-# JCB Admin Views
-
 # ویوهای مدیریتی JCB
 
 
