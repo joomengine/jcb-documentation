@@ -87,6 +87,7 @@ Combine layouts, Dynamic Gets, optional JavaScript/CSS libraries, and reusable c
 - [Making a Snippet Pull Request](./Tutorial-on-making-a-pull-request-at-Joomla-Component-Builder-Snippets.md)
 - [JCB Packaging Engine](./JCB-Packaging-Engine.md)
 - [Publish Your JCB Packages](./Add-your-own-JCB-packages-to-the-JCB-Communty-Directory.md)
+- [CLI Command Suite](./CLI-Command-Suite.md)
 
 > 🧭 **Outcome:** pick the pathway that matches your immediate project stage and follow the linked tutorials in sequence.
 

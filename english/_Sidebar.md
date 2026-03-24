@@ -73,6 +73,7 @@
 	- [Menu Prefix Toggle](Add-or-Remove-Prefix-to-Component-Name-in-Joomla-Menu)
         - [JCB Packaging Engine](JCB-Packaging-Engine)
         - [Publish Your Packages](Add-your-own-JCB-packages-to-the-JCB-Communty-Directory)
+        - [CLI Command Suite](CLI-Command-Suite)
         - [Collaborative JCB Workflow](Proposed-Collaborative-Workflow-in-JCB)
         - [Import JCB Packages](How-to-install-jcb-packages)
 	- [JCB JAB18 Event](JAB18-Using-Joomla-Component-Builder)
