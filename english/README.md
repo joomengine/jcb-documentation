@@ -82,6 +82,7 @@ Combine layouts, Dynamic Gets, optional JavaScript/CSS libraries, and reusable c
 
 ### 4. Extensibility & ecosystem
 - [Community Snippets Overview](./General-overview-of-how-community-snippets-work.md)
+- [Power-Based Class Overriding & Source Injection](./Power-Based-Class-Overriding-and-Source-Injection.md)
 - [Forking JCB Snippets](./Tutorial-on-forking-JCB-snippets-so-you-can-share-your-snippets-with-the-rest-of-the-Community.md)
 - [Making a Snippet Pull Request](./Tutorial-on-making-a-pull-request-at-Joomla-Component-Builder-Snippets.md)
 - [JCB Packaging Engine](./JCB-Packaging-Engine.md)
