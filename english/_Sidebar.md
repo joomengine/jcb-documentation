@@ -82,6 +82,7 @@
 	- [Join Field Relations](Join-Fields-in-the-admin-list-view-with-field-relations)
 	- [License Template Change](How-to-change-the-License-Template-in-JCB)
 	- [Code Reusability](Reuse-Custom-Code)
+	- [Power-Based-Class-Overriding-and-Source-Injection](Power-Based-Class-Overriding-and-Source-Injection)
     - [Local Dev Environment (OctoJoom)](Setup-Local-Development-Environment-with-OctoJoom)
 	- [Extended Field Types](JCB-Fields-Type-Extended)
 	- [Joomla Custom Fields](How-to-add-Joomla-Custom-Fields)
