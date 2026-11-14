@@ -31,4 +31,4 @@ Une édition Microsoft Word du manuel est en cours de développement. Il reflét
 <a id="continue-learning"></a>
 ## Continuer à apprendre
 
-Commencez par [Chapitre 1 – Introduction à JCB](https://github.com/vdm-io/Joomla-Component-Builder/wiki/4.-Intro-to-JCB) pour voir comment les transcriptions et les vidéos fonctionnent ensemble. À partir de là, suivez les liens de navigation dans l'index [Démarrer ici](./Start-Here.md) ou [Accueil](./index.md) pour choisir votre prochain sujet.
+Commencez par [Chapitre 1 – Introduction à JCB](https://github.com/vdm-io/Joomla-Component-Builder/wiki/4.-Intro-to-JCB) pour voir comment les transcriptions et les vidéos fonctionnent ensemble. À partir de là, suivez les liens de navigation dans l'index [Démarrer ici](./README.md) ou [Accueil](./index.md) pour choisir votre prochain sujet.
