@@ -19,13 +19,11 @@ Translations grow through community contributions. If a chapter is missing in yo
 
 We would love to make these guides available to everyone who uses Joomla. You can translate a single page, review an existing translation, or help complete a language. You do not need to translate the entire documentation to contribute.
 
-Work is already under way on [Persian additions in PR #35](https://github.com/joomengine/jcb-documentation/pull/35) and a [French draft in PR #36](https://github.com/joomengine/jcb-documentation/pull/36). Check the [open pull requests](https://github.com/joomengine/jcb-documentation/pulls) before starting so you can coordinate with other contributors.
-
 ### Languages needing translations
 
 The checklist follows the [Joomla 6 language-pack directory](https://downloads.joomla.org/language-packs/translations-joomla6) and the broader [Joomla Core Language Team roster](https://volunteers.joomla.org/teams/joomla-cms-language-team), including regional and script variants. Joomla language-pack availability varies by release, and the roster also includes languages seeking maintainers. Checked on 17 November 2026.
 
-The languages below still need merged JCB documentation. French already has a draft PR, as noted above. Language names remain unlinked until reading pages are available.
+The languages below still need JCB documentation. Language names remain unlinked until reading pages are available.
 
 | Language | Joomla language tag |
 | --- | --- |
@@ -117,14 +115,14 @@ The English source above is available to all English readers. Contributions adap
 | English, New Zealand | `en-NZ` |
 | English, USA | `en-US` |
 
-Do you speak a language that is not listed? You are welcome to propose it in a pull request too.
+Do you speak a language that is not listed? You are welcome to contribute a translation too.
 
-### Open a translation pull request
+### Contribute a translation
 
 1. Fork this repository and create a branch from `master`.
-2. Use the [English documentation](./english/README.md) as your source. Add translated pages to the appropriate language folder, following the existing `english/` and `persian/` structure. For a new language or regional variant, state its language name and Joomla language tag in your PR.
+2. Use the [English documentation](./english/README.md) as your source. Add translated pages to the appropriate language folder, following the existing `english/` and `persian/` structure. For a new language or regional variant, state its language name and Joomla language tag in your contribution.
 3. Keep the source filenames and folder structure so pages remain easy to compare. Translate the prose while preserving code, commands, placeholders, and technical identifiers. Check that navigation links lead to existing translated pages; link to the English page when its translation is not yet available.
 4. Include a translated `README.md` and `index.md` as entry points when starting a new language. State which pages are translated and which still need work, and check the rendered Markdown and links.
-5. Open a pull request describing the language and pages you added or reviewed. Once a language has usable entry pages, add its reading links to **Choose your language** above and update the translation checklist as needed.
+5. Submit your contribution for review, describing the language and pages you added or reviewed. Once a language has usable entry pages, add its reading links to **Choose your language** above and update the translation checklist as needed.
 
 Improvements to existing translations and the English source are welcome too. For questions about terminology or coordination, [open an issue](https://github.com/joomengine/jcb-documentation/issues) or join the [JCB community discussions](https://github.com/orgs/joomengine/discussions).
